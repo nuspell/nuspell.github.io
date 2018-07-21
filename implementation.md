@@ -10,7 +10,7 @@ Nuspell is implemented in [C++](https://en.wikipedia.org/wiki/C%2B%2B), more spe
 
 ## Character encoding
 
-In order to support a broad spectrum of character encodings, hence a broad range of languages, Nuspell uses internally by default a [wide character](https://en.wikipedia.org/wiki/Wide_character) representation. In terms of C++, the datatype used in wide strings `wchar_t`. To optimize performance, also `char16_t` or `char` can be used internally via [C++ templates](https://en.wikipedia.org/wiki/Template_%28C%2B%2B%29) to improve support for respectively [Unicode](https://en.wikipedia.org/wiki/Unicode) UTF-16 (and UTF-8) and standard strings. Nuspell can handle the more than one hundred character encodings which the standard C library supports via [iconv](https://en.wikipedia.org/wiki/Iconv).
+In order to support a broad spectrum of [character encodings](https://en.wikipedia.org/wiki/Character_encoding), hence a broad range of languages, Nuspell uses internally by default a [wide character](https://en.wikipedia.org/wiki/Wide_character) representation. In terms of C++, the datatype used in wide strings `wchar_t`. To optimize performance, also `char16_t` or `char` can be used internally via [C++ templates](https://en.wikipedia.org/wiki/Template_%28C%2B%2B%29) to improve support for respectively [Unicode](https://en.wikipedia.org/wiki/Unicode) UTF-16 (and UTF-8) and standard strings. Nuspell can handle the more than one hundred character encodings which the standard C library supports via [iconv](https://en.wikipedia.org/wiki/Iconv).
 
 
 ## Locales
