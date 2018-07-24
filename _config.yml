@@ -1,11 +1,16 @@
 title: Nuspell
 name: Nuspell Community
 description: Free and open source spell checker
-url: https://nuspell.org
+#url: https://nuspell.org
+url: https://nuspell.github.io
 repository: "nuspell/nuspell.github.io"
 
 exclude: [vendor]
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
 social:
   - name: Twitter

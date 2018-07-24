@@ -1,3 +1,8 @@
+---
+title: Nuspell – Implementation
+layout: page
+---
+
 # Implementation
 
 The implementation of Nuspell is done using *industry standards* for [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) development with a minimum of dependencies. In this way it can be build easily on almost any [platform](https://en.wikipedia.org/wiki/Computing_platform) and will meet expectations on functionality and performance.

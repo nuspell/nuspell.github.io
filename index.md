@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Nuspell
+layout: page
 ---
 <meta name="p:domain_verify" content="7944deab3a96471faec97dc714dd6344"/>
 <table>
@@ -9,11 +9,6 @@ title: Nuspell
   <td><a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a></td>
 </tr>
 </table>
-
-
-
-https://ci.appveyor.com/api/github/webhook?id=h4cxwkagk70mfc42
-
 
 ## Introduction
 
@@ -30,7 +25,7 @@ Familiair examples of both proprietary or open source software which can start u
 * Apple [macOS](https://www.apple.com/macos/) and [Safari](https://www.apple.com/safari/)
 * Adobe [Photoshop](https://www.adobe.com/photoshop/), [Illustator](https://www.adobe.com/illustrator/), [InDesign](https://www.adobe.com/indesign/) and other products
 
-![Screenshot](screenshot.png)
+![Screenshot](images/screenshot.png)
 
 Also web services, lesser-known text editors and more technical software such as integrated development environments (IDEs) can use Nuspell. See its [Wikipedia](https://en.wikipedia.org/wiki/Nuspell) article for a longer list.
 
@@ -55,17 +50,19 @@ Furthermore, Nuspell has:
     * BSD
 
 Character encodings encountered in dictionaries and affix files which which Nuspell is proven to work are at least:
-* [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
+* [Unicode](https://en.wikipedia.org/wiki/Unicode)
+    * [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
 * [ISO-8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) parts:
-    * [1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1)
-    * [2](https://en.wikipedia.org/wiki/ISO/IEC_8859-2)
-    * [3](https://en.wikipedia.org/wiki/ISO/IEC_8859-3)
-    * [7](https://en.wikipedia.org/wiki/ISO/IEC_8859-7)
-    * [13](https://en.wikipedia.org/wiki/ISO/IEC_8859-13)
-    * [15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15)
+    * [ISO8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1)
+    * [ISO8859-2](https://en.wikipedia.org/wiki/ISO/IEC_8859-2)
+    * [ISO8859-3](https://en.wikipedia.org/wiki/ISO/IEC_8859-3)
+    * [ISO8859-7](https://en.wikipedia.org/wiki/ISO/IEC_8859-7)
+    * [ISO8859-13](https://en.wikipedia.org/wiki/ISO/IEC_8859-13)
+    * [ISO8859-15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15)
 * [CP1251](https://en.wikipedia.org/wiki/Windows-1251)
 * [TIS-620](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
-* [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R). 
+* [KOI-8](https://en.wikipedia.org/wiki/KOI-8). 
+    * [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R). 
 
 
 ## Languages and Users
