@@ -2,13 +2,10 @@
 title: Nuspell
 layout: page
 ---
-<meta name="p:domain_verify" content="7944deab3a96471faec97dc714dd6344"/>
-<table>
-<tr>
-  <td><a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a></td>
-  <td><a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a></td>
-</tr>
-</table>
+<table><tr>
+    <td><a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a></td>
+    <td><a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a></td>
+</tr></table>
 
 ## Introduction
 
