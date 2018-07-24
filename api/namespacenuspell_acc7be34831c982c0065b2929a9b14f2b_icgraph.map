@@ -1,0 +1,9 @@
+<map id="nuspell::is_all_bmp" name="nuspell::is_all_bmp">
+<area shape="rect" id="node2" href="$namespacenuspell.html#adbb8e053a44129d0f51014facd48b7f9" title="Decodes flags. " alt="" coords="187,81,335,108"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#ac3ed6d85c13c609eb5c51628b9dbac76" title="Decodes a single flag from an input stream. " alt="" coords="383,107,565,133"/>
+<area shape="rect" id="node5" href="$structnuspell_1_1_aff___data.html#a93b16b2b3938f607a18e3a67b9360b83" title="Parses an input stream offering affix information. " alt="" coords="860,74,991,115"/>
+<area shape="rect" id="node6" href="$namespacenuspell.html#a3d81c446c32c53cd03e595f8fde9c2ab" title="nuspell::decode_flags\l_possible_alias" alt="" coords="400,158,548,199"/>
+<area shape="rect" id="node8" href="$namespacenuspell.html#a82f70879bf54a6f7118852b75d8ddbfc" title="nuspell::parse_compound_rule" alt="" coords="613,5,812,32"/>
+<area shape="rect" id="node4" href="$namespacenuspell.html#a431abe5c2853b6f099bfedd5b6a4bb9f" title="Parses an affix from an input stream. " alt="" coords="645,157,780,184"/>
+<area shape="rect" id="node7" href="$structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed" title="Parses an input stream offering dictionary information. " alt="" coords="647,209,778,250"/>
+</map>

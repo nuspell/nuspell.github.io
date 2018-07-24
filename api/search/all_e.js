@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['package',['PACKAGE',['../main_8cxx.html#aca8570fb706c81df371b7f9bc454ae03',1,'PACKAGE():&#160;main.cxx'],['../regress_8cxx.html#aca8570fb706c81df371b7f9bc454ae03',1,'PACKAGE():&#160;regress.cxx']]],
+  ['package_5fstring',['PACKAGE_STRING',['../main_8cxx.html#ac73e6f903c16eca7710f92e36e1c6fbf',1,'PACKAGE_STRING():&#160;main.cxx'],['../regress_8cxx.html#ac73e6f903c16eca7710f92e36e1c6fbf',1,'PACKAGE_STRING():&#160;regress.cxx']]],
+  ['pair',['pair',['../structnuspell_1_1_aff___data.html#a2c9393da2c4a34079b2c36eb415fb654',1,'nuspell::Aff_Data::pair()'],['../classnuspell_1_1_finder.html#a7848e7040a4a033e00080143ef50c702',1,'nuspell::Finder::pair()']]],
+  ['parse_5faff',['parse_aff',['../structnuspell_1_1_aff___data.html#a93b16b2b3938f607a18e3a67b9360b83',1,'nuspell::Aff_Data']]],
+  ['parse_5faff_5fdic',['parse_aff_dic',['../structnuspell_1_1_aff___data.html#a660d169dec5cb529d9f5f25ec2263a14',1,'nuspell::Aff_Data::parse_aff_dic()'],['../structnuspell_1_1_dict___base.html#aea23fad814cd37ab65ec0846a199a587',1,'nuspell::Dict_Base::parse_aff_dic()']]],
+  ['parse_5faffix',['parse_affix',['../namespacenuspell.html#a431abe5c2853b6f099bfedd5b6a4bb9f',1,'nuspell']]],
+  ['parse_5fargs',['parse_args',['../struct_args__t.html#a87bae8b359afb554e75ccf6867be50a6',1,'Args_t::parse_args(int argc, char *argv[]) -&gt; void'],['../struct_args__t.html#a87bae8b359afb554e75ccf6867be50a6',1,'Args_t::parse_args(int argc, char *argv[]) -&gt; void']]],
+  ['parse_5fcompound_5frule',['parse_compound_rule',['../namespacenuspell.html#a82f70879bf54a6f7118852b75d8ddbfc',1,'nuspell']]],
+  ['parse_5fdic',['parse_dic',['../structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed',1,'nuspell::Aff_Data']]],
+  ['parse_5fflag_5ftype',['parse_flag_type',['../namespacenuspell.html#aac49d4bd3ea9b66410ee5b793a12780e',1,'nuspell']]],
+  ['parse_5fmorhological_5ffields',['parse_morhological_fields',['../namespacenuspell.html#a20013c2e88adddb9211f5beb81f075b3',1,'nuspell']]],
+  ['parse_5fvector_5fof_5ft',['parse_vector_of_T',['../namespacenuspell.html#ae580b4a878894da57f49c6faf107e183',1,'nuspell']]],
+  ['pascal',['PASCAL',['../namespacenuspell.html#af5a906dc0779e6824c4a84f6f277d39eaf80da8a4f16f14db3157cf220fe04402',1,'nuspell']]],
+  ['paths',['paths',['../classnuspell_1_1_finder.html#a3d008004e7ff123b16e32e40196299bc',1,'nuspell::Finder']]],
+  ['pathsep',['PATHSEP',['../namespacenuspell.html#a1cc05ac904edaad3ebd73b06a320560a',1,'nuspell']]],
+  ['pfx',['pfx',['../classnuspell_1_1_prefix___iter.html#aa9517badb47da79155c7d5c0d535c73b',1,'nuspell::Prefix_Iter::pfx()'],['../classnuspell_1_1_suffix___iter.html#aa43bd65dc72a5d35e9bc136d2f9aecaa',1,'nuspell::Suffix_Iter::pfx()']]],
+  ['phonetic_5freplacements',['phonetic_replacements',['../structnuspell_1_1_aff___data.html#abb66783a65a2053f228eb96014a87f71',1,'nuspell::Aff_Data']]],
+  ['pointer',['pointer',['../classnuspell_1_1_string___set.html#acca3a533c57a9e93173124751ffb0e40',1,'nuspell::String_Set::pointer()'],['../classnuspell_1_1_hash___multiset.html#a17b2df00a0daa9d7685629a01894a14f',1,'nuspell::Hash_Multiset::pointer()']]],
+  ['prefix',['Prefix',['../classnuspell_1_1_prefix.html',1,'nuspell::Prefix&lt; CharT &gt;'],['../classnuspell_1_1_prefix.html#a677272ef8d1f9fc594208d62628fce4c',1,'nuspell::Prefix::Prefix()=default'],['../classnuspell_1_1_prefix.html#af652e91a08a9f4a896a2cac969dc6f35',1,'nuspell::Prefix::Prefix(char16_t flag, bool cross_product, const StrT &amp;strip, const StrT &amp;append, const Flag_Set &amp;cont_flags, const StrT &amp;condition)'],['../namespacenuspell.html#a9404cbb74ae904c74db6776eb092e1b1',1,'nuspell::prefix(const basic_string&lt; CharT &gt; &amp;word, size_t len)'],['../namespacenuspell.html#a20350a7d0862e3c85761b83f637537b6',1,'nuspell::prefix(basic_string&lt; CharT &gt; &amp;&amp;word, size_t len)=delete']]],
+  ['prefix_5fiter',['Prefix_Iter',['../classnuspell_1_1_prefix___iter.html',1,'nuspell::Prefix_Iter&lt; CharT &gt;'],['../classnuspell_1_1_prefix___iter.html#a4025677c5463b53668083a8ffc3e08f3',1,'nuspell::Prefix_Iter::Prefix_Iter()']]],
+  ['prefix_5ftable',['Prefix_Table',['../namespacenuspell.html#a89a6069bed29c39491ff73bde1447e24',1,'nuspell']]],
+  ['prefixes',['prefixes',['../structnuspell_1_1_aff___structures.html#adf71fd1c6564b6d6b349859c56155519',1,'nuspell::Aff_Structures']]],
+  ['print_5fhelp',['print_help',['../main_8cxx.html#af8c650bca476b3f8959df7215c4c134f',1,'print_help(const string &amp;program_name) -&gt; void:&#160;main.cxx'],['../regress_8cxx.html#af8c650bca476b3f8959df7215c4c134f',1,'print_help(const string &amp;program_name) -&gt; void:&#160;regress.cxx']]],
+  ['print_5fversion',['print_version',['../main_8cxx.html#a6150c93934b2505d7e4521b40fa8d571',1,'print_version() -&gt; void:&#160;main.cxx'],['../regress_8cxx.html#a6150c93934b2505d7e4521b40fa8d571',1,'print_version() -&gt; void:&#160;regress.cxx']]],
+  ['program_5fname',['program_name',['../struct_args__t.html#a0cf70bb9202cbfcfadeadc1d0e8b6b85',1,'Args_t']]]
+];

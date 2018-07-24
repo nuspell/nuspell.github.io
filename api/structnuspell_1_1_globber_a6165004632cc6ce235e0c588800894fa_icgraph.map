@@ -1,0 +1,6 @@
+<map id="nuspell::Globber::glob" name="nuspell::Globber::glob">
+<area shape="rect" id="node2" href="$namespacenuspell.html#a18da8631cb0b014f0f918cf444946921" title="Gets the LibreOffice search paths. " alt="" coords="225,5,377,47"/>
+<area shape="rect" id="node4" href="$namespacenuspell.html#a2dacde753f0b71fe8bea9b1fc394e517" title="Gets the Apache OpenOffice search paths. " alt="" coords="201,71,400,112"/>
+<area shape="rect" id="node3" href="$classnuspell_1_1_finder.html#abf175ec83ef09d127e9203dc2a9bbdb0" title="Adds the LibreOffice search paths which have been found to the paths. " alt="" coords="465,5,601,47"/>
+<area shape="rect" id="node5" href="$classnuspell_1_1_finder.html#a5b3919b143e570a42fce848ba3a95b82" title="Adds the Apache OpenOffice search paths which have been found to the paths. " alt="" coords="448,71,619,112"/>
+</map>

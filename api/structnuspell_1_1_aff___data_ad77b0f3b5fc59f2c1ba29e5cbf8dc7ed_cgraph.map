@@ -1,0 +1,22 @@
+<map id="nuspell::Aff_Data::parse_dic" name="nuspell::Aff_Data::parse_dic">
+<area shape="rect" id="node2" href="$namespacenuspell.html#a2f6f1d95de158b3512f812a213175ab4" title="nuspell::strip_bom" alt="" coords="201,13,329,39"/>
+<area shape="rect" id="node4" href="$classnuspell_1_1_encoding.html#a69b38d321b66ba1d7bae297601f58ad1" title="nuspell::Encoding::\lEncoding" alt="" coords="198,64,331,105"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#abf6e8a988616a08af6fdc01bf32e4129" title="nuspell::validate_utf8" alt="" coords="192,130,337,157"/>
+<area shape="rect" id="node6" href="$namespacenuspell.html#a3d81c446c32c53cd03e595f8fde9c2ab" title="nuspell::decode_flags\l_possible_alias" alt="" coords="191,181,339,223"/>
+<area shape="rect" id="node16" href="$namespacenuspell.html#ac29b32632ffb7108ffdaf3c00d8fc486" title="Scans line for morphological field [a&#45;z][a&#45;z]: " alt="" coords="193,247,337,288"/>
+<area shape="rect" id="node17" href="$namespacenuspell.html#a79258aeb32a39ce719a014950b33e5d6" title="nuspell::utf8_to_wide" alt="" coords="395,326,540,353"/>
+<area shape="rect" id="node18" href="$namespacenuspell.html#a7f9d46d315680708283bd79ad729333d" title="nuspell::erase_chars" alt="" coords="193,363,336,390"/>
+<area shape="rect" id="node19" href="$namespacenuspell.html#ad4e8221da9ce95908ecd5a60ac3ae08c" title="nuspell::wide_to_utf8" alt="" coords="192,414,337,441"/>
+<area shape="rect" id="node21" href="$namespacenuspell.html#a2f97cd2d3496c6c8ae75229ba3190ed1" title="Determines casing (capitalization) type for a word. " alt="" coords="184,465,345,491"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#aca16d8679d9abbf9c15f5a5cb2916649" title="nuspell::reset_failbit\l_istream" alt="" coords="398,5,537,47"/>
+<area shape="rect" id="node7" href="$namespacenuspell.html#adbb8e053a44129d0f51014facd48b7f9" title="Decodes flags. " alt="" coords="393,185,541,211"/>
+<area shape="rect" id="node8" href="$namespacenuspell.html#aa37c89934a500dfd75dbb3cc18321834" title="nuspell::is_all_ascii" alt="" coords="599,130,734,157"/>
+<area shape="rect" id="node10" href="$namespacenuspell.html#a7fc6228909d26abd20009c4fb388dc81" title="nuspell::latin1_to_ucs2" alt="" coords="589,181,744,207"/>
+<area shape="rect" id="node11" href="$namespacenuspell.html#aff86f9ecb346e78687e56dab66a77469" title="nuspell::utf8_to_32" alt="" coords="601,282,733,309"/>
+<area shape="rect" id="node13" href="$namespacenuspell.html#acc7be34831c982c0065b2929a9b14f2b" title="nuspell::is_all_bmp" alt="" coords="600,231,733,258"/>
+<area shape="rect" id="node15" href="$namespacenuspell.html#aac45dd40db821861bbd1ee9c2fc40a5e" title="nuspell::u32_to_ucs2\l_skip_non_bmp" alt="" coords="594,64,739,105"/>
+<area shape="rect" id="node9" href="$namespacenuspell.html#a165544e1cd96cd0635c078d21ff32ff4" title="nuspell::is_ascii" alt="" coords="810,130,925,157"/>
+<area shape="rect" id="node12" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="792,307,943,334"/>
+<area shape="rect" id="node14" href="$namespacenuspell.html#a8ed3c64b945233d09aee1622100ce1db" title="nuspell::is_bmp" alt="" coords="811,231,924,258"/>
+<area shape="rect" id="node20" href="$namespacenuspell.html#ade7ffffeb6a7e872e46bb96f4b1e4eea" title="nuspell::valid_utf\l_to_utf" alt="" coords="407,407,527,448"/>
+</map>

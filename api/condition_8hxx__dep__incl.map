@@ -1,0 +1,11 @@
+<map id="src/nuspell/condition.hxx" name="src/nuspell/condition.hxx">
+<area shape="rect" id="node2" href="$structures_8hxx.html" title="Data structures. " alt="" coords="189,80,361,107"/>
+<area shape="rect" id="node10" href="$condition_8cxx.html" title="Condition matching. " alt="" coords="385,80,552,107"/>
+<area shape="rect" id="node3" href="$aff__data_8hxx.html" title="Affixing data structures. " alt="" coords="100,155,261,181"/>
+<area shape="rect" id="node9" href="$structures_8cxx.html" title="Data structures. " alt="" coords="285,155,457,181"/>
+<area shape="rect" id="node4" href="$aff__data_8cxx.html" title="Affixing data structures. " alt="" coords="5,229,167,256"/>
+<area shape="rect" id="node5" href="$dictionary_8hxx.html" title="Dictionary spelling. " alt="" coords="191,229,362,256"/>
+<area shape="rect" id="node6" href="$dictionary_8cxx.html" title="Dictionary spelling. " alt="" coords="10,304,181,331"/>
+<area shape="rect" id="node7" href="$main_8cxx.html" title="Command line spell checking. " alt="" coords="205,304,348,331"/>
+<area shape="rect" id="node8" href="$regress_8cxx.html" title="Command line spell check regression testing. " alt="" coords="373,304,530,331"/>
+</map>

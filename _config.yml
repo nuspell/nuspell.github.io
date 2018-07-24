@@ -1,0 +1,50 @@
+title: Nuspell
+name: Nuspell Community
+description: Free and open source spell checker
+url: https://nuspell.org
+repository: "nuspell/nuspell.github.io"
+
+exclude: [vendor]
+markdown: kramdown
+
+social:
+  - name: Twitter
+    icon: twitter
+    username: nuspell1
+    url: https://twitter.com/nuspell1
+    desc: Follow me on Twitter
+    share: true
+
+  - name: Facebook
+    icon: facebook
+    username: nuspell
+    url: https://facebook.com/nuspell
+    desc: Friend me on Facebook
+    share: true
+
+  - name: LinkedIn
+    icon: linkedin
+    url: https://linkedin.com/company/27129190
+    desc: Connect with me on LinkedIn
+    share: true
+
+  - name: Pinterest
+    icon: pinterest
+    username: nuspell
+    url: https://pinterest.com/nuspell
+    desc: Follow me on Pinterest
+    share: true
+
+  - name: Instagram
+    icon: instagram
+    username: nuspell
+    url: https://instagram.com/nuspell
+    desc: Follow me on Instagram
+    share: false
+
+  - name: GitHub
+    icon: github
+    username: nuspell
+    url: https://github.com/nuspell
+    desc: Fork me on GitHub
+    share: false
