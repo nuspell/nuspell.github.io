@@ -47,7 +47,7 @@ Furthermore, Nuspell has:
     * BSD
 
 Character encodings encountered in dictionaries and affix files which which Nuspell is proven to work are at least:
-* [Unicode](https://en.wikipedia.org/wiki/Unicode)
+* [Unicode](https://en.wikipedia.org/wiki/Unicode) parts:
     * [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
 * [ISO-8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) parts:
     * [ISO8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1)
@@ -58,8 +58,8 @@ Character encodings encountered in dictionaries and affix files which which Nusp
     * [ISO8859-15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15)
 * [CP1251](https://en.wikipedia.org/wiki/Windows-1251)
 * [TIS-620](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
-* [KOI-8](https://en.wikipedia.org/wiki/KOI-8). 
-    * [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R). 
+* [KOI-8](https://en.wikipedia.org/wiki/KOI-8) parts:
+    * [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R)
 
 
 ## Languages and Users
