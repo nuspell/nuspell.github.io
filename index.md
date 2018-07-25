@@ -22,7 +22,7 @@ Familiair examples of both proprietary or open source software which can start u
 * Apple [macOS](https://www.apple.com/macos/) and [Safari](https://www.apple.com/safari/)
 * Adobe [Photoshop](https://www.adobe.com/photoshop/), [Illustator](https://www.adobe.com/illustrator/), [InDesign](https://www.adobe.com/indesign/) and other products
 
-![Screenshot](images/screenshot.png)
+![Screenshot](/images/cover.png)
 
 Also web services, lesser-known text editors and more technical software such as integrated development environments (IDEs) can use Nuspell. See its [Wikipedia](https://en.wikipedia.org/wiki/Nuspell) article for a longer list.
 
@@ -35,9 +35,9 @@ Nuspell's main features are:
 * personlization where users can ignore or add words for the duration of a session or for persistent support
 
 Furthermore, Nuspell has:
-* a C++ library under GPL/LGPL/MPL tri-license preventing vendor lock-in
+* a C++ library licensed under [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) preventing vendor lock-in
 * backwards compatability for [MySpell](https://en.wikipedia.org/wiki/MySpell) and [Hunspell](https://en.wikipedia.org/wiki/Hunspell) dictionaries and affix files, a.k.a. language support
-* an [API](https://en.wikipedia.org/wiki/Application_programming_interface) and [ABI](https://en.wikipedia.org/wiki compatible with Hunspell
+<!--* an [API](https://en.wikipedia.org/wiki/Application_programming_interface) and [ABI](https://en.wikipedia.org/wiki compatible with Hunspell-->
 * an extensive testing framework to optimize functionality and performance
 * documented code and algorithms promoting transparency, understanding and maintenance
 * ports and packages for at least all major operating systems and distributions, including:

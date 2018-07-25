@@ -1,5 +1,5 @@
 ---
-title: Nuspell – Roadmap
+title: Roadmap
 layout: page
 ---
 

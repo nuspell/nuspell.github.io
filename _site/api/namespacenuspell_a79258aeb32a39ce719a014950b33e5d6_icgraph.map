@@ -1,0 +1,6 @@
+<map id="nuspell::utf8_to_wide" name="nuspell::utf8_to_wide">
+<area shape="rect" id="node2" href="$structnuspell_1_1_aff___data.html#a93b16b2b3938f607a18e3a67b9360b83" title="Parses an input stream offering affix information. " alt="" coords="206,5,337,47"/>
+<area shape="rect" id="node3" href="$structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed" title="Parses an input stream offering dictionary information. " alt="" coords="206,71,337,112"/>
+<area shape="rect" id="node4" href="$classnuspell_1_1_locale___input.html#a357636f55fc4301a1c49e421cfce7d7a" title="nuspell::Locale_Input\l::cvt_for_u8_dict" alt="" coords="199,136,344,177"/>
+<area shape="rect" id="node5" href="$classnuspell_1_1_locale___input.html#aadce92dd66b99a15e44acefa2f883385" title="nuspell::Locale_Input\l::cvt_for_u8_dict" alt="" coords="392,136,537,177"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="nuspell::decode_flags_possible_alias" name="nuspell::decode_flags_possible_alias">
+<area shape="rect" id="node2" href="$namespacenuspell.html#adbb8e053a44129d0f51014facd48b7f9" title="Decodes flags. " alt="" coords="201,107,349,133"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#aa37c89934a500dfd75dbb3cc18321834" title="nuspell::is_all_ascii" alt="" coords="407,5,542,32"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#a7fc6228909d26abd20009c4fb388dc81" title="nuspell::latin1_to_ucs2" alt="" coords="397,56,552,83"/>
+<area shape="rect" id="node6" href="$namespacenuspell.html#aff86f9ecb346e78687e56dab66a77469" title="nuspell::utf8_to_32" alt="" coords="409,107,541,133"/>
+<area shape="rect" id="node8" href="$namespacenuspell.html#acc7be34831c982c0065b2929a9b14f2b" title="nuspell::is_all_bmp" alt="" coords="408,157,541,184"/>
+<area shape="rect" id="node10" href="$namespacenuspell.html#aac45dd40db821861bbd1ee9c2fc40a5e" title="nuspell::u32_to_ucs2\l_skip_non_bmp" alt="" coords="402,209,547,250"/>
+<area shape="rect" id="node4" href="$namespacenuspell.html#a165544e1cd96cd0635c078d21ff32ff4" title="nuspell::is_ascii" alt="" coords="618,5,733,32"/>
+<area shape="rect" id="node7" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="600,107,751,133"/>
+<area shape="rect" id="node9" href="$namespacenuspell.html#a8ed3c64b945233d09aee1622100ce1db" title="nuspell::is_bmp" alt="" coords="619,157,732,184"/>
+</map>

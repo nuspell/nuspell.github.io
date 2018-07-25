@@ -1,5 +1,5 @@
 ---
-title: Nuspell – Team
+title: Team
 layout: page
 ---
 

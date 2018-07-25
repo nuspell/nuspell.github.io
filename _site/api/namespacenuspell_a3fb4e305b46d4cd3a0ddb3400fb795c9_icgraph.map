@@ -1,0 +1,6 @@
+<map id="nuspell::split" name="nuspell::split">
+<area shape="rect" id="node2" href="$namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5" title="Gets the default search paths. " alt="" coords="148,5,283,47"/>
+<area shape="rect" id="node4" href="$namespacenuspell.html#a738ba7cf9a8824420a2460e022f75838" title="Splits string on string separator. " alt="" coords="168,71,263,98"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#af5bff37b1dfafd7cf3ca38358121b32a" title="Splits string on seperator, output to vector of strings. " alt="" coords="161,122,270,149"/>
+<area shape="rect" id="node3" href="$classnuspell_1_1_finder.html#aa74d4af869f64d4aa3e39be572265fcb" title="Adds the default search paths which have been found to the paths. " alt="" coords="331,5,467,47"/>
+</map>

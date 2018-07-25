@@ -1,0 +1,8 @@
+<map id="nuspell::reset_failbit_istream" name="nuspell::reset_failbit_istream">
+<area shape="rect" id="node2" href="$namespacenuspell.html#aee2d3cdfa70d7cf8304c9a9f487b9a52" title="nuspell::read_to_slash\l_or_space" alt="" coords="207,5,359,47"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#a431abe5c2853b6f099bfedd5b6a4bb9f" title="Parses an affix from an input stream. " alt="" coords="423,69,557,95"/>
+<area shape="rect" id="node4" href="$structnuspell_1_1_aff___data.html#a93b16b2b3938f607a18e3a67b9360b83" title="Parses an input stream offering affix information. " alt="" coords="605,112,736,153"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#a20013c2e88adddb9211f5beb81f075b3" title="Parses morhological fields. " alt="" coords="192,123,375,164"/>
+<area shape="rect" id="node6" href="$namespacenuspell.html#a2f6f1d95de158b3512f812a213175ab4" title="nuspell::strip_bom" alt="" coords="219,189,347,215"/>
+<area shape="rect" id="node7" href="$structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed" title="Parses an input stream offering dictionary information. " alt="" coords="425,221,555,263"/>
+</map>

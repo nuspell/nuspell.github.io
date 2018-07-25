@@ -1,16 +1,28 @@
+# Site settings
 title: Nuspell
-name: Nuspell Community
-description: Free and open source spell checker
-#url: https://nuspell.org
-url: https://nuspell.github.io
-repository: "nuspell/nuspell.github.io"
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Nuspell is a free and open source spell checker written in C++. It has
+  extensive for character encodings, locales, affixing, compounding and complex
+  morphology. Also suggestions based on similarity, rules and pronunciation and
+  personalisation are offered.
+baseurl: "" # the subpath of your site, e.g. /blog
+#FIXMEurl: https://nuspell.org
+url: "https://nuspell.github.io"
+twitter_username: nuspell1
+github_username:  nuspell
 
-exclude: [vendor]
+#name: Nuspell Community
+#description: Free and open source spell checker
+#repository: "nuspell/nuspell.github.io"
+
+# Build settings
 markdown: kramdown
+#exclude: [vendor]
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-redirect-from
+#plugins:
+#  - jekyll-sitemap
+#  - jekyll-redirect-from
 
 # Google Analytics
 google_analytics: UA-122824583-1
