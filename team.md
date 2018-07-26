@@ -3,8 +3,6 @@ title: Team
 layout: page
 ---
 
-# Team
-
 The Nuspell team consists currently out of the following people. The roles and responsibilities are not strictly divided, all work is done as a team.
 
 

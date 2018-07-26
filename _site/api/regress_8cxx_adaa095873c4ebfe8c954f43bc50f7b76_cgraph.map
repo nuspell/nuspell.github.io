@@ -1,7 +1,0 @@
-<map id="normal_loop" name="normal_loop">
-<area shape="rect" id="node2" href="$regress_8cxx.html#a56237bb115471532c16e426e29e420bb" title="rdtsc" alt="" coords="205,5,256,32"/>
-<area shape="rect" id="node3" href="$structnuspell_1_1_basic___dictionary.html#a4e779d078298481e1d27bf695c526729" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="145,57,316,98"/>
-<area shape="rect" id="node4" href="$namespacenuspell.html#a4bbcd07d775ff9e19d67c9c68167dbf2" title="nuspell::to_narrow" alt="" coords="167,123,295,149"/>
-<area shape="rect" id="node5" href="$namespacenuspell.html#a7f99b7ec5f56db773581d659bb42a240" title="nuspell::to_wide" alt="" coords="173,173,289,200"/>
-<area shape="rect" id="node6" href="$namespacestd.html#abb75a3efd092cccd0bcbfdf1c503d145" title="std::operator\&lt;\&lt;" alt="" coords="175,224,286,251"/>
-</map>

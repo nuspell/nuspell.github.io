@@ -3,8 +3,6 @@ title: Roadmap
 layout: page
 ---
 
-# Roadmap
-
 The current roadmap for Nuspell is as follows:
 
 * [ ] **Version 2.0**
