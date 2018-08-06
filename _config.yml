@@ -1,70 +1,22 @@
 # Site settings
 title: Nuspell
-email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Nuspell is a free and open source spell checker written in C++. It has
-  extensive for character encodings, locales, affixing, compounding and complex
-  morphology. Also suggestions based on similarity, rules and pronunciation and
-  personalisation are offered.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Nuspell is a free and open source spell checker. It is written in C++ and
+  extensively supports character encodings, locales, affixing, compounding and
+  complex morphology. Nuspell offers also suggestions based on
+  similarity, rules, pronunciation and personal dictionaries.
+#TODOemail: info@nuspell.org
 #FIXMEurl: https://nuspell.org
 url: "https://nuspell.github.io"
 twitter_username: nuspell1
 github_username:  nuspell
-
-#name: Nuspell Community
-#description: Free and open source spell checker
-#repository: "nuspell/nuspell.github.io"
+facebook_username: nuspell
+linkedin_username: nuspell
+pinterest_username: nuspell
+instagram_username: nuspell
 
 # Build settings
 markdown: kramdown
-#exclude: [vendor]
-
-#plugins:
-#  - jekyll-sitemap
-#  - jekyll-redirect-from
 
 # Google Analytics
 google_analytics: UA-122824583-1
-
-social:
-  - name: Twitter
-    icon: twitter
-    username: nuspell1
-    url: https://twitter.com/nuspell1
-    desc: Follow us on Twitter
-    share: true
-
-  - name: Facebook
-    icon: facebook
-    username: nuspell
-    url: https://facebook.com/nuspell
-    desc: Friend us on Facebook
-    share: true
-
-  - name: LinkedIn
-    icon: linkedin
-    url: https://linkedin.com/company/27129190
-    desc: Connect with us on LinkedIn
-    share: true
-
-  - name: Pinterest
-    icon: pinterest
-    username: nuspell
-    url: https://pinterest.com/nuspell
-    desc: Follow us on Pinterest
-    share: true
-
-  - name: Instagram
-    icon: instagram
-    username: nuspell
-    url: https://instagram.com/nuspell
-    desc: Follow us on Instagram
-    share: false
-
-  - name: GitHub
-    icon: github
-    username: nuspell
-    url: https://github.com/nuspell
-    desc: Fork us on GitHub
-    share: false
