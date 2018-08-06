@@ -175,12 +175,6 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449a9b8eb01b0783f8906f241eec9e151f68">FLAG_UTF8</a>
  }</td></tr>
 <tr class="separator:a1982446c90592354255a5e7ea4139449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed45aa200ba87c87d710ed334f57b97a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aed45aa200ba87c87d710ed334f57b97a">Spell_Result</a> { <a class="el" href="namespacenuspell.html#aed45aa200ba87c87d710ed334f57b97aa8021b6825bd613235a521e9930db8a1b">BAD_WORD</a>, 
-<a class="el" href="namespacenuspell.html#aed45aa200ba87c87d710ed334f57b97aacb2193c2531232c51a79199cd26b36b9">GOOD_WORD</a>, 
-<a class="el" href="namespacenuspell.html#aed45aa200ba87c87d710ed334f57b97aaaee7f3c4883dbdd634af3f7b2ce6a5d0">AFFIXED_GOOD_WORD</a>, 
-<a class="el" href="namespacenuspell.html#aed45aa200ba87c87d710ed334f57b97aadde67b8c53d676e644b699aef0d05d5a">COMPOUND_GOOD_WORD</a>
- }</td></tr>
-<tr class="separator:aed45aa200ba87c87d710ed334f57b97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac175e015ddcedc084f63face3f4fe3d0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac175e015ddcedc084f63face3f4fe3d0">Affixing_Mode</a> { <a class="el" href="namespacenuspell.html#ac175e015ddcedc084f63face3f4fe3d0ae6867d44b5cf809d244baea9087356e3">FULL_WORD</a>, 
 <a class="el" href="namespacenuspell.html#ac175e015ddcedc084f63face3f4fe3d0a37a1420ccffff802c8f246e7bd911cc6">AT_COMPOUND_BEGIN</a>, 
 <a class="el" href="namespacenuspell.html#ac175e015ddcedc084f63face3f4fe3d0afe5298004a3a8ddfb4faf75b00b674b2">AT_COMPOUND_END</a>, 
@@ -264,6 +258,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ae613780ddef76a6670ef45f5532ee97a"><td class="memTemplParams" colspan="2">template&lt;class AffixT &gt; </td></tr>
 <tr class="memitem:ae613780ddef76a6670ef45f5532ee97a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ae613780ddef76a6670ef45f5532ee97a">is_modiying_affix</a> (const AffixT &amp;a)</td></tr>
 <tr class="separator:ae613780ddef76a6670ef45f5532ee97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa400607867aa8ca4eb115542a84b7004"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aa400607867aa8ca4eb115542a84b7004">match_compund_rule</a> (const std::vector&lt; const <a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> *&gt; &amp;words_data, const u16string &amp;pattern)</td></tr>
+<tr class="separator:aa400607867aa8ca4eb115542a84b7004"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fcde42a9d5b1fae08e198eb417df1a5"><td class="memTemplParams" colspan="2">template&lt;class OutIt &gt; </td></tr>
 <tr class="memitem:a5fcde42a9d5b1fae08e198eb417df1a5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5">get_default_search_paths</a> (OutIt out) -&gt; OutIt</td></tr>
 <tr class="memdesc:a5fcde42a9d5b1fae08e198eb417df1a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the default search paths.  <a href="#a5fcde42a9d5b1fae08e198eb417df1a5">More...</a><br /></td></tr>
@@ -326,8 +322,12 @@ Functions</h2></td></tr>
 <tr class="separator:aac45dd40db821861bbd1ee9c2fc40a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d0b0333504e454f862d33816913b068"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a9d0b0333504e454f862d33816913b068">u32_to_ucs2_skip_non_bmp</a> (const std::u32string &amp;s, std::u16string &amp;out) -&gt; void</td></tr>
 <tr class="separator:a9d0b0333504e454f862d33816913b068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aade2ec1cb243eb5b3714007d59d63c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c">to_wide</a> (const std::string &amp;in, const std::locale &amp;loc, std::wstring &amp;out) -&gt; bool</td></tr>
+<tr class="separator:a7aade2ec1cb243eb5b3714007d59d63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f99b7ec5f56db773581d659bb42a240"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a7f99b7ec5f56db773581d659bb42a240">to_wide</a> (const std::string &amp;in, const std::locale &amp;loc) -&gt; std::wstring</td></tr>
 <tr class="separator:a7f99b7ec5f56db773581d659bb42a240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf8e1a3f71282ed001fcf4f224ef9dd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd">to_narrow</a> (const std::wstring &amp;in, std::string &amp;out, const std::locale &amp;loc) -&gt; bool</td></tr>
+<tr class="separator:a9bf8e1a3f71282ed001fcf4f224ef9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bbcd07d775ff9e19d67c9c68167dbf2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a4bbcd07d775ff9e19d67c9c68167dbf2">to_narrow</a> (const std::wstring &amp;in, const std::locale &amp;loc) -&gt; std::string</td></tr>
 <tr class="separator:a4bbcd07d775ff9e19d67c9c68167dbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a8f9abb37fff312a261e20e6cbc29c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a25a8f9abb37fff312a261e20e6cbc29c">get_char_mask</a> (UChar32 cp)</td></tr>
@@ -394,17 +394,23 @@ Functions</h2></td></tr>
 <tr class="memitem:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac7e8eea65ba4b7e20168229192ca81dd">is_number</a> (const std::basic_string&lt; CharT &gt; &amp;s) -&gt; bool</td></tr>
 <tr class="memdesc:ac7e8eea65ba4b7e20168229192ca81dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if word is a number.  <a href="#ac7e8eea65ba4b7e20168229192ca81dd">More...</a><br /></td></tr>
 <tr class="separator:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99eaa02be11f51546c6f62386e45c986"><td class="memTemplParams" colspan="2">template&lt;class DataIter , class PatternIter , class FuncEq  = std::equal_to&lt;&gt;&gt; </td></tr>
+<tr class="memitem:a99eaa02be11f51546c6f62386e45c986"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a99eaa02be11f51546c6f62386e45c986">match_simple_regex</a> (DataIter data_first, DataIter data_last, PatternIter pat_first, PatternIter pat_last, FuncEq eq=FuncEq())</td></tr>
+<tr class="separator:a99eaa02be11f51546c6f62386e45c986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe25a583a8b8023eca9607149e24f3d"><td class="memTemplParams" colspan="2">template&lt;class DataRange , class PatternRange , class FuncEq  = std::equal_to&lt;&gt;&gt; </td></tr>
+<tr class="memitem:a6fe25a583a8b8023eca9607149e24f3d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a6fe25a583a8b8023eca9607149e24f3d">match_simple_regex</a> (const DataRange &amp;data, const PatternRange &amp;pattern, FuncEq eq=FuncEq())</td></tr>
+<tr class="separator:a6fe25a583a8b8023eca9607149e24f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
 <tr class="memitem:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac9f0f5a552ce6c791d51097c55a47b2e">swap</a> (<a class="el" href="classnuspell_1_1_string___set.html">String_Set</a>&lt; CharT &gt; &amp;a, <a class="el" href="classnuspell_1_1_string___set.html">String_Set</a>&lt; CharT &gt; &amp;b)</td></tr>
 <tr class="separator:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1cc05ac904edaad3ebd73b06a320560a"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a1cc05ac904edaad3ebd73b06a320560a">PATHSEP</a> = ':'</td></tr>
-<tr class="separator:a1cc05ac904edaad3ebd73b06a320560a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4db61fc1e46f61c882ec695a3334bdec"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a4db61fc1e46f61c882ec695a3334bdec">DIRSEP</a> = '/'</td></tr>
-<tr class="separator:a4db61fc1e46f61c882ec695a3334bdec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a7c19eeb0dd1620a9bccfb5b60d3ae1"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a2a7c19eeb0dd1620a9bccfb5b60d3ae1">SEPARATORS</a> = &quot;/&quot;</td></tr>
+<tr class="memitem:ac3e17ba50251ea61d8c9850b97c4adb8"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac3e17ba50251ea61d8c9850b97c4adb8">PATHSEP</a> = ':'</td></tr>
+<tr class="separator:ac3e17ba50251ea61d8c9850b97c4adb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae791d65ea33499d1f3a02b15c3ea8a21"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ae791d65ea33499d1f3a02b15c3ea8a21">DIRSEP</a> = '/'</td></tr>
+<tr class="separator:ae791d65ea33499d1f3a02b15c3ea8a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7c19eeb0dd1620a9bccfb5b60d3ae1"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a2a7c19eeb0dd1620a9bccfb5b60d3ae1">SEPARATORS</a> = '/'</td></tr>
 <tr class="separator:a2a7c19eeb0dd1620a9bccfb5b60d3ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -598,30 +604,6 @@ template&lt;class CharT &gt; </div>
 </td></tr>
 <tr><td class="fieldname"><a id="a1982446c90592354255a5e7ea4139449a9b8eb01b0783f8906f241eec9e151f68"></a>FLAG_UTF8&#160;</td><td class="fielddoc"><p>UTF-8 flag, e.g. </p>
 <p>for "á" </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-<a id="aed45aa200ba87c87d710ed334f57b97a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed45aa200ba87c87d710ed334f57b97a">&#9670;&nbsp;</a></span>Spell_Result</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespacenuspell.html#aed45aa200ba87c87d710ed334f57b97a">nuspell::Spell_Result</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aed45aa200ba87c87d710ed334f57b97aa8021b6825bd613235a521e9930db8a1b"></a>BAD_WORD&#160;</td><td class="fielddoc"><p>spelling of word is unknown </p>
-</td></tr>
-<tr><td class="fieldname"><a id="aed45aa200ba87c87d710ed334f57b97aacb2193c2531232c51a79199cd26b36b9"></a>GOOD_WORD&#160;</td><td class="fielddoc"><p>word is spelled correctly </p>
-</td></tr>
-<tr><td class="fieldname"><a id="aed45aa200ba87c87d710ed334f57b97aaaee7f3c4883dbdd634af3f7b2ce6a5d0"></a>AFFIXED_GOOD_WORD&#160;</td><td class="fielddoc"><p>affixed word is spelled correctly </p>
-</td></tr>
-<tr><td class="fieldname"><a id="aed45aa200ba87c87d710ed334f57b97aadde67b8c53d676e644b699aef0d05d5a"></a>COMPOUND_GOOD_WORD&#160;</td><td class="fielddoc"><p>compound word is spelled correctly </p>
 </td></tr>
 </table>
 
@@ -1891,6 +1873,142 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa400607867aa8ca4eb115542a84b7004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa400607867aa8ca4eb115542a84b7004">&#9670;&nbsp;</a></span>match_compund_rule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::match_compund_rule </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; const <a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> *&gt; &amp;&#160;</td>
+          <td class="paramname"><em>words_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const u16string &amp;&#160;</td>
+          <td class="paramname"><em>pattern</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aa400607867aa8ca4eb115542a84b7004_cgraph.svg" width="406" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aa400607867aa8ca4eb115542a84b7004_icgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a99eaa02be11f51546c6f62386e45c986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99eaa02be11f51546c6f62386e45c986">&#9670;&nbsp;</a></span>match_simple_regex() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataIter , class PatternIter , class FuncEq  = std::equal_to&lt;&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::match_simple_regex </td>
+          <td>(</td>
+          <td class="paramtype">DataIter&#160;</td>
+          <td class="paramname"><em>data_first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DataIter&#160;</td>
+          <td class="paramname"><em>data_last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PatternIter&#160;</td>
+          <td class="paramname"><em>pat_first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PatternIter&#160;</td>
+          <td class="paramname"><em>pat_last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FuncEq&#160;</td>
+          <td class="paramname"><em>eq</em> = <code>FuncEq()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a99eaa02be11f51546c6f62386e45c986_icgraph.svg" width="652" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a6fe25a583a8b8023eca9607149e24f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe25a583a8b8023eca9607149e24f3d">&#9670;&nbsp;</a></span>match_simple_regex() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataRange , class PatternRange , class FuncEq  = std::equal_to&lt;&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::match_simple_regex </td>
+          <td>(</td>
+          <td class="paramtype">const DataRange &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PatternRange &amp;&#160;</td>
+          <td class="paramname"><em>pattern</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FuncEq&#160;</td>
+          <td class="paramname"><em>eq</em> = <code>FuncEq()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a6fe25a583a8b8023eca9607149e24f3d_cgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a431abe5c2853b6f099bfedd5b6a4bb9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a431abe5c2853b6f099bfedd5b6a4bb9f">&#9670;&nbsp;</a></span>parse_affix()</h2>
 
@@ -2970,8 +3088,48 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a9bf8e1a3f71282ed001fcf4f224ef9dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf8e1a3f71282ed001fcf4f224ef9dd">&#9670;&nbsp;</a></span>to_narrow() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::to_narrow </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::locale &amp;&#160;</td>
+          <td class="paramname"><em>loc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a9bf8e1a3f71282ed001fcf4f224ef9dd_icgraph.svg" width="535" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a4bbcd07d775ff9e19d67c9c68167dbf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bbcd07d775ff9e19d67c9c68167dbf2">&#9670;&nbsp;</a></span>to_narrow()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bbcd07d775ff9e19d67c9c68167dbf2">&#9670;&nbsp;</a></span>to_narrow() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2996,16 +3154,56 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a4bbcd07d775ff9e19d67c9c68167dbf2_cgraph.svg" width="315" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7aade2ec1cb243eb5b3714007d59d63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aade2ec1cb243eb5b3714007d59d63c">&#9670;&nbsp;</a></span>to_wide() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::to_wide </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::locale &amp;&#160;</td>
+          <td class="paramname"><em>loc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::wstring &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a4bbcd07d775ff9e19d67c9c68167dbf2_icgraph.svg" width="535" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a7aade2ec1cb243eb5b3714007d59d63c_icgraph.svg" width="514" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a7f99b7ec5f56db773581d659bb42a240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f99b7ec5f56db773581d659bb42a240">&#9670;&nbsp;</a></span>to_wide()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f99b7ec5f56db773581d659bb42a240">&#9670;&nbsp;</a></span>to_wide() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3030,9 +3228,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the caller graph for this function:</div>
+Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a7f99b7ec5f56db773581d659bb42a240_icgraph.svg" width="514" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a7f99b7ec5f56db773581d659bb42a240_cgraph.svg" width="291" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3398,28 +3596,28 @@ template&lt;class CharT &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a4db61fc1e46f61c882ec695a3334bdec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4db61fc1e46f61c882ec695a3334bdec">&#9670;&nbsp;</a></span>DIRSEP</h2>
+<a id="ae791d65ea33499d1f3a02b15c3ea8a21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae791d65ea33499d1f3a02b15c3ea8a21">&#9670;&nbsp;</a></span>DIRSEP</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char nuspell::DIRSEP = '/'</td>
+          <td class="memname">const auto nuspell::DIRSEP = '/'</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1cc05ac904edaad3ebd73b06a320560a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cc05ac904edaad3ebd73b06a320560a">&#9670;&nbsp;</a></span>PATHSEP</h2>
+<a id="ac3e17ba50251ea61d8c9850b97c4adb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3e17ba50251ea61d8c9850b97c4adb8">&#9670;&nbsp;</a></span>PATHSEP</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char nuspell::PATHSEP = ':'</td>
+          <td class="memname">const auto nuspell::PATHSEP = ':'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3433,7 +3631,7 @@ template&lt;class CharT &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const auto nuspell::SEPARATORS = &quot;/&quot;</td>
+          <td class="memname">const auto nuspell::SEPARATORS = '/'</td>
         </tr>
       </table>
 </div><div class="memdoc">

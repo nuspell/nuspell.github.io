@@ -19,7 +19,7 @@
 <!-- Node26 -->
 <g id="node2" class="node">
 <title>Node26</title>
-<g id="a_node2"><a xlink:href="classnuspell_1_1_locale___input.html#a5f609f46deca8b32c87fe21445d5ae2c" target="_top" xlink:title="nuspell::Locale_Input\l::cvt_for_byte_dict">
+<g id="a_node2"><a xlink:href="classnuspell_1_1_locale___input.html#a143148b61a905f5e2c9d1803aa44b4c5" target="_top" xlink:title="nuspell::Locale_Input\l::cvt_for_byte_dict">
 <polygon fill="#ffffff" stroke="#000000" points="145,-49.5 145,-79.5 254,-79.5 254,-49.5 145,-49.5"/>
 <text text-anchor="start" x="153" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Locale_Input</text>
 <text text-anchor="middle" x="199.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cvt_for_byte_dict</text>
@@ -35,7 +35,7 @@
 <!-- Node27 -->
 <g id="node3" class="node">
 <title>Node27</title>
-<g id="a_node3"><a xlink:href="classnuspell_1_1_locale___input.html#aadce92dd66b99a15e44acefa2f883385" target="_top" xlink:title="nuspell::Locale_Input\l::cvt_for_u8_dict">
+<g id="a_node3"><a xlink:href="classnuspell_1_1_locale___input.html#a31d789637da9d6b3fc790544f88588a1" target="_top" xlink:title="nuspell::Locale_Input\l::cvt_for_u8_dict">
 <polygon fill="#ffffff" stroke="#000000" points="145,-.5 145,-30.5 254,-30.5 254,-.5 145,-.5"/>
 <text text-anchor="start" x="153" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Locale_Input</text>
 <text text-anchor="middle" x="199.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cvt_for_u8_dict</text>

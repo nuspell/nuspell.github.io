@@ -19,7 +19,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="namespacenuspell.html#a4bbcd07d775ff9e19d67c9c68167dbf2" target="_top" xlink:title="nuspell::to_narrow">
+<g id="a_node2"><a xlink:href="namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" target="_top" xlink:title="nuspell::to_narrow">
 <polygon fill="#ffffff" stroke="#000000" points="152,-6 152,-25 248,-25 248,-6 152,-6"/>
 <text text-anchor="middle" x="200" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::to_narrow</text>
 </a>

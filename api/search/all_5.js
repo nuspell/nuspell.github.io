@@ -3,7 +3,7 @@ var searchData=
   ['files',['files',['../struct_args__t.html#a7eef2774d9a88da9f499ac336f445ddc',1,'Args_t']]],
   ['fill_5fctype',['fill_ctype',['../namespacenuspell.html#a22e22ceec23aafebbe182feae2973671',1,'nuspell']]],
   ['fill_5fctype_5fwide',['fill_ctype_wide',['../namespacenuspell.html#aa1a18c73ec1b1b7e4c7ca7d3bb493989',1,'nuspell']]],
-  ['find',['find',['../classnuspell_1_1_string___set.html#a37d21f20fe6b33cf9e98c7b70d76f24f',1,'nuspell::String_Set::find(const key_type &amp;x)'],['../classnuspell_1_1_string___set.html#a45d3888c57dc0079763374883a2286b1',1,'nuspell::String_Set::find(const key_type &amp;x) const']]],
+  ['find',['find',['../classnuspell_1_1_finder.html#a2e83d2cd366f50ce1f38e30642e8ea67',1,'nuspell::Finder::find()'],['../classnuspell_1_1_string___set.html#a37d21f20fe6b33cf9e98c7b70d76f24f',1,'nuspell::String_Set::find(const key_type &amp;x)'],['../classnuspell_1_1_string___set.html#a45d3888c57dc0079763374883a2286b1',1,'nuspell::String_Set::find(const key_type &amp;x) const']]],
   ['finder',['Finder',['../classnuspell_1_1_finder.html',1,'nuspell']]],
   ['finder_2ecxx',['finder.cxx',['../finder_8cxx.html',1,'']]],
   ['finder_2ehxx',['finder.hxx',['../finder_8hxx.html',1,'']]],

@@ -9,60 +9,60 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>nuspell::split_on_whitespace_v</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-62 373,-62 373,4 -4,4"/>
-<!-- Node298 -->
+<!-- Node311 -->
 <g id="node1" class="node">
-<title>Node298</title>
+<title>Node311</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 152,-38.5 152,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="76" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split_on_whitespace_v</text>
 </g>
-<!-- Node299 -->
+<!-- Node312 -->
 <g id="node2" class="node">
-<title>Node299</title>
+<title>Node312</title>
 <g id="a_node2"><a xlink:href="main_8cxx.html#a1f92dedeeb68a1a7bc2b720097d3b7a4" target="_top" xlink:title="misspelled_line_loop">
 <polygon fill="#ffffff" stroke="#000000" points="188,-38.5 188,-57.5 295,-57.5 295,-38.5 188,-38.5"/>
 <text text-anchor="middle" x="241.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">misspelled_line_loop</text>
 </a>
 </g>
 </g>
-<!-- Node298&#45;&gt;Node299 -->
+<!-- Node311&#45;&gt;Node312 -->
 <g id="edge1" class="edge">
-<title>Node298&#45;&gt;Node299</title>
+<title>Node311&#45;&gt;Node312</title>
 <path fill="none" stroke="#191970" d="M162.4761,-38.9278C171.0129,-39.9078 179.4967,-40.8818 187.5631,-41.8079"/>
 <polygon fill="#191970" stroke="#191970" points="162.7862,-35.4405 152.4522,-37.777 161.9877,-42.3948 162.7862,-35.4405"/>
 </g>
-<!-- Node301 -->
+<!-- Node314 -->
 <g id="node4" class="node">
-<title>Node301</title>
+<title>Node314</title>
 <g id="a_node4"><a xlink:href="main_8cxx.html#a16580c4100b461806a9c49575bdd5428" target="_top" xlink:title="correct_line_loop">
 <polygon fill="#ffffff" stroke="#000000" points="196.5,-.5 196.5,-19.5 286.5,-19.5 286.5,-.5 196.5,-.5"/>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">correct_line_loop</text>
 </a>
 </g>
 </g>
-<!-- Node298&#45;&gt;Node301 -->
+<!-- Node311&#45;&gt;Node314 -->
 <g id="edge3" class="edge">
-<title>Node298&#45;&gt;Node301</title>
+<title>Node311&#45;&gt;Node314</title>
 <path fill="none" stroke="#191970" d="M162.6034,-19.0576C174.1512,-17.7319 185.5987,-16.4177 196.0438,-15.2185"/>
 <polygon fill="#191970" stroke="#191970" points="161.9877,-15.6052 152.4522,-20.223 162.7862,-22.5595 161.9877,-15.6052"/>
 </g>
-<!-- Node300 -->
+<!-- Node313 -->
 <g id="node3" class="node">
-<title>Node300</title>
+<title>Node313</title>
 <g id="a_node3"><a xlink:href="main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title="main">
 <polygon fill="#ffffff" stroke="#000000" points="331,-19.5 331,-38.5 369,-38.5 369,-19.5 331,-19.5"/>
 <text text-anchor="middle" x="350" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
 </g>
 </g>
-<!-- Node299&#45;&gt;Node300 -->
+<!-- Node312&#45;&gt;Node313 -->
 <g id="edge2" class="edge">
-<title>Node299&#45;&gt;Node300</title>
+<title>Node312&#45;&gt;Node313</title>
 <path fill="none" stroke="#191970" d="M304.9851,-36.8828C314.372,-35.239 323.3789,-33.6618 330.8366,-32.3558"/>
 <polygon fill="#191970" stroke="#191970" points="304.3606,-33.4388 295.1143,-38.6113 305.5681,-40.3339 304.3606,-33.4388"/>
 </g>
-<!-- Node301&#45;&gt;Node300 -->
+<!-- Node314&#45;&gt;Node313 -->
 <g id="edge4" class="edge">
-<title>Node301&#45;&gt;Node300</title>
+<title>Node314&#45;&gt;Node313</title>
 <path fill="none" stroke="#191970" d="M296.4597,-19.6243C308.8381,-21.7919 321.1672,-23.9509 330.8687,-25.6498"/>
 <polygon fill="#191970" stroke="#191970" points="297.025,-16.1701 286.5712,-17.8926 295.8175,-23.0652 297.025,-16.1701"/>
 </g>

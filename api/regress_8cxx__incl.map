@@ -1,9 +1,9 @@
 <map id="src/nuspell/regress.cxx" name="src/nuspell/regress.cxx">
-<area shape="rect" id="node2" href="$dictionary_8hxx.html" title="Dictionary spelling. " alt="" coords="1663,102,1766,129"/>
-<area shape="rect" id="node25" href="$finder_8hxx.html" title="Finding dictionaries. " alt="" coords="94,273,173,300"/>
-<area shape="rect" id="node26" href="$string__utils_8hxx.html" title="String algorithms. " alt="" coords="1945,273,2055,300"/>
-<area shape="rect" id="node3" href="$aff__data_8hxx.html" title="Affixing data structures. " alt="" coords="1434,199,1529,225"/>
-<area shape="rect" id="node9" href="$locale__utils_8hxx.html" title="Encoding transformations. " alt="" coords="1571,273,1683,300"/>
-<area shape="rect" id="node13" href="$structures_8hxx.html" title="Data structures. " alt="" coords="901,273,1006,300"/>
-<area shape="rect" id="node14" href="$condition_8hxx.html" title="Condition matching. " alt="" coords="560,355,659,382"/>
+<area shape="rect" id="node2" href="$dictionary_8hxx.html" title="Dictionary spelling. " alt="" coords="1795,102,1898,129"/>
+<area shape="rect" id="node25" href="$finder_8hxx.html" title="Finding dictionaries. " alt="" coords="43,273,122,300"/>
+<area shape="rect" id="node26" href="$string__utils_8hxx.html" title="String algorithms. " alt="" coords="1991,273,2102,300"/>
+<area shape="rect" id="node3" href="$aff__data_8hxx.html" title="Affixing data structures. " alt="" coords="1438,199,1533,225"/>
+<area shape="rect" id="node9" href="$locale__utils_8hxx.html" title="Encoding transformations. " alt="" coords="1573,273,1685,300"/>
+<area shape="rect" id="node13" href="$structures_8hxx.html" title="Data structures. " alt="" coords="802,273,907,300"/>
+<area shape="rect" id="node14" href="$condition_8hxx.html" title="Condition matching. " alt="" coords="323,355,421,382"/>
 </map>

@@ -5,7 +5,7 @@ var searchData=
   ['get_5fapacheopenoffice_5fpaths',['get_apacheopenoffice_paths',['../namespacenuspell.html#a2dacde753f0b71fe8bea9b1fc394e517',1,'nuspell']]],
   ['get_5fchar_5fmask',['get_char_mask',['../namespacenuspell.html#a25a8f9abb37fff312a261e20e6cbc29c',1,'nuspell']]],
   ['get_5fdefault_5fsearch_5fpaths',['get_default_search_paths',['../namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5',1,'nuspell']]],
-  ['get_5fdictionary',['get_dictionary',['../classnuspell_1_1_finder.html#a24acf4957127d5b1eeaa955be77cf0ef',1,'nuspell::Finder']]],
+  ['get_5fdictionary',['get_dictionary',['../classnuspell_1_1_finder.html#a564300f4f6ea5513d856de978ad34f4e',1,'nuspell::Finder']]],
   ['get_5flibreoffice_5fpaths',['get_libreoffice_paths',['../namespacenuspell.html#a18da8631cb0b014f0f918cf444946921',1,'nuspell']]],
   ['get_5flocale_5fname',['get_locale_name',['../namespacenuspell.html#a2def7204c1e34b676467a79a7272db63',1,'nuspell::get_locale_name(string lang, string enc, const string &amp;filename) -&gt; string'],['../namespacenuspell.html#ac5991ade131e574ff3aec1f6fac81e18',1,'nuspell::get_locale_name(std::string lang, std::string enc, const std::string &amp;filename=&quot;&quot;) -&gt; std::string']]],
   ['get_5fmozilla_5fpaths',['get_mozilla_paths',['../namespacenuspell.html#ae0600d47d2f5dd17332137e3254d9642',1,'nuspell']]],

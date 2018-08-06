@@ -9,25 +9,25 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>nuspell::String_Set::swap</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-35 216,-35 216,4 -4,4"/>
-<!-- Node157 -->
+<!-- Node159 -->
 <g id="node1" class="node">
-<title>Node157</title>
+<title>Node159</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-30.5 99,-30.5 99,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::String_Set</text>
 <text text-anchor="middle" x="49.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::swap</text>
 </g>
-<!-- Node158 -->
+<!-- Node160 -->
 <g id="node2" class="node">
-<title>Node158</title>
+<title>Node160</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#ac9f0f5a552ce6c791d51097c55a47b2e" target="_top" xlink:title="nuspell::swap">
 <polygon fill="#ffffff" stroke="#000000" points="135,-6 135,-25 212,-25 212,-6 135,-6"/>
 <text text-anchor="middle" x="173.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::swap</text>
 </a>
 </g>
 </g>
-<!-- Node157&#45;&gt;Node158 -->
+<!-- Node159&#45;&gt;Node160 -->
 <g id="edge1" class="edge">
-<title>Node157&#45;&gt;Node158</title>
+<title>Node159&#45;&gt;Node160</title>
 <path fill="none" stroke="#191970" d="M109.3342,-15.5C118.0059,-15.5 126.7342,-15.5 134.8393,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="109.2211,-12.0001 99.2211,-15.5 109.221,-19.0001 109.2211,-12.0001"/>
 </g>

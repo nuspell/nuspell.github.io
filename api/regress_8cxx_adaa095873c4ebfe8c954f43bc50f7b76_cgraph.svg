@@ -33,7 +33,7 @@
 <!-- Node14 -->
 <g id="node3" class="node">
 <title>Node14</title>
-<g id="a_node3"><a xlink:href="structnuspell_1_1_basic___dictionary.html#a4e779d078298481e1d27bf695c526729" target="_top" xlink:title="nuspell::Basic_Dictionary\l::spell">
+<g id="a_node3"><a xlink:href="structnuspell_1_1_basic___dictionary.html#adcab662ddd7786cfa72f4ba7fedb043e" target="_top" xlink:title="nuspell::Basic_Dictionary\l::spell">
 <polygon fill="#ffffff" stroke="#000000" points="105,-115 105,-145 233,-145 233,-115 105,-115"/>
 <text text-anchor="start" x="113" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Basic_Dictionary</text>
 <text text-anchor="middle" x="169" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::spell</text>
@@ -49,7 +49,7 @@
 <!-- Node15 -->
 <g id="node4" class="node">
 <title>Node15</title>
-<g id="a_node4"><a xlink:href="namespacenuspell.html#a4bbcd07d775ff9e19d67c9c68167dbf2" target="_top" xlink:title="nuspell::to_narrow">
+<g id="a_node4"><a xlink:href="namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" target="_top" xlink:title="nuspell::to_narrow">
 <polygon fill="#ffffff" stroke="#000000" points="121,-76.5 121,-95.5 217,-95.5 217,-76.5 121,-76.5"/>
 <text text-anchor="middle" x="169" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::to_narrow</text>
 </a>
@@ -64,7 +64,7 @@
 <!-- Node16 -->
 <g id="node5" class="node">
 <title>Node16</title>
-<g id="a_node5"><a xlink:href="namespacenuspell.html#a7f99b7ec5f56db773581d659bb42a240" target="_top" xlink:title="nuspell::to_wide">
+<g id="a_node5"><a xlink:href="namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" target="_top" xlink:title="nuspell::to_wide">
 <polygon fill="#ffffff" stroke="#000000" points="125.5,-38.5 125.5,-57.5 212.5,-57.5 212.5,-38.5 125.5,-38.5"/>
 <text text-anchor="middle" x="169" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::to_wide</text>
 </a>

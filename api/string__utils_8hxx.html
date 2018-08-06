@@ -77,12 +77,13 @@ $(function() {
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;iterator&gt;</code><br />
 <code>#include &lt;locale&gt;</code><br />
+<code>#include &lt;stack&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for string_utils.hxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="string__utils_8hxx__incl.svg" width="416" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="string__utils_8hxx__incl.svg" width="495" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -154,6 +155,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac7e8eea65ba4b7e20168229192ca81dd">nuspell::is_number</a> (const std::basic_string&lt; CharT &gt; &amp;s) -&gt; bool</td></tr>
 <tr class="memdesc:ac7e8eea65ba4b7e20168229192ca81dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if word is a number.  <a href="namespacenuspell.html#ac7e8eea65ba4b7e20168229192ca81dd">More...</a><br /></td></tr>
 <tr class="separator:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99eaa02be11f51546c6f62386e45c986"><td class="memTemplParams" colspan="2">template&lt;class DataIter , class PatternIter , class FuncEq  = std::equal_to&lt;&gt;&gt; </td></tr>
+<tr class="memitem:a99eaa02be11f51546c6f62386e45c986"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a99eaa02be11f51546c6f62386e45c986">nuspell::match_simple_regex</a> (DataIter data_first, DataIter data_last, PatternIter pat_first, PatternIter pat_last, FuncEq eq=FuncEq())</td></tr>
+<tr class="separator:a99eaa02be11f51546c6f62386e45c986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe25a583a8b8023eca9607149e24f3d"><td class="memTemplParams" colspan="2">template&lt;class DataRange , class PatternRange , class FuncEq  = std::equal_to&lt;&gt;&gt; </td></tr>
+<tr class="memitem:a6fe25a583a8b8023eca9607149e24f3d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a6fe25a583a8b8023eca9607149e24f3d">nuspell::match_simple_regex</a> (const DataRange &amp;data, const PatternRange &amp;pattern, FuncEq eq=FuncEq())</td></tr>
+<tr class="separator:a6fe25a583a8b8023eca9607149e24f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>String algorithms. </p>

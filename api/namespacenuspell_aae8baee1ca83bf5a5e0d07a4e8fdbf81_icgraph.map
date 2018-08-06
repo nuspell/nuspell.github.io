@@ -3,8 +3,8 @@
 <area shape="rect" id="node7" href="$namespacenuspell.html#aff86f9ecb346e78687e56dab66a77469" title="nuspell::utf8_to_32" alt="" coords="204,194,336,221"/>
 <area shape="rect" id="node3" href="$structnuspell_1_1_aff___data.html#a93b16b2b3938f607a18e3a67b9360b83" title="Parses an input stream offering affix information. " alt="" coords="1065,232,1195,273"/>
 <area shape="rect" id="node4" href="$structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed" title="Parses an input stream offering dictionary information. " alt="" coords="845,123,975,164"/>
-<area shape="rect" id="node5" href="$classnuspell_1_1_locale___input.html#a357636f55fc4301a1c49e421cfce7d7a" title="nuspell::Locale_Input\l::cvt_for_u8_dict" alt="" coords="837,5,983,47"/>
-<area shape="rect" id="node6" href="$classnuspell_1_1_locale___input.html#aadce92dd66b99a15e44acefa2f883385" title="nuspell::Locale_Input\l::cvt_for_u8_dict" alt="" coords="1057,5,1203,47"/>
+<area shape="rect" id="node5" href="$classnuspell_1_1_locale___input.html#a5be7c2be125d06fbaeb953cc148fb489" title="nuspell::Locale_Input\l::cvt_for_u8_dict" alt="" coords="837,5,983,47"/>
+<area shape="rect" id="node6" href="$classnuspell_1_1_locale___input.html#a31d789637da9d6b3fc790544f88588a1" title="nuspell::Locale_Input\l::cvt_for_u8_dict" alt="" coords="1057,5,1203,47"/>
 <area shape="rect" id="node8" href="$namespacenuspell.html#adbb8e053a44129d0f51014facd48b7f9" title="Decodes flags. " alt="" coords="384,239,532,266"/>
 <area shape="rect" id="node9" href="$namespacenuspell.html#ac3ed6d85c13c609eb5c51628b9dbac76" title="Decodes a single flag from an input stream. " alt="" coords="580,239,763,266"/>
 <area shape="rect" id="node11" href="$namespacenuspell.html#a3d81c446c32c53cd03e595f8fde9c2ab" title="nuspell::decode_flags\l_possible_alias" alt="" coords="597,173,745,215"/>

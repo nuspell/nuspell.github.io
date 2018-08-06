@@ -2,5 +2,7 @@
 <area shape="rect" id="node2" href="$namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1" title="nuspell::cross_valid\l_inner_outer" alt="" coords="225,5,362,47"/>
 <area shape="rect" id="node3" href="$structnuspell_1_1_dict___base.html#af7acf718db58d8f45ff73e36f308990c" title="nuspell::Dict_Base\l::is_valid_inside_compound" alt="" coords="202,71,385,112"/>
 <area shape="rect" id="node4" href="$structnuspell_1_1_dict___base.html#a23db26fcaf2e928ca2ab1a3d172dbf22" title="nuspell::Dict_Base\l::strip_pfx_then_sfx\l_comm_2" alt="" coords="225,137,362,193"/>
-<area shape="rect" id="node5" href="$classnuspell_1_1_affix___table.html#ac8974546ec97f43188100596f41ca493" title="nuspell::Affix_Table\l\&lt; CharT \&gt;::has_continuation_flag" alt="" coords="185,217,401,259"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#aa400607867aa8ca4eb115542a84b7004" title="nuspell::match_compund_rule" alt="" coords="196,217,391,243"/>
+<area shape="rect" id="node7" href="$classnuspell_1_1_affix___table.html#ac8974546ec97f43188100596f41ca493" title="nuspell::Affix_Table\l\&lt; CharT \&gt;::has_continuation_flag" alt="" coords="185,268,401,309"/>
+<area shape="rect" id="node6" href="$structnuspell_1_1_dict___base.html#ab97583e3d30d44fe67f3a5ff6eee844e" title="nuspell::Dict_Base\l::check_compound_with_rules" alt="" coords="449,209,648,251"/>
 </map>

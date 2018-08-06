@@ -20,7 +20,6 @@ var searchData=
   ['affix_5ftable_3c_20wchar_5ft_20_3e',['Affix_Table&lt; wchar_t &gt;',['../classnuspell_1_1_affix___table.html',1,'nuspell']]],
   ['affix_5ftable_5fbase',['Affix_Table_Base',['../namespacenuspell.html#a4918744ee75d3b9e4f8cd3346162c89a',1,'nuspell']]],
   ['affixed_5fand_5fmodified',['affixed_and_modified',['../structnuspell_1_1_compounding___result.html#a60c16a0fe478ac8a0c768fc3762fabf0',1,'nuspell::Compounding_Result']]],
-  ['affixed_5fgood_5fword',['AFFIXED_GOOD_WORD',['../namespacenuspell.html#aed45aa200ba87c87d710ed334f57b97aaaee7f3c4883dbdd634af3f7b2ce6a5d0',1,'nuspell']]],
   ['affixing_5fmode',['Affixing_Mode',['../namespacenuspell.html#ac175e015ddcedc084f63face3f4fe3d0',1,'nuspell']]],
   ['affixing_5fresult',['Affixing_Result',['../structnuspell_1_1_affixing___result.html',1,'nuspell::Affixing_Result&lt; Affixes &gt;'],['../structnuspell_1_1_affixing___result.html#ae396d46b12d22597834a3faad9356343',1,'nuspell::Affixing_Result::Affixing_Result()=default'],['../structnuspell_1_1_affixing___result.html#acac3eed6382d15ee455c9b0f9b4d56fa',1,'nuspell::Affixing_Result::Affixing_Result(Word_List::const_reference word_entry, const Affixes &amp;... affixes)']]],
   ['all_5fcapital',['ALL_CAPITAL',['../namespacenuspell.html#af5a906dc0779e6824c4a84f6f277d39ea6483b96ff3ba7b3090825f314cd3d3b3',1,'nuspell']]],
