@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 635)">
 <title>nuspell::cross_valid_inner_outer</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-635 256,-635 256,4 -4,4"/>
-<!-- Node9 -->
+<!-- Node14 -->
 <g id="node1" class="node">
-<title>Node9</title>
+<title>Node14</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-294.5 0,-324.5 103,-324.5 103,-294.5 0,-294.5"/>
 <text text-anchor="start" x="8" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::cross_valid</text>
 <text text-anchor="middle" x="51.5" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_inner_outer</text>
 </g>
-<!-- Node10 -->
+<!-- Node15 -->
 <g id="node2" class="node">
-<title>Node10</title>
+<title>Node15</title>
 <g id="a_node2"><a xlink:href="structnuspell_1_1_dict___base.html#a9e8e87582f9ec1f4f85e95745e7dee8d" target="_top" xlink:title="strip_prefix_only ">
 <polygon fill="#ffffff" stroke="#000000" points="146,-600.5 146,-630.5 245,-630.5 245,-600.5 146,-600.5"/>
 <text text-anchor="start" x="154" y="-618.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -26,15 +26,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
+<!-- Node14&#45;&gt;Node15 -->
 <g id="edge1" class="edge">
-<title>Node9&#45;&gt;Node10</title>
+<title>Node14&#45;&gt;Node15</title>
 <path fill="none" stroke="#191970" d="M56.48,-334.6625C69.1119,-396.3065 103.8972,-552.667 139,-591.5 142.073,-594.8996 145.7078,-597.8342 149.6288,-600.3642"/>
 <polygon fill="#191970" stroke="#191970" points="59.8635,-333.736 54.449,-324.6293 53.0026,-335.1249 59.8635,-333.736"/>
 </g>
-<!-- Node11 -->
+<!-- Node16 -->
 <g id="node3" class="node">
-<title>Node11</title>
+<title>Node16</title>
 <g id="a_node3"><a xlink:href="structnuspell_1_1_dict___base.html#a9da198c7e4d93d0ea5c143c73b1bd52e" target="_top" xlink:title="strip_suffix_only ">
 <polygon fill="#ffffff" stroke="#000000" points="146,-551.5 146,-581.5 245,-581.5 245,-551.5 146,-551.5"/>
 <text text-anchor="start" x="154" y="-569.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -42,15 +42,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node11 -->
+<!-- Node14&#45;&gt;Node16 -->
 <g id="edge2" class="edge">
-<title>Node9&#45;&gt;Node11</title>
+<title>Node14&#45;&gt;Node16</title>
 <path fill="none" stroke="#191970" d="M54.4464,-334.9422C61.1563,-381.8725 81.7032,-482.7183 139,-542.5 142.2447,-545.8854 146.0431,-548.816 150.109,-551.3482"/>
 <polygon fill="#191970" stroke="#191970" points="57.8777,-334.1939 53.0876,-324.7437 50.939,-335.1184 57.8777,-334.1939"/>
 </g>
-<!-- Node12 -->
+<!-- Node17 -->
 <g id="node4" class="node">
-<title>Node12</title>
+<title>Node17</title>
 <g id="a_node4"><a xlink:href="structnuspell_1_1_dict___base.html#a8580dbc46d95a8889ee7c412d088c14c" target="_top" xlink:title="nuspell::Dict_Base\l::strip_pfx_then_sfx_2">
 <polygon fill="#ffffff" stroke="#000000" points="139,-502.5 139,-532.5 252,-532.5 252,-502.5 139,-502.5"/>
 <text text-anchor="start" x="147" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -58,15 +58,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node12 -->
+<!-- Node14&#45;&gt;Node17 -->
 <g id="edge3" class="edge">
-<title>Node9&#45;&gt;Node12</title>
+<title>Node14&#45;&gt;Node17</title>
 <path fill="none" stroke="#191970" d="M57.2669,-334.462C67.4426,-373.3337 92.0866,-448.5261 139,-493.5 142.5389,-496.8926 146.6302,-499.8408 150.9612,-502.3949"/>
 <polygon fill="#191970" stroke="#191970" points="60.6004,-333.3655 54.774,-324.5166 53.8104,-335.0675 60.6004,-333.3655"/>
 </g>
-<!-- Node13 -->
+<!-- Node18 -->
 <g id="node5" class="node">
-<title>Node13</title>
+<title>Node18</title>
 <g id="a_node5"><a xlink:href="structnuspell_1_1_dict___base.html#aa71155af74aedee6806901ba7880a0ba" target="_top" xlink:title="nuspell::Dict_Base\l::strip_sfx_then_pfx_2">
 <polygon fill="#ffffff" stroke="#000000" points="139,-453.5 139,-483.5 252,-483.5 252,-453.5 139,-453.5"/>
 <text text-anchor="start" x="147" y="-471.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -74,15 +74,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node13 -->
+<!-- Node14&#45;&gt;Node18 -->
 <g id="edge4" class="edge">
-<title>Node9&#45;&gt;Node13</title>
+<title>Node14&#45;&gt;Node18</title>
 <path fill="none" stroke="#191970" d="M62.1325,-333.9855C76.012,-363.4506 102.8608,-412.7842 139,-443.5 143.4135,-447.2512 148.479,-450.5322 153.725,-453.3744"/>
 <polygon fill="#191970" stroke="#191970" points="65.2758,-332.4431 57.928,-324.8102 58.9121,-335.3593 65.2758,-332.4431"/>
 </g>
-<!-- Node14 -->
+<!-- Node19 -->
 <g id="node6" class="node">
-<title>Node14</title>
+<title>Node19</title>
 <g id="a_node6"><a xlink:href="structnuspell_1_1_dict___base.html#a23db26fcaf2e928ca2ab1a3d172dbf22" target="_top" xlink:title="nuspell::Dict_Base\l::strip_pfx_then_sfx\l_comm_2">
 <polygon fill="#ffffff" stroke="#000000" points="144,-393 144,-434 247,-434 247,-393 144,-393"/>
 <text text-anchor="start" x="152" y="-422" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -91,15 +91,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node14 -->
+<!-- Node14&#45;&gt;Node19 -->
 <g id="edge5" class="edge">
-<title>Node9&#45;&gt;Node14</title>
+<title>Node14&#45;&gt;Node19</title>
 <path fill="none" stroke="#191970" d="M74.8795,-331.6688C91.9011,-347.196 115.9215,-367.878 139,-383.5 143.7825,-386.7373 148.9532,-389.8972 154.1572,-392.8777"/>
 <polygon fill="#191970" stroke="#191970" points="76.8421,-328.7172 67.1205,-324.5053 72.0936,-333.8604 76.8421,-328.7172"/>
 </g>
-<!-- Node15 -->
+<!-- Node20 -->
 <g id="node7" class="node">
-<title>Node15</title>
+<title>Node20</title>
 <g id="a_node7"><a xlink:href="structnuspell_1_1_dict___base.html#aea83d61be60a4dfb78adc3dee2ee552d" target="_top" xlink:title="nuspell::Dict_Base\l::strip_sfx_then_sfx_2">
 <polygon fill="#ffffff" stroke="#000000" points="139,-343.5 139,-373.5 252,-373.5 252,-343.5 139,-343.5"/>
 <text text-anchor="start" x="147" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -107,15 +107,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node15 -->
+<!-- Node14&#45;&gt;Node20 -->
 <g id="edge6" class="edge">
-<title>Node9&#45;&gt;Node15</title>
+<title>Node14&#45;&gt;Node20</title>
 <path fill="none" stroke="#191970" d="M105.543,-327.8896C120.5364,-332.9916 136.6395,-338.4711 151.0189,-343.3641"/>
 <polygon fill="#191970" stroke="#191970" points="106.4742,-324.5095 95.8797,-324.6014 104.2192,-331.1363 106.4742,-324.5095"/>
 </g>
-<!-- Node16 -->
+<!-- Node21 -->
 <g id="node8" class="node">
-<title>Node16</title>
+<title>Node21</title>
 <g id="a_node8"><a xlink:href="structnuspell_1_1_dict___base.html#a25cd9d213781ada6da7d3c94adff51b9" target="_top" xlink:title="nuspell::Dict_Base\l::strip_pfx_then_pfx_2">
 <polygon fill="#ffffff" stroke="#000000" points="139,-294.5 139,-324.5 252,-324.5 252,-294.5 139,-294.5"/>
 <text text-anchor="start" x="147" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -123,15 +123,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node16 -->
+<!-- Node14&#45;&gt;Node21 -->
 <g id="edge7" class="edge">
-<title>Node9&#45;&gt;Node16</title>
+<title>Node14&#45;&gt;Node21</title>
 <path fill="none" stroke="#191970" d="M113.3194,-309.5C121.8188,-309.5 130.5113,-309.5 138.9103,-309.5"/>
 <polygon fill="#191970" stroke="#191970" points="113.0806,-306.0001 103.0806,-309.5 113.0805,-313.0001 113.0806,-306.0001"/>
 </g>
-<!-- Node17 -->
+<!-- Node22 -->
 <g id="node9" class="node">
-<title>Node17</title>
+<title>Node22</title>
 <g id="a_node9"><a xlink:href="structnuspell_1_1_dict___base.html#a3ba3432a40201f98ea8c6f16d7d8ded7" target="_top" xlink:title="nuspell::Dict_Base\l::strip_pfx_2_sfx_3">
 <polygon fill="#ffffff" stroke="#000000" points="145.5,-245.5 145.5,-275.5 245.5,-275.5 245.5,-245.5 145.5,-245.5"/>
 <text text-anchor="start" x="153.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -139,15 +139,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node17 -->
+<!-- Node14&#45;&gt;Node22 -->
 <g id="edge8" class="edge">
-<title>Node9&#45;&gt;Node17</title>
+<title>Node14&#45;&gt;Node22</title>
 <path fill="none" stroke="#191970" d="M105.543,-291.1104C120.5364,-286.0084 136.6395,-280.5289 151.0189,-275.6359"/>
 <polygon fill="#191970" stroke="#191970" points="104.2192,-287.8637 95.8797,-294.3986 106.4742,-294.4905 104.2192,-287.8637"/>
 </g>
-<!-- Node18 -->
+<!-- Node23 -->
 <g id="node10" class="node">
-<title>Node18</title>
+<title>Node23</title>
 <g id="a_node10"><a xlink:href="structnuspell_1_1_dict___base.html#a8208f0b51ad2cdb7075371fd971232d7" target="_top" xlink:title="nuspell::Dict_Base\l::strip_s_p_s_3">
 <polygon fill="#ffffff" stroke="#000000" points="146,-196.5 146,-226.5 245,-226.5 245,-196.5 146,-196.5"/>
 <text text-anchor="start" x="154" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -155,15 +155,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node18 -->
+<!-- Node14&#45;&gt;Node23 -->
 <g id="edge9" class="edge">
-<title>Node9&#45;&gt;Node18</title>
+<title>Node14&#45;&gt;Node23</title>
 <path fill="none" stroke="#191970" d="M74.5963,-287.1473C91.4841,-271.6016 115.461,-251.125 139,-236.5 144.7399,-232.9337 151.0765,-229.6087 157.3685,-226.6221"/>
 <polygon fill="#191970" stroke="#191970" points="71.8225,-284.9492 66.9083,-294.3354 76.6033,-290.0623 71.8225,-284.9492"/>
 </g>
-<!-- Node19 -->
+<!-- Node24 -->
 <g id="node11" class="node">
-<title>Node19</title>
+<title>Node24</title>
 <g id="a_node11"><a xlink:href="structnuspell_1_1_dict___base.html#a1bd9338a9b37e2923af0fbe51eb413f8" target="_top" xlink:title="nuspell::Dict_Base\l::strip_2_sfx_pfx_3">
 <polygon fill="#ffffff" stroke="#000000" points="145.5,-147.5 145.5,-177.5 245.5,-177.5 245.5,-147.5 145.5,-147.5"/>
 <text text-anchor="start" x="153.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -171,15 +171,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node19 -->
+<!-- Node14&#45;&gt;Node24 -->
 <g id="edge10" class="edge">
-<title>Node9&#45;&gt;Node19</title>
+<title>Node14&#45;&gt;Node24</title>
 <path fill="none" stroke="#191970" d="M63.7464,-285.2525C78.426,-258.2732 105.3163,-214.8837 139,-187.5 143.5776,-183.7785 148.7963,-180.5022 154.1691,-177.6515"/>
 <polygon fill="#191970" stroke="#191970" points="60.4938,-283.9154 58.9006,-294.3898 66.678,-287.1951 60.4938,-283.9154"/>
 </g>
-<!-- Node20 -->
+<!-- Node25 -->
 <g id="node12" class="node">
-<title>Node20</title>
+<title>Node25</title>
 <g id="a_node12"><a xlink:href="structnuspell_1_1_dict___base.html#a3c09c8d4b3bcc59bd6a7a8668b0e4645" target="_top" xlink:title="nuspell::Dict_Base\l::strip_sfx_2_pfx_3">
 <polygon fill="#ffffff" stroke="#000000" points="145.5,-98.5 145.5,-128.5 245.5,-128.5 245.5,-98.5 145.5,-98.5"/>
 <text text-anchor="start" x="153.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -187,15 +187,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node20 -->
+<!-- Node14&#45;&gt;Node25 -->
 <g id="edge11" class="edge">
-<title>Node9&#45;&gt;Node20</title>
+<title>Node14&#45;&gt;Node25</title>
 <path fill="none" stroke="#191970" d="M58.4821,-284.2659C69.7791,-247.6804 95.3238,-179.7806 139,-138.5 143.0536,-134.6687 147.7917,-131.3624 152.7688,-128.5258"/>
 <polygon fill="#191970" stroke="#191970" points="55.0447,-283.5463 55.5494,-294.1291 61.7544,-285.5414 55.0447,-283.5463"/>
 </g>
-<!-- Node21 -->
+<!-- Node26 -->
 <g id="node13" class="node">
-<title>Node21</title>
+<title>Node26</title>
 <g id="a_node13"><a xlink:href="structnuspell_1_1_dict___base.html#a41fb22d12514615037a5e5b3ebe30270" target="_top" xlink:title="nuspell::Dict_Base\l::strip_p_s_p_3">
 <polygon fill="#ffffff" stroke="#000000" points="146,-49.5 146,-79.5 245,-79.5 245,-49.5 146,-49.5"/>
 <text text-anchor="start" x="154" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -203,15 +203,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node21 -->
+<!-- Node14&#45;&gt;Node26 -->
 <g id="edge12" class="edge">
-<title>Node9&#45;&gt;Node21</title>
+<title>Node14&#45;&gt;Node26</title>
 <path fill="none" stroke="#191970" d="M55.1672,-284.2824C62.9085,-239.545 84.8798,-145.7188 139,-89.5 142.7195,-85.6362 147.1414,-82.3281 151.8495,-79.5059"/>
 <polygon fill="#191970" stroke="#191970" points="51.689,-283.8655 53.5325,-294.2987 58.5976,-284.9931 51.689,-283.8655"/>
 </g>
-<!-- Node22 -->
+<!-- Node27 -->
 <g id="node14" class="node">
-<title>Node22</title>
+<title>Node27</title>
 <g id="a_node14"><a xlink:href="structnuspell_1_1_dict___base.html#a55825d04dc76d3c65d937a4f92b006d8" target="_top" xlink:title="nuspell::Dict_Base\l::strip_2_pfx_sfx_3">
 <polygon fill="#ffffff" stroke="#000000" points="145.5,-.5 145.5,-30.5 245.5,-30.5 245.5,-.5 145.5,-.5"/>
 <text text-anchor="start" x="153.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -219,9 +219,9 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node22 -->
+<!-- Node14&#45;&gt;Node27 -->
 <g id="edge13" class="edge">
-<title>Node9&#45;&gt;Node22</title>
+<title>Node14&#45;&gt;Node27</title>
 <path fill="none" stroke="#191970" d="M53.0019,-284.286C57.3839,-232.3112 74.3272,-112.1373 139,-40.5 142.4501,-36.6783 146.5928,-33.4109 151.047,-30.6242"/>
 <polygon fill="#191970" stroke="#191970" points="49.5087,-284.0643 52.2448,-294.2998 56.4888,-284.5921 49.5087,-284.0643"/>
 </g>

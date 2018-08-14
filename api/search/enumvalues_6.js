@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['init_5fcapital',['INIT_CAPITAL',['../namespacenuspell.html#af5a906dc0779e6824c4a84f6f277d39ea23256ebd48361509e88aa84e96899ed2',1,'nuspell']]]
+  ['help_5fmode',['HELP_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1',1,'HELP_MODE():&#160;main.cxx'],['../regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1',1,'HELP_MODE():&#160;regress.cxx']]]
 ];

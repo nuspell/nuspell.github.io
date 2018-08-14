@@ -2,6 +2,7 @@ var searchData=
 [
   ['main',['main',['../main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cxx'],['../regress_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;regress.cxx']]],
   ['match',['match',['../classnuspell_1_1_condition.html#ace148eee45758990ebd2dc1f484a2ef3',1,'nuspell::Condition']]],
+  ['match_5fany_5frule',['match_any_rule',['../classnuspell_1_1_compound___rule___table.html#a2e604341ef4c6b408ac367d30265575d',1,'nuspell::Compound_Rule_Table']]],
   ['match_5fcompound_5fpattern',['match_compound_pattern',['../namespacenuspell.html#a4619a7ee13ec84fb4c3a717925edbdef',1,'nuspell']]],
   ['match_5fcompund_5frule',['match_compund_rule',['../namespacenuspell.html#aa400607867aa8ca4eb115542a84b7004',1,'nuspell']]],
   ['match_5fprefix',['match_prefix',['../classnuspell_1_1_condition.html#a4e58b08d9e8ac4c3a7a45701ad93b5e9',1,'nuspell::Condition']]],

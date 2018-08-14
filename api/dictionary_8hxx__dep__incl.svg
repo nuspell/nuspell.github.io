@@ -9,54 +9,54 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 80)">
 <title>src/nuspell/dictionary.hxx</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-80 394,-80 394,4 -4,4"/>
-<!-- Node23 -->
+<!-- Node21 -->
 <g id="node1" class="node">
-<title>Node23</title>
+<title>Node21</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="136,-56.5 136,-75.5 264,-75.5 264,-56.5 136,-56.5"/>
 <text text-anchor="middle" x="200" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/nuspell/dictionary.hxx</text>
 </g>
-<!-- Node24 -->
+<!-- Node22 -->
 <g id="node2" class="node">
-<title>Node24</title>
+<title>Node22</title>
 <g id="a_node2"><a xlink:href="dictionary_8cxx.html" target="_top" xlink:title="Dictionary spelling. ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 128,-19.5 128,-.5 0,-.5"/>
 <text text-anchor="middle" x="64" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/nuspell/dictionary.cxx</text>
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
+<!-- Node21&#45;&gt;Node22 -->
 <g id="edge1" class="edge">
-<title>Node23&#45;&gt;Node24</title>
+<title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="#191970" d="M167.2601,-52.5189C142.4917,-42.3201 109.095,-28.5685 87.0742,-19.5011"/>
 <polygon fill="#191970" stroke="#191970" points="166.0413,-55.8021 176.6208,-56.3733 168.7066,-49.3293 166.0413,-55.8021"/>
 </g>
-<!-- Node25 -->
+<!-- Node23 -->
 <g id="node3" class="node">
-<title>Node25</title>
+<title>Node23</title>
 <g id="a_node3"><a xlink:href="main_8cxx.html" target="_top" xlink:title="Command line spell checking. ">
 <polygon fill="#ffffff" stroke="#000000" points="146.5,-.5 146.5,-19.5 253.5,-19.5 253.5,-.5 146.5,-.5"/>
 <text text-anchor="middle" x="200" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/nuspell/main.cxx</text>
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node25 -->
+<!-- Node21&#45;&gt;Node23 -->
 <g id="edge2" class="edge">
-<title>Node23&#45;&gt;Node25</title>
+<title>Node21&#45;&gt;Node23</title>
 <path fill="none" stroke="#191970" d="M200,-46.1575C200,-37.155 200,-26.9199 200,-19.6427"/>
 <polygon fill="#191970" stroke="#191970" points="196.5001,-46.2455 200,-56.2455 203.5001,-46.2456 196.5001,-46.2455"/>
 </g>
-<!-- Node26 -->
+<!-- Node24 -->
 <g id="node4" class="node">
-<title>Node26</title>
+<title>Node24</title>
 <g id="a_node4"><a xlink:href="regress_8cxx.html" target="_top" xlink:title="Command line spell check regression testing. ">
 <polygon fill="#ffffff" stroke="#000000" points="272,-.5 272,-19.5 390,-19.5 390,-.5 272,-.5"/>
 <text text-anchor="middle" x="331" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/nuspell/regress.cxx</text>
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node26 -->
+<!-- Node21&#45;&gt;Node24 -->
 <g id="edge3" class="edge">
-<title>Node23&#45;&gt;Node26</title>
+<title>Node21&#45;&gt;Node24</title>
 <path fill="none" stroke="#191970" d="M231.8534,-52.3833C255.6785,-42.1985 287.6568,-28.5284 308.7742,-19.5011"/>
 <polygon fill="#191970" stroke="#191970" points="230.339,-49.2242 222.5197,-56.3733 233.0906,-55.6608 230.339,-49.2242"/>
 </g>

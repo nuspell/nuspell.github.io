@@ -7,7 +7,7 @@ var searchData=
   ['set_5fencoding_5fand_5flanguage',['set_encoding_and_language',['../structnuspell_1_1_aff___data.html#a6743ff25292b6edc4c3408e966ce4899',1,'nuspell::Aff_Data']]],
   ['size',['size',['../classnuspell_1_1_string___set.html#add6cff610d86d1a5dd3553f1e864a48d',1,'nuspell::String_Set::size()'],['../classnuspell_1_1_hash___multiset.html#ae3135242e25f741eb280e1a42c6a0d33',1,'nuspell::Hash_Multiset::size()']]],
   ['sort_5funiq',['sort_uniq',['../classnuspell_1_1_string___set.html#a74f43aeb2697f0566de81567c6e94e11',1,'nuspell::String_Set::sort_uniq()'],['../classnuspell_1_1_substr___replacer.html#a2ae80a424d15194af3e75150ae7962f9',1,'nuspell::Substr_Replacer::sort_uniq()']]],
-  ['spell',['spell',['../structnuspell_1_1_basic___dictionary.html#adcab662ddd7786cfa72f4ba7fedb043e',1,'nuspell::Basic_Dictionary::spell(const std::string &amp;word) const -&gt; bool'],['../structnuspell_1_1_basic___dictionary.html#a8c4cb5fed60cd1310493828b29712bd8',1,'nuspell::Basic_Dictionary::spell(const std::string &amp;word) const -&gt; bool']]],
+  ['spell',['spell',['../classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509',1,'nuspell::Basic_Dictionary']]],
   ['spell_5fbreak',['spell_break',['../structnuspell_1_1_dict___base.html#ac184ce03922e9024b0f75222ee338034',1,'nuspell::Dict_Base']]],
   ['spell_5fcasing',['spell_casing',['../structnuspell_1_1_dict___base.html#ac0c107fd8295bb7395ff95e23d37fbe2',1,'nuspell::Dict_Base']]],
   ['spell_5fcasing_5ftitle',['spell_casing_title',['../structnuspell_1_1_dict___base.html#a3bb9fd87f9840e70632e86f551a47f7b',1,'nuspell::Dict_Base']]],

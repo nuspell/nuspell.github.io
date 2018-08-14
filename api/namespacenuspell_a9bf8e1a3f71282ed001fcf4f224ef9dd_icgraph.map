@@ -1,8 +1,12 @@
 <map id="nuspell::to_narrow" name="nuspell::to_narrow">
-<area shape="rect" id="node2" href="$namespacenuspell.html#a4bbcd07d775ff9e19d67c9c68167dbf2" title="nuspell::to_narrow" alt="" coords="195,5,323,32"/>
-<area shape="rect" id="node3" href="$classnuspell_1_1_locale___input.html#a4f4dc80f71f17035aa9841f1214250c6" title="nuspell::Locale_Input\l::cvt_for_byte_dict" alt="" coords="186,57,331,98"/>
-<area shape="rect" id="node5" href="$structnuspell_1_1_unicode___input.html#a33ac5d111c70b0b9fa7e72496334e6f7" title="nuspell::Unicode_Input\l::cvt_for_byte_dict" alt="" coords="181,122,336,163"/>
-<area shape="rect" id="node6" href="$regress_8cxx.html#adaa095873c4ebfe8c954f43bc50f7b76" title="normal_loop" alt="" coords="213,188,305,215"/>
-<area shape="rect" id="node4" href="$classnuspell_1_1_locale___input.html#a143148b61a905f5e2c9d1803aa44b4c5" title="nuspell::Locale_Input\l::cvt_for_byte_dict" alt="" coords="384,57,529,98"/>
-<area shape="rect" id="node7" href="$regress_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="431,188,482,215"/>
+<area shape="rect" id="node2" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="181,105,352,146"/>
+<area shape="rect" id="node9" href="$namespacenuspell.html#a4bbcd07d775ff9e19d67c9c68167dbf2" title="nuspell::to_narrow" alt="" coords="203,176,331,203"/>
+<area shape="rect" id="node10" href="$regress_8cxx.html#adaa095873c4ebfe8c954f43bc50f7b76" title="normal_loop" alt="" coords="221,237,313,264"/>
+<area shape="rect" id="node3" href="$main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5" title="Normal loop, tokenize and check spelling. " alt="" coords="429,5,521,32"/>
+<area shape="rect" id="node5" href="$main_8cxx.html#aebf1b2aa274390a39317fbbca50d9d5e" title="Prints misspelled words from an input stream to an output stream. " alt="" coords="400,56,551,83"/>
+<area shape="rect" id="node6" href="$main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff" title="correct_word_loop" alt="" coords="411,107,539,133"/>
+<area shape="rect" id="node7" href="$main_8cxx.html#a1f92dedeeb68a1a7bc2b720097d3b7a4" title="misspelled_line_loop" alt="" coords="404,157,547,184"/>
+<area shape="rect" id="node8" href="$main_8cxx.html#a16580c4100b461806a9c49575bdd5428" title="correct_line_loop" alt="" coords="415,208,535,235"/>
+<area shape="rect" id="node4" href="$main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="599,107,649,133"/>
+<area shape="rect" id="node11" href="$regress_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="450,259,501,285"/>
 </map>

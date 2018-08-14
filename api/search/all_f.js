@@ -13,5 +13,6 @@ var searchData=
   ['replacements',['replacements',['../structnuspell_1_1_aff___data.html#ad1e10b7f0d5a1cf196bc4944b2eb254c',1,'nuspell::Aff_Data']]],
   ['reserve',['reserve',['../classnuspell_1_1_hash___multiset.html#ab0cd523aa88f693b6e90ae55659ca0ed',1,'nuspell::Hash_Multiset']]],
   ['reset_5ffailbit_5fistream',['reset_failbit_istream',['../namespacenuspell.html#aca16d8679d9abbf9c15f5a5cb2916649',1,'nuspell']]],
-  ['reverse_5fiterator',['reverse_iterator',['../classnuspell_1_1_string___set.html#ab1d5c568219c3826446a098d020ef137',1,'nuspell::String_Set']]]
+  ['reverse_5fiterator',['reverse_iterator',['../classnuspell_1_1_string___set.html#ab1d5c568219c3826446a098d020ef137',1,'nuspell::String_Set']]],
+  ['rules',['rules',['../classnuspell_1_1_compound___rule___table.html#a4c0d840645f58704804b356daf453363',1,'nuspell::Compound_Rule_Table']]]
 ];

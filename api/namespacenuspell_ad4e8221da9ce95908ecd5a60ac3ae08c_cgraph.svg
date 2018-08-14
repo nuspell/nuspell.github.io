@@ -9,15 +9,15 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>nuspell::wide_to_utf8</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-35 239,-35 239,4 -4,4"/>
-<!-- Node413 -->
+<!-- Node436 -->
 <g id="node1" class="node">
-<title>Node413</title>
+<title>Node436</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-6 0,-25 109,-25 109,-6 0,-6"/>
 <text text-anchor="middle" x="54.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::wide_to_utf8</text>
 </g>
-<!-- Node414 -->
+<!-- Node437 -->
 <g id="node2" class="node">
-<title>Node414</title>
+<title>Node437</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#ade7ffffeb6a7e872e46bb96f4b1e4eea" target="_top" xlink:title="nuspell::valid_utf\l_to_utf">
 <polygon fill="#ffffff" stroke="#000000" points="145,-.5 145,-30.5 235,-30.5 235,-.5 145,-.5"/>
 <text text-anchor="start" x="153" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::valid_utf</text>
@@ -25,9 +25,9 @@
 </a>
 </g>
 </g>
-<!-- Node413&#45;&gt;Node414 -->
+<!-- Node436&#45;&gt;Node437 -->
 <g id="edge1" class="edge">
-<title>Node413&#45;&gt;Node414</title>
+<title>Node436&#45;&gt;Node437</title>
 <path fill="none" stroke="#191970" d="M109.2225,-15.5C117.5774,-15.5 126.207,-15.5 134.5768,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="134.6214,-19.0001 144.6214,-15.5 134.6214,-12.0001 134.6214,-19.0001"/>
 </g>

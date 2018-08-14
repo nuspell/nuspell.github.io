@@ -1,7 +1,7 @@
 <map id="src/nuspell/aff_data.cxx" name="src/nuspell/aff_data.cxx">
-<area shape="rect" id="node2" href="$aff__data_8hxx.html" title="Affixing data structures. " alt="" coords="776,87,871,114"/>
-<area shape="rect" id="node8" href="$locale__utils_8hxx.html" title="Encoding transformations. " alt="" coords="237,169,349,196"/>
-<area shape="rect" id="node23" href="$string__utils_8hxx.html" title="String algorithms. " alt="" coords="480,169,591,196"/>
-<area shape="rect" id="node12" href="$structures_8hxx.html" title="Data structures. " alt="" coords="905,169,1011,196"/>
-<area shape="rect" id="node13" href="$condition_8hxx.html" title="Condition matching. " alt="" coords="1703,251,1802,278"/>
+<area shape="rect" id="node2" href="$aff__data_8hxx.html" title="Affixing data structures. " alt="" coords="930,87,1024,114"/>
+<area shape="rect" id="node8" href="$locale__utils_8hxx.html" title="Encoding transformations. " alt="" coords="1541,169,1653,196"/>
+<area shape="rect" id="node21" href="$string__utils_8hxx.html" title="String algorithms. " alt="" coords="1376,169,1487,196"/>
+<area shape="rect" id="node10" href="$structures_8hxx.html" title="Data structures. " alt="" coords="843,169,948,196"/>
+<area shape="rect" id="node11" href="$condition_8hxx.html" title="Condition matching. " alt="" coords="744,251,842,278"/>
 </map>

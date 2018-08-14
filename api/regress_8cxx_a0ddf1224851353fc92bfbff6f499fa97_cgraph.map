@@ -1,12 +1,13 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$namespacenuspell.html#aae159e86a8a1edad724249d330d985b1" title="nuspell::install_ctype\l_facets_inplace" alt="" coords="117,5,261,47"/>
-<area shape="rect" id="node3" href="$regress_8cxx.html#af8c650bca476b3f8959df7215c4c134f" title="Prints help information. " alt="" coords="149,71,228,98"/>
-<area shape="rect" id="node4" href="$regress_8cxx.html#a6150c93934b2505d7e4521b40fa8d571" title="Prints the version number to standard output. " alt="" coords="141,122,237,149"/>
-<area shape="rect" id="node5" href="$namespacenuspell.html#a2def7204c1e34b676467a79a7272db63" title="nuspell::get_locale_name" alt="" coords="104,173,273,199"/>
-<area shape="rect" id="node6" href="$regress_8cxx.html#adaa095873c4ebfe8c954f43bc50f7b76" title="normal_loop" alt="" coords="143,223,235,250"/>
-<area shape="rect" id="node7" href="$regress_8cxx.html#a56237bb115471532c16e426e29e420bb" title="rdtsc" alt="" coords="381,106,432,133"/>
-<area shape="rect" id="node8" href="$structnuspell_1_1_basic___dictionary.html#adcab662ddd7786cfa72f4ba7fedb043e" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="321,157,492,199"/>
-<area shape="rect" id="node9" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="343,223,471,250"/>
-<area shape="rect" id="node10" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="349,274,465,301"/>
-<area shape="rect" id="node11" href="$namespacestd.html#abb75a3efd092cccd0bcbfdf1c503d145" title="std::operator\&lt;\&lt;" alt="" coords="351,325,462,351"/>
+<area shape="rect" id="node2" href="$namespacenuspell.html#aae159e86a8a1edad724249d330d985b1" title="nuspell::install_ctype\l_facets_inplace" alt="" coords="104,5,248,47"/>
+<area shape="rect" id="node3" href="$regress_8cxx.html#af8c650bca476b3f8959df7215c4c134f" title="Prints help information. " alt="" coords="137,71,215,98"/>
+<area shape="rect" id="node4" href="$regress_8cxx.html#a6150c93934b2505d7e4521b40fa8d571" title="Prints the version number to standard output. " alt="" coords="128,122,224,149"/>
+<area shape="rect" id="node5" href="$regress_8cxx.html#adaa095873c4ebfe8c954f43bc50f7b76" title="normal_loop" alt="" coords="130,173,222,199"/>
+<area shape="rect" id="node6" href="$regress_8cxx.html#a56237bb115471532c16e426e29e420bb" title="rdtsc" alt="" coords="356,63,407,90"/>
+<area shape="rect" id="node7" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="296,165,467,207"/>
+<area shape="rect" id="node10" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="529,118,645,145"/>
+<area shape="rect" id="node11" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="523,227,651,254"/>
+<area shape="rect" id="node12" href="$namespacestd.html#abb75a3efd092cccd0bcbfdf1c503d145" title="std::operator\&lt;\&lt;" alt="" coords="326,282,437,309"/>
+<area shape="rect" id="node8" href="$namespacenuspell.html#a79258aeb32a39ce719a014950b33e5d6" title="nuspell::utf8_to_wide" alt="" coords="515,173,660,199"/>
+<area shape="rect" id="node9" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="708,173,859,199"/>
 </map>

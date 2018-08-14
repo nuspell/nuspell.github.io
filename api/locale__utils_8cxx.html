@@ -78,6 +78,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="locale__utils_8hxx_source.html">locale_utils.hxx</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
+<code>#include &lt;boost/algorithm/string/case_conv.hpp&gt;</code><br />
 <code>#include &lt;boost/locale.hpp&gt;</code><br />
 <code>#include &lt;unicode/uchar.h&gt;</code><br />
 <code>#include &lt;unicode/ucnv.h&gt;</code><br />
@@ -85,7 +86,7 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for locale_utils.cxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="locale__utils_8cxx__incl.svg" width="952" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="locale__utils_8cxx__incl.svg" width="1036" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -170,14 +171,24 @@ Functions</h2></td></tr>
 <tr class="separator:aa1a18c73ec1b1b7e4c7ca7d3bb493989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae159e86a8a1edad724249d330d985b1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aae159e86a8a1edad724249d330d985b1">nuspell::install_ctype_facets_inplace</a> (std::locale &amp;boost_loc) -&gt; void</td></tr>
 <tr class="separator:aae159e86a8a1edad724249d330d985b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
-<tr class="memitem:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a2f97cd2d3496c6c8ae75229ba3190ed1">nuspell::classify_casing</a> (const std::basic_string&lt; CharT &gt; &amp;s, const std::locale &amp;loc=std::locale()) -&gt; Casing</td></tr>
-<tr class="memdesc:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines casing (capitalization) type for a word.  <a href="namespacenuspell.html#a2f97cd2d3496c6c8ae75229ba3190ed1">More...</a><br /></td></tr>
-<tr class="separator:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5364a3c886ab9d44ea37a075c05c6de4"><td class="memItemLeft" align="right" valign="top">template auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a5364a3c886ab9d44ea37a075c05c6de4">nuspell::classify_casing</a> (const std::string &amp;, const std::locale &amp;) -&gt; Casing</td></tr>
-<tr class="separator:a5364a3c886ab9d44ea37a075c05c6de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29cb298919bcaf17d4e6a235ecf92865"><td class="memItemLeft" align="right" valign="top">template auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a29cb298919bcaf17d4e6a235ecf92865">nuspell::classify_casing</a> (const std::wstring &amp;, const std::locale &amp;) -&gt; Casing</td></tr>
-<tr class="separator:a29cb298919bcaf17d4e6a235ecf92865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada8c46770a2fbf918ed2b75b3b14517d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ada8c46770a2fbf918ed2b75b3b14517d">nuspell::analyze_encodings</a> (const locale &amp;external, const locale &amp;internal) -&gt; Encoding_Details</td></tr>
+<tr class="separator:ada8c46770a2fbf918ed2b75b3b14517d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74cb2ed7b54c047e578ace45d2c17012"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a74cb2ed7b54c047e578ace45d2c17012"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a74cb2ed7b54c047e578ace45d2c17012">nuspell::classify_casing</a> (const std::basic_string&lt; CharT &gt; &amp;s, const std::locale &amp;loc) -&gt; Casing</td></tr>
+<tr class="memdesc:a74cb2ed7b54c047e578ace45d2c17012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines casing (capitalization) type for a word.  <a href="namespacenuspell.html#a74cb2ed7b54c047e578ace45d2c17012">More...</a><br /></td></tr>
+<tr class="separator:a74cb2ed7b54c047e578ace45d2c17012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a7841ea6aba0214184edc95fb979a7"><td class="memItemLeft" align="right" valign="top">template auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a96a7841ea6aba0214184edc95fb979a7">nuspell::classify_casing</a> (const string &amp;, const locale &amp;) -&gt; Casing</td></tr>
+<tr class="separator:a96a7841ea6aba0214184edc95fb979a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d1646a7f6c1293ed86a16297cf213a"><td class="memItemLeft" align="right" valign="top">template auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a17d1646a7f6c1293ed86a16297cf213a">nuspell::classify_casing</a> (const wstring &amp;, const locale &amp;) -&gt; Casing</td></tr>
+<tr class="separator:a17d1646a7f6c1293ed86a16297cf213a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a7de1842aa6e1dbd9f8cf0b8418e145b9">nuspell::has_uppercase_at_compound_word_boundary</a> (const std::basic_string&lt; CharT &gt; &amp;word, size_t i, const std::locale &amp;loc) -&gt; bool</td></tr>
+<tr class="memdesc:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if word[i] or word[i-1] are uppercase.  <a href="namespacenuspell.html#a7de1842aa6e1dbd9f8cf0b8418e145b9">More...</a><br /></td></tr>
+<tr class="separator:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ded17e8e771b901ce0454aaff93db5"><td class="memItemLeft" align="right" valign="top">template auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a92ded17e8e771b901ce0454aaff93db5">nuspell::has_uppercase_at_compound_word_boundary</a> (const string &amp;, size_t, const locale &amp;) -&gt; bool</td></tr>
+<tr class="separator:a92ded17e8e771b901ce0454aaff93db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af022ff62c951ffdd879de1956cea9295"><td class="memItemLeft" align="right" valign="top">template auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#af022ff62c951ffdd879de1956cea9295">nuspell::has_uppercase_at_compound_word_boundary</a> (const wstring &amp;, size_t, const locale &amp;) -&gt; bool</td></tr>
+<tr class="separator:af022ff62c951ffdd879de1956cea9295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Encoding transformations. </p>

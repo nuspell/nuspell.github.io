@@ -9,91 +9,91 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 187.5)">
 <title>nuspell::decode_flags_possible_alias</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-187.5 563,-187.5 563,4 -4,4"/>
-<!-- Node42 -->
+<!-- Node47 -->
 <g id="node1" class="node">
-<title>Node42</title>
+<title>Node47</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-82.5 0,-112.5 111,-112.5 111,-82.5 0,-82.5"/>
 <text text-anchor="start" x="8" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::decode_flags</text>
 <text text-anchor="middle" x="55.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_possible_alias</text>
 </g>
-<!-- Node43 -->
+<!-- Node48 -->
 <g id="node2" class="node">
-<title>Node43</title>
+<title>Node48</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#adbb8e053a44129d0f51014facd48b7f9" target="_top" xlink:title="Decodes flags. ">
 <polygon fill="#ffffff" stroke="#000000" points="147,-88 147,-107 258,-107 258,-88 147,-88"/>
 <text text-anchor="middle" x="202.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::decode_flags</text>
 </a>
 </g>
 </g>
-<!-- Node42&#45;&gt;Node43 -->
+<!-- Node47&#45;&gt;Node48 -->
 <g id="edge1" class="edge">
-<title>Node42&#45;&gt;Node43</title>
+<title>Node47&#45;&gt;Node48</title>
 <path fill="none" stroke="#191970" d="M111.0744,-97.5C119.4894,-97.5 128.2383,-97.5 136.8421,-97.5"/>
 <polygon fill="#191970" stroke="#191970" points="136.8471,-101.0001 146.847,-97.5 136.847,-94.0001 136.8471,-101.0001"/>
 </g>
-<!-- Node44 -->
+<!-- Node49 -->
 <g id="node3" class="node">
-<title>Node44</title>
+<title>Node49</title>
 <g id="a_node3"><a xlink:href="namespacenuspell.html#aa37c89934a500dfd75dbb3cc18321834" target="_top" xlink:title="nuspell::is_all_ascii">
 <polygon fill="#ffffff" stroke="#000000" points="301.5,-164 301.5,-183 402.5,-183 402.5,-164 301.5,-164"/>
 <text text-anchor="middle" x="352" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::is_all_ascii</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node44 -->
+<!-- Node48&#45;&gt;Node49 -->
 <g id="edge2" class="edge">
-<title>Node43&#45;&gt;Node44</title>
+<title>Node48&#45;&gt;Node49</title>
 <path fill="none" stroke="#191970" d="M215.5673,-107.0573C232.8264,-119.341 264.493,-140.7222 294,-154.5 298.6804,-156.6855 303.6816,-158.7276 308.7115,-160.6017"/>
 <polygon fill="#191970" stroke="#191970" points="307.7484,-163.9731 318.3432,-163.9921 310.0727,-157.3702 307.7484,-163.9731"/>
 </g>
-<!-- Node46 -->
+<!-- Node51 -->
 <g id="node5" class="node">
-<title>Node46</title>
+<title>Node51</title>
 <g id="a_node5"><a xlink:href="namespacenuspell.html#a7fc6228909d26abd20009c4fb388dc81" target="_top" xlink:title="nuspell::latin1_to_ucs2">
 <polygon fill="#ffffff" stroke="#000000" points="294,-126 294,-145 410,-145 410,-126 294,-126"/>
 <text text-anchor="middle" x="352" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::latin1_to_ucs2</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node46 -->
+<!-- Node48&#45;&gt;Node51 -->
 <g id="edge4" class="edge">
-<title>Node43&#45;&gt;Node46</title>
+<title>Node48&#45;&gt;Node51</title>
 <path fill="none" stroke="#191970" d="M240.2252,-107.089C259.7756,-112.0583 283.8466,-118.1767 304.6374,-123.4613"/>
 <polygon fill="#191970" stroke="#191970" points="303.9921,-126.9085 314.5461,-125.9799 305.7165,-120.1243 303.9921,-126.9085"/>
 </g>
-<!-- Node47 -->
+<!-- Node52 -->
 <g id="node6" class="node">
-<title>Node47</title>
+<title>Node52</title>
 <g id="a_node6"><a xlink:href="namespacenuspell.html#aff86f9ecb346e78687e56dab66a77469" target="_top" xlink:title="nuspell::utf8_to_32">
 <polygon fill="#ffffff" stroke="#000000" points="302.5,-88 302.5,-107 401.5,-107 401.5,-88 302.5,-88"/>
 <text text-anchor="middle" x="352" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::utf8_to_32</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node47 -->
+<!-- Node48&#45;&gt;Node52 -->
 <g id="edge5" class="edge">
-<title>Node43&#45;&gt;Node47</title>
+<title>Node48&#45;&gt;Node52</title>
 <path fill="none" stroke="#191970" d="M258.1683,-97.5C269.2278,-97.5 280.8845,-97.5 292.0789,-97.5"/>
 <polygon fill="#191970" stroke="#191970" points="292.1992,-101.0001 302.1992,-97.5 292.1992,-94.0001 292.1992,-101.0001"/>
 </g>
-<!-- Node49 -->
+<!-- Node54 -->
 <g id="node8" class="node">
-<title>Node49</title>
+<title>Node54</title>
 <g id="a_node8"><a xlink:href="namespacenuspell.html#acc7be34831c982c0065b2929a9b14f2b" target="_top" xlink:title="nuspell::is_all_bmp">
 <polygon fill="#ffffff" stroke="#000000" points="302,-50 302,-69 402,-69 402,-50 302,-50"/>
 <text text-anchor="middle" x="352" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::is_all_bmp</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node49 -->
+<!-- Node48&#45;&gt;Node54 -->
 <g id="edge7" class="edge">
-<title>Node43&#45;&gt;Node49</title>
+<title>Node48&#45;&gt;Node54</title>
 <path fill="none" stroke="#191970" d="M240.2252,-87.911C259.7756,-82.9417 283.8466,-76.8233 304.6374,-71.5387"/>
 <polygon fill="#191970" stroke="#191970" points="305.7165,-74.8757 314.5461,-69.0201 303.9921,-68.0915 305.7165,-74.8757"/>
 </g>
-<!-- Node51 -->
+<!-- Node56 -->
 <g id="node10" class="node">
-<title>Node51</title>
+<title>Node56</title>
 <g id="a_node10"><a xlink:href="namespacenuspell.html#aac45dd40db821861bbd1ee9c2fc40a5e" target="_top" xlink:title="nuspell::u32_to_ucs2\l_skip_non_bmp">
 <polygon fill="#ffffff" stroke="#000000" points="297.5,-.5 297.5,-30.5 406.5,-30.5 406.5,-.5 297.5,-.5"/>
 <text text-anchor="start" x="305.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::u32_to_ucs2</text>
@@ -101,54 +101,54 @@
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node51 -->
+<!-- Node48&#45;&gt;Node56 -->
 <g id="edge9" class="edge">
-<title>Node43&#45;&gt;Node51</title>
+<title>Node48&#45;&gt;Node56</title>
 <path fill="none" stroke="#191970" d="M216.3766,-87.9368C233.9775,-76.0243 265.4774,-55.4235 294,-40.5 297.7162,-38.5556 301.6167,-36.6342 305.5635,-34.7722"/>
 <polygon fill="#191970" stroke="#191970" points="307.1527,-37.8941 314.7917,-30.5527 304.2419,-31.528 307.1527,-37.8941"/>
 </g>
-<!-- Node45 -->
+<!-- Node50 -->
 <g id="node4" class="node">
-<title>Node45</title>
+<title>Node50</title>
 <g id="a_node4"><a xlink:href="namespacenuspell.html#a165544e1cd96cd0635c078d21ff32ff4" target="_top" xlink:title="nuspell::is_ascii">
 <polygon fill="#ffffff" stroke="#000000" points="459.5,-164 459.5,-183 545.5,-183 545.5,-164 459.5,-164"/>
 <text text-anchor="middle" x="502.5" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::is_ascii</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node45 -->
+<!-- Node49&#45;&gt;Node50 -->
 <g id="edge3" class="edge">
-<title>Node44&#45;&gt;Node45</title>
+<title>Node49&#45;&gt;Node50</title>
 <path fill="none" stroke="#191970" d="M402.533,-173.5C417.5197,-173.5 433.9778,-173.5 449.1377,-173.5"/>
 <polygon fill="#191970" stroke="#191970" points="449.3917,-177.0001 459.3916,-173.5 449.3916,-170.0001 449.3917,-177.0001"/>
 </g>
-<!-- Node48 -->
+<!-- Node53 -->
 <g id="node7" class="node">
-<title>Node48</title>
+<title>Node53</title>
 <g id="a_node7"><a xlink:href="namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" target="_top" xlink:title="nuspell::utf_to_utf_my">
 <polygon fill="#ffffff" stroke="#000000" points="446,-88 446,-107 559,-107 559,-88 446,-88"/>
 <text text-anchor="middle" x="502.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::utf_to_utf_my</text>
 </a>
 </g>
 </g>
-<!-- Node47&#45;&gt;Node48 -->
+<!-- Node52&#45;&gt;Node53 -->
 <g id="edge6" class="edge">
-<title>Node47&#45;&gt;Node48</title>
+<title>Node52&#45;&gt;Node53</title>
 <path fill="none" stroke="#191970" d="M401.6964,-97.5C412.5126,-97.5 424.1281,-97.5 435.4899,-97.5"/>
 <polygon fill="#191970" stroke="#191970" points="435.8228,-101.0001 445.8227,-97.5 435.8227,-94.0001 435.8228,-101.0001"/>
 </g>
-<!-- Node50 -->
+<!-- Node55 -->
 <g id="node9" class="node">
-<title>Node50</title>
+<title>Node55</title>
 <g id="a_node9"><a xlink:href="namespacenuspell.html#a8ed3c64b945233d09aee1622100ce1db" target="_top" xlink:title="nuspell::is_bmp">
 <polygon fill="#ffffff" stroke="#000000" points="460,-50 460,-69 545,-69 545,-50 460,-50"/>
 <text text-anchor="middle" x="502.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::is_bmp</text>
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node50 -->
+<!-- Node54&#45;&gt;Node55 -->
 <g id="edge8" class="edge">
-<title>Node49&#45;&gt;Node50</title>
+<title>Node54&#45;&gt;Node55</title>
 <path fill="none" stroke="#191970" d="M402.1143,-59.5C417.2601,-59.5 433.9407,-59.5 449.2815,-59.5"/>
 <polygon fill="#191970" stroke="#191970" points="449.6528,-63.0001 459.6528,-59.5 449.6527,-56.0001 449.6528,-63.0001"/>
 </g>

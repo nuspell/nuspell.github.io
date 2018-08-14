@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_5fmode',['VERSION_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a715591779e86d61f12d48339469383c9',1,'VERSION_MODE():&#160;main.cxx'],['../regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a715591779e86d61f12d48339469383c9',1,'VERSION_MODE():&#160;regress.cxx']]]
+  ['utf8',['UTF8',['../classnuspell_1_1_encoding.html#a62401176e38238f1019a05c7b5a0af53a81500daa4c5e34d4cedff2f25dedb955',1,'nuspell::Encoding']]]
 ];

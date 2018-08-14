@@ -1,0 +1,6 @@
+<map id="nuspell::Condition::Condition" name="nuspell::Condition::Condition">
+<area shape="rect" id="node2" href="$classnuspell_1_1_condition.html#a998b312d5d638cfcda9c96bc699d68e2" title="nuspell::Condition\l::construct" alt="" coords="180,5,307,47"/>
+<area shape="rect" id="node3" href="$classnuspell_1_1_condition.html#ace148eee45758990ebd2dc1f484a2ef3" title="Checks if provided string matched the condition. " alt="" coords="180,71,307,112"/>
+<area shape="rect" id="node4" href="$classnuspell_1_1_condition.html#a4e58b08d9e8ac4c3a7a45701ad93b5e9" title="nuspell::Condition\l::match_prefix" alt="" coords="180,136,307,177"/>
+<area shape="rect" id="node5" href="$classnuspell_1_1_condition.html#abf7a7167c9bd5b62f50bd73a14efefcb" title="nuspell::Condition\l::match_suffix" alt="" coords="180,201,307,243"/>
+</map>

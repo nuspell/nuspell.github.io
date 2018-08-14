@@ -4,6 +4,7 @@ var searchData=
   ['main_2ecxx',['main.cxx',['../main_8cxx.html',1,'']]],
   ['map_5frelated_5fchars',['map_related_chars',['../structnuspell_1_1_aff___data.html#a19aaf8b5520fd1d9a0265fb8a155414f',1,'nuspell::Aff_Data']]],
   ['match',['match',['../classnuspell_1_1_condition.html#ace148eee45758990ebd2dc1f484a2ef3',1,'nuspell::Condition']]],
+  ['match_5fany_5frule',['match_any_rule',['../classnuspell_1_1_compound___rule___table.html#a2e604341ef4c6b408ac367d30265575d',1,'nuspell::Compound_Rule_Table']]],
   ['match_5fcompound_5fpattern',['match_compound_pattern',['../namespacenuspell.html#a4619a7ee13ec84fb4c3a717925edbdef',1,'nuspell']]],
   ['match_5fcompund_5frule',['match_compund_rule',['../namespacenuspell.html#aa400607867aa8ca4eb115542a84b7004',1,'nuspell']]],
   ['match_5ffirst_5fonly_5funaffixed_5for_5fzero_5faffixed',['match_first_only_unaffixed_or_zero_affixed',['../structnuspell_1_1_compound___pattern.html#a9bf354c317e0337c6a37300f788ef6a1',1,'nuspell::Compound_Pattern']]],

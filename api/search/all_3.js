@@ -11,7 +11,7 @@ var searchData=
   ['dict_5fbase',['Dict_Base',['../structnuspell_1_1_dict___base.html',1,'nuspell::Dict_Base'],['../structnuspell_1_1_dict___base.html#a63f371de48eacb0357200b631bedf84c',1,'nuspell::Dict_Base::Dict_Base()']]],
   ['dict_5flist',['Dict_List',['../classnuspell_1_1_finder.html#a8fd2a11e159d782c3d19ed61e07604f1',1,'nuspell::Finder']]],
   ['dictionaries',['dictionaries',['../classnuspell_1_1_finder.html#abeefa3eeec2917b7deedc4d3f76f663f',1,'nuspell::Finder']]],
-  ['dictionary',['dictionary',['../struct_args__t.html#af2728458b0c4a4950f3d39f33554a9ed',1,'Args_t::dictionary()'],['../namespacenuspell.html#a74f8e8267f0e65a2eab270bb094c5391',1,'nuspell::Dictionary()']]],
+  ['dictionary',['dictionary',['../struct_args__t.html#af2728458b0c4a4950f3d39f33554a9ed',1,'Args_t::dictionary()'],['../namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb',1,'nuspell::Dictionary()']]],
   ['dictionary_2ecxx',['dictionary.cxx',['../dictionary_8cxx.html',1,'']]],
   ['dictionary_2ehxx',['dictionary.hxx',['../dictionary_8hxx.html',1,'']]],
   ['difference_5ftype',['difference_type',['../classnuspell_1_1_string___set.html#afcb0c748fefaa692932baa883c02051e',1,'nuspell::String_Set::difference_type()'],['../classnuspell_1_1_hash___multiset.html#a2b5e1b4d340fedeaa95d3d1a99fac47c',1,'nuspell::Hash_Multiset::difference_type()']]],

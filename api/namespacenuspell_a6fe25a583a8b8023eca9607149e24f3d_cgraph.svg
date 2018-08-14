@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>nuspell::match_simple_regex</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-35 268,-35 268,4 -4,4"/>
-<!-- Node206 -->
+<!-- Node212 -->
 <g id="node1" class="node">
-<title>Node206</title>
+<title>Node212</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-30.5 114,-30.5 114,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::match_simple</text>
 <text text-anchor="middle" x="57" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_regex</text>
 </g>
-<!-- Node207 -->
+<!-- Node213 -->
 <g id="node2" class="node">
-<title>Node207</title>
+<title>Node213</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#a99eaa02be11f51546c6f62386e45c986" target="_top" xlink:title="nuspell::match_simple\l_regex">
 <polygon fill="#ffffff" stroke="#000000" points="150,-.5 150,-30.5 264,-30.5 264,-.5 150,-.5"/>
 <text text-anchor="start" x="158" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::match_simple</text>
@@ -26,9 +26,9 @@
 </a>
 </g>
 </g>
-<!-- Node206&#45;&gt;Node207 -->
+<!-- Node212&#45;&gt;Node213 -->
 <g id="edge1" class="edge">
-<title>Node206&#45;&gt;Node207</title>
+<title>Node212&#45;&gt;Node213</title>
 <path fill="none" stroke="#191970" d="M114.1365,-15.5C122.3769,-15.5 130.9229,-15.5 139.3442,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="139.5255,-19.0001 149.5255,-15.5 139.5255,-12.0001 139.5255,-19.0001"/>
 </g>

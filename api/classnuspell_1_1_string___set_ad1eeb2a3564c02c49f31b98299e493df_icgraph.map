@@ -4,5 +4,5 @@
 <area shape="rect" id="node4" href="$structnuspell_1_1_dict___base.html#a23db26fcaf2e928ca2ab1a3d172dbf22" title="nuspell::Dict_Base\l::strip_pfx_then_sfx\l_comm_2" alt="" coords="225,137,362,193"/>
 <area shape="rect" id="node5" href="$namespacenuspell.html#aa400607867aa8ca4eb115542a84b7004" title="nuspell::match_compund_rule" alt="" coords="196,217,391,243"/>
 <area shape="rect" id="node7" href="$classnuspell_1_1_affix___table.html#ac8974546ec97f43188100596f41ca493" title="nuspell::Affix_Table\l\&lt; CharT \&gt;::has_continuation_flag" alt="" coords="185,268,401,309"/>
-<area shape="rect" id="node6" href="$structnuspell_1_1_dict___base.html#ab97583e3d30d44fe67f3a5ff6eee844e" title="nuspell::Dict_Base\l::check_compound_with_rules" alt="" coords="449,209,648,251"/>
+<area shape="rect" id="node6" href="$classnuspell_1_1_compound___rule___table.html#a2e604341ef4c6b408ac367d30265575d" title="nuspell::Compound_Rule\l_Table::match_any_rule" alt="" coords="449,209,617,251"/>
 </map>

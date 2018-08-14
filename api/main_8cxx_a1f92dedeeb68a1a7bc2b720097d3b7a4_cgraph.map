@@ -1,5 +1,9 @@
 <map id="misspelled_line_loop" name="misspelled_line_loop">
-<area shape="rect" id="node2" href="$namespacenuspell.html#aa7e4995c62f0034c3f760c93a3d25dd9" title="Splits on whitespace, outputs to vector of strings. " alt="" coords="196,5,399,32"/>
-<area shape="rect" id="node4" href="$structnuspell_1_1_basic___dictionary.html#adcab662ddd7786cfa72f4ba7fedb043e" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="212,57,383,98"/>
+<area shape="rect" id="node2" href="$namespacenuspell.html#aa7e4995c62f0034c3f760c93a3d25dd9" title="Splits on whitespace, outputs to vector of strings. " alt="" coords="196,16,399,43"/>
+<area shape="rect" id="node4" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="212,78,383,119"/>
 <area shape="rect" id="node3" href="$namespacenuspell.html#aac7e2f7ff54b3d984e221a4c6524338d" title="Splits on whitespace. " alt="" coords="447,5,636,32"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#a79258aeb32a39ce719a014950b33e5d6" title="nuspell::utf8_to_wide" alt="" coords="469,56,614,83"/>
+<area shape="rect" id="node7" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="483,107,599,133"/>
+<area shape="rect" id="node8" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="477,157,605,184"/>
+<area shape="rect" id="node6" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="684,56,835,83"/>
 </map>

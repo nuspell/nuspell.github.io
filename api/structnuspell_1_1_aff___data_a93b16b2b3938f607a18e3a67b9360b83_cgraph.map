@@ -1,26 +1,27 @@
 <map id="nuspell::Aff_Data::parse_aff" name="nuspell::Aff_Data::parse_aff">
-<area shape="rect" id="node2" href="$namespacenuspell.html#a2f6f1d95de158b3512f812a213175ab4" title="nuspell::strip_bom" alt="" coords="446,61,574,88"/>
-<area shape="rect" id="node3" href="$namespacenuspell.html#aca16d8679d9abbf9c15f5a5cb2916649" title="nuspell::reset_failbit\l_istream" alt="" coords="662,113,801,154"/>
-<area shape="rect" id="node4" href="$classnuspell_1_1_encoding.html#a7790810b45e07073c4232ad06c900b59" title="nuspell::Encoding::\lis_utf8" alt="" coords="207,565,340,606"/>
-<area shape="rect" id="node5" href="$namespacenuspell.html#abf6e8a988616a08af6fdc01bf32e4129" title="nuspell::validate_utf8" alt="" coords="201,631,346,657"/>
-<area shape="rect" id="node6" href="$namespacenuspell.html#a431abe5c2853b6f099bfedd5b6a4bb9f" title="Parses an affix from an input stream. " alt="" coords="206,273,341,300"/>
-<area shape="rect" id="node7" href="$namespacenuspell.html#ac3ed6d85c13c609eb5c51628b9dbac76" title="Decodes a single flag from an input stream. " alt="" coords="419,361,601,388"/>
-<area shape="rect" id="node8" href="$namespacenuspell.html#adbb8e053a44129d0f51014facd48b7f9" title="Decodes flags. " alt="" coords="657,361,805,388"/>
-<area shape="rect" id="node17" href="$namespacenuspell.html#aee2d3cdfa70d7cf8304c9a9f487b9a52" title="nuspell::read_to_slash\l_or_space" alt="" coords="434,113,586,154"/>
-<area shape="rect" id="node19" href="$namespacenuspell.html#a20013c2e88adddb9211f5beb81f075b3" title="Parses morhological fields. " alt="" coords="419,178,601,219"/>
-<area shape="rect" id="node20" href="$namespacenuspell.html#ae580b4a878894da57f49c6faf107e183" title="Parses vector of class T from an input stream. " alt="" coords="184,681,363,708"/>
-<area shape="rect" id="node21" href="$classnuspell_1_1_encoding.html#a29493899412bb5bf3b418725309220ef" title="nuspell::Encoding::\lempty" alt="" coords="207,733,340,774"/>
-<area shape="rect" id="node22" href="$namespacenuspell.html#aac49d4bd3ea9b66410ee5b793a12780e" title="Parses flag type. " alt="" coords="192,799,355,825"/>
-<area shape="rect" id="node23" href="$namespacenuspell.html#a82f70879bf54a6f7118852b75d8ddbfc" title="nuspell::parse_compound_rule" alt="" coords="411,463,609,489"/>
-<area shape="rect" id="node24" href="$namespacenuspell.html#a79258aeb32a39ce719a014950b33e5d6" title="nuspell::utf8_to_wide" alt="" coords="659,513,804,540"/>
-<area shape="rect" id="node25" href="$namespacenuspell.html#a7f9d46d315680708283bd79ad729333d" title="nuspell::erase_chars" alt="" coords="202,849,345,876"/>
-<area shape="rect" id="node18" href="$namespacenuspell.html#a3d81c446c32c53cd03e595f8fde9c2ab" title="nuspell::decode_flags\l_possible_alias" alt="" coords="436,295,584,337"/>
-<area shape="rect" id="node9" href="$namespacenuspell.html#aa37c89934a500dfd75dbb3cc18321834" title="nuspell::is_all_ascii" alt="" coords="863,311,998,337"/>
-<area shape="rect" id="node11" href="$namespacenuspell.html#a7fc6228909d26abd20009c4fb388dc81" title="nuspell::latin1_to_ucs2" alt="" coords="853,361,1008,388"/>
-<area shape="rect" id="node12" href="$namespacenuspell.html#aff86f9ecb346e78687e56dab66a77469" title="nuspell::utf8_to_32" alt="" coords="865,463,997,489"/>
-<area shape="rect" id="node14" href="$namespacenuspell.html#acc7be34831c982c0065b2929a9b14f2b" title="nuspell::is_all_bmp" alt="" coords="864,412,997,439"/>
-<area shape="rect" id="node16" href="$namespacenuspell.html#aac45dd40db821861bbd1ee9c2fc40a5e" title="nuspell::u32_to_ucs2\l_skip_non_bmp" alt="" coords="858,245,1003,286"/>
-<area shape="rect" id="node10" href="$namespacenuspell.html#a165544e1cd96cd0635c078d21ff32ff4" title="nuspell::is_ascii" alt="" coords="1074,311,1189,337"/>
-<area shape="rect" id="node13" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="1056,488,1207,515"/>
-<area shape="rect" id="node15" href="$namespacenuspell.html#a8ed3c64b945233d09aee1622100ce1db" title="nuspell::is_bmp" alt="" coords="1075,412,1188,439"/>
+<area shape="rect" id="node2" href="$namespacenuspell.html#a2f6f1d95de158b3512f812a213175ab4" title="nuspell::strip_bom" alt="" coords="446,62,574,89"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#aca16d8679d9abbf9c15f5a5cb2916649" title="nuspell::reset_failbit\l_istream" alt="" coords="662,114,801,155"/>
+<area shape="rect" id="node4" href="$classnuspell_1_1_encoding.html#a2daf31323eca9a2b8d91a5f0ab4be974" title="nuspell::Encoding::\lis_utf8" alt="" coords="207,566,340,607"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#abf6e8a988616a08af6fdc01bf32e4129" title="nuspell::validate_utf8" alt="" coords="201,632,346,658"/>
+<area shape="rect" id="node6" href="$namespacenuspell.html#a431abe5c2853b6f099bfedd5b6a4bb9f" title="Parses an affix from an input stream. " alt="" coords="206,274,341,301"/>
+<area shape="rect" id="node7" href="$namespacenuspell.html#ac3ed6d85c13c609eb5c51628b9dbac76" title="Decodes a single flag from an input stream. " alt="" coords="419,362,601,389"/>
+<area shape="rect" id="node8" href="$namespacenuspell.html#adbb8e053a44129d0f51014facd48b7f9" title="Decodes flags. " alt="" coords="657,362,805,389"/>
+<area shape="rect" id="node17" href="$namespacenuspell.html#aee2d3cdfa70d7cf8304c9a9f487b9a52" title="nuspell::read_to_slash\l_or_space" alt="" coords="434,114,586,155"/>
+<area shape="rect" id="node19" href="$namespacenuspell.html#a20013c2e88adddb9211f5beb81f075b3" title="Parses morhological fields. " alt="" coords="419,179,601,220"/>
+<area shape="rect" id="node20" href="$namespacenuspell.html#ae580b4a878894da57f49c6faf107e183" title="Parses vector of class T from an input stream. " alt="" coords="184,682,363,709"/>
+<area shape="rect" id="node21" href="$classnuspell_1_1_encoding.html#aaf5839a823225237c2e26d3e20718160" title="nuspell::Encoding::\lempty" alt="" coords="207,734,340,775"/>
+<area shape="rect" id="node22" href="$namespacenuspell.html#aac49d4bd3ea9b66410ee5b793a12780e" title="Parses flag type. " alt="" coords="192,800,355,826"/>
+<area shape="rect" id="node23" href="$namespacenuspell.html#a82f70879bf54a6f7118852b75d8ddbfc" title="nuspell::parse_compound_rule" alt="" coords="411,464,609,490"/>
+<area shape="rect" id="node24" href="$classnuspell_1_1_encoding.html#ae4e9b05c91d209bd7a0c98be7a2ebf78" title="nuspell::Encoding::\lvalue_or_default" alt="" coords="207,851,340,892"/>
+<area shape="rect" id="node25" href="$namespacenuspell.html#a79258aeb32a39ce719a014950b33e5d6" title="nuspell::utf8_to_wide" alt="" coords="659,514,804,541"/>
+<area shape="rect" id="node26" href="$namespacenuspell.html#a7f9d46d315680708283bd79ad729333d" title="nuspell::erase_chars" alt="" coords="202,917,345,944"/>
+<area shape="rect" id="node18" href="$namespacenuspell.html#a3d81c446c32c53cd03e595f8fde9c2ab" title="nuspell::decode_flags\l_possible_alias" alt="" coords="436,296,584,338"/>
+<area shape="rect" id="node9" href="$namespacenuspell.html#aa37c89934a500dfd75dbb3cc18321834" title="nuspell::is_all_ascii" alt="" coords="863,312,998,338"/>
+<area shape="rect" id="node11" href="$namespacenuspell.html#a7fc6228909d26abd20009c4fb388dc81" title="nuspell::latin1_to_ucs2" alt="" coords="853,362,1008,389"/>
+<area shape="rect" id="node12" href="$namespacenuspell.html#aff86f9ecb346e78687e56dab66a77469" title="nuspell::utf8_to_32" alt="" coords="865,464,997,490"/>
+<area shape="rect" id="node14" href="$namespacenuspell.html#acc7be34831c982c0065b2929a9b14f2b" title="nuspell::is_all_bmp" alt="" coords="864,413,997,440"/>
+<area shape="rect" id="node16" href="$namespacenuspell.html#aac45dd40db821861bbd1ee9c2fc40a5e" title="nuspell::u32_to_ucs2\l_skip_non_bmp" alt="" coords="858,246,1003,287"/>
+<area shape="rect" id="node10" href="$namespacenuspell.html#a165544e1cd96cd0635c078d21ff32ff4" title="nuspell::is_ascii" alt="" coords="1074,312,1189,338"/>
+<area shape="rect" id="node13" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="1056,489,1207,516"/>
+<area shape="rect" id="node15" href="$namespacenuspell.html#a8ed3c64b945233d09aee1622100ce1db" title="nuspell::is_bmp" alt="" coords="1075,413,1188,440"/>
 </map>

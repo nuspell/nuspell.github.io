@@ -77,12 +77,10 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;locale&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;type_traits&gt;</code><br />
-<code>#include &lt;boost/locale/encoding_utf.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for locale_utils.hxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="locale__utils_8hxx__incl.svg" width="427" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="locale__utils_8hxx__incl.svg" width="147" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -96,9 +94,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_locale___input.html">nuspell::Locale_Input</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_unicode___input.html">nuspell::Unicode_Input&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_encoding.html">nuspell::Encoding</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -108,6 +104,17 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a8eb14fb06f1eb312a9e8ed9cbee13f9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9e">nuspell::Encoding_Details</a> { <br />
+&#160;&#160;<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea4cd663fb0867104d13db183eb1eaf3b5">nuspell::Encoding_Details::EXTERNAL_U8_INTERNAL_U8</a>, 
+<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ead505d456c0acdf49b20238f49468e6fa">nuspell::Encoding_Details::EXTERNAL_OTHER_INTERNAL_U8</a>, 
+<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea2d50bf9640a48c0099713dbb1b859172">nuspell::Encoding_Details::EXTERNAL_U8_INTERNAL_OTHER</a>, 
+<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea4abf40c1dfd54898f94b4002f6e06c2c">nuspell::Encoding_Details::EXTERNAL_OTHER_INTERNAL_OTHER</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea8fe6f1b129f9652402bbbedf3912707b">nuspell::Encoding_Details::EXTERNAL_SAME_INTERNAL_AND_SINGLEBYTE</a>, 
+<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9eab84d9ea4b0854b09c13dd19a81a0f70c">nuspell::Encoding_Details::BAD_LOCALES</a>
+<br />
+ }</td></tr>
+<tr class="separator:a8eb14fb06f1eb312a9e8ed9cbee13f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a906dc0779e6824c4a84f6f277d39e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#af5a906dc0779e6824c4a84f6f277d39e">nuspell::Casing</a> { <br />
 &#160;&#160;<a class="el" href="namespacenuspell.html#af5a906dc0779e6824c4a84f6f277d39ea9b9c17e13f0e3dc9860a26e08b59b2a7">nuspell::Casing::SMALL</a>, 
 <a class="el" href="namespacenuspell.html#af5a906dc0779e6824c4a84f6f277d39ea23256ebd48361509e88aa84e96899ed2">nuspell::Casing::INIT_CAPITAL</a>, 
@@ -162,10 +169,16 @@ Functions</h2></td></tr>
 <tr class="separator:a4bbcd07d775ff9e19d67c9c68167dbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae159e86a8a1edad724249d330d985b1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aae159e86a8a1edad724249d330d985b1">nuspell::install_ctype_facets_inplace</a> (std::locale &amp;boost_loc) -&gt; void</td></tr>
 <tr class="separator:aae159e86a8a1edad724249d330d985b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
-<tr class="memitem:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a2f97cd2d3496c6c8ae75229ba3190ed1">nuspell::classify_casing</a> (const std::basic_string&lt; CharT &gt; &amp;s, const std::locale &amp;loc=std::locale()) -&gt; Casing</td></tr>
-<tr class="memdesc:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines casing (capitalization) type for a word.  <a href="namespacenuspell.html#a2f97cd2d3496c6c8ae75229ba3190ed1">More...</a><br /></td></tr>
-<tr class="separator:a2f97cd2d3496c6c8ae75229ba3190ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77772582da002f3f7c9833a749976f57"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a77772582da002f3f7c9833a749976f57">nuspell::analyze_encodings</a> (const std::locale &amp;external, const std::locale &amp;internal) -&gt; Encoding_Details</td></tr>
+<tr class="separator:a77772582da002f3f7c9833a749976f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74cb2ed7b54c047e578ace45d2c17012"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a74cb2ed7b54c047e578ace45d2c17012"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a74cb2ed7b54c047e578ace45d2c17012">nuspell::classify_casing</a> (const std::basic_string&lt; CharT &gt; &amp;s, const std::locale &amp;loc) -&gt; Casing</td></tr>
+<tr class="memdesc:a74cb2ed7b54c047e578ace45d2c17012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines casing (capitalization) type for a word.  <a href="namespacenuspell.html#a74cb2ed7b54c047e578ace45d2c17012">More...</a><br /></td></tr>
+<tr class="separator:a74cb2ed7b54c047e578ace45d2c17012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a7de1842aa6e1dbd9f8cf0b8418e145b9">nuspell::has_uppercase_at_compound_word_boundary</a> (const std::basic_string&lt; CharT &gt; &amp;word, size_t i, const std::locale &amp;loc) -&gt; bool</td></tr>
+<tr class="memdesc:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if word[i] or word[i-1] are uppercase.  <a href="namespacenuspell.html#a7de1842aa6e1dbd9f8cf0b8418e145b9">More...</a><br /></td></tr>
+<tr class="separator:a7de1842aa6e1dbd9f8cf0b8418e145b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Encoding transformations. </p>
