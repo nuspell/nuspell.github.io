@@ -21,6 +21,7 @@ description_long: > # this means to ignore newlines until next variable
   complex morphology. Nuspell offers also suggestions and personal dictionaries.
 keywords: spell spelling check checker
 author: Nuspell community
+repository: "nuspell/nuspell"
 #TODOemail: info@nuspell.org
 #FIXMEurl: https://nuspell.org
 url: "https://nuspell.github.io"
