@@ -24,7 +24,7 @@ Familiar examples of both proprietary or open source software which can start us
 * Apple [macOS](https://www.apple.com/macos/) and [Safari](https://www.apple.com/safari/)
 * Adobe [Photoshop](https://www.adobe.com/photoshop/), [Illustator](https://www.adobe.com/illustrator/), [InDesign](https://www.adobe.com/indesign/) and other products
 
-![Screenshot](/images/cover.png)
+![Screenshot](/assets/images/cover.png)
 
 Also web services, lesser-known text editors and more technical software such as integrated development environments (IDEs) can use Nuspell. See its [Wikipedia](https://en.wikipedia.org/wiki/Nuspell) article for a longer list.
 
