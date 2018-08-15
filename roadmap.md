@@ -37,4 +37,4 @@ For funding from current and previous sponsors, see also:
 2. [MOSS/Foundational Technology/Projects We Use](https://wiki.mozilla.org/MOSS/Foundational_Technology/Projects_We_Use)
 3. [Mozilla Awards $365,000 to Open Source Projects as part of MOSS](https://blog.mozilla.org/blog/2017/04/10/mozilla-awards-365000-to-open-source-projects-as-part-of-moss/)
 
-[![Mozilla logo](images/mozilla.png)](https://www.mozilla.org/en-US/moss/)
+[![Mozilla logo](assets/images/mozilla.png)](https://www.mozilla.org/en-US/moss/)

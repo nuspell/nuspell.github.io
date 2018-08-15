@@ -37,6 +37,8 @@ google_analytics: UA-122824583-1
 # Build settings
 markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-favicon
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
