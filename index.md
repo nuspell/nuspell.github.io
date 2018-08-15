@@ -3,10 +3,8 @@ title: Nuspell
 layout: page
 exclude: true<!--custom-->
 ---
-<table><tr>
-    <td><a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a></td>
-    <!--td><a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a></td-->
-</tr></table><br/>
+<a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a> <!--a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a>
+<a href="https://github.com/nuspell/nuspell/blob/master/COPYING"><img src="https://img.shields.io/badge/license-LGPL-blue.svg"/></a--> <img src="https://img.shields.io/badge/license-LGPL-blue.svg"/> <img src="https://img.shields.io/badge/language-C++14-blue.svg"/>
 
 
 # Introduction
