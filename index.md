@@ -94,4 +94,4 @@ Contact us if you are considering sponsoring the development and maintenance of 
 
 # Contact
 
-The code, wiki and issues are managed at [GitHub](https://github.com/nuspell/nuspell). Use that repository, also the closed issues, for any questions or contributions. Find Hunspell also on social media.
+The code, wiki and issues are managed at [GitHub](https://github.com/nuspell/nuspell). Use that repository, also the closed issues, for any questions or contributions. Find Nuspell also on social media.
