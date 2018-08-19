@@ -3,8 +3,8 @@ title: Nuspell
 layout: page
 exclude: true<!--custom-->
 ---
-<a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a> <!--a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a>
-<a href="https://github.com/nuspell/nuspell/blob/master/COPYING"><img src="https://img.shields.io/badge/license-LGPL-blue.svg"/></a--> <img src="https://img.shields.io/badge/license-LGPL-blue.svg"/> <img src="https://img.shields.io/badge/language-C++14-blue.svg"/>
+<img src="https://img.shields.io/badge/license-LGPL-blue.svg"/> <img src="https://img.shields.io/badge/language-C++14-blue.svg"/> <a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a> <!--a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a>
+<a href="https://github.com/nuspell/nuspell/blob/master/COPYING"><img src="https://img.shields.io/badge/license-LGPL-blue.svg"/></a-->
 
 
 # Introduction
@@ -22,7 +22,7 @@ Familiar examples of both proprietary or open source software which can start us
 * Apple [macOS](https://www.apple.com/macos/) and [Safari](https://www.apple.com/safari/)
 * Adobe [Photoshop](https://www.adobe.com/photoshop/), [Illustator](https://www.adobe.com/illustrator/), [InDesign](https://www.adobe.com/indesign/) and other products
 
-![Screenshot](/assets/images/cover.png)
+![Screenshot](/assets/images/cover-edged.png)
 
 Also web services, lesser-known text editors and more technical software such as integrated development environments (IDEs) can use Nuspell. See its [Wikipedia](https://en.wikipedia.org/wiki/Nuspell) article for a longer list.
 
