@@ -59,7 +59,7 @@ Character encodings encountered in dictionaries and affix files which Nuspell wo
 
 # Languages and Users
 
-Currently, almost 90 different languages and language variations are supported. This covers the languages used in almost 200 countries or geographic regions in the world. As many users can also use a second language, such as English, the user base is almost all of the approximately 2.5 billion computer users. That is a third of the Earth's population.
+Currently, almost 90 different languages and language variations are supported. This covers the languages used in almost 200 countries and geographic regions in the world. As many users can also use a second language, such as English, the user base is almost all of the approximately 2.5 billion computer users. That is a third of the Earth's population.
 
 Nuspell itself does not support any language. You need language support, also called a language pack or dictionary, in order for Nuspell to check spelling in a certain language. Language support can be found for:
 * [LibreOffice](https://en.wikipedia.org/wiki/LibreOffice) via [language support](https://wiki.documentfoundation.org/Language_support_of_LibreOffice) and [dictionary extensions](http://extensions.libreoffice.org/extensions?getCategories=Dictionary&getCompatibility=any&sort_on=positive_ratings&path=%2FLibreOffice-Extensions-and-Templates%2Fextension-center&portal_type=PSCProject&SearchableText=)
