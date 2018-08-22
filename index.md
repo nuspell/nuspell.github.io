@@ -13,6 +13,11 @@ Using correct spelling improves your communication and can prevent costly mistak
 
 To meet these demands, the free and open source spell checker Nuspell is being created. Its aim is to be integrated in mainstream office suites, web browsers, email clients, computer-assisted translation services and other applications working with text. Speed, accuracy, documentation and maintainability are the main advantages that put Nuspell at the front of contemporary spell checking solutions.
 
+![Screenshot](/assets/images/cover-edged.png)
+
+
+# Integration
+
 Familiar examples of both proprietary or open source software which can start using Nuspell as a drop-in replacement of their current spell checker are:
 * [LibreOffice](https://www.libreoffice.org/)
 * Apache [OpenOffice.org](https://www.openoffice.org/)
@@ -22,9 +27,7 @@ Familiar examples of both proprietary or open source software which can start us
 * Apple [macOS](https://www.apple.com/macos/) and [Safari](https://www.apple.com/safari/)
 * Adobe [Photoshop](https://www.adobe.com/photoshop/), [Illustator](https://www.adobe.com/illustrator/), [InDesign](https://www.adobe.com/indesign/) and other products
 
-![Screenshot](/assets/images/cover-edged.png)
-
-Also web services, lesser-known text editors and more technical software such as integrated development environments (IDEs) can use Nuspell. See its [Wikipedia](https://en.wikipedia.org/wiki/Nuspell) article for a longer list.
+Also [web services](https://en.wikipedia.org/wiki/Web_service), [lesser-known text editors](https://en.wikipedia.org/wiki/Comparison_of_text_editors#Basic_features) and more technical software such as [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) can use Nuspell. Integration can be done in many ways such as dynamic linking or static linking, but Nuspell can be integrated via language bindings too.<!-- See its [Wikipedia](https://en.wikipedia.org/wiki/Nuspell) article for a longer list.-->
 
 
 # Features
@@ -46,37 +49,26 @@ Furthermore, Nuspell has:
     * Windows
     * BSD
 
-Character encodings encountered in dictionaries and affix files which which Nuspell is proven to work are at least:
-* [Unicode](https://en.wikipedia.org/wiki/Unicode) parts:
-    * [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
-* [ISO-8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) parts:
-    * [ISO8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1)
-    * [ISO8859-2](https://en.wikipedia.org/wiki/ISO/IEC_8859-2)
-    * [ISO8859-3](https://en.wikipedia.org/wiki/ISO/IEC_8859-3)
-    * [ISO8859-7](https://en.wikipedia.org/wiki/ISO/IEC_8859-7)
-    * [ISO8859-13](https://en.wikipedia.org/wiki/ISO/IEC_8859-13)
-    * [ISO8859-15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15)
+Character encodings encountered in dictionaries and affix files which Nuspell works are at least:
+* [Unicode](https://en.wikipedia.org/wiki/Unicode) part [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
+* [ISO-8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) parts [1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1), [2](https://en.wikipedia.org/wiki/ISO/IEC_8859-2), [3](https://en.wikipedia.org/wiki/ISO/IEC_8859-3), [7](https://en.wikipedia.org/wiki/ISO/IEC_8859-7), [13](https://en.wikipedia.org/wiki/ISO/IEC_8859-13) and [15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15)
 * [CP1251](https://en.wikipedia.org/wiki/Windows-1251)
 * [TIS-620](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
-* [KOI-8](https://en.wikipedia.org/wiki/KOI-8) parts:
-    * [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R)
+* [KOI-8](https://en.wikipedia.org/wiki/KOI-8) part [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R)
 
 
 # Languages and Users
 
 Currently, almost 90 different languages and language variations are supported. This covers the languages used in almost 200 countries or geographic regions in the world. As many users can also use a second language, such as English, the user base is almost all of the approximately 2.5 billion computer users. That is a third of the Earth's population.
 
-Language support is found in dictionaries for:
-* [LibreOffice](https://wiki.documentfoundation.org/Language_support_of_LibreOffice), [development files](http://cgit.freedesktop.org/libreoffice/dictionaries/tree/)
-* [LibreOffice extensions](http://extensions.libreoffice.org/extensions?getCategories=Dictionary&getCompatibility=any&sort_on=positive_ratings&path=%2FLibreOffice-Extensions-and-Templates%2Fextension-center&portal_type=PSCProject&SearchableText=)
-* Mozilla [Firefox Add-ons](https://addons.mozilla.org/firefox/language-tools/)
-* [Thunderbird Add-ons](https://addons.mozilla.org/thunderbird/language-tools/)
-* [Ubuntu](https://packages.ubuntu.com/search?keywords=nuspell-&searchon=names)
+Nuspell itself does not support any language. You need language support, also called a language pack or dictionary, in order for Nuspell to check spelling in a certain language. Language support can be found for:
+* [LibreOffice](https://en.wikipedia.org/wiki/LibreOffice) via [language support](https://wiki.documentfoundation.org/Language_support_of_LibreOffice) and [dictionary extensions](http://extensions.libreoffice.org/extensions?getCategories=Dictionary&getCompatibility=any&sort_on=positive_ratings&path=%2FLibreOffice-Extensions-and-Templates%2Fextension-center&portal_type=PSCProject&SearchableText=)
+* [Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox) via [language tool add-ons](https://addons.mozilla.org/firefox/language-tools/)
+* [Thunderbird](https://en.wikipedia.org/wiki/Mozilla_Thunderbird) via [language tool add-ons](https://addons.mozilla.org/thunderbird/language-tools/)
+* Ubuntu via [MySpell](https://packages.ubuntu.com/search?keywords=myspell-&searchon=names) and [Hunspell](https://packages.ubuntu.com/search?keywords=hunspell-&searchon=names) language support
+* Debian via [MySpell](https://packages.debian.org/search?keywords=myspell-&searchon=names) and [Hunspell](https://packages.debian.org/search?keywords=hunspell-&searchon=names) language support
 
-
-# How it works
-
-Nuspell itself does not support any language. You need a language pack, also called language support, in order for it to check spelling in a certain language. 
+Note that installing language support is automated and directly available from inside the software listed above.
 
 
 # Contributing

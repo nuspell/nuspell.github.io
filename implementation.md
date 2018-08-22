@@ -8,7 +8,7 @@ The implementation of Nuspell is done using *industry standards* for [FOSS](http
 
 # Programming language
 
-Nuspell is implemented in [C++](https://en.wikipedia.org/wiki/C%2B%2B), more specifically in version [C++14](https://en.wikipedia.org/wiki/C%2B%2B14). This object-oriented programming language is available on many platforms. C++ is a compiled language aimed at performance and efficiency making it suitable for system-wide functionality such as spell checking. Nuspell can at least be compiled with [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection) and [Clang](https://en.wikipedia.org/wiki/Clang). For more detailed technical information on development, platforms, [compilers](https://en.wikipedia.org/wiki/Compiler) and [code style](https://en.wikipedia.org/wiki/Programming_style), see the project's [README.md](https://github.com/nuspell/nuspell/blob/master/README.md) and [wiki](https://github.com/nuspell/nuspell/wiki).
+Nuspell is implemented in [C++](https://en.wikipedia.org/wiki/C%2B%2B), more specifically in version [C++14](https://en.wikipedia.org/wiki/C%2B%2B14). This object-oriented programming language is available on many platforms. C++ is a compiled language aimed at performance and efficiency making it suitable for system-wide functionality such as spell checking. Nuspell can at least be compiled with [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection) and [Clang](https://en.wikipedia.org/wiki/Clang). For more detailed technical information on development, platforms, [compilers](https://en.wikipedia.org/wiki/Compiler) and [code style](https://en.wikipedia.org/wiki/Programming_style), see the project's [README.md](https://github.com/nuspell/nuspell/blob/master/README.md) and its [wiki](https://github.com/nuspell/nuspell/wiki).
 
 
 # Character encoding
@@ -52,3 +52,8 @@ Dictionary and affix files made for MySpell and Hunspell are also supported by N
 # Logging
 
 Errors, warnings, information and debugging messages are reported using standard output and standard error. To minimize the number of dependencies, no specific logging library is begin used. Also the messages reported are not localized at the moment. This made it possible to also not depend on the [gettext](https://en.wikipedia.org/wiki/Gettext) library.
+
+
+# See also
+
+To see the current payoff of this implementation, see [performance](performance.html). Several upcomming features are listed in the [roadmap](roadmap.html).
