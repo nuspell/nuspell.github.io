@@ -110,8 +110,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea2d50bf9640a48c0099713dbb1b859172">nuspell::Encoding_Details::EXTERNAL_U8_INTERNAL_OTHER</a>, 
 <a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea4abf40c1dfd54898f94b4002f6e06c2c">nuspell::Encoding_Details::EXTERNAL_OTHER_INTERNAL_OTHER</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea8fe6f1b129f9652402bbbedf3912707b">nuspell::Encoding_Details::EXTERNAL_SAME_INTERNAL_AND_SINGLEBYTE</a>, 
-<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9eab84d9ea4b0854b09c13dd19a81a0f70c">nuspell::Encoding_Details::BAD_LOCALES</a>
+&#160;&#160;<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea8fe6f1b129f9652402bbbedf3912707b">nuspell::Encoding_Details::EXTERNAL_SAME_INTERNAL_AND_SINGLEBYTE</a>
 <br />
  }</td></tr>
 <tr class="separator:a8eb14fb06f1eb312a9e8ed9cbee13f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,16 +181,6 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Encoding transformations. </p>
-<p>The library differentiates three encodings:</p>
-<ol type="1">
-<li>Entry point/input encoding. Can be anything.</li>
-<li>Intermediate - fixed length, either singlebyte or wide (UTF-32).</li>
-<li>Dictionary encoding, either singlebyte or narrow multibyte utf-8.</li>
-</ol>
-<p>If the dictionary is utf-8, then the wide instantiations of the template agorithms will be used. If the dictionary is singlebyte then everything is char.</p>
-<p>The functions Locale_Input::cvt_for_byte_dict() and Locale_Input::cvt_for_u8_dict() convert from input into intermediate.</p>
-<p>If the dictionary is UTF-8, we should still store large data in it because storing the wordlist in UTF-32 will take more memory.</p>
-<p>For conversion between intermediate and dictionary encoding we have the functions to_dict_encoding() and from_dict_to_wide_encoding(). </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

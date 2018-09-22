@@ -9,24 +9,24 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>nuspell::to_narrow</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-24 232,-24 232,4 -4,4"/>
-<!-- Node351 -->
+<!-- Node356 -->
 <g id="node1" class="node">
-<title>Node351</title>
+<title>Node356</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-19.5 96,-19.5 96,-.5 0,-.5"/>
 <text text-anchor="middle" x="48" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::to_narrow</text>
 </g>
-<!-- Node352 -->
+<!-- Node357 -->
 <g id="node2" class="node">
-<title>Node352</title>
+<title>Node357</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" target="_top" xlink:title="nuspell::to_narrow">
 <polygon fill="#ffffff" stroke="#000000" points="132,-.5 132,-19.5 228,-19.5 228,-.5 132,-.5"/>
 <text text-anchor="middle" x="180" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::to_narrow</text>
 </a>
 </g>
 </g>
-<!-- Node351&#45;&gt;Node352 -->
+<!-- Node356&#45;&gt;Node357 -->
 <g id="edge1" class="edge">
-<title>Node351&#45;&gt;Node352</title>
+<title>Node356&#45;&gt;Node357</title>
 <path fill="none" stroke="#191970" d="M96.0284,-10C104.3087,-10 112.9975,-10 121.517,-10"/>
 <polygon fill="#191970" stroke="#191970" points="121.7862,-13.5001 131.7861,-10 121.7861,-6.5001 121.7862,-13.5001"/>
 </g>

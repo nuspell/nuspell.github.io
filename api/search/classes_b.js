@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['prefix',['Prefix',['../classnuspell_1_1_prefix.html',1,'nuspell']]],
-  ['prefix_5fiter',['Prefix_Iter',['../classnuspell_1_1_prefix___iter.html',1,'nuspell']]]
+  ['out_5fiter_5fone_5fbool',['Out_Iter_One_Bool',['../structnuspell_1_1_out___iter___one___bool.html',1,'nuspell']]]
 ];

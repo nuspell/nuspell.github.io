@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['map_5frelated_5fchars',['map_related_chars',['../structnuspell_1_1_aff___data.html#a19aaf8b5520fd1d9a0265fb8a155414f',1,'nuspell::Aff_Data']]],
   ['match_5ffirst_5fonly_5funaffixed_5for_5fzero_5faffixed',['match_first_only_unaffixed_or_zero_affixed',['../structnuspell_1_1_compound___pattern.html#a9bf354c317e0337c6a37300f788ef6a1',1,'nuspell::Compound_Pattern']]],
   ['max_5fcompound_5fsuggestions',['max_compound_suggestions',['../structnuspell_1_1_aff___data.html#ae2716fcb71ecdde8970e96a8c044349d',1,'nuspell::Aff_Data']]],
   ['max_5fdiff_5ffactor',['max_diff_factor',['../structnuspell_1_1_aff___data.html#a6a18b48bc4d8e1a0267b8547d8134049',1,'nuspell::Aff_Data']]],

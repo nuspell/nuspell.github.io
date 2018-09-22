@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 232)">
 <title>nuspell::String_Set::contains</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-232 463,-232 463,4 -4,4"/>
-<!-- Node30 -->
+<!-- Node56 -->
 <g id="node1" class="node">
-<title>Node30</title>
+<title>Node56</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-93.5 0,-123.5 99,-123.5 99,-93.5 0,-93.5"/>
 <text text-anchor="start" x="8" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::String_Set</text>
 <text text-anchor="middle" x="49.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::contains</text>
 </g>
-<!-- Node31 -->
+<!-- Node57 -->
 <g id="node2" class="node">
-<title>Node31</title>
+<title>Node57</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1" target="_top" xlink:title="nuspell::cross_valid\l_inner_outer">
 <polygon fill="#ffffff" stroke="#000000" points="164.5,-197.5 164.5,-227.5 267.5,-227.5 267.5,-197.5 164.5,-197.5"/>
 <text text-anchor="start" x="172.5" y="-215.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::cross_valid</text>
@@ -26,15 +26,15 @@
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node31 -->
+<!-- Node56&#45;&gt;Node57 -->
 <g id="edge1" class="edge">
-<title>Node30&#45;&gt;Node31</title>
+<title>Node56&#45;&gt;Node57</title>
 <path fill="none" stroke="#191970" d="M68.5605,-131.4282C84.5868,-149.3364 108.9947,-173.6063 135,-188.5 144.0364,-193.6753 154.2909,-197.826 164.3927,-201.1223"/>
 <polygon fill="#191970" stroke="#191970" points="71.0269,-128.9315 61.8113,-123.7044 65.7557,-133.5376 71.0269,-128.9315"/>
 </g>
-<!-- Node32 -->
+<!-- Node58 -->
 <g id="node3" class="node">
-<title>Node32</title>
+<title>Node58</title>
 <g id="a_node3"><a xlink:href="structnuspell_1_1_dict___base.html#af7acf718db58d8f45ff73e36f308990c" target="_top" xlink:title="nuspell::Dict_Base\l::is_valid_inside_compound">
 <polygon fill="#ffffff" stroke="#000000" points="147.5,-148.5 147.5,-178.5 284.5,-178.5 284.5,-148.5 147.5,-148.5"/>
 <text text-anchor="start" x="155.5" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -42,15 +42,15 @@
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node32 -->
+<!-- Node56&#45;&gt;Node58 -->
 <g id="edge2" class="edge">
-<title>Node30&#45;&gt;Node32</title>
+<title>Node56&#45;&gt;Node58</title>
 <path fill="none" stroke="#191970" d="M101.1718,-126.9862C112.3029,-130.8688 124.0224,-134.8815 135,-138.5 145.0637,-141.8173 155.8737,-145.2461 166.2143,-148.4613"/>
 <polygon fill="#191970" stroke="#191970" points="102.1695,-123.6272 91.5747,-123.6209 99.8532,-130.2328 102.1695,-123.6272"/>
 </g>
-<!-- Node33 -->
+<!-- Node59 -->
 <g id="node4" class="node">
-<title>Node33</title>
+<title>Node59</title>
 <g id="a_node4"><a xlink:href="structnuspell_1_1_dict___base.html#a23db26fcaf2e928ca2ab1a3d172dbf22" target="_top" xlink:title="nuspell::Dict_Base\l::strip_pfx_then_sfx\l_comm_2">
 <polygon fill="#ffffff" stroke="#000000" points="164.5,-88 164.5,-129 267.5,-129 267.5,-88 164.5,-88"/>
 <text text-anchor="start" x="172.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dict_Base</text>
@@ -59,30 +59,30 @@
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node33 -->
+<!-- Node56&#45;&gt;Node59 -->
 <g id="edge3" class="edge">
-<title>Node30&#45;&gt;Node33</title>
+<title>Node56&#45;&gt;Node59</title>
 <path fill="none" stroke="#191970" d="M109.1362,-108.5C127.2002,-108.5 146.8812,-108.5 164.3742,-108.5"/>
 <polygon fill="#191970" stroke="#191970" points="109.0047,-105.0001 99.0047,-108.5 109.0047,-112.0001 109.0047,-105.0001"/>
 </g>
-<!-- Node34 -->
+<!-- Node60 -->
 <g id="node5" class="node">
-<title>Node34</title>
+<title>Node60</title>
 <g id="a_node5"><a xlink:href="namespacenuspell.html#aa400607867aa8ca4eb115542a84b7004" target="_top" xlink:title="nuspell::match_compund_rule">
 <polygon fill="#ffffff" stroke="#000000" points="143,-50 143,-69 289,-69 289,-50 143,-50"/>
 <text text-anchor="middle" x="216" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::match_compund_rule</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node34 -->
+<!-- Node56&#45;&gt;Node60 -->
 <g id="edge4" class="edge">
-<title>Node30&#45;&gt;Node34</title>
+<title>Node56&#45;&gt;Node60</title>
 <path fill="none" stroke="#191970" d="M99.2375,-90.0403C110.8936,-85.9955 123.3202,-81.9083 135,-78.5 146.786,-75.0607 159.6752,-71.8106 171.6356,-69.0033"/>
 <polygon fill="#191970" stroke="#191970" points="97.9309,-86.7897 89.6609,-93.4121 100.2557,-93.3924 97.9309,-86.7897"/>
 </g>
-<!-- Node36 -->
+<!-- Node62 -->
 <g id="node7" class="node">
-<title>Node36</title>
+<title>Node62</title>
 <g id="a_node7"><a xlink:href="classnuspell_1_1_affix___table.html#ac8974546ec97f43188100596f41ca493" target="_top" xlink:title="nuspell::Affix_Table\l\&lt; CharT \&gt;::has_continuation_flag">
 <polygon fill="#ffffff" stroke="#000000" points="135,-.5 135,-30.5 297,-30.5 297,-.5 135,-.5"/>
 <text text-anchor="start" x="143" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Affix_Table</text>
@@ -90,15 +90,15 @@
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node36 -->
+<!-- Node56&#45;&gt;Node62 -->
 <g id="edge6" class="edge">
-<title>Node30&#45;&gt;Node36</title>
+<title>Node56&#45;&gt;Node62</title>
 <path fill="none" stroke="#191970" d="M72.3694,-86.378C88.6961,-71.6201 111.7927,-52.7484 135,-40.5 142.1585,-36.7219 149.9799,-33.4132 157.8489,-30.5467"/>
 <polygon fill="#191970" stroke="#191970" points="69.903,-83.8915 64.9275,-93.2453 74.6502,-89.0358 69.903,-83.8915"/>
 </g>
-<!-- Node35 -->
+<!-- Node61 -->
 <g id="node6" class="node">
-<title>Node35</title>
+<title>Node61</title>
 <g id="a_node6"><a xlink:href="classnuspell_1_1_compound___rule___table.html#a2e604341ef4c6b408ac367d30265575d" target="_top" xlink:title="nuspell::Compound_Rule\l_Table::match_any_rule">
 <polygon fill="#ffffff" stroke="#000000" points="333,-44.5 333,-74.5 459,-74.5 459,-44.5 333,-44.5"/>
 <text text-anchor="start" x="341" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Compound_Rule</text>
@@ -106,9 +106,9 @@
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node35 -->
+<!-- Node60&#45;&gt;Node61 -->
 <g id="edge5" class="edge">
-<title>Node34&#45;&gt;Node35</title>
+<title>Node60&#45;&gt;Node61</title>
 <path fill="none" stroke="#191970" d="M299.489,-59.5C310.7424,-59.5 322.1323,-59.5 332.9499,-59.5"/>
 <polygon fill="#191970" stroke="#191970" points="299.2129,-56.0001 289.2129,-59.5 299.2129,-63.0001 299.2129,-56.0001"/>
 </g>

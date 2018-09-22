@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 73.5)">
 <title>nuspell::install_ctype_facets_inplace</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-73.5 288,-73.5 288,4 -4,4"/>
-<!-- Node127 -->
+<!-- Node120 -->
 <g id="node1" class="node">
-<title>Node127</title>
+<title>Node120</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-17 0,-47 108,-47 108,-17 0,-17"/>
 <text text-anchor="start" x="8" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::install_ctype</text>
 <text text-anchor="middle" x="54" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_facets_inplace</text>
 </g>
-<!-- Node128 -->
+<!-- Node121 -->
 <g id="node2" class="node">
-<title>Node128</title>
+<title>Node121</title>
 <g id="a_node2"><a xlink:href="structnuspell_1_1_aff___data.html#a6743ff25292b6edc4c3408e966ce4899" target="_top" xlink:title="Sets the internal encoding, and optionally, language. ">
 <polygon fill="#ffffff" stroke="#000000" points="144,-39 144,-69 284,-69 284,-39 144,-39"/>
 <text text-anchor="start" x="152" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Aff_Data::</text>
@@ -26,24 +26,24 @@
 </a>
 </g>
 </g>
-<!-- Node127&#45;&gt;Node128 -->
+<!-- Node120&#45;&gt;Node121 -->
 <g id="edge1" class="edge">
-<title>Node127&#45;&gt;Node128</title>
+<title>Node120&#45;&gt;Node121</title>
 <path fill="none" stroke="#191970" d="M118.2458,-40.8338C126.6263,-41.9861 135.2469,-43.1714 143.7198,-44.3365"/>
 <polygon fill="#191970" stroke="#191970" points="118.5523,-37.3431 108.1687,-39.4482 117.5987,-44.2778 118.5523,-37.3431"/>
 </g>
-<!-- Node129 -->
+<!-- Node122 -->
 <g id="node3" class="node">
-<title>Node129</title>
+<title>Node122</title>
 <g id="a_node3"><a xlink:href="main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title="main">
 <polygon fill="#ffffff" stroke="#000000" points="195,-.5 195,-19.5 233,-19.5 233,-.5 195,-.5"/>
 <text text-anchor="middle" x="214" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
 </g>
 </g>
-<!-- Node127&#45;&gt;Node129 -->
+<!-- Node120&#45;&gt;Node122 -->
 <g id="edge2" class="edge">
-<title>Node127&#45;&gt;Node129</title>
+<title>Node120&#45;&gt;Node122</title>
 <path fill="none" stroke="#191970" d="M118.1537,-23.1789C145.6442,-19.3989 175.7353,-15.2614 194.7301,-12.6496"/>
 <polygon fill="#191970" stroke="#191970" points="117.5987,-19.7222 108.1687,-24.5518 118.5523,-26.6569 117.5987,-19.7222"/>
 </g>

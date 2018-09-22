@@ -1,7 +1,3 @@
 <map id="misspelled_word_loop" name="misspelled_word_loop">
-<area shape="rect" id="node2" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="204,49,375,90"/>
-<area shape="rect" id="node3" href="$namespacenuspell.html#a79258aeb32a39ce719a014950b33e5d6" title="nuspell::utf8_to_wide" alt="" coords="423,5,568,32"/>
-<area shape="rect" id="node5" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="437,56,553,83"/>
-<area shape="rect" id="node6" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="431,107,559,133"/>
-<area shape="rect" id="node4" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="616,5,767,32"/>
+<area shape="rect" id="node2" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="204,5,375,47"/>
 </map>

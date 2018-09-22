@@ -74,8 +74,15 @@ $(function() {
 <li>set_encoding_and_language()
 : <a class="el" href="structnuspell_1_1_aff___data.html#a6743ff25292b6edc4c3408e966ce4899">nuspell::Aff_Data</a>
 </li>
+<li>shrink_to_fit()
+: <a class="el" href="classnuspell_1_1_list___strings.html#a4091ca07feb8da6ad122d71a383af16f">nuspell::List_Strings&lt; CharT &gt;</a>
+</li>
+<li>Similarity_Group()
+: <a class="el" href="structnuspell_1_1_similarity___group.html#a0f44309a6883364e97004a68bed4b16c">nuspell::Similarity_Group&lt; CharT &gt;</a>
+</li>
 <li>size()
 : <a class="el" href="classnuspell_1_1_hash___multiset.html#ae3135242e25f741eb280e1a42c6a0d33">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
+, <a class="el" href="classnuspell_1_1_list___strings.html#ae896bcbd71ab25612cc6e0886979a835">nuspell::List_Strings&lt; CharT &gt;</a>
 , <a class="el" href="classnuspell_1_1_string___set.html#add6cff610d86d1a5dd3553f1e864a48d">nuspell::String_Set&lt; CharT &gt;</a>
 </li>
 <li>sort_uniq()
@@ -98,13 +105,16 @@ $(function() {
 : <a class="el" href="structnuspell_1_1_dict___base.html#a91edaf725ed5365014961dbaae538f20">nuspell::Dict_Base</a>
 </li>
 <li>spell_priv()
-: <a class="el" href="structnuspell_1_1_dict___base.html#aae849f5a965126739c53c9951bdbe9f9">nuspell::Dict_Base</a>
+: <a class="el" href="structnuspell_1_1_dict___base.html#ae3ee0c9279781153f92d62fb8d4b99f7">nuspell::Dict_Base</a>
 </li>
 <li>spell_sharps()
 : <a class="el" href="structnuspell_1_1_dict___base.html#a2cd09b28026917ed5a88ba34acbfaa87">nuspell::Dict_Base</a>
 </li>
 <li>start_word_breaks()
 : <a class="el" href="classnuspell_1_1_break___table.html#ac59fb06ac79f9e7afe714e5692207b75">nuspell::Break_Table&lt; CharT &gt;</a>
+</li>
+<li>start_word_replacements()
+: <a class="el" href="classnuspell_1_1_replacement___table.html#ab27fccc10bf7f5d3df7e756e9121e5b4">nuspell::Replacement_Table&lt; CharT &gt;</a>
 </li>
 <li>str()
 : <a class="el" href="classnuspell_1_1_string___pair.html#af22d7ac41df193eb834940f14a268eef">nuspell::String_Pair&lt; CharT &gt;</a>
@@ -113,7 +123,7 @@ $(function() {
 : <a class="el" href="classnuspell_1_1_string___pair.html#ac4f74ae81d33acf71d425c19e197accb">nuspell::String_Pair&lt; CharT &gt;</a>
 </li>
 <li>String_Set()
-: <a class="el" href="classnuspell_1_1_string___set.html#a2a7dcc9e8ee95225a9bc8ca3549e9493">nuspell::String_Set&lt; CharT &gt;</a>
+: <a class="el" href="classnuspell_1_1_string___set.html#a449f533c6fd7294829617d77dc72956a">nuspell::String_Set&lt; CharT &gt;</a>
 </li>
 <li>strip_2_pfx_sfx_3()
 : <a class="el" href="structnuspell_1_1_dict___base.html#a55825d04dc76d3c65d937a4f92b006d8">nuspell::Dict_Base</a>
@@ -188,16 +198,23 @@ $(function() {
 : <a class="el" href="structnuspell_1_1_dict___base.html#aab36882edf7e0cc249cbdcb98e55cd54">nuspell::Dict_Base</a>
 </li>
 <li>Substr_Replacer()
-: <a class="el" href="classnuspell_1_1_substr___replacer.html#ab2e1dba2c1a7ccc3de58c5312a062516">nuspell::Substr_Replacer&lt; CharT &gt;</a>
+: <a class="el" href="classnuspell_1_1_substr___replacer.html#a8b47f620d4f7d533df28356a1b518c44">nuspell::Substr_Replacer&lt; CharT &gt;</a>
 </li>
 <li>Suffix()
-: <a class="el" href="classnuspell_1_1_suffix.html#aadf9fa270b15b95e4e087e3bf24e4409">nuspell::Suffix&lt; CharT &gt;</a>
+: <a class="el" href="classnuspell_1_1_suffix.html#aac5f2a0c0c08872c28ef3993073eb8dc">nuspell::Suffix&lt; CharT &gt;</a>
 </li>
 <li>Suffix_Iter()
 : <a class="el" href="classnuspell_1_1_suffix___iter.html#a7f8b1977d11876ac31c0c28b9f84d1a2">nuspell::Suffix_Iter&lt; CharT &gt;</a>
 </li>
+<li>suggest()
+: <a class="el" href="classnuspell_1_1_basic___dictionary.html#ac50138a9f4de879a541838170f957977">nuspell::Basic_Dictionary</a>
+</li>
+<li>suggest_priv()
+: <a class="el" href="structnuspell_1_1_dict___base.html#a47a12a3ad96f34fe313441f2d215c441">nuspell::Dict_Base</a>
+</li>
 <li>swap()
-: <a class="el" href="classnuspell_1_1_string___set.html#a8125531aa07e33f24601ca69aceacecb">nuspell::String_Set&lt; CharT &gt;</a>
+: <a class="el" href="classnuspell_1_1_list___strings.html#a62962c0873981dc115758cb4730400c9">nuspell::List_Strings&lt; CharT &gt;</a>
+, <a class="el" href="classnuspell_1_1_string___set.html#a8125531aa07e33f24601ca69aceacecb">nuspell::String_Set&lt; CharT &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

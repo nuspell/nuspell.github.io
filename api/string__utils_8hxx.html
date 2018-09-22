@@ -89,7 +89,7 @@ Include dependency graph for string_utils.hxx:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="string__utils_8hxx__dep__incl.svg" width="1275" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="string__utils_8hxx__dep__incl.svg" width="1084" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -140,6 +140,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a3ea48c5737f4b1466acd4ab098759ebb"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a3ea48c5737f4b1466acd4ab098759ebb">nuspell::split_first</a> (const std::basic_string&lt; CharT &gt; &amp;s, const CharOrStr &amp;sep) -&gt; std::basic_string&lt; CharT &gt;</td></tr>
 <tr class="memdesc:a3ea48c5737f4b1466acd4ab098759ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the first token of a splitted string.  <a href="namespacenuspell.html#a3ea48c5737f4b1466acd4ab098759ebb">More...</a><br /></td></tr>
 <tr class="separator:a3ea48c5737f4b1466acd4ab098759ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18195df0ca9db9b03c0824af311d4f9b"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIt &gt; </td></tr>
+<tr class="memitem:a18195df0ca9db9b03c0824af311d4f9b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a18195df0ca9db9b03c0824af311d4f9b">nuspell::parse_on_whitespace</a> (const std::basic_string&lt; CharT &gt; &amp;s, OutIt out, const std::locale &amp;loc=std::locale()) -&gt; OutIt</td></tr>
+<tr class="memdesc:a18195df0ca9db9b03c0824af311d4f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses on whitespace.  <a href="namespacenuspell.html#a18195df0ca9db9b03c0824af311d4f9b">More...</a><br /></td></tr>
+<tr class="separator:a18195df0ca9db9b03c0824af311d4f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7511832ec3d132234e782cd89bc18e3"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:ae7511832ec3d132234e782cd89bc18e3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ae7511832ec3d132234e782cd89bc18e3">nuspell::parse_on_whitespace_v</a> (const std::basic_string&lt; CharT &gt; &amp;s, std::vector&lt; std::basic_string&lt; CharT &gt;&gt; &amp;v, const std::locale &amp;loc=std::locale()) -&gt; void</td></tr>
+<tr class="separator:ae7511832ec3d132234e782cd89bc18e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac7e2f7ff54b3d984e221a4c6524338d"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIt &gt; </td></tr>
 <tr class="memitem:aac7e2f7ff54b3d984e221a4c6524338d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aac7e2f7ff54b3d984e221a4c6524338d">nuspell::split_on_whitespace</a> (const std::basic_string&lt; CharT &gt; &amp;s, OutIt out, const std::locale &amp;loc=std::locale()) -&gt; OutIt</td></tr>
 <tr class="memdesc:aac7e2f7ff54b3d984e221a4c6524338d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits on whitespace.  <a href="namespacenuspell.html#aac7e2f7ff54b3d984e221a4c6524338d">More...</a><br /></td></tr>
@@ -151,6 +158,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a7f9d46d315680708283bd79ad729333d"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
 <tr class="memitem:a7f9d46d315680708283bd79ad729333d"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a7f9d46d315680708283bd79ad729333d">nuspell::erase_chars</a> (std::basic_string&lt; CharT &gt; &amp;s, const std::basic_string&lt; CharT &gt; &amp;erase_chars)</td></tr>
 <tr class="separator:a7f9d46d315680708283bd79ad729333d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e3bbd2509bfa4d9cafc8888baee3fd5"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a3e3bbd2509bfa4d9cafc8888baee3fd5"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a3e3bbd2509bfa4d9cafc8888baee3fd5">nuspell::replace_char</a> (std::basic_string&lt; CharT &gt; &amp;s, CharT from, CharT to)</td></tr>
+<tr class="separator:a3e3bbd2509bfa4d9cafc8888baee3fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
 <tr class="memitem:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac7e8eea65ba4b7e20168229192ca81dd">nuspell::is_number</a> (const std::basic_string&lt; CharT &gt; &amp;s) -&gt; bool</td></tr>
 <tr class="memdesc:ac7e8eea65ba4b7e20168229192ca81dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if word is a number.  <a href="namespacenuspell.html#ac7e8eea65ba4b7e20168229192ca81dd">More...</a><br /></td></tr>

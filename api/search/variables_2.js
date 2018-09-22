@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['chars',['chars',['../structnuspell_1_1_similarity___group.html#ac024cd63cac1fe5ad932c11994e99efc',1,'nuspell::Similarity_Group']]],
   ['checksharps',['checksharps',['../structnuspell_1_1_aff___data.html#a2fe215baa71d9898641a96a7945f4064',1,'nuspell::Aff_Data']]],
   ['circumfix_5fflag',['circumfix_flag',['../structnuspell_1_1_aff___data.html#ae345b0a915d20d29c328aa828daa3898',1,'nuspell::Aff_Data']]],
   ['complex_5fprefixes',['complex_prefixes',['../structnuspell_1_1_aff___data.html#af4f81d59b424291ceb32fce13c611543',1,'nuspell::Aff_Data']]],

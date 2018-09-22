@@ -2,6 +2,8 @@ var searchData=
 [
   ['warn_5fflag',['warn_flag',['../structnuspell_1_1_aff___data.html#a97293727fa64472743e7ef7208a212de',1,'nuspell::Aff_Data']]],
   ['wd',['wd',['../classnuspell_1_1my__ctype_3_01wchar__t_01_4.html#a8be9cc7cb93a12712da1fbfcf8e9497d',1,'nuspell::my_ctype&lt; wchar_t &gt;']]],
+  ['whole_5fword_5freplacements',['whole_word_replacements',['../classnuspell_1_1_replacement___table.html#a70eedbe7c89359ecaeb102e80e669550',1,'nuspell::Replacement_Table']]],
+  ['whole_5fword_5freps_5flast_5fidx',['whole_word_reps_last_idx',['../classnuspell_1_1_replacement___table.html#a0b9710301d0b71b4236d065c7b648b90',1,'nuspell::Replacement_Table']]],
   ['wide_5fstructures',['wide_structures',['../structnuspell_1_1_aff___data.html#a173a7e10ad2661137bc7c14dbc9fe0a2',1,'nuspell::Aff_Data']]],
   ['wide_5fto_5futf8',['wide_to_utf8',['../namespacenuspell.html#ad4e8221da9ce95908ecd5a60ac3ae08c',1,'nuspell::wide_to_utf8(const std::wstring &amp;in, std::string &amp;out) -&gt; void'],['../namespacenuspell.html#ab769b3841808e120341eb83ee3afadbd',1,'nuspell::wide_to_utf8(const std::wstring &amp;in) -&gt; std::string']]],
   ['widen_5flatin1',['widen_latin1',['../namespacenuspell.html#a6caf0d372e85d5fee3b77efe303ba7b3',1,'nuspell']]],

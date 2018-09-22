@@ -66,7 +66,9 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classnuspell_1_1_basic___dictionary-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">nuspell::Basic_Dictionary Class Reference</div>  </div>
@@ -83,16 +85,20 @@ Inheritance diagram for nuspell::Basic_Dictionary:</div>
 <div class="dynheader">
 Collaboration diagram for nuspell::Basic_Dictionary:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary__coll__graph.svg" width="1524" height="534"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary__coll__graph.svg" width="1524" height="664"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa7aacbdbdba88a6ce0baa010cd0fd003"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#aa7aacbdbdba88a6ce0baa010cd0fd003">imbue</a> (const std::locale &amp;loc)</td></tr>
-<tr class="separator:aa7aacbdbdba88a6ce0baa010cd0fd003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b5d58e7fe2b5db737272de5789cdf8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#a05b5d58e7fe2b5db737272de5789cdf8">Basic_Dictionary</a> ()</td></tr>
+<tr class="separator:a05b5d58e7fe2b5db737272de5789cdf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab44cbc917c5f7ad8c53301e592970eec"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#ab44cbc917c5f7ad8c53301e592970eec">imbue</a> (const std::locale &amp;loc) -&gt; void</td></tr>
+<tr class="separator:ab44cbc917c5f7ad8c53301e592970eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05ed25f4b65c93f0389295303e43e509"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509">spell</a> (const std::string &amp;word) const -&gt; bool</td></tr>
 <tr class="separator:a05ed25f4b65c93f0389295303e43e509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50138a9f4de879a541838170f957977"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#ac50138a9f4de879a541838170f957977">suggest</a> (const std::string &amp;word, <a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; char &gt; &amp;out) const -&gt; void</td></tr>
+<tr class="separator:ac50138a9f4de879a541838170f957977"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -101,28 +107,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2fd64f866ac4b255886679058903097d"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#a2fd64f866ac4b255886679058903097d">load_from_aff_dic</a> (const <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> &amp;file_path_without_extension)</td></tr>
 <tr class="separator:a2fd64f866ac4b255886679058903097d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ab3a0687daf6e26faef7b95d10a9c1a12"><td class="memItemLeft" align="right" valign="top">std::locale&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#ab3a0687daf6e26faef7b95d10a9c1a12">external_locale</a></td></tr>
-<tr class="separator:ab3a0687daf6e26faef7b95d10a9c1a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a673a7db6c1c8494920e504b5f2d34c72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9e">Encoding_Details</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#a673a7db6c1c8494920e504b5f2d34c72">enc_details</a></td></tr>
-<tr class="separator:a673a7db6c1c8494920e504b5f2d34c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_types_structnuspell_1_1_aff___data"><td colspan="2" onclick="javascript:toggleInherit('pro_types_structnuspell_1_1_aff___data')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="structnuspell_1_1_aff___data.html">nuspell::Aff_Data</a></td></tr>
-<tr class="memitem:afd955aee960967732d48c01a42760b2e inherit pro_types_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> = std::string</td></tr>
-<tr class="separator:afd955aee960967732d48c01a42760b2e inherit pro_types_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaad038e73ccf9b13baefacf0e3143e27 inherit pro_types_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#aaad038e73ccf9b13baefacf0e3143e27">u16string</a> = std::u16string</td></tr>
-<tr class="separator:aaad038e73ccf9b13baefacf0e3143e27 inherit pro_types_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a939be6931090a381bed63d37f5c57212 inherit pro_types_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a939be6931090a381bed63d37f5c57212">istream</a> = std::istream</td></tr>
-<tr class="separator:a939be6931090a381bed63d37f5c57212 inherit pro_types_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a743d666966fc81f0edcbe80e292bef6a inherit pro_types_structnuspell_1_1_aff___data"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a743d666966fc81f0edcbe80e292bef6a inherit pro_types_structnuspell_1_1_aff___data"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a743d666966fc81f0edcbe80e292bef6a">vector</a> = std::vector&lt; T &gt;</td></tr>
-<tr class="separator:a743d666966fc81f0edcbe80e292bef6a inherit pro_types_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c9393da2c4a34079b2c36eb415fb654 inherit pro_types_structnuspell_1_1_aff___data"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a2c9393da2c4a34079b2c36eb415fb654 inherit pro_types_structnuspell_1_1_aff___data"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a2c9393da2c4a34079b2c36eb415fb654">pair</a> = std::pair&lt; T, U &gt;</td></tr>
-<tr class="separator:a2c9393da2c4a34079b2c36eb415fb654 inherit pro_types_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a680a86b001b43e442b159d0157ad1464"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#a680a86b001b43e442b159d0157ad1464">Basic_Dictionary</a> (std::istream &amp;aff, std::istream &amp;dic)</td></tr>
+<tr class="separator:a680a86b001b43e442b159d0157ad1464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca69f6d72c3f7f7a7e88a08fc8dd9712"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#aca69f6d72c3f7f7a7e88a08fc8dd9712">external_to_internal_encoding</a> (const std::string &amp;in, std::wstring &amp;wide_out, std::string &amp;narrow_out) const -&gt; bool</td></tr>
+<tr class="separator:aca69f6d72c3f7f7a7e88a08fc8dd9712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af376c24827a246f67eaeb81002cf40d2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#af376c24827a246f67eaeb81002cf40d2">internal_to_external_encoding</a> (std::string &amp;in_out, std::wstring &amp;wide_in_out) const -&gt; bool</td></tr>
+<tr class="separator:af376c24827a246f67eaeb81002cf40d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_structnuspell_1_1_dict___base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_structnuspell_1_1_dict___base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="structnuspell_1_1_dict___base.html">nuspell::Dict_Base</a></td></tr>
 <tr class="memitem:ae3ee0c9279781153f92d62fb8d4b99f7 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
 <tr class="memitem:ae3ee0c9279781153f92d62fb8d4b99f7 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#ae3ee0c9279781153f92d62fb8d4b99f7">spell_priv</a> (const std::basic_string&lt; CharT &gt; &amp;s) const -&gt; bool</td></tr>
@@ -246,25 +238,53 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a55825d04dc76d3c65d937a4f92b006d8 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m, class CharT &gt; </td></tr>
 <tr class="memitem:a55825d04dc76d3c65d937a4f92b006d8 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a55825d04dc76d3c65d937a4f92b006d8">strip_2_pfx_sfx_3</a> (const <a class="el" href="classnuspell_1_1_prefix.html">Prefix</a>&lt; CharT &gt; &amp;pe1, const <a class="el" href="classnuspell_1_1_prefix.html">Prefix</a>&lt; CharT &gt; &amp;pe2, std::basic_string&lt; CharT &gt; &amp;word) const -&gt; <a class="el" href="structnuspell_1_1_affixing___result.html">Affixing_Result</a>&lt;&gt;</td></tr>
 <tr class="separator:a55825d04dc76d3c65d937a4f92b006d8 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85ad81064cffadcabc43670ca5955475 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m = AT_COMPOUND_BEGIN, class CharT &gt; </td></tr>
-<tr class="memitem:a85ad81064cffadcabc43670ca5955475 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a85ad81064cffadcabc43670ca5955475">check_compound</a> (std::basic_string&lt; CharT &gt; &amp;word, size_t start_pos=0, size_t num_part=0, std::basic_string&lt; CharT &gt; &amp;&amp;part={}) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
-<tr class="separator:a85ad81064cffadcabc43670ca5955475 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682975810d9e03719d1e9f771b9b27f5 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m = AT_COMPOUND_BEGIN, class CharT &gt; </td></tr>
-<tr class="memitem:a682975810d9e03719d1e9f771b9b27f5 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a682975810d9e03719d1e9f771b9b27f5">check_compound_classic</a> (std::basic_string&lt; CharT &gt; &amp;word, size_t start_pos, size_t i, size_t num_part, std::basic_string&lt; CharT &gt; &amp;&amp;part) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
-<tr class="separator:a682975810d9e03719d1e9f771b9b27f5 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bfda344d5db588c638e71fda35d3ee0 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m = AT_COMPOUND_BEGIN, class CharT &gt; </td></tr>
-<tr class="memitem:a5bfda344d5db588c638e71fda35d3ee0 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a5bfda344d5db588c638e71fda35d3ee0">check_compound_with_pattern_replacements</a> (std::basic_string&lt; CharT &gt; &amp;word, size_t start_pos, size_t i, size_t num_part, std::basic_string&lt; CharT &gt; &amp;&amp;part) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
-<tr class="separator:a5bfda344d5db588c638e71fda35d3ee0 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab97583e3d30d44fe67f3a5ff6eee844e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
-<tr class="memitem:ab97583e3d30d44fe67f3a5ff6eee844e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#ab97583e3d30d44fe67f3a5ff6eee844e">check_compound_with_rules</a> (std::basic_string&lt; CharT &gt; &amp;word, std::vector&lt; const <a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> *&gt; &amp;words_data, size_t start_pos=0, std::basic_string&lt; CharT &gt; &amp;&amp;part={}) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
-<tr class="separator:ab97583e3d30d44fe67f3a5ff6eee844e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed44f95bcf0f9fd485bc3b1e00842d4e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:aed44f95bcf0f9fd485bc3b1e00842d4e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#aed44f95bcf0f9fd485bc3b1e00842d4e">check_compound</a> (std::basic_string&lt; CharT &gt; &amp;word) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
+<tr class="separator:aed44f95bcf0f9fd485bc3b1e00842d4e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67b94158edebe21610c3a95f768d5c87 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m = AT_COMPOUND_BEGIN, class CharT &gt; </td></tr>
+<tr class="memitem:a67b94158edebe21610c3a95f768d5c87 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a67b94158edebe21610c3a95f768d5c87">check_compound</a> (std::basic_string&lt; CharT &gt; &amp;word, size_t start_pos, size_t num_part, std::basic_string&lt; CharT &gt; &amp;part) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
+<tr class="separator:a67b94158edebe21610c3a95f768d5c87 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa442f57c1391b76a9447a9eaf70202cb inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m = AT_COMPOUND_BEGIN, class CharT &gt; </td></tr>
+<tr class="memitem:aa442f57c1391b76a9447a9eaf70202cb inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#aa442f57c1391b76a9447a9eaf70202cb">check_compound_classic</a> (std::basic_string&lt; CharT &gt; &amp;word, size_t start_pos, size_t i, size_t num_part, std::basic_string&lt; CharT &gt; &amp;part) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
+<tr class="separator:aa442f57c1391b76a9447a9eaf70202cb inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765d710baa001aaca3ad3a32e0f8b8a2 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m = AT_COMPOUND_BEGIN, class CharT &gt; </td></tr>
+<tr class="memitem:a765d710baa001aaca3ad3a32e0f8b8a2 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a765d710baa001aaca3ad3a32e0f8b8a2">check_compound_with_pattern_replacements</a> (std::basic_string&lt; CharT &gt; &amp;word, size_t start_pos, size_t i, size_t num_part, std::basic_string&lt; CharT &gt; &amp;part) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
+<tr class="separator:a765d710baa001aaca3ad3a32e0f8b8a2 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571382442e70aabd661b9a06ef50be07 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a571382442e70aabd661b9a06ef50be07 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a571382442e70aabd661b9a06ef50be07">check_compound_with_rules</a> (std::basic_string&lt; CharT &gt; &amp;word, std::vector&lt; const <a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> *&gt; &amp;words_data, size_t start_pos, std::basic_string&lt; CharT &gt; &amp;part) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
+<tr class="separator:a571382442e70aabd661b9a06ef50be07 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70cf2cc3bffa0e91a3ef0f731815c97f inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;Affixing_Mode m, class CharT &gt; </td></tr>
 <tr class="memitem:a70cf2cc3bffa0e91a3ef0f731815c97f inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a70cf2cc3bffa0e91a3ef0f731815c97f">check_word_in_compound</a> (std::basic_string&lt; CharT &gt; &amp;s) const -&gt; <a class="el" href="structnuspell_1_1_compounding___result.html">Compounding_Result</a></td></tr>
 <tr class="separator:a70cf2cc3bffa0e91a3ef0f731815c97f inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47a12a3ad96f34fe313441f2d215c441 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:a47a12a3ad96f34fe313441f2d215c441 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a47a12a3ad96f34fe313441f2d215c441">suggest_priv</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out) const -&gt; OutIter</td></tr>
+<tr class="separator:a47a12a3ad96f34fe313441f2d215c441 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d7e52378686d48eef218a4f20cb1c2c inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:a5d7e52378686d48eef218a4f20cb1c2c inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a5d7e52378686d48eef218a4f20cb1c2c">add_sug_if_correct</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter &amp;out) const -&gt; bool</td></tr>
+<tr class="separator:a5d7e52378686d48eef218a4f20cb1c2c inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07fb42bd82d91b9ac13856e0b34bd5f inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:ad07fb42bd82d91b9ac13856e0b34bd5f inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#ad07fb42bd82d91b9ac13856e0b34bd5f">try_rep_suggestion</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out) const -&gt; OutIter</td></tr>
+<tr class="separator:ad07fb42bd82d91b9ac13856e0b34bd5f inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1a4dbe4a1dc25e85bf9206bc575171 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:a5b1a4dbe4a1dc25e85bf9206bc575171 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a5b1a4dbe4a1dc25e85bf9206bc575171">rep_suggest</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out) const -&gt; OutIter</td></tr>
+<tr class="separator:a5b1a4dbe4a1dc25e85bf9206bc575171 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ef8a406da7c1c905c0ce39d9330f7b inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:a34ef8a406da7c1c905c0ce39d9330f7b inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a34ef8a406da7c1c905c0ce39d9330f7b">extra_char_suggest</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out) const -&gt; OutIter</td></tr>
+<tr class="separator:a34ef8a406da7c1c905c0ce39d9330f7b inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832893daa4fc27c4e3ce59cb9ea21a31 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:a832893daa4fc27c4e3ce59cb9ea21a31 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a832893daa4fc27c4e3ce59cb9ea21a31">map_suggest</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out, size_t i=0) const -&gt; OutIter</td></tr>
+<tr class="separator:a832893daa4fc27c4e3ce59cb9ea21a31 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279736b71374e9e28fbba981c6d047a9 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:a279736b71374e9e28fbba981c6d047a9 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a279736b71374e9e28fbba981c6d047a9">keyboard_suggest</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out) const -&gt; OutIter</td></tr>
+<tr class="separator:a279736b71374e9e28fbba981c6d047a9 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d9495cc8f9cdbf1c08ac554bf2f7d5 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:a34d9495cc8f9cdbf1c08ac554bf2f7d5 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a34d9495cc8f9cdbf1c08ac554bf2f7d5">bad_char_suggest</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out) const -&gt; OutIter</td></tr>
+<tr class="separator:a34d9495cc8f9cdbf1c08ac554bf2f7d5 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada7dcf66f89c49f4015b67b46a8e5f7e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIter &gt; </td></tr>
+<tr class="memitem:ada7dcf66f89c49f4015b67b46a8e5f7e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#ada7dcf66f89c49f4015b67b46a8e5f7e">forgotten_char_suggest</a> (std::basic_string&lt; CharT &gt; &amp;word, OutIter out) const -&gt; OutIter</td></tr>
+<tr class="separator:ada7dcf66f89c49f4015b67b46a8e5f7e inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63f371de48eacb0357200b631bedf84c inherit pro_methods_structnuspell_1_1_dict___base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#a63f371de48eacb0357200b631bedf84c">Dict_Base</a> ()</td></tr>
 <tr class="separator:a63f371de48eacb0357200b631bedf84c inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea23fad814cd37ab65ec0846a199a587 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html#aea23fad814cd37ab65ec0846a199a587">parse_aff_dic</a> (const <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> &amp;file_path_without_extension)</td></tr>
-<tr class="separator:aea23fad814cd37ab65ec0846a199a587 inherit pro_methods_structnuspell_1_1_dict___base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_structnuspell_1_1_aff___data"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_structnuspell_1_1_aff___data')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="structnuspell_1_1_aff___data.html">nuspell::Aff_Data</a></td></tr>
 <tr class="memitem:a6743ff25292b6edc4c3408e966ce4899 inherit pro_methods_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a6743ff25292b6edc4c3408e966ce4899">set_encoding_and_language</a> (const <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> &amp;enc, const <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> &amp;lang=&quot;&quot;) -&gt; void</td></tr>
 <tr class="memdesc:a6743ff25292b6edc4c3408e966ce4899 inherit pro_methods_structnuspell_1_1_aff___data"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the internal encoding, and optionally, language.  <a href="structnuspell_1_1_aff___data.html#a6743ff25292b6edc4c3408e966ce4899">More...</a><br /></td></tr>
@@ -286,6 +306,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a67cc09c4e46c5bc85e7970129bf9291c inherit pro_methods_structnuspell_1_1_aff___data"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a67cc09c4e46c5bc85e7970129bf9291c inherit pro_methods_structnuspell_1_1_aff___data"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a67cc09c4e46c5bc85e7970129bf9291c">get_structures</a> () const -&gt; const <a class="el" href="structnuspell_1_1_aff___structures.html">Aff_Structures</a>&lt; wchar_t &gt; &amp;</td></tr>
 <tr class="separator:a67cc09c4e46c5bc85e7970129bf9291c inherit pro_methods_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ab3a0687daf6e26faef7b95d10a9c1a12"><td class="memItemLeft" align="right" valign="top">std::locale&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#ab3a0687daf6e26faef7b95d10a9c1a12">external_locale</a></td></tr>
+<tr class="separator:ab3a0687daf6e26faef7b95d10a9c1a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673a7db6c1c8494920e504b5f2d34c72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9e">Encoding_Details</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#a673a7db6c1c8494920e504b5f2d34c72">enc_details</a></td></tr>
+<tr class="separator:a673a7db6c1c8494920e504b5f2d34c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_structnuspell_1_1_aff___data"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_structnuspell_1_1_aff___data')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="structnuspell_1_1_aff___data.html">nuspell::Aff_Data</a></td></tr>
 <tr class="memitem:adece6375cf45442553d2d10baf7f23df inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnuspell_1_1_word___list.html">Word_List</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#adece6375cf45442553d2d10baf7f23df">words</a></td></tr>
 <tr class="separator:adece6375cf45442553d2d10baf7f23df inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,8 +320,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a9fc68ad65074e5fb44cb7cea4da5242a inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a173a7e10ad2661137bc7c14dbc9fe0a2 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnuspell_1_1_aff___structures.html">Aff_Structures</a>&lt; wchar_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a173a7e10ad2661137bc7c14dbc9fe0a2">wide_structures</a></td></tr>
 <tr class="separator:a173a7e10ad2661137bc7c14dbc9fe0a2 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed269df54f003fb59c15421d46e811fc inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">std::locale&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#aed269df54f003fb59c15421d46e811fc">locale_aff</a></td></tr>
-<tr class="separator:aed269df54f003fb59c15421d46e811fc inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ce2d31430537b880b1c2090b383f4d inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">std::locale&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a67ce2d31430537b880b1c2090b383f4d">internal_locale</a></td></tr>
+<tr class="separator:a67ce2d31430537b880b1c2090b383f4d inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d92a26baad58271b74e3ce64a37fed inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449">Flag_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a84d92a26baad58271b74e3ce64a37fed">flag_type</a></td></tr>
 <tr class="separator:a84d92a26baad58271b74e3ce64a37fed inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4f81d59b424291ceb32fce13c611543 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#af4f81d59b424291ceb32fce13c611543">complex_prefixes</a></td></tr>
@@ -321,10 +348,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:af79852ab55209c05bb0d3897acbf4936 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82a00684af951d00087dabcd92bc3744 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a82a00684af951d00087dabcd92bc3744">wordchars</a></td></tr>
 <tr class="separator:a82a00684af951d00087dabcd92bc3744 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c4234cb00ad071429c347091c6c0e6f inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a1c4234cb00ad071429c347091c6c0e6f">keyboard_layout</a></td></tr>
-<tr class="separator:a1c4234cb00ad071429c347091c6c0e6f inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53b17dc8fca3a2db57f7408ea153ee4b inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a53b17dc8fca3a2db57f7408ea153ee4b">try_chars</a></td></tr>
-<tr class="separator:a53b17dc8fca3a2db57f7408ea153ee4b inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8614a54f6f4e9dbd57b555e2e4b2576 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">char16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#ad8614a54f6f4e9dbd57b555e2e4b2576">nosuggest_flag</a></td></tr>
 <tr class="separator:ad8614a54f6f4e9dbd57b555e2e4b2576 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2716fcb71ecdde8970e96a8c044349d inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#ae2716fcb71ecdde8970e96a8c044349d">max_compound_suggestions</a></td></tr>
@@ -339,10 +362,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:aad6d986f4e4a44ed2a264f143e07e069 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9e91b09c9aa965561533f4a1080eb6 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#aad9e91b09c9aa965561533f4a1080eb6">suggest_with_dots</a></td></tr>
 <tr class="separator:aad9e91b09c9aa965561533f4a1080eb6 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e10b7f0d5a1cf196bc4944b2eb254c inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnuspell_1_1_aff___data.html#a743d666966fc81f0edcbe80e292bef6a">vector</a>&lt; <a class="el" href="structnuspell_1_1_aff___data.html#a2c9393da2c4a34079b2c36eb415fb654">pair</a>&lt; <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a>, <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#ad1e10b7f0d5a1cf196bc4944b2eb254c">replacements</a></td></tr>
-<tr class="separator:ad1e10b7f0d5a1cf196bc4944b2eb254c inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19aaf8b5520fd1d9a0265fb8a155414f inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnuspell_1_1_aff___data.html#a743d666966fc81f0edcbe80e292bef6a">vector</a>&lt; <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a19aaf8b5520fd1d9a0265fb8a155414f">map_related_chars</a></td></tr>
-<tr class="separator:a19aaf8b5520fd1d9a0265fb8a155414f inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb66783a65a2053f228eb96014a87f71 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnuspell_1_1_aff___data.html#a743d666966fc81f0edcbe80e292bef6a">vector</a>&lt; <a class="el" href="structnuspell_1_1_aff___data.html#a2c9393da2c4a34079b2c36eb415fb654">pair</a>&lt; <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a>, <a class="el" href="structnuspell_1_1_aff___data.html#afd955aee960967732d48c01a42760b2e">string</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#abb66783a65a2053f228eb96014a87f71">phonetic_replacements</a></td></tr>
 <tr class="separator:abb66783a65a2053f228eb96014a87f71 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a348c47c629c22045e3cb2b3e2718f4 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#a1a348c47c629c22045e3cb2b3e2718f4">compound_min_length</a></td></tr>
@@ -387,10 +406,15 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a946d386e3641b27fed1920f08555cd1b inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa747a45eb1e56ebde6cfe7480fe704a3 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___data.html#aa747a45eb1e56ebde6cfe7480fe704a3">compound_syllable_num</a></td></tr>
 <tr class="separator:aa747a45eb1e56ebde6cfe7480fe704a3 inherit pro_attribs_structnuspell_1_1_aff___data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a79e4d3fd048f5fb012e71b6df4d97543"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html#a79e4d3fd048f5fb012e71b6df4d97543">List_Strings_Back_Inserter</a></td></tr>
+<tr class="separator:a79e4d3fd048f5fb012e71b6df4d97543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa7aacbdbdba88a6ce0baa010cd0fd003"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7aacbdbdba88a6ce0baa010cd0fd003">&#9670;&nbsp;</a></span>imbue()</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a680a86b001b43e442b159d0157ad1464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a680a86b001b43e442b159d0157ad1464">&#9670;&nbsp;</a></span>Basic_Dictionary() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,10 +423,51 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto nuspell::Basic_Dictionary::imbue </td>
+          <td class="memname">nuspell::Basic_Dictionary::Basic_Dictionary </td>
           <td>(</td>
-          <td class="paramtype">const std::locale &amp;&#160;</td>
-          <td class="paramname"><em>loc</em></td><td>)</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>aff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>dic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_a680a86b001b43e442b159d0157ad1464_cgraph.svg" width="412" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a05b5d58e7fe2b5db737272de5789cdf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05b5d58e7fe2b5db737272de5789cdf8">&#9670;&nbsp;</a></span>Basic_Dictionary() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nuspell::Basic_Dictionary::Basic_Dictionary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -415,7 +480,122 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_aa7aacbdbdba88a6ce0baa010cd0fd003_cgraph.svg" width="412" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_a05b5d58e7fe2b5db737272de5789cdf8_cgraph.svg" width="412" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aca69f6d72c3f7f7a7e88a08fc8dd9712"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca69f6d72c3f7f7a7e88a08fc8dd9712">&#9670;&nbsp;</a></span>external_to_internal_encoding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::Basic_Dictionary::external_to_internal_encoding </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::wstring &amp;&#160;</td>
+          <td class="paramname"><em>wide_out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>narrow_out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; bool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_aca69f6d72c3f7f7a7e88a08fc8dd9712_cgraph.svg" width="574" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab44cbc917c5f7ad8c53301e592970eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab44cbc917c5f7ad8c53301e592970eec">&#9670;&nbsp;</a></span>imbue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::Basic_Dictionary::imbue </td>
+          <td>(</td>
+          <td class="paramtype">const std::locale &amp;&#160;</td>
+          <td class="paramname"><em>loc</em></td><td>)</td>
+          <td> -&gt; void</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_ab44cbc917c5f7ad8c53301e592970eec_cgraph.svg" width="412" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af376c24827a246f67eaeb81002cf40d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af376c24827a246f67eaeb81002cf40d2">&#9670;&nbsp;</a></span>internal_to_external_encoding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::Basic_Dictionary::internal_to_external_encoding </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>in_out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::wstring &amp;&#160;</td>
+          <td class="paramname"><em>wide_in_out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; bool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_af376c24827a246f67eaeb81002cf40d2_cgraph.svg" width="543" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -499,17 +679,74 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_a05ed25f4b65c93f0389295303e43e509_icgraph.svg" width="479" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac50138a9f4de879a541838170f957977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50138a9f4de879a541838170f957977">&#9670;&nbsp;</a></span>suggest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::Basic_Dictionary::suggest </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; char &gt; &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; void</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_a05ed25f4b65c93f0389295303e43e509_cgraph.svg" width="574" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_ac50138a9f4de879a541838170f957977_cgraph.svg" width="370" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_a05ed25f4b65c93f0389295303e43e509_icgraph.svg" width="479" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_basic___dictionary_ac50138a9f4de879a541838170f957977_icgraph.svg" width="420" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a79e4d3fd048f5fb012e71b6df4d97543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e4d3fd048f5fb012e71b6df4d97543">&#9670;&nbsp;</a></span>List_Strings_Back_Inserter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend struct List_Strings_Back_Inserter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -529,7 +766,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -551,7 +788,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -1,5 +1,4 @@
 <map id="nuspell::get_char_mask" name="nuspell::get_char_mask">
-<area shape="rect" id="node2" href="$namespacenuspell.html#a22e22ceec23aafebbe182feae2973671" title="nuspell::fill_ctype" alt="" coords="220,13,343,39"/>
-<area shape="rect" id="node4" href="$classnuspell_1_1my__ctype_3_01wchar__t_01_4.html#abebb1844eb23608d64524322e5d15f63" title="nuspell::my_ctype\&lt;\l wchar_t \&gt;::do_is" alt="" coords="213,64,349,105"/>
-<area shape="rect" id="node3" href="$classnuspell_1_1my__ctype_3_01char_01_4.html#a2ce43e45303b663747f2dfa63dc79847" title="nuspell::my_ctype\&lt;\l char \&gt;::my_ctype" alt="" coords="397,5,533,47"/>
+<area shape="rect" id="node2" href="$classnuspell_1_1my__ctype_3_01char_01_4.html#aa629be5306724a7801b5f55ca0e69bf6" title="nuspell::my_ctype\&lt;\l char \&gt;::fill" alt="" coords="213,5,349,47"/>
+<area shape="rect" id="node3" href="$classnuspell_1_1my__ctype_3_01wchar__t_01_4.html#acaec10c66af0ff8eb24c1f2be6fab177" title="nuspell::my_ctype\&lt;\l wchar_t \&gt;::do_is" alt="" coords="213,71,349,112"/>
 </map>

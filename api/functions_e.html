@@ -65,7 +65,11 @@ $(function() {
 <li>emplace()
 : <a class="el" href="classnuspell_1_1_affix___table.html#a763d1d96521a372fccc6e938a388a06e">nuspell::Affix_Table&lt; CharT, AffixT &gt;</a>
 , <a class="el" href="classnuspell_1_1_hash___multiset.html#add985b0c608c3468b03ad1eaaba93d80">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
+, <a class="el" href="classnuspell_1_1_list___strings.html#a1facc292e578aff678244f26fce29759">nuspell::List_Strings&lt; CharT &gt;</a>
 , <a class="el" href="classnuspell_1_1_string___set.html#acd595401fd3c097080f9fb7d189eca01">nuspell::String_Set&lt; CharT &gt;</a>
+</li>
+<li>emplace_back()
+: <a class="el" href="classnuspell_1_1_list___strings.html#abf6ab0e8ea66db92d6823aa2f30a07f9">nuspell::List_Strings&lt; CharT &gt;</a>
 </li>
 <li>emplace_hint()
 : <a class="el" href="classnuspell_1_1_string___set.html#a35b84b7cb4bb4c133fc09558ea787f9c">nuspell::String_Set&lt; CharT &gt;</a>
@@ -74,6 +78,7 @@ $(function() {
 : <a class="el" href="classnuspell_1_1_compound___rule___table.html#afbc40d12841906d173777c77fa1357a1">nuspell::Compound_Rule_Table</a>
 , <a class="el" href="classnuspell_1_1_encoding.html#aaf5839a823225237c2e26d3e20718160">nuspell::Encoding</a>
 , <a class="el" href="classnuspell_1_1_hash___multiset.html#a3b8cbfeea89a85f3fc7b148082fde426">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
+, <a class="el" href="classnuspell_1_1_list___strings.html#ac4933cd829de0f7bc974aa0286687bee">nuspell::List_Strings&lt; CharT &gt;</a>
 , <a class="el" href="classnuspell_1_1_string___set.html#a10add0e75e7bd49f17c69718cee8dc86">nuspell::String_Set&lt; CharT &gt;</a>
 </li>
 <li>enc_details
@@ -91,13 +96,20 @@ $(function() {
 <li>end()
 : <a class="el" href="classnuspell_1_1_finder.html#a8abae2e16e30534fa87224c57e71ef8c">nuspell::Finder</a>
 , <a class="el" href="structnuspell_1_1_globber.html#abcdc56fa7243cfac46426cc3f6612c48">nuspell::Globber</a>
+, <a class="el" href="classnuspell_1_1_list___strings.html#a084c5de71215f0b5c7924b0396ae2575">nuspell::List_Strings&lt; CharT &gt;</a>
 , <a class="el" href="classnuspell_1_1_string___set.html#a1ac519529575a85ad75d6ddebde856ef">nuspell::String_Set&lt; CharT &gt;</a>
 </li>
 <li>end_word_breaks()
 : <a class="el" href="classnuspell_1_1_break___table.html#ab68ee072ef4ea33d077472efab864469">nuspell::Break_Table&lt; CharT &gt;</a>
 </li>
-<li>end_word_breaks_last_it
-: <a class="el" href="classnuspell_1_1_break___table.html#a503c4f66c366705f5632dde5b3c6cf36">nuspell::Break_Table&lt; CharT &gt;</a>
+<li>end_word_breaks_last_idx
+: <a class="el" href="classnuspell_1_1_break___table.html#ae5344221757d20c9c54d441c50d20473">nuspell::Break_Table&lt; CharT &gt;</a>
+</li>
+<li>end_word_replacements()
+: <a class="el" href="classnuspell_1_1_replacement___table.html#a12c50f4771aac7ce67f944ce684c891b">nuspell::Replacement_Table&lt; CharT &gt;</a>
+</li>
+<li>end_word_reps_last_idx
+: <a class="el" href="classnuspell_1_1_replacement___table.html#a32adb018f37634eb7910e004c9734598">nuspell::Replacement_Table&lt; CharT &gt;</a>
 </li>
 <li>entry_name()
 : <a class="el" href="structnuspell_1_1_directory.html#a776a738fc5045a5feae77b0c227b4465">nuspell::Directory</a>
@@ -109,17 +121,24 @@ $(function() {
 : <a class="el" href="classnuspell_1_1_affix___table.html#a6745385bd8dfb4045f99ecb06841e760">nuspell::Affix_Table&lt; CharT, AffixT &gt;</a>
 , <a class="el" href="classnuspell_1_1_finder.html#a05dd485575738371e3dd0eeb7f5179ea">nuspell::Finder</a>
 , <a class="el" href="classnuspell_1_1_hash___multiset.html#a615f7b3ae53f0cef400668746d8be501">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
-, <a class="el" href="classnuspell_1_1_string___set.html#a1bf738d16988fe5da375c5fd970e72aa">nuspell::String_Set&lt; CharT &gt;</a>
+, <a class="el" href="classnuspell_1_1_string___set.html#a4e8fd052284151b5e18c71906c450611">nuspell::String_Set&lt; CharT &gt;</a>
 , <a class="el" href="classnuspell_1_1_word___list.html#a9cb1b8ccbd83e2b8275309b981537d40">nuspell::Word_List</a>
 </li>
 <li>equal_range_nonconst_unsafe()
 : <a class="el" href="classnuspell_1_1_hash___multiset.html#ad3a00cea7680614167e392c7c6df5c90">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
 </li>
 <li>erase()
-: <a class="el" href="classnuspell_1_1_string___set.html#a5590b6453998d7fdef565d69f4a66b6b">nuspell::String_Set&lt; CharT &gt;</a>
+: <a class="el" href="classnuspell_1_1_list___strings.html#adc5fa0dc72fddc05252d1e7e353cd624">nuspell::List_Strings&lt; CharT &gt;</a>
+, <a class="el" href="classnuspell_1_1_string___set.html#affb5e6409f9afb234a2314b709c5663a">nuspell::String_Set&lt; CharT &gt;</a>
 </li>
 <li>external_locale
 : <a class="el" href="classnuspell_1_1_basic___dictionary.html#ab3a0687daf6e26faef7b95d10a9c1a12">nuspell::Basic_Dictionary</a>
+</li>
+<li>external_to_internal_encoding()
+: <a class="el" href="classnuspell_1_1_basic___dictionary.html#aca69f6d72c3f7f7a7e88a08fc8dd9712">nuspell::Basic_Dictionary</a>
+</li>
+<li>extra_char_suggest()
+: <a class="el" href="structnuspell_1_1_dict___base.html#a34ef8a406da7c1c905c0ce39d9330f7b">nuspell::Dict_Base</a>
 </li>
 </ul>
 </div><!-- contents -->

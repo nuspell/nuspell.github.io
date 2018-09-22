@@ -79,6 +79,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="dictionary_8hxx_source.html">dictionary.hxx</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="finder_8hxx_source.html">finder.hxx</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="string__utils_8hxx_source.html">string_utils.hxx</a>&quot;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
 <code>#include &lt;clocale&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
@@ -91,7 +92,7 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for regress.cxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx__incl.svg" width="3102" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx__incl.svg" width="3191" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -122,33 +123,34 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a88d1fb6d8e1af4b5defefb76a1aa9651">CORRECT_WORDS_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed">CORRECT_LINES_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d">LINES_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ac6b2e092b4a367d247664efe2f7b0bc8">CRUDE_PARSE_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911aeb06b917348b859f5bc757973af661a3">CRUDE_PARSE_NO_SUGGEST_MODE</a>, 
+<br />
+&#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d">LINES_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ac4c2d2ba8e7aa0ec3077a38eb2a95b39">LIST_DICTIONARIES_MODE</a>, 
-<br />
-&#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1">HELP_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1">HELP_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a715591779e86d61f12d48339469383c9">VERSION_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3">ERROR_MODE</a>, 
-<a class="el" href="regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687">DEFAULT_MODE</a>, 
 <br />
-&#160;&#160;<a class="el" href="regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1">HELP_MODE</a>, 
+&#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3">ERROR_MODE</a>, 
+<a class="el" href="regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687">DEFAULT_MODE</a>, 
+<a class="el" href="regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1">HELP_MODE</a>, 
 <a class="el" href="regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a715591779e86d61f12d48339469383c9">VERSION_MODE</a>, 
-<a class="el" href="regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3">ERROR_MODE</a>
+<br />
+&#160;&#160;<a class="el" href="regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3">ERROR_MODE</a>
 <br />
  }</td></tr>
 <tr class="separator:a46c8a310cf4c094f8c80e1cb8dc1f911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a56237bb115471532c16e426e29e420bb"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="regress_8cxx.html#a56237bb115471532c16e426e29e420bb">rdtsc</a> ()</td></tr>
-<tr class="separator:a56237bb115471532c16e426e29e420bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8c650bca476b3f8959df7215c4c134f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="regress_8cxx.html#af8c650bca476b3f8959df7215c4c134f">print_help</a> (const string &amp;program_name) -&gt; void</td></tr>
 <tr class="memdesc:af8c650bca476b3f8959df7215c4c134f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints help information.  <a href="#af8c650bca476b3f8959df7215c4c134f">More...</a><br /></td></tr>
 <tr class="separator:af8c650bca476b3f8959df7215c4c134f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6150c93934b2505d7e4521b40fa8d571"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="regress_8cxx.html#a6150c93934b2505d7e4521b40fa8d571">print_version</a> () -&gt; void</td></tr>
 <tr class="memdesc:a6150c93934b2505d7e4521b40fa8d571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the version number to standard output.  <a href="#a6150c93934b2505d7e4521b40fa8d571">More...</a><br /></td></tr>
 <tr class="separator:a6150c93934b2505d7e4521b40fa8d571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaa095873c4ebfe8c954f43bc50f7b76"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="regress_8cxx.html#adaa095873c4ebfe8c954f43bc50f7b76">normal_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic, Hunspell &amp;hun, locale &amp;hloc)</td></tr>
-<tr class="separator:adaa095873c4ebfe8c954f43bc50f7b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345ea832decc7c2932cf431ea1dc1cbf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="regress_8cxx.html#a345ea832decc7c2932cf431ea1dc1cbf">normal_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic, Hunspell &amp;hun, locale &amp;hloc, bool print_false=false)</td></tr>
+<tr class="separator:a345ea832decc7c2932cf431ea1dc1cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb75a3efd092cccd0bcbfdf1c503d145"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#abb75a3efd092cccd0bcbfdf1c503d145">std::operator&lt;&lt;</a> (ostream &amp;out, const locale &amp;loc)</td></tr>
 <tr class="separator:abb75a3efd092cccd0bcbfdf1c503d145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="regress_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
@@ -210,6 +212,10 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed"></a>CORRECT_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only correct lines </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ac6b2e092b4a367d247664efe2f7b0bc8"></a>CRUDE_PARSE_MODE&#160;</td><td class="fielddoc"><p>use crude pasring for running text </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911aeb06b917348b859f5bc757973af661a3"></a>CRUDE_PARSE_NO_SUGGEST_MODE&#160;</td><td class="fielddoc"><p>use crude pasring for running text without suggestions </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d"></a>LINES_MODE&#160;</td><td class="fielddoc"><p>where correctness is based on entire line </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ac4c2d2ba8e7aa0ec3077a38eb2a95b39"></a>LIST_DICTIONARIES_MODE&#160;</td><td class="fielddoc"><p>printing available dictionaries </p>
@@ -261,14 +267,14 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="864" height="315"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="472" height="282"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="adaa095873c4ebfe8c954f43bc50f7b76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaa095873c4ebfe8c954f43bc50f7b76">&#9670;&nbsp;</a></span>normal_loop()</h2>
+<a id="a345ea832decc7c2932cf431ea1dc1cbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a345ea832decc7c2932cf431ea1dc1cbf">&#9670;&nbsp;</a></span>normal_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +307,13 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">locale &amp;&#160;</td>
-          <td class="paramname"><em>hloc</em>&#160;</td>
+          <td class="paramname"><em>hloc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>print_false</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -313,13 +325,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_adaa095873c4ebfe8c954f43bc50f7b76_cgraph.svg" width="714" height="256"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_a345ea832decc7c2932cf431ea1dc1cbf_cgraph.svg" width="322" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_adaa095873c4ebfe8c954f43bc50f7b76_icgraph.svg" width="202" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_a345ea832decc7c2932cf431ea1dc1cbf_icgraph.svg" width="202" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -380,29 +392,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_a6150c93934b2505d7e4521b40fa8d571_icgraph.svg" width="206" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a56237bb115471532c16e426e29e420bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56237bb115471532c16e426e29e420bb">&#9670;&nbsp;</a></span>rdtsc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t rdtsc </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="regress_8cxx_a56237bb115471532c16e426e29e420bb_icgraph.svg" width="300" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

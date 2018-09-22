@@ -2,6 +2,7 @@ var searchData=
 [
   ['get_5fall_5fdictionaries',['get_all_dictionaries',['../classnuspell_1_1_finder.html#ac6be9ea6580d3982b303c024f469d7b8',1,'nuspell::Finder']]],
   ['get_5fall_5fpaths',['get_all_paths',['../classnuspell_1_1_finder.html#ae546d44d738bfdbb37b3b9686f78a05f',1,'nuspell::Finder']]],
+  ['get_5fallocator',['get_allocator',['../classnuspell_1_1_list___strings.html#a984009794c3cd47e8a5505bb6e282f5f',1,'nuspell::List_Strings']]],
   ['get_5fapacheopenoffice_5fpaths',['get_apacheopenoffice_paths',['../namespacenuspell.html#a2dacde753f0b71fe8bea9b1fc394e517',1,'nuspell']]],
   ['get_5fchar_5fmask',['get_char_mask',['../namespacenuspell.html#a25a8f9abb37fff312a261e20e6cbc29c',1,'nuspell']]],
   ['get_5fdefault_5fsearch_5fpaths',['get_default_search_paths',['../namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5',1,'nuspell']]],

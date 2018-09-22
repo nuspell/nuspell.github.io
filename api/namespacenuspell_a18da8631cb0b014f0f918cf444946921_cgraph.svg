@@ -9,31 +9,31 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
 <title>nuspell::get_libreoffice_paths</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-112 268,-112 268,4 -4,4"/>
-<!-- Node109 -->
+<!-- Node102 -->
 <g id="node1" class="node">
-<title>Node109</title>
+<title>Node102</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-39 0,-69 114,-69 114,-39 0,-39"/>
 <text text-anchor="start" x="8" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::get_libreoffice</text>
 <text text-anchor="middle" x="57" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_paths</text>
 </g>
-<!-- Node110 -->
+<!-- Node103 -->
 <g id="node2" class="node">
-<title>Node110</title>
+<title>Node103</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#a9404cbb74ae904c74db6776eb092e1b1" target="_top" xlink:title="nuspell::prefix">
 <polygon fill="#ffffff" stroke="#000000" points="168.5,-88.5 168.5,-107.5 245.5,-107.5 245.5,-88.5 168.5,-88.5"/>
 <text text-anchor="middle" x="207" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::prefix</text>
 </a>
 </g>
 </g>
-<!-- Node109&#45;&gt;Node110 -->
+<!-- Node102&#45;&gt;Node103 -->
 <g id="edge1" class="edge">
-<title>Node109&#45;&gt;Node110</title>
+<title>Node102&#45;&gt;Node103</title>
 <path fill="none" stroke="#191970" d="M108.202,-69.0192C126.5062,-74.3885 146.9202,-80.3766 164.4188,-85.5095"/>
 <polygon fill="#191970" stroke="#191970" points="163.7659,-88.9654 174.3468,-88.4217 165.7362,-82.2484 163.7659,-88.9654"/>
 </g>
-<!-- Node111 -->
+<!-- Node104 -->
 <g id="node3" class="node">
-<title>Node111</title>
+<title>Node104</title>
 <g id="a_node3"><a xlink:href="structnuspell_1_1_globber.html#a895d65e899b6619740bee3ed56f7b3bd" target="_top" xlink:title="nuspell::Globber::copy\l_glob_paths">
 <polygon fill="#ffffff" stroke="#000000" points="150,-39 150,-69 264,-69 264,-39 150,-39"/>
 <text text-anchor="start" x="158" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Globber::copy</text>
@@ -41,24 +41,24 @@
 </a>
 </g>
 </g>
-<!-- Node109&#45;&gt;Node111 -->
+<!-- Node102&#45;&gt;Node104 -->
 <g id="edge2" class="edge">
-<title>Node109&#45;&gt;Node111</title>
+<title>Node102&#45;&gt;Node104</title>
 <path fill="none" stroke="#191970" d="M114.1365,-54C122.3769,-54 130.9229,-54 139.3442,-54"/>
 <polygon fill="#191970" stroke="#191970" points="139.5255,-57.5001 149.5255,-54 139.5255,-50.5001 139.5255,-57.5001"/>
 </g>
-<!-- Node112 -->
+<!-- Node105 -->
 <g id="node4" class="node">
-<title>Node112</title>
+<title>Node105</title>
 <g id="a_node4"><a xlink:href="structnuspell_1_1_globber.html#a6165004632cc6ce235e0c588800894fa" target="_top" xlink:title="nuspell::Globber::glob">
 <polygon fill="#ffffff" stroke="#000000" points="151.5,-.5 151.5,-19.5 262.5,-19.5 262.5,-.5 151.5,-.5"/>
 <text text-anchor="middle" x="207" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Globber::glob</text>
 </a>
 </g>
 </g>
-<!-- Node109&#45;&gt;Node112 -->
+<!-- Node102&#45;&gt;Node105 -->
 <g id="edge3" class="edge">
-<title>Node109&#45;&gt;Node112</title>
+<title>Node102&#45;&gt;Node105</title>
 <path fill="none" stroke="#191970" d="M108.202,-38.9808C126.5062,-33.6115 146.9202,-27.6234 164.4188,-22.4905"/>
 <polygon fill="#191970" stroke="#191970" points="165.7362,-25.7516 174.3468,-19.5783 163.7659,-19.0346 165.7362,-25.7516"/>
 </g>

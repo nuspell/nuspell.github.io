@@ -101,6 +101,9 @@ $(function() {
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
+<li>chars
+: <a class="el" href="structnuspell_1_1_similarity___group.html#ac024cd63cac1fe5ad932c11994e99efc">nuspell::Similarity_Group&lt; CharT &gt;</a>
+</li>
 <li>checksharps
 : <a class="el" href="structnuspell_1_1_aff___data.html#a2fe215baa71d9898641a96a7945f4064">nuspell::Aff_Data</a>
 </li>
@@ -198,7 +201,8 @@ $(function() {
 
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>d
-: <a class="el" href="classnuspell_1_1_string___set.html#a22c74f978d566008be0145828b12b25e">nuspell::String_Set&lt; CharT &gt;</a>
+: <a class="el" href="classnuspell_1_1_list___strings.html#aaced62a301c2481cc5394d8eccf1d5e0">nuspell::List_Strings&lt; CharT &gt;</a>
+, <a class="el" href="classnuspell_1_1_string___set.html#a22c74f978d566008be0145828b12b25e">nuspell::String_Set&lt; CharT &gt;</a>
 </li>
 <li>data
 : <a class="el" href="classnuspell_1_1_hash___multiset.html#a3bd56c2e87dabeb54ca729ce129c6e24">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
@@ -219,8 +223,11 @@ $(function() {
 <li>encoding
 : <a class="el" href="struct_args__t.html#a1de32589f3237c4f149c92383508ef9f">Args_t</a>
 </li>
-<li>end_word_breaks_last_it
-: <a class="el" href="classnuspell_1_1_break___table.html#a503c4f66c366705f5632dde5b3c6cf36">nuspell::Break_Table&lt; CharT &gt;</a>
+<li>end_word_breaks_last_idx
+: <a class="el" href="classnuspell_1_1_break___table.html#ae5344221757d20c9c54d441c50d20473">nuspell::Break_Table&lt; CharT &gt;</a>
+</li>
+<li>end_word_reps_last_idx
+: <a class="el" href="classnuspell_1_1_replacement___table.html#a32adb018f37634eb7910e004c9734598">nuspell::Replacement_Table&lt; CharT &gt;</a>
 </li>
 <li>equal
 : <a class="el" href="classnuspell_1_1_hash___multiset.html#a01d8257234d6f3a6cc60cc4a235a0b0f">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
@@ -282,6 +289,9 @@ $(function() {
 <li>input_substr_replacer
 : <a class="el" href="structnuspell_1_1_aff___structures.html#a970252ad5835538a1ea6d6a2231ccc37">nuspell::Aff_Structures&lt; CharT &gt;</a>
 </li>
+<li>internal_locale
+: <a class="el" href="structnuspell_1_1_aff___data.html#a67ce2d31430537b880b1c2090b383f4d">nuspell::Aff_Data</a>
+</li>
 </ul>
 
 
@@ -292,8 +302,8 @@ $(function() {
 <li>key_extract
 : <a class="el" href="classnuspell_1_1_hash___multiset.html#aee66a946e61881dea98ac70e72e507d8">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
 </li>
-<li>keyboard_layout
-: <a class="el" href="structnuspell_1_1_aff___data.html#a1c4234cb00ad071429c347091c6c0e6f">nuspell::Aff_Data</a>
+<li>keyboard_closeness
+: <a class="el" href="structnuspell_1_1_aff___structures.html#a5859e62c857b6dd98b13893973166560">nuspell::Aff_Structures&lt; CharT &gt;</a>
 </li>
 </ul>
 
@@ -306,9 +316,6 @@ $(function() {
 <li>length
 : <a class="el" href="classnuspell_1_1_condition.html#a165e548d9e4ffb41c505b500eaf89262">nuspell::Condition&lt; CharT &gt;</a>
 </li>
-<li>locale_aff
-: <a class="el" href="structnuspell_1_1_aff___data.html#aed269df54f003fb59c15421d46e811fc">nuspell::Aff_Data</a>
-</li>
 <li>lower_table
 : <a class="el" href="classnuspell_1_1my__ctype_3_01char_01_4.html#a21e5ec5bbc3cf1bf2714440ffac61fb2">nuspell::my_ctype&lt; char &gt;</a>
 </li>
@@ -316,9 +323,6 @@ $(function() {
 
 
 <h3><a id="index_m"></a>- m -</h3><ul>
-<li>map_related_chars
-: <a class="el" href="structnuspell_1_1_aff___data.html#a19aaf8b5520fd1d9a0265fb8a155414f">nuspell::Aff_Data</a>
-</li>
 <li>match_first_only_unaffixed_or_zero_affixed
 : <a class="el" href="structnuspell_1_1_compound___pattern.html#a9bf354c317e0337c6a37300f788ef6a1">nuspell::Compound_Pattern&lt; CharT &gt;</a>
 </li>
@@ -392,6 +396,9 @@ $(function() {
 <li>prefixes
 : <a class="el" href="structnuspell_1_1_aff___structures.html#adf71fd1c6564b6d6b349859c56155519">nuspell::Aff_Structures&lt; CharT &gt;</a>
 </li>
+<li>print_false
+: <a class="el" href="struct_args__t.html#aa3fa139eb4ed3ff420204cb88e271a57">Args_t</a>
+</li>
 <li>program_name
 : <a class="el" href="struct_args__t.html#a0cf70bb9202cbfcfadeadc1d0e8b6b85">Args_t</a>
 </li>
@@ -404,7 +411,7 @@ $(function() {
 , <a class="el" href="structnuspell_1_1_compound___pattern.html#af5dc09080b417b3ae7c47c1ed873bf92">nuspell::Compound_Pattern&lt; CharT &gt;</a>
 </li>
 <li>replacements
-: <a class="el" href="structnuspell_1_1_aff___data.html#ad1e10b7f0d5a1cf196bc4944b2eb254c">nuspell::Aff_Data</a>
+: <a class="el" href="structnuspell_1_1_aff___structures.html#a6dc3c437af05752c8598d2e6c8619280">nuspell::Aff_Structures&lt; CharT &gt;</a>
 </li>
 <li>rules
 : <a class="el" href="classnuspell_1_1_compound___rule___table.html#a4c0d840645f58704804b356daf453363">nuspell::Compound_Rule_Table</a>
@@ -423,11 +430,20 @@ $(function() {
 : <a class="el" href="structnuspell_1_1_compound___check___pattern.html#a1658bfa6253930de580c49efe473c9c0">nuspell::Compound_Check_Pattern</a>
 , <a class="el" href="structnuspell_1_1_compound___pattern.html#a7ce4d6733e76152d1c2baf4c5f38fb01">nuspell::Compound_Pattern&lt; CharT &gt;</a>
 </li>
+<li>similarities
+: <a class="el" href="structnuspell_1_1_aff___structures.html#a0483a3876832005121dc0ae99632867a">nuspell::Aff_Structures&lt; CharT &gt;</a>
+</li>
 <li>spans
 : <a class="el" href="classnuspell_1_1_condition.html#a7bfe1f21e29bc07199825ac414093cf0">nuspell::Condition&lt; CharT &gt;</a>
 </li>
-<li>start_word_breaks_last_it
-: <a class="el" href="classnuspell_1_1_break___table.html#a464e73635a370bae3db25cda8d3c06d3">nuspell::Break_Table&lt; CharT &gt;</a>
+<li>start_word_breaks_last_idx
+: <a class="el" href="classnuspell_1_1_break___table.html#a413f2da6fc961ed5a105cb27b1d7daea">nuspell::Break_Table&lt; CharT &gt;</a>
+</li>
+<li>start_word_reps_last_idx
+: <a class="el" href="classnuspell_1_1_replacement___table.html#adc832f7e2a22e7feb45b3b5109946102">nuspell::Replacement_Table&lt; CharT &gt;</a>
+</li>
+<li>strings
+: <a class="el" href="structnuspell_1_1_similarity___group.html#aeaf7b726252354d690d56fac822d240f">nuspell::Similarity_Group&lt; CharT &gt;</a>
 </li>
 <li>stripping
 : <a class="el" href="structnuspell_1_1_affix.html#a7e962c3bd47e9abd62d58a3225a59ae8">nuspell::Affix</a>
@@ -448,6 +464,7 @@ $(function() {
 </li>
 <li>sz
 : <a class="el" href="classnuspell_1_1_hash___multiset.html#af9f82de495c5b080665e3f240a7ef54a">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a>
+, <a class="el" href="classnuspell_1_1_list___strings.html#ae8be0a97b39d3f227c9f1292335dd8ab">nuspell::List_Strings&lt; CharT &gt;</a>
 </li>
 </ul>
 
@@ -455,6 +472,7 @@ $(function() {
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>table
 : <a class="el" href="classnuspell_1_1_break___table.html#a5bce1f882a04878dbe28c8e0920342d0">nuspell::Break_Table&lt; CharT &gt;</a>
+, <a class="el" href="classnuspell_1_1_replacement___table.html#a9cb0924907b3d8583c8e15174e62a5d3">nuspell::Replacement_Table&lt; CharT &gt;</a>
 , <a class="el" href="classnuspell_1_1_substr___replacer.html#aa8de928ab0292f50da8274e25c2282c0">nuspell::Substr_Replacer&lt; CharT &gt;</a>
 </li>
 <li>tbl
@@ -463,7 +481,7 @@ $(function() {
 , <a class="el" href="classnuspell_1_1_suffix___iter.html#ab0fccb06a45b1afa915cdfc1f9b2eb96">nuspell::Suffix_Iter&lt; CharT &gt;</a>
 </li>
 <li>try_chars
-: <a class="el" href="structnuspell_1_1_aff___data.html#a53b17dc8fca3a2db57f7408ea153ee4b">nuspell::Aff_Data</a>
+: <a class="el" href="structnuspell_1_1_aff___structures.html#a93c7b21c93fdca35a276dcd5d562012e">nuspell::Aff_Structures&lt; CharT &gt;</a>
 </li>
 </ul>
 
@@ -492,6 +510,9 @@ $(function() {
 </li>
 <li>wd
 : <a class="el" href="classnuspell_1_1my__ctype_3_01wchar__t_01_4.html#a8be9cc7cb93a12712da1fbfcf8e9497d">nuspell::my_ctype&lt; wchar_t &gt;</a>
+</li>
+<li>whole_word_reps_last_idx
+: <a class="el" href="classnuspell_1_1_replacement___table.html#a0b9710301d0b71b4236d065c7b648b90">nuspell::Replacement_Table&lt; CharT &gt;</a>
 </li>
 <li>wide_structures
 : <a class="el" href="structnuspell_1_1_aff___data.html#a173a7e10ad2661137bc7c14dbc9fe0a2">nuspell::Aff_Data</a>

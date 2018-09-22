@@ -1,9 +1,9 @@
 var searchData=
 [
   ['files',['files',['../struct_args__t.html#a7eef2774d9a88da9f499ac336f445ddc',1,'Args_t']]],
+  ['fill',['fill',['../classnuspell_1_1my__ctype_3_01char_01_4.html#aa629be5306724a7801b5f55ca0e69bf6',1,'nuspell::my_ctype&lt; char &gt;']]],
   ['fill_5fall_5fflags',['fill_all_flags',['../classnuspell_1_1_compound___rule___table.html#ab16a19e908adfdba8891de0558b648be',1,'nuspell::Compound_Rule_Table']]],
-  ['fill_5fctype',['fill_ctype',['../namespacenuspell.html#a22e22ceec23aafebbe182feae2973671',1,'nuspell']]],
-  ['fill_5fctype_5fwide',['fill_ctype_wide',['../namespacenuspell.html#aa1a18c73ec1b1b7e4c7ca7d3bb493989',1,'nuspell']]],
+  ['fill_5fwiden',['fill_widen',['../classnuspell_1_1my__ctype_3_01wchar__t_01_4.html#a8cdd4b8d8a8cf18b6791f5eb649abee3',1,'nuspell::my_ctype&lt; wchar_t &gt;']]],
   ['find',['find',['../classnuspell_1_1_finder.html#a2e83d2cd366f50ce1f38e30642e8ea67',1,'nuspell::Finder::find()'],['../classnuspell_1_1_string___set.html#a37d21f20fe6b33cf9e98c7b70d76f24f',1,'nuspell::String_Set::find(const key_type &amp;x)'],['../classnuspell_1_1_string___set.html#a45d3888c57dc0079763374883a2286b1',1,'nuspell::String_Set::find(const key_type &amp;x) const']]],
   ['finder',['Finder',['../classnuspell_1_1_finder.html',1,'nuspell']]],
   ['finder_2ecxx',['finder.cxx',['../finder_8cxx.html',1,'']]],
@@ -21,6 +21,8 @@ var searchData=
   ['flag_5futf8',['FLAG_UTF8',['../namespacenuspell.html#a1982446c90592354255a5e7ea4139449a9b8eb01b0783f8906f241eec9e151f68',1,'nuspell']]],
   ['forbid_5fwarn',['forbid_warn',['../structnuspell_1_1_aff___data.html#a98e03c617b7b7de42a8acd1f69a716c9',1,'nuspell::Aff_Data']]],
   ['forbiddenword_5fflag',['forbiddenword_flag',['../structnuspell_1_1_aff___data.html#aca3df9a3441a9f193fe257a12992103d',1,'nuspell::Aff_Data']]],
+  ['forgotten_5fchar_5fsuggest',['forgotten_char_suggest',['../structnuspell_1_1_dict___base.html#ada7dcf66f89c49f4015b67b46a8e5f7e',1,'nuspell::Dict_Base']]],
+  ['front',['front',['../classnuspell_1_1_list___strings.html#a61484d860b46207a1c50d795b249534d',1,'nuspell::List_Strings::front()'],['../classnuspell_1_1_list___strings.html#ac15c16ce8ebfffa710e407cdf5c2d3c6',1,'nuspell::List_Strings::front() const']]],
   ['full_5fword',['FULL_WORD',['../namespacenuspell.html#ac175e015ddcedc084f63face3f4fe3d0ae6867d44b5cf809d244baea9087356e3',1,'nuspell']]],
   ['fullstrip',['fullstrip',['../structnuspell_1_1_aff___data.html#a03977ea0ee4bf89937ee25d9b639c927',1,'nuspell::Aff_Data']]]
 ];

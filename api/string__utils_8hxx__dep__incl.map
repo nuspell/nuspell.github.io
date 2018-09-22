@@ -1,9 +1,8 @@
 <map id="src/nuspell/string_utils.hxx" name="src/nuspell/string_utils.hxx">
 <area shape="rect" id="node2" href="$aff__data_8cxx.html" title="Affixing data structures. " alt="" coords="5,95,167,121"/>
-<area shape="rect" id="node3" href="$condition_8cxx.html" title="Condition matching. " alt="" coords="191,95,357,121"/>
-<area shape="rect" id="node4" href="$dictionary_8cxx.html" title="Dictionary spelling. " alt="" coords="382,95,553,121"/>
-<area shape="rect" id="node5" href="$finder_8cxx.html" title="Finding dictionaries. " alt="" coords="577,95,723,121"/>
-<area shape="rect" id="node6" href="$main_8cxx.html" title="Command line spell checking. " alt="" coords="748,95,891,121"/>
-<area shape="rect" id="node7" href="$regress_8cxx.html" title="Command line spell check regression testing. " alt="" coords="915,95,1073,121"/>
-<area shape="rect" id="node8" href="$structures_8cxx.html" title="Data structures. " alt="" coords="1097,95,1269,121"/>
+<area shape="rect" id="node3" href="$dictionary_8cxx.html" title="Dictionary spelling. " alt="" coords="191,95,362,121"/>
+<area shape="rect" id="node4" href="$finder_8cxx.html" title="Finding dictionaries. " alt="" coords="386,95,533,121"/>
+<area shape="rect" id="node5" href="$main_8cxx.html" title="Command line spell checking. " alt="" coords="557,95,700,121"/>
+<area shape="rect" id="node6" href="$regress_8cxx.html" title="Command line spell check regression testing. " alt="" coords="725,95,882,121"/>
+<area shape="rect" id="node7" href="$structures_8cxx.html" title="Data structures. " alt="" coords="907,95,1079,121"/>
 </map>

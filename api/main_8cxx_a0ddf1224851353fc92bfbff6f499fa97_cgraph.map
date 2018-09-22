@@ -3,16 +3,17 @@
 <area shape="rect" id="node3" href="$main_8cxx.html#af8c650bca476b3f8959df7215c4c134f" title="Prints help information. " alt="" coords="140,71,219,98"/>
 <area shape="rect" id="node4" href="$main_8cxx.html#a6150c93934b2505d7e4521b40fa8d571" title="Prints the version number to standard output. " alt="" coords="131,122,227,149"/>
 <area shape="rect" id="node5" href="$main_8cxx.html#a52c3a3f99e1d55b225a92fa017bada0d" title="Lists dictionary paths and available dictionaries on the system to standard output. " alt="" coords="123,173,235,199"/>
-<area shape="rect" id="node6" href="$main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5" title="Normal loop, tokenize and check spelling. " alt="" coords="133,223,225,250"/>
-<area shape="rect" id="node12" href="$main_8cxx.html#aebf1b2aa274390a39317fbbca50d9d5e" title="Prints misspelled words from an input stream to an output stream. " alt="" coords="104,274,255,301"/>
-<area shape="rect" id="node13" href="$main_8cxx.html#a1f92dedeeb68a1a7bc2b720097d3b7a4" title="misspelled_line_loop" alt="" coords="108,426,251,453"/>
-<area shape="rect" id="node16" href="$main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff" title="correct_word_loop" alt="" coords="115,325,243,351"/>
-<area shape="rect" id="node17" href="$main_8cxx.html#a16580c4100b461806a9c49575bdd5428" title="correct_line_loop" alt="" coords="119,375,239,402"/>
-<area shape="rect" id="node7" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="319,317,489,359"/>
-<area shape="rect" id="node8" href="$namespacenuspell.html#a79258aeb32a39ce719a014950b33e5d6" title="nuspell::utf8_to_wide" alt="" coords="575,274,721,301"/>
-<area shape="rect" id="node10" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="590,325,706,351"/>
-<area shape="rect" id="node11" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="584,375,712,402"/>
-<area shape="rect" id="node9" href="$namespacenuspell.html#aae8baee1ca83bf5a5e0d07a4e8fdbf81" title="nuspell::utf_to_utf_my" alt="" coords="791,274,941,301"/>
-<area shape="rect" id="node14" href="$namespacenuspell.html#aa7e4995c62f0034c3f760c93a3d25dd9" title="Splits on whitespace, outputs to vector of strings. " alt="" coords="303,426,505,453"/>
-<area shape="rect" id="node15" href="$namespacenuspell.html#aac7e2f7ff54b3d984e221a4c6524338d" title="Splits on whitespace. " alt="" coords="553,426,743,453"/>
+<area shape="rect" id="node6" href="$main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5" title="Normal loop, tokenize and check spelling. " alt="" coords="133,274,225,301"/>
+<area shape="rect" id="node10" href="$main_8cxx.html#a3d8ece05cdc365860364604ebebab70d" title="crude_parse_loop" alt="" coords="117,223,241,250"/>
+<area shape="rect" id="node13" href="$main_8cxx.html#aebf1b2aa274390a39317fbbca50d9d5e" title="Prints misspelled words from an input stream to an output stream. " alt="" coords="104,325,255,351"/>
+<area shape="rect" id="node14" href="$main_8cxx.html#a1f92dedeeb68a1a7bc2b720097d3b7a4" title="misspelled_line_loop" alt="" coords="108,426,251,453"/>
+<area shape="rect" id="node17" href="$main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff" title="correct_word_loop" alt="" coords="115,375,243,402"/>
+<area shape="rect" id="node18" href="$main_8cxx.html#a16580c4100b461806a9c49575bdd5428" title="correct_line_loop" alt="" coords="119,477,239,503"/>
+<area shape="rect" id="node7" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="323,353,493,395"/>
+<area shape="rect" id="node8" href="$classnuspell_1_1_basic___dictionary.html#ac50138a9f4de879a541838170f957977" title="nuspell::Basic_Dictionary\l::suggest" alt="" coords="323,271,493,312"/>
+<area shape="rect" id="node9" href="$classnuspell_1_1_list___strings.html#a3baa052822894e35652f895e6324d4fb" title="nuspell::List_Strings\l::clear" alt="" coords="590,271,730,312"/>
+<area shape="rect" id="node11" href="$namespacenuspell.html#ae7511832ec3d132234e782cd89bc18e3" title="nuspell::parse_on_whitespace_v" alt="" coords="303,219,513,246"/>
+<area shape="rect" id="node12" href="$namespacenuspell.html#a18195df0ca9db9b03c0824af311d4f9b" title="Parses on whitespace. " alt="" coords="561,219,759,246"/>
+<area shape="rect" id="node15" href="$namespacenuspell.html#aa7e4995c62f0034c3f760c93a3d25dd9" title="Splits on whitespace, outputs to vector of strings. " alt="" coords="307,441,509,467"/>
+<area shape="rect" id="node16" href="$namespacenuspell.html#aac7e2f7ff54b3d984e221a4c6524338d" title="Splits on whitespace. " alt="" coords="565,441,755,467"/>
 </map>

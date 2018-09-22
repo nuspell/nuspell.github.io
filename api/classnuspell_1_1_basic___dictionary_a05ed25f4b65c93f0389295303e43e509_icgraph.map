@@ -2,7 +2,8 @@
 <area shape="rect" id="node2" href="$main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5" title="Normal loop, tokenize and check spelling. " alt="" coords="253,5,345,32"/>
 <area shape="rect" id="node4" href="$main_8cxx.html#aebf1b2aa274390a39317fbbca50d9d5e" title="Prints misspelled words from an input stream to an output stream. " alt="" coords="224,56,375,83"/>
 <area shape="rect" id="node5" href="$main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff" title="correct_word_loop" alt="" coords="235,107,363,133"/>
-<area shape="rect" id="node6" href="$main_8cxx.html#a1f92dedeeb68a1a7bc2b720097d3b7a4" title="misspelled_line_loop" alt="" coords="228,157,371,184"/>
-<area shape="rect" id="node7" href="$main_8cxx.html#a16580c4100b461806a9c49575bdd5428" title="correct_line_loop" alt="" coords="239,208,359,235"/>
-<area shape="rect" id="node3" href="$main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="423,107,473,133"/>
+<area shape="rect" id="node6" href="$main_8cxx.html#a3d8ece05cdc365860364604ebebab70d" title="crude_parse_loop" alt="" coords="237,157,361,184"/>
+<area shape="rect" id="node7" href="$main_8cxx.html#a1f92dedeeb68a1a7bc2b720097d3b7a4" title="misspelled_line_loop" alt="" coords="228,208,371,235"/>
+<area shape="rect" id="node8" href="$main_8cxx.html#a16580c4100b461806a9c49575bdd5428" title="correct_line_loop" alt="" coords="239,259,359,285"/>
+<area shape="rect" id="node3" href="$main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="423,132,473,159"/>
 </map>

@@ -4,8 +4,14 @@
 <area shape="rect" id="node4" href="$classnuspell_1_1_string___set.html#ac42caccbd9ed0fd43844544e4a6dc0e4" title="nuspell::String_Set\l\&lt; char16_t \&gt;::lower_bound" alt="" coords="217,136,395,177"/>
 <area shape="rect" id="node5" href="$classnuspell_1_1_string___set.html#a787f62831f35de5f2347c68912205565" title="nuspell::String_Set\l\&lt; char16_t \&gt;::upper_bound" alt="" coords="217,201,395,243"/>
 <area shape="rect" id="node6" href="$classnuspell_1_1_string___set.html#a4e8fd052284151b5e18c71906c450611" title="nuspell::String_Set\l\&lt; char16_t \&gt;::equal_range" alt="" coords="219,267,393,308"/>
-<area shape="rect" id="node7" href="$classnuspell_1_1_hash___multiset.html#aad3b03ada05b0c7d540c83545e81ee23" title="nuspell::Hash_Multiset\l::insert" alt="" coords="229,332,383,373"/>
-<area shape="rect" id="node8" href="$classnuspell_1_1_hash___multiset.html#ad3a00cea7680614167e392c7c6df5c90" title="nuspell::Hash_Multiset\l::equal_range_nonconst\l_unsafe" alt="" coords="226,398,386,454"/>
-<area shape="rect" id="node9" href="$classnuspell_1_1_hash___multiset.html#a615f7b3ae53f0cef400668746d8be501" title="nuspell::Hash_Multiset\l::equal_range" alt="" coords="229,479,383,520"/>
-<area shape="rect" id="node10" href="$structnuspell_1_1sv__hash.html#ab76772bf628157212781d7ac2e95f3d8" title="nuspell::sv_hash::operator()" alt="" coords="215,545,397,571"/>
+<area shape="rect" id="node7" href="$classnuspell_1_1_break___table.html#abd26400df7f332bfca238da79d542b25" title="nuspell::Break_Table\l\&lt; char \&gt;::middle_word\l_breaks" alt="" coords="230,333,382,389"/>
+<area shape="rect" id="node8" href="$classnuspell_1_1_hash___multiset.html#aad3b03ada05b0c7d540c83545e81ee23" title="nuspell::Hash_Multiset\l::insert" alt="" coords="229,413,383,455"/>
+<area shape="rect" id="node9" href="$classnuspell_1_1_hash___multiset.html#ad3a00cea7680614167e392c7c6df5c90" title="nuspell::Hash_Multiset\l::equal_range_nonconst\l_unsafe" alt="" coords="226,479,386,535"/>
+<area shape="rect" id="node10" href="$classnuspell_1_1_hash___multiset.html#a615f7b3ae53f0cef400668746d8be501" title="nuspell::Hash_Multiset\l::equal_range" alt="" coords="229,560,383,601"/>
+<area shape="rect" id="node11" href="$structnuspell_1_1sv__hash.html#ab76772bf628157212781d7ac2e95f3d8" title="nuspell::sv_hash::operator()" alt="" coords="215,626,397,653"/>
+<area shape="rect" id="node12" href="$classnuspell_1_1_list___strings.html#a54da064267bc6007e06e8f96b5b307e3" title="nuspell::List_Strings\l::erase" alt="" coords="236,677,376,719"/>
+<area shape="rect" id="node13" href="$classnuspell_1_1_list___strings.html#a5380856ecf4f33f865893951049454a7" title="nuspell::List_Strings\l::operator==" alt="" coords="236,743,376,784"/>
+<area shape="rect" id="node14" href="$classnuspell_1_1_list___strings.html#a99b603000b99d86d8367d0e7cf88f9ba" title="nuspell::List_Strings\l::operator\&lt;" alt="" coords="236,808,376,849"/>
+<area shape="rect" id="node15" href="$classnuspell_1_1_list___strings.html#a9d8367f81cb8b33cafe18f14918ff8c8" title="nuspell::List_Strings\l::operator\&gt;" alt="" coords="236,873,376,915"/>
+<area shape="rect" id="node16" href="$classnuspell_1_1_replacement___table.html#aee979a9cae9bd0b871a3f0a044657a61" title="nuspell::Replacement\l_Table\&lt; char \&gt;::any_place\l_replacements" alt="" coords="217,939,395,995"/>
 </map>

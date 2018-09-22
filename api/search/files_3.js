@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['finder_2ecxx',['finder.cxx',['../finder_8cxx.html',1,'']]],
-  ['finder_2ehxx',['finder.hxx',['../finder_8hxx.html',1,'']]]
+  ['locale_5futils_2ecxx',['locale_utils.cxx',['../locale__utils_8cxx.html',1,'']]],
+  ['locale_5futils_2ehxx',['locale_utils.hxx',['../locale__utils_8hxx.html',1,'']]]
 ];

@@ -111,6 +111,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1identity.html">identity</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of strings that recycles erased strings.  <a href="classnuspell_1_1_list___strings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1my__ctype.html">my_ctype</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1my__ctype_3_01char_01_4.html">my_ctype&lt; char &gt;</a></td></tr>
@@ -123,6 +126,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_prefix___iter.html">Prefix_Iter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator of prefix entres that match a word.  <a href="classnuspell_1_1_prefix___iter.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_replacement___table.html">Replacement_Table</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_similarity___group.html">Similarity_Group</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_string___pair.html">String_Pair</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,8 +194,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea2d50bf9640a48c0099713dbb1b859172">Encoding_Details::EXTERNAL_U8_INTERNAL_OTHER</a>, 
 <a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea4abf40c1dfd54898f94b4002f6e06c2c">Encoding_Details::EXTERNAL_OTHER_INTERNAL_OTHER</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea8fe6f1b129f9652402bbbedf3912707b">Encoding_Details::EXTERNAL_SAME_INTERNAL_AND_SINGLEBYTE</a>, 
-<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9eab84d9ea4b0854b09c13dd19a81a0f70c">Encoding_Details::BAD_LOCALES</a>
+&#160;&#160;<a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea8fe6f1b129f9652402bbbedf3912707b">Encoding_Details::EXTERNAL_SAME_INTERNAL_AND_SINGLEBYTE</a>
 <br />
  }</td></tr>
 <tr class="separator:a8eb14fb06f1eb312a9e8ed9cbee13f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,10 +343,6 @@ Functions</h2></td></tr>
 <tr class="separator:a4bbcd07d775ff9e19d67c9c68167dbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a8f9abb37fff312a261e20e6cbc29c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a25a8f9abb37fff312a261e20e6cbc29c">get_char_mask</a> (UChar32 cp)</td></tr>
 <tr class="separator:a25a8f9abb37fff312a261e20e6cbc29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e22ceec23aafebbe182feae2973671"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a22e22ceec23aafebbe182feae2973671">fill_ctype</a> (const string &amp;enc, ctype_base::mask *m, char *upper, char *lower)</td></tr>
-<tr class="separator:a22e22ceec23aafebbe182feae2973671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1a18c73ec1b1b7e4c7ca7d3bb493989"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aa1a18c73ec1b1b7e4c7ca7d3bb493989">fill_ctype_wide</a> (const string &amp;enc, wchar_t *widen)</td></tr>
-<tr class="separator:aa1a18c73ec1b1b7e4c7ca7d3bb493989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae159e86a8a1edad724249d330d985b1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aae159e86a8a1edad724249d330d985b1">install_ctype_facets_inplace</a> (std::locale &amp;boost_loc) -&gt; void</td></tr>
 <tr class="separator:aae159e86a8a1edad724249d330d985b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada8c46770a2fbf918ed2b75b3b14517d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ada8c46770a2fbf918ed2b75b3b14517d">analyze_encodings</a> (const locale &amp;external, const locale &amp;internal) -&gt; <a class="el" href="namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9e">Encoding_Details</a></td></tr>
@@ -396,6 +398,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a3ea48c5737f4b1466acd4ab098759ebb"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a3ea48c5737f4b1466acd4ab098759ebb">split_first</a> (const std::basic_string&lt; CharT &gt; &amp;s, const CharOrStr &amp;sep) -&gt; std::basic_string&lt; CharT &gt;</td></tr>
 <tr class="memdesc:a3ea48c5737f4b1466acd4ab098759ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the first token of a splitted string.  <a href="#a3ea48c5737f4b1466acd4ab098759ebb">More...</a><br /></td></tr>
 <tr class="separator:a3ea48c5737f4b1466acd4ab098759ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18195df0ca9db9b03c0824af311d4f9b"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIt &gt; </td></tr>
+<tr class="memitem:a18195df0ca9db9b03c0824af311d4f9b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a18195df0ca9db9b03c0824af311d4f9b">parse_on_whitespace</a> (const std::basic_string&lt; CharT &gt; &amp;s, OutIt out, const std::locale &amp;loc=std::locale()) -&gt; OutIt</td></tr>
+<tr class="memdesc:a18195df0ca9db9b03c0824af311d4f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses on whitespace.  <a href="#a18195df0ca9db9b03c0824af311d4f9b">More...</a><br /></td></tr>
+<tr class="separator:a18195df0ca9db9b03c0824af311d4f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7511832ec3d132234e782cd89bc18e3"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:ae7511832ec3d132234e782cd89bc18e3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ae7511832ec3d132234e782cd89bc18e3">parse_on_whitespace_v</a> (const std::basic_string&lt; CharT &gt; &amp;s, std::vector&lt; std::basic_string&lt; CharT &gt;&gt; &amp;v, const std::locale &amp;loc=std::locale()) -&gt; void</td></tr>
+<tr class="separator:ae7511832ec3d132234e782cd89bc18e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac7e2f7ff54b3d984e221a4c6524338d"><td class="memTemplParams" colspan="2">template&lt;class CharT , class OutIt &gt; </td></tr>
 <tr class="memitem:aac7e2f7ff54b3d984e221a4c6524338d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#aac7e2f7ff54b3d984e221a4c6524338d">split_on_whitespace</a> (const std::basic_string&lt; CharT &gt; &amp;s, OutIt out, const std::locale &amp;loc=std::locale()) -&gt; OutIt</td></tr>
 <tr class="memdesc:aac7e2f7ff54b3d984e221a4c6524338d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits on whitespace.  <a href="#aac7e2f7ff54b3d984e221a4c6524338d">More...</a><br /></td></tr>
@@ -407,6 +416,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a7f9d46d315680708283bd79ad729333d"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
 <tr class="memitem:a7f9d46d315680708283bd79ad729333d"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a7f9d46d315680708283bd79ad729333d">erase_chars</a> (std::basic_string&lt; CharT &gt; &amp;s, const std::basic_string&lt; CharT &gt; &amp;erase_chars)</td></tr>
 <tr class="separator:a7f9d46d315680708283bd79ad729333d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e3bbd2509bfa4d9cafc8888baee3fd5"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a3e3bbd2509bfa4d9cafc8888baee3fd5"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a3e3bbd2509bfa4d9cafc8888baee3fd5">replace_char</a> (std::basic_string&lt; CharT &gt; &amp;s, CharT from, CharT to)</td></tr>
+<tr class="separator:a3e3bbd2509bfa4d9cafc8888baee3fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
 <tr class="memitem:ac7e8eea65ba4b7e20168229192ca81dd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac7e8eea65ba4b7e20168229192ca81dd">is_number</a> (const std::basic_string&lt; CharT &gt; &amp;s) -&gt; bool</td></tr>
 <tr class="memdesc:ac7e8eea65ba4b7e20168229192ca81dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if word is a number.  <a href="#ac7e8eea65ba4b7e20168229192ca81dd">More...</a><br /></td></tr>
@@ -422,6 +434,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
 <tr class="memitem:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ac9f0f5a552ce6c791d51097c55a47b2e">swap</a> (<a class="el" href="classnuspell_1_1_string___set.html">String_Set</a>&lt; CharT &gt; &amp;a, <a class="el" href="classnuspell_1_1_string___set.html">String_Set</a>&lt; CharT &gt; &amp;b)</td></tr>
 <tr class="separator:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7a07dbabd9c03a5fdb85516e225ac2"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a4e7a07dbabd9c03a5fdb85516e225ac2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a4e7a07dbabd9c03a5fdb85516e225ac2">swap</a> (<a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; CharT &gt; &amp;a, <a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; CharT &gt; &amp;b)</td></tr>
+<tr class="separator:a4e7a07dbabd9c03a5fdb85516e225ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -626,7 +641,6 @@ template&lt;class CharT &gt; </div>
 <tr><td class="fieldname"><a id="a8eb14fb06f1eb312a9e8ed9cbee13f9ea2d50bf9640a48c0099713dbb1b859172"></a>EXTERNAL_U8_INTERNAL_OTHER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8eb14fb06f1eb312a9e8ed9cbee13f9ea4abf40c1dfd54898f94b4002f6e06c2c"></a>EXTERNAL_OTHER_INTERNAL_OTHER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8eb14fb06f1eb312a9e8ed9cbee13f9ea8fe6f1b129f9652402bbbedf3912707b"></a>EXTERNAL_SAME_INTERNAL_AND_SINGLEBYTE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8eb14fb06f1eb312a9e8ed9cbee13f9eab84d9ea4b0854b09c13dd19a81a0f70c"></a>BAD_LOCALES&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -716,7 +730,7 @@ template&lt;class CharT &gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ada8c46770a2fbf918ed2b75b3b14517d_icgraph.svg" width="412" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ada8c46770a2fbf918ed2b75b3b14517d_icgraph.svg" width="412" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1188,92 +1202,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a22e22ceec23aafebbe182feae2973671"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22e22ceec23aafebbe182feae2973671">&#9670;&nbsp;</a></span>fill_ctype()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto nuspell::fill_ctype </td>
-          <td>(</td>
-          <td class="paramtype">const string &amp;&#160;</td>
-          <td class="paramname"><em>enc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ctype_base::mask *&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>upper</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>lower</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a22e22ceec23aafebbe182feae2973671_cgraph.svg" width="342" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a22e22ceec23aafebbe182feae2973671_icgraph.svg" width="318" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="aa1a18c73ec1b1b7e4c7ca7d3bb493989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1a18c73ec1b1b7e4c7ca7d3bb493989">&#9670;&nbsp;</a></span>fill_ctype_wide()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto nuspell::fill_ctype_wide </td>
-          <td>(</td>
-          <td class="paramtype">const string &amp;&#160;</td>
-          <td class="paramname"><em>enc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wchar_t *&#160;</td>
-          <td class="paramname"><em>widen</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aa1a18c73ec1b1b7e4c7ca7d3bb493989_icgraph.svg" width="366" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
 <a id="a2dacde753f0b71fe8bea9b1fc394e517"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2dacde753f0b71fe8bea9b1fc394e517">&#9670;&nbsp;</a></span>get_apacheopenoffice_paths()</h2>
 
@@ -1334,7 +1262,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a25a8f9abb37fff312a261e20e6cbc29c_icgraph.svg" width="539" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a25a8f9abb37fff312a261e20e6cbc29c_icgraph.svg" width="355" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -2419,6 +2347,110 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a18195df0ca9db9b03c0824af311d4f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18195df0ca9db9b03c0824af311d4f9b">&#9670;&nbsp;</a></span>parse_on_whitespace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharT , class OutIt &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::parse_on_whitespace </td>
+          <td>(</td>
+          <td class="paramtype">const std::basic_string&lt; CharT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OutIt&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::locale &amp;&#160;</td>
+          <td class="paramname"><em>loc</em> = <code>std::locale()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; OutIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parses on whitespace. </p>
+<p>Consecutive whitespace is treated as single separator. Includes whitespace in output.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>string to split. </td></tr>
+    <tr><td class="paramname">out</td><td>start of the output range where separated strings are appended. </td></tr>
+    <tr><td class="paramname">loc</td><td>locale object that takes care of what is whitespace. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The iterator that indicates the end of the output range. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a18195df0ca9db9b03c0824af311d4f9b_icgraph.svg" width="738" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae7511832ec3d132234e782cd89bc18e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7511832ec3d132234e782cd89bc18e3">&#9670;&nbsp;</a></span>parse_on_whitespace_v()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::parse_on_whitespace_v </td>
+          <td>(</td>
+          <td class="paramtype">const std::basic_string&lt; CharT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::basic_string&lt; CharT &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::locale &amp;&#160;</td>
+          <td class="paramname"><em>loc</em> = <code>std::locale()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ae7511832ec3d132234e782cd89bc18e3_cgraph.svg" width="467" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ae7511832ec3d132234e782cd89bc18e3_icgraph.svg" width="492" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="ae580b4a878894da57f49c6faf107e183"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae580b4a878894da57f49c6faf107e183">&#9670;&nbsp;</a></span>parse_vector_of_T()</h2>
 
@@ -2602,6 +2634,48 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aee2d3cdfa70d7cf8304c9a9f487b9a52_icgraph.svg" width="524" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3e3bbd2509bfa4d9cafc8888baee3fd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e3bbd2509bfa4d9cafc8888baee3fd5">&#9670;&nbsp;</a></span>replace_char()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto&amp; nuspell::replace_char </td>
+          <td>(</td>
+          <td class="paramtype">std::basic_string&lt; CharT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CharT&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CharT&#160;</td>
+          <td class="paramname"><em>to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a3e3bbd2509bfa4d9cafc8888baee3fd5_icgraph.svg" width="335" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3212,7 +3286,7 @@ template&lt;class CharT &gt; </div>
 </div>
 </div>
 <a id="ac9f0f5a552ce6c791d51097c55a47b2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9f0f5a552ce6c791d51097c55a47b2e">&#9670;&nbsp;</a></span>swap()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9f0f5a552ce6c791d51097c55a47b2e">&#9670;&nbsp;</a></span>swap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3242,6 +3316,48 @@ template&lt;class CharT &gt; </div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ac9f0f5a552ce6c791d51097c55a47b2e_cgraph.svg" width="294" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4e7a07dbabd9c03a5fdb85516e225ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7a07dbabd9c03a5fdb85516e225ac2">&#9670;&nbsp;</a></span>swap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; CharT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; CharT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a4e7a07dbabd9c03a5fdb85516e225ac2_cgraph.svg" width="302" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a4e7a07dbabd9c03a5fdb85516e225ac2_icgraph.svg" width="302" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3281,7 +3397,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a9bf8e1a3f71282ed001fcf4f224ef9dd_icgraph.svg" width="655" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a9bf8e1a3f71282ed001fcf4f224ef9dd_icgraph.svg" width="456" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3355,7 +3471,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a7aade2ec1cb243eb5b3714007d59d63c_icgraph.svg" width="643" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a7aade2ec1cb243eb5b3714007d59d63c_icgraph.svg" width="444" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3541,7 +3657,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a79258aeb32a39ce719a014950b33e5d6_icgraph.svg" width="672" height="278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a79258aeb32a39ce719a014950b33e5d6_icgraph.svg" width="375" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3602,7 +3718,7 @@ template&lt;class InChar , class OutChar &gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aae8baee1ca83bf5a5e0d07a4e8fdbf81_icgraph.svg" width="1312" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aae8baee1ca83bf5a5e0d07a4e8fdbf81_icgraph.svg" width="1194" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3639,7 +3755,7 @@ template&lt;class InChar , class OutChar &gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ade7ffffeb6a7e872e46bb96f4b1e4eea_icgraph.svg" width="503" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ade7ffffeb6a7e872e46bb96f4b1e4eea_icgraph.svg" width="543" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3703,7 +3819,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ad4e8221da9ce95908ecd5a60ac3ae08c_icgraph.svg" width="335" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ad4e8221da9ce95908ecd5a60ac3ae08c_icgraph.svg" width="375" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

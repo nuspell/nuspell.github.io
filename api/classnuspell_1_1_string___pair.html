@@ -81,6 +81,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac4f74ae81d33acf71d425c19e197accb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e080ea507439c525ceb079999134fb4"><td class="memTemplParams" colspan="2">template&lt;class Str1 &gt; </td></tr>
 <tr class="memitem:a6e080ea507439c525ceb079999134fb4"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_string___pair.html#a6e080ea507439c525ceb079999134fb4">String_Pair</a> (Str1 &amp;&amp;<a class="el" href="classnuspell_1_1_string___pair.html#af22d7ac41df193eb834940f14a268eef">str</a>, size_t <a class="el" href="classnuspell_1_1_string___pair.html#aa3071f864899c1cbfd6b9fe5b3625873">i</a>)</td></tr>
+<tr class="memdesc:a6e080ea507439c525ceb079999134fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a string pair from a single string containing a pair of strings and an index where the split resides.  <a href="#a6e080ea507439c525ceb079999134fb4">More...</a><br /></td></tr>
 <tr class="separator:a6e080ea507439c525ceb079999134fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cd9c418ec3f1d6e26ec071e322cd6dd"><td class="memTemplParams" colspan="2">template&lt;class Str1 , class Str2 , class  = std::enable_if_t&lt;	        std::is_same&lt;std::remove_reference_t&lt;Str1&gt;, StrT&gt;::value &amp;&amp;	        std::is_same&lt;std::remove_reference_t&lt;Str2&gt;, StrT&gt;::value&gt;&gt; </td></tr>
 <tr class="memitem:a7cd9c418ec3f1d6e26ec071e322cd6dd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_string___pair.html#a7cd9c418ec3f1d6e26ec071e322cd6dd">String_Pair</a> (Str1 &amp;&amp;<a class="el" href="classnuspell_1_1_string___pair.html#a422253591ad1bcaeff1ce5e74c5c23a2">first</a>, Str2 &amp;&amp;<a class="el" href="classnuspell_1_1_string___pair.html#af3f0c6167fa605ecf3df754c946742cb">second</a>)</td></tr>
@@ -200,6 +201,21 @@ template&lt;class Str1 &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructs a string pair from a single string containing a pair of strings and an index where the split resides. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>the string that can be split into a pair. </td></tr>
+    <tr><td class="paramname">i</td><td>the index where the string is split. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::out_of_range</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

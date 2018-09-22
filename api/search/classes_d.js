@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['to_5froot_5funroot_5fraii',['To_Root_Unroot_RAII',['../classnuspell_1_1_to___root___unroot___r_a_i_i.html',1,'nuspell']]]
+  ['replacement_5ftable',['Replacement_Table',['../classnuspell_1_1_replacement___table.html',1,'nuspell']]],
+  ['replacement_5ftable_3c_20char_20_3e',['Replacement_Table&lt; char &gt;',['../classnuspell_1_1_replacement___table.html',1,'nuspell']]],
+  ['replacement_5ftable_3c_20wchar_5ft_20_3e',['Replacement_Table&lt; wchar_t &gt;',['../classnuspell_1_1_replacement___table.html',1,'nuspell']]]
 ];

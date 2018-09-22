@@ -1,16 +1,17 @@
 var searchData=
 [
-  ['cbegin',['cbegin',['../classnuspell_1_1_string___set.html#a38f2e5910e7afb5940028d750e98796a',1,'nuspell::String_Set']]],
-  ['cend',['cend',['../classnuspell_1_1_string___set.html#a4c82752ebf1e032ae411ff5fd3f0264a',1,'nuspell::String_Set']]],
-  ['check_5fcompound',['check_compound',['../structnuspell_1_1_dict___base.html#a85ad81064cffadcabc43670ca5955475',1,'nuspell::Dict_Base']]],
-  ['check_5fcompound_5fclassic',['check_compound_classic',['../structnuspell_1_1_dict___base.html#a682975810d9e03719d1e9f771b9b27f5',1,'nuspell::Dict_Base']]],
-  ['check_5fcompound_5fwith_5fpattern_5freplacements',['check_compound_with_pattern_replacements',['../structnuspell_1_1_dict___base.html#a5bfda344d5db588c638e71fda35d3ee0',1,'nuspell::Dict_Base']]],
-  ['check_5fcompound_5fwith_5frules',['check_compound_with_rules',['../structnuspell_1_1_dict___base.html#ab97583e3d30d44fe67f3a5ff6eee844e',1,'nuspell::Dict_Base']]],
+  ['capacity',['capacity',['../classnuspell_1_1_list___strings.html#acf76d39e09b98332d61ca7f70831a61b',1,'nuspell::List_Strings']]],
+  ['cbegin',['cbegin',['../classnuspell_1_1_string___set.html#a38f2e5910e7afb5940028d750e98796a',1,'nuspell::String_Set::cbegin()'],['../classnuspell_1_1_list___strings.html#a2f7eb390cc8f6e2fe386832a49e399de',1,'nuspell::List_Strings::cbegin()']]],
+  ['cend',['cend',['../classnuspell_1_1_string___set.html#a4c82752ebf1e032ae411ff5fd3f0264a',1,'nuspell::String_Set::cend()'],['../classnuspell_1_1_list___strings.html#a228b6fe8ad79541576041d43f7a8e2b2',1,'nuspell::List_Strings::cend()']]],
+  ['check_5fcompound',['check_compound',['../structnuspell_1_1_dict___base.html#aed44f95bcf0f9fd485bc3b1e00842d4e',1,'nuspell::Dict_Base::check_compound(std::basic_string&lt; CharT &gt; &amp;word) const -&gt; Compounding_Result'],['../structnuspell_1_1_dict___base.html#a67b94158edebe21610c3a95f768d5c87',1,'nuspell::Dict_Base::check_compound(std::basic_string&lt; CharT &gt; &amp;word, size_t start_pos, size_t num_part, std::basic_string&lt; CharT &gt; &amp;part) const -&gt; Compounding_Result']]],
+  ['check_5fcompound_5fclassic',['check_compound_classic',['../structnuspell_1_1_dict___base.html#aa442f57c1391b76a9447a9eaf70202cb',1,'nuspell::Dict_Base']]],
+  ['check_5fcompound_5fwith_5fpattern_5freplacements',['check_compound_with_pattern_replacements',['../structnuspell_1_1_dict___base.html#a765d710baa001aaca3ad3a32e0f8b8a2',1,'nuspell::Dict_Base']]],
+  ['check_5fcompound_5fwith_5frules',['check_compound_with_rules',['../structnuspell_1_1_dict___base.html#a571382442e70aabd661b9a06ef50be07',1,'nuspell::Dict_Base']]],
   ['check_5fcondition',['check_condition',['../classnuspell_1_1_prefix.html#a08ae6fbb195985d44c462b8de9304509',1,'nuspell::Prefix::check_condition()'],['../classnuspell_1_1_suffix.html#a9ba986b5d8df28288490764aeda52340',1,'nuspell::Suffix::check_condition()']]],
   ['check_5fword',['check_word',['../structnuspell_1_1_dict___base.html#a125f6f7873e51feb21078da7912f5ce8',1,'nuspell::Dict_Base']]],
   ['check_5fword_5fin_5fcompound',['check_word_in_compound',['../structnuspell_1_1_dict___base.html#a70cf2cc3bffa0e91a3ef0f731815c97f',1,'nuspell::Dict_Base']]],
   ['classify_5fcasing',['classify_casing',['../namespacenuspell.html#a74cb2ed7b54c047e578ace45d2c17012',1,'nuspell::classify_casing(const std::basic_string&lt; CharT &gt; &amp;s, const std::locale &amp;loc) -&gt; Casing'],['../namespacenuspell.html#a96a7841ea6aba0214184edc95fb979a7',1,'nuspell::classify_casing(const string &amp;, const locale &amp;) -&gt; Casing'],['../namespacenuspell.html#a17d1646a7f6c1293ed86a16297cf213a',1,'nuspell::classify_casing(const wstring &amp;, const locale &amp;) -&gt; Casing']]],
-  ['clear',['clear',['../classnuspell_1_1_string___set.html#a3e481e3809e18632397a326b50334895',1,'nuspell::String_Set']]],
+  ['clear',['clear',['../classnuspell_1_1_string___set.html#a3e481e3809e18632397a326b50334895',1,'nuspell::String_Set::clear()'],['../classnuspell_1_1_list___strings.html#a3baa052822894e35652f895e6324d4fb',1,'nuspell::List_Strings::clear()']]],
   ['close',['close',['../structnuspell_1_1_directory.html#ad2692b51f2b74bbb73d5e8661042e627',1,'nuspell::Directory']]],
   ['compound_5frule_5ftable',['Compound_Rule_Table',['../classnuspell_1_1_compound___rule___table.html#a35041bd67642dd67d9b3f8e75d2d0bb4',1,'nuspell::Compound_Rule_Table::Compound_Rule_Table()=default'],['../classnuspell_1_1_compound___rule___table.html#a2edd7333034b67d3f65cb3b05a21bca3',1,'nuspell::Compound_Rule_Table::Compound_Rule_Table(const std::vector&lt; std::u16string &gt; &amp;tbl)'],['../classnuspell_1_1_compound___rule___table.html#a0d7aed018a27300151d745fb71245430',1,'nuspell::Compound_Rule_Table::Compound_Rule_Table(std::vector&lt; std::u16string &gt; &amp;&amp;tbl)']]],
   ['condition',['Condition',['../classnuspell_1_1_condition.html#abb36a889d42e74fda454d5eac69cf562',1,'nuspell::Condition::Condition()=default'],['../classnuspell_1_1_condition.html#a525095b3861192e0e7933d957cd37513',1,'nuspell::Condition::Condition(const StrT &amp;condition)'],['../classnuspell_1_1_condition.html#a3d6031595d3c6cecb04684554d93c1ab',1,'nuspell::Condition::Condition(StrT &amp;&amp;condition)']]],
@@ -20,7 +21,8 @@ var searchData=
   ['correct_5fline_5floop',['correct_line_loop',['../main_8cxx.html#a16580c4100b461806a9c49575bdd5428',1,'main.cxx']]],
   ['correct_5fword_5floop',['correct_word_loop',['../main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff',1,'main.cxx']]],
   ['count',['count',['../classnuspell_1_1_string___set.html#a7f7386fbd4823adfbfb5a3dbb82c2e06',1,'nuspell::String_Set']]],
-  ['crbegin',['crbegin',['../classnuspell_1_1_string___set.html#a1c36814774ac07edbbd3996750a3a1f0',1,'nuspell::String_Set']]],
-  ['crend',['crend',['../classnuspell_1_1_string___set.html#a722b87d584f1c9c41b48c7d06ebafa2a',1,'nuspell::String_Set']]],
-  ['cross_5fvalid_5finner_5fouter',['cross_valid_inner_outer',['../namespacenuspell.html#a8529ccc887c031a3c1340c607eaac017',1,'nuspell::cross_valid_inner_outer(const AffixInner &amp;inner, const AffixOuter &amp;outer)'],['../namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1',1,'nuspell::cross_valid_inner_outer(const Flag_Set &amp;word_flags, const Affix &amp;afx)']]]
+  ['crbegin',['crbegin',['../classnuspell_1_1_string___set.html#a1c36814774ac07edbbd3996750a3a1f0',1,'nuspell::String_Set::crbegin()'],['../classnuspell_1_1_list___strings.html#ae83d81a1c4bec6fa9a41b65a5cfa8fa9',1,'nuspell::List_Strings::crbegin()']]],
+  ['crend',['crend',['../classnuspell_1_1_string___set.html#a722b87d584f1c9c41b48c7d06ebafa2a',1,'nuspell::String_Set::crend()'],['../classnuspell_1_1_list___strings.html#a3ca02d85a9204d11e6b1ab5dfc43616f',1,'nuspell::List_Strings::crend()']]],
+  ['cross_5fvalid_5finner_5fouter',['cross_valid_inner_outer',['../namespacenuspell.html#a8529ccc887c031a3c1340c607eaac017',1,'nuspell::cross_valid_inner_outer(const AffixInner &amp;inner, const AffixOuter &amp;outer)'],['../namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1',1,'nuspell::cross_valid_inner_outer(const Flag_Set &amp;word_flags, const Affix &amp;afx)']]],
+  ['crude_5fparse_5floop',['crude_parse_loop',['../main_8cxx.html#a3d8ece05cdc365860364604ebebab70d',1,'main.cxx']]]
 ];
