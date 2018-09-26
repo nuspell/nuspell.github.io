@@ -773,6 +773,7 @@ template&lt;class CharT &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">s</td><td>word for which casing is determined. </td></tr>
+    <tr><td class="paramname">loc</td><td>locale object that takes care of case detection. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1758,7 +1759,7 @@ template&lt;class CharT &gt; </div>
 </div><div class="memdoc">
 
 <p>Tests if word is a number. </p>
-<p>Allow numbers with dots ".", dashes "-" and commas ",", but forbids double separators such as "..", "--" and ".,". This results in increase of performance over an implementation with &lt;regex&gt; use. </p>
+<p>Allow numbers with dots ".", dashes "-" and commas ",", but forbids double separators such as "..", "--" and ".,". This implementation increases performance over the regex implementation in the standard library. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2173,7 +2174,7 @@ Here is the call graph for this function:</div>
     <tr><td class="paramdir"></td><td class="paramname">enc</td><td></td></tr>
     <tr><td class="paramdir"></td><td class="paramname">flag_aliases</td><td></td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">vec</td><td></td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">cmd_affix.</td><td></td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">cmd_affix</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -3113,7 +3114,7 @@ template&lt;class CharT &gt; </div>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">s</td><td>string to split. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">v</td><td>vector with separated strings. The vector is first cleared. </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">loc</td><td>input locale. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">loc</td><td>locale object that takes care of what is whitespace. </td></tr>
   </table>
   </dd>
 </dl>

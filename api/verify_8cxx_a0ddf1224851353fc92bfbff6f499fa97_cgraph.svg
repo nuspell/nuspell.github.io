@@ -34,7 +34,7 @@
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="verify_8cxx.html#af8c650bca476b3f8959df7215c4c134f" target="_top" xlink:title="Prints help information. ">
+<g id="a_node3"><a xlink:href="verify_8cxx.html#af8c650bca476b3f8959df7215c4c134f" target="_top" xlink:title="Prints help information to standard output. ">
 <polygon fill="#ffffff" stroke="#000000" points="98.5,-133.5 98.5,-152.5 157.5,-152.5 157.5,-133.5 98.5,-133.5"/>
 <text text-anchor="middle" x="128" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">print_help</text>
 </a>

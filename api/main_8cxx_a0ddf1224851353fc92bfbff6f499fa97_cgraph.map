@@ -1,6 +1,6 @@
 <map id="main" name="main">
 <area shape="rect" id="node2" href="$namespacenuspell.html#aae159e86a8a1edad724249d330d985b1" title="nuspell::install_ctype\l_facets_inplace" alt="" coords="107,5,251,47"/>
-<area shape="rect" id="node3" href="$main_8cxx.html#af8c650bca476b3f8959df7215c4c134f" title="Prints help information. " alt="" coords="140,71,219,98"/>
+<area shape="rect" id="node3" href="$main_8cxx.html#af8c650bca476b3f8959df7215c4c134f" title="Prints help information to standard output. " alt="" coords="140,71,219,98"/>
 <area shape="rect" id="node4" href="$main_8cxx.html#a6150c93934b2505d7e4521b40fa8d571" title="Prints the version number to standard output. " alt="" coords="131,122,227,149"/>
 <area shape="rect" id="node5" href="$main_8cxx.html#a52c3a3f99e1d55b225a92fa017bada0d" title="Lists dictionary paths and available dictionaries on the system to standard output. " alt="" coords="123,173,235,199"/>
 <area shape="rect" id="node6" href="$main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5" title="Normal loop, tokenize and check spelling. " alt="" coords="133,274,225,301"/>
