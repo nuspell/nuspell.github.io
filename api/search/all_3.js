@@ -6,7 +6,7 @@ var searchData=
   ['decode_5fflags_5fpossible_5falias',['decode_flags_possible_alias',['../namespacenuspell.html#a3d81c446c32c53cd03e595f8fde9c2ab',1,'nuspell']]],
   ['decode_5fsingle_5fflag',['decode_single_flag',['../namespacenuspell.html#ac3ed6d85c13c609eb5c51628b9dbac76',1,'nuspell']]],
   ['decode_5futf8',['decode_utf8',['../namespacenuspell.html#aeb2c749588f87ac44480658cefc74c3d',1,'nuspell']]],
-  ['default_5fmode',['DEFAULT_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687',1,'DEFAULT_MODE():&#160;main.cxx'],['../regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687',1,'DEFAULT_MODE():&#160;regress.cxx']]],
+  ['default_5fmode',['DEFAULT_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687',1,'DEFAULT_MODE():&#160;main.cxx'],['../verify_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687',1,'DEFAULT_MODE():&#160;verify.cxx']]],
   ['dic_5ffind_5fend_5fof_5fword_5fheuristics',['dic_find_end_of_word_heuristics',['../namespacenuspell.html#ac29b32632ffb7108ffdaf3c00d8fc486',1,'nuspell']]],
   ['dict_5fbase',['Dict_Base',['../structnuspell_1_1_dict___base.html',1,'nuspell::Dict_Base'],['../structnuspell_1_1_dict___base.html#a63f371de48eacb0357200b631bedf84c',1,'nuspell::Dict_Base::Dict_Base()']]],
   ['dict_5flist',['Dict_List',['../classnuspell_1_1_finder.html#a8fd2a11e159d782c3d19ed61e07604f1',1,'nuspell::Finder']]],

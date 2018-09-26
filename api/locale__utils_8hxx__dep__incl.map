@@ -5,5 +5,5 @@
 <area shape="rect" id="node8" href="$locale__utils_8cxx.html" title="Encoding transformations. " alt="" coords="338,95,461,136"/>
 <area shape="rect" id="node5" href="$dictionary_8cxx.html" title="Dictionary spelling. " alt="" coords="22,259,193,285"/>
 <area shape="rect" id="node6" href="$main_8cxx.html" title="Command line spell checking. " alt="" coords="217,259,360,285"/>
-<area shape="rect" id="node7" href="$regress_8cxx.html" title="Command line spell check regression testing. " alt="" coords="385,259,542,285"/>
+<area shape="rect" id="node7" href="$verify_8cxx.html" title="Command line spell check for verification testing. " alt="" coords="385,259,531,285"/>
 </map>

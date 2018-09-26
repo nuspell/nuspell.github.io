@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['match_5ffirst_5fonly_5funaffixed_5for_5fzero_5faffixed',['match_first_only_unaffixed_or_zero_affixed',['../structnuspell_1_1_compound___pattern.html#a9bf354c317e0337c6a37300f788ef6a1',1,'nuspell::Compound_Pattern']]],
-  ['max_5fcompound_5fsuggestions',['max_compound_suggestions',['../structnuspell_1_1_aff___data.html#ae2716fcb71ecdde8970e96a8c044349d',1,'nuspell::Aff_Data']]],
-  ['max_5fdiff_5ffactor',['max_diff_factor',['../structnuspell_1_1_aff___data.html#a6a18b48bc4d8e1a0267b8547d8134049',1,'nuspell::Aff_Data']]],
-  ['max_5fload_5ffact',['max_load_fact',['../classnuspell_1_1_hash___multiset.html#ab05a22ecd07489754c0ae6607f5c2a33',1,'nuspell::Hash_Multiset']]],
-  ['max_5fload_5ffactor_5fcapacity',['max_load_factor_capacity',['../classnuspell_1_1_hash___multiset.html#af69a641dddb6ce2b814c8cb42229edfc',1,'nuspell::Hash_Multiset']]],
-  ['max_5fngram_5fsuggestions',['max_ngram_suggestions',['../structnuspell_1_1_aff___data.html#a8e52390b877c4ea44aefe2ed6020ade3',1,'nuspell::Aff_Data']]],
-  ['mode',['mode',['../struct_args__t.html#a5c64ecce3b2029aa48acfba2890c9ef4',1,'Args_t']]],
-  ['morphological_5ffields',['morphological_fields',['../structnuspell_1_1_affix.html#a58236c0ef4dfedcfde62b6461c2422e9',1,'nuspell::Affix']]]
+  ['lambda',['lambda',['../classnuspell_1_1_at___scope___exit.html#a9cfdd8c5360e4ef6191a80f34515eb3c',1,'nuspell::At_Scope_Exit']]],
+  ['len',['len',['../classnuspell_1_1_prefix___iter.html#a9cb1bb77727d5e9f1d24812aaa65e36d',1,'nuspell::Prefix_Iter::len()'],['../classnuspell_1_1_suffix___iter.html#a2bdd3783666dbf28cc987e3cae1a75ed',1,'nuspell::Suffix_Iter::len()']]],
+  ['length',['length',['../classnuspell_1_1_condition.html#a165e548d9e4ffb41c505b500eaf89262',1,'nuspell::Condition']]],
+  ['lower_5ftable',['lower_table',['../classnuspell_1_1my__ctype_3_01char_01_4.html#a21e5ec5bbc3cf1bf2714440ffac61fb2',1,'nuspell::my_ctype&lt; char &gt;']]]
 ];

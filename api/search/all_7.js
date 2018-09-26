@@ -7,5 +7,5 @@ var searchData=
   ['hash',['hash',['../classnuspell_1_1_hash___multiset.html#a1955d8b66b2d2142694a820d9f4906d3',1,'nuspell::Hash_Multiset']]],
   ['hash_5fmultiset',['Hash_Multiset',['../classnuspell_1_1_hash___multiset.html',1,'nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;'],['../classnuspell_1_1_hash___multiset.html#a0b3187b22b164c17c64d46713b374a2d',1,'nuspell::Hash_Multiset::Hash_Multiset()']]],
   ['hasher',['hasher',['../classnuspell_1_1_hash___multiset.html#af3198d7c7c1afa33ebfb5362c2766280',1,'nuspell::Hash_Multiset']]],
-  ['help_5fmode',['HELP_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1',1,'HELP_MODE():&#160;main.cxx'],['../regress_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1',1,'HELP_MODE():&#160;regress.cxx']]]
+  ['help_5fmode',['HELP_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1',1,'HELP_MODE():&#160;main.cxx'],['../verify_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1',1,'HELP_MODE():&#160;verify.cxx']]]
 ];

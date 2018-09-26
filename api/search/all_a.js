@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['lambda',['lambda',['../classnuspell_1_1_at___scope___exit.html#a9cfdd8c5360e4ef6191a80f34515eb3c',1,'nuspell::At_Scope_Exit']]],
   ['latin1_5fto_5fucs2',['latin1_to_ucs2',['../namespacenuspell.html#a7fc6228909d26abd20009c4fb388dc81',1,'nuspell::latin1_to_ucs2(const std::string &amp;s) -&gt; std::u16string'],['../namespacenuspell.html#a41e9233f418f990fb115b3d3d8bbb401',1,'nuspell::latin1_to_ucs2(const std::string &amp;s, std::u16string &amp;out) -&gt; void']]],
   ['len',['len',['../classnuspell_1_1_prefix___iter.html#a9cb1bb77727d5e9f1d24812aaa65e36d',1,'nuspell::Prefix_Iter::len()'],['../classnuspell_1_1_suffix___iter.html#a2bdd3783666dbf28cc987e3cae1a75ed',1,'nuspell::Suffix_Iter::len()']]],
   ['length',['length',['../classnuspell_1_1_condition.html#a165e548d9e4ffb41c505b500eaf89262',1,'nuspell::Condition']]],

@@ -29,5 +29,6 @@ var searchData=
   ['cond',['cond',['../classnuspell_1_1_condition.html#ace6b6167c541463327db420b658edebb',1,'nuspell::Condition']]],
   ['condition',['condition',['../structnuspell_1_1_affix.html#a4f0a7d463431fdc2e7328408fe39524d',1,'nuspell::Affix::condition()'],['../classnuspell_1_1_prefix.html#a2ed486b428b92738985e03f435a5b7f8',1,'nuspell::Prefix::condition()'],['../classnuspell_1_1_suffix.html#a7526f3f4907aeb80aa304f37b47afbab',1,'nuspell::Suffix::condition()']]],
   ['cont_5fflags',['cont_flags',['../classnuspell_1_1_prefix.html#a4f3c63692cb909142d83ad191c60c3c2',1,'nuspell::Prefix::cont_flags()'],['../classnuspell_1_1_suffix.html#ab02cf12bad27b36eabf578fc5bdd0ee9',1,'nuspell::Suffix::cont_flags()']]],
+  ['count_5fmatched',['count_matched',['../structnuspell_1_1_phonetic___table_1_1_phonet___match___result.html#a4dab421a217229a83c299d558186f69d',1,'nuspell::Phonetic_Table::Phonet_Match_Result']]],
   ['cross_5fproduct',['cross_product',['../structnuspell_1_1_affix.html#aaf8653205256c744c0bf26fa8a722346',1,'nuspell::Affix::cross_product()'],['../classnuspell_1_1_prefix.html#aa33fbdc8555b47d80c8a4c16d036109e',1,'nuspell::Prefix::cross_product()'],['../classnuspell_1_1_suffix.html#a4909b2e20a71cd7a48cc5411fb6c9d06',1,'nuspell::Suffix::cross_product()']]]
 ];

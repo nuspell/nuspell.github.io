@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['main',['main',['../main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cxx'],['../regress_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;regress.cxx']]],
+  ['main',['main',['../main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cxx'],['../verify_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;verify.cxx']]],
   ['map_5fsuggest',['map_suggest',['../structnuspell_1_1_dict___base.html#a832893daa4fc27c4e3ce59cb9ea21a31',1,'nuspell::Dict_Base']]],
-  ['match',['match',['../classnuspell_1_1_condition.html#ace148eee45758990ebd2dc1f484a2ef3',1,'nuspell::Condition']]],
+  ['match',['match',['../classnuspell_1_1_condition.html#ace148eee45758990ebd2dc1f484a2ef3',1,'nuspell::Condition::match()'],['../classnuspell_1_1_phonetic___table.html#ae45c6369f81c99fb3f988a3748b980d0',1,'nuspell::Phonetic_Table::match()']]],
   ['match_5fany_5frule',['match_any_rule',['../classnuspell_1_1_compound___rule___table.html#a2e604341ef4c6b408ac367d30265575d',1,'nuspell::Compound_Rule_Table']]],
   ['match_5fcompound_5fpattern',['match_compound_pattern',['../namespacenuspell.html#a4619a7ee13ec84fb4c3a717925edbdef',1,'nuspell']]],
   ['match_5fcompund_5frule',['match_compund_rule',['../namespacenuspell.html#aa400607867aa8ca4eb115542a84b7004',1,'nuspell']]],

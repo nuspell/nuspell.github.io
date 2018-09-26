@@ -1,0 +1,5 @@
+<map id="nuspell::Dict_Base::check_compound_classic" name="nuspell::Dict_Base::check_compound_classic">
+<area shape="rect" id="node2" href="$namespacenuspell.html#a7de1842aa6e1dbd9f8cf0b8418e145b9" title="Check if word[i] or word[i&#45;1] are uppercase. " alt="" coords="233,5,436,47"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#aad7267f28a0ac5af1ca9885952c640ba" title="nuspell::is_compound\l_forbidden_by_patterns" alt="" coords="256,71,413,112"/>
+<area shape="rect" id="node4" href="$namespacenuspell.html#a4619a7ee13ec84fb4c3a717925edbdef" title="nuspell::match_compound\l_pattern" alt="" coords="484,71,659,112"/>
+</map>

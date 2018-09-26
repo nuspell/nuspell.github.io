@@ -1,0 +1,6 @@
+<map id="nuspell::Basic_Dictionary::internal_to_external_encoding" name="nuspell::Basic_Dictionary::internal_to_external_encoding">
+<area shape="rect" id="node2" href="$namespacenuspell.html#ad4e8221da9ce95908ecd5a60ac3ae08c" title="nuspell::wide_to_utf8" alt="" coords="224,13,369,39"/>
+<area shape="rect" id="node4" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="233,63,361,90"/>
+<area shape="rect" id="node5" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="239,114,355,141"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#ade7ffffeb6a7e872e46bb96f4b1e4eea" title="nuspell::valid_utf\l_to_utf" alt="" coords="417,5,537,47"/>
+</map>

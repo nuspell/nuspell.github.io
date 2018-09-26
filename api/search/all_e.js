@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['package',['PACKAGE',['../main_8cxx.html#aca8570fb706c81df371b7f9bc454ae03',1,'PACKAGE():&#160;main.cxx'],['../regress_8cxx.html#aca8570fb706c81df371b7f9bc454ae03',1,'PACKAGE():&#160;regress.cxx']]],
-  ['package_5fstring',['PACKAGE_STRING',['../main_8cxx.html#ac73e6f903c16eca7710f92e36e1c6fbf',1,'PACKAGE_STRING():&#160;main.cxx'],['../regress_8cxx.html#ac73e6f903c16eca7710f92e36e1c6fbf',1,'PACKAGE_STRING():&#160;regress.cxx']]],
+  ['package',['PACKAGE',['../main_8cxx.html#aca8570fb706c81df371b7f9bc454ae03',1,'PACKAGE():&#160;main.cxx'],['../verify_8cxx.html#aca8570fb706c81df371b7f9bc454ae03',1,'PACKAGE():&#160;verify.cxx']]],
+  ['package_5fstring',['PACKAGE_STRING',['../main_8cxx.html#ac73e6f903c16eca7710f92e36e1c6fbf',1,'PACKAGE_STRING():&#160;main.cxx'],['../verify_8cxx.html#ac73e6f903c16eca7710f92e36e1c6fbf',1,'PACKAGE_STRING():&#160;verify.cxx']]],
   ['pair',['pair',['../structnuspell_1_1_aff___data.html#a2c9393da2c4a34079b2c36eb415fb654',1,'nuspell::Aff_Data']]],
   ['parse',['parse',['../structnuspell_1_1_similarity___group.html#a837bf59d3a620ae4993fab7f118ced82',1,'nuspell::Similarity_Group']]],
   ['parse_5faff',['parse_aff',['../structnuspell_1_1_aff___data.html#a93b16b2b3938f607a18e3a67b9360b83',1,'nuspell::Aff_Data']]],
@@ -19,7 +19,11 @@ var searchData=
   ['paths',['paths',['../classnuspell_1_1_finder.html#a09b8d9feb70f690b05dbbdd592ec8f2c',1,'nuspell::Finder']]],
   ['pathsep',['PATHSEP',['../namespacenuspell.html#ac3e17ba50251ea61d8c9850b97c4adb8',1,'nuspell']]],
   ['pfx',['pfx',['../classnuspell_1_1_prefix___iter.html#aa9517badb47da79155c7d5c0d535c73b',1,'nuspell::Prefix_Iter::pfx()'],['../classnuspell_1_1_suffix___iter.html#aa43bd65dc72a5d35e9bc136d2f9aecaa',1,'nuspell::Suffix_Iter::pfx()']]],
-  ['phonetic_5freplacements',['phonetic_replacements',['../structnuspell_1_1_aff___data.html#abb66783a65a2053f228eb96014a87f71',1,'nuspell::Aff_Data']]],
+  ['phonet_5fmatch_5fresult',['Phonet_Match_Result',['../structnuspell_1_1_phonetic___table_1_1_phonet___match___result.html',1,'nuspell::Phonetic_Table']]],
+  ['phonetic_5fsuggest',['phonetic_suggest',['../structnuspell_1_1_dict___base.html#a2b003b79de21eb4d3cb2d58dd6836650',1,'nuspell::Dict_Base']]],
+  ['phonetic_5ftable',['Phonetic_Table',['../classnuspell_1_1_phonetic___table.html',1,'nuspell::Phonetic_Table&lt; CharT &gt;'],['../classnuspell_1_1_phonetic___table.html#a76645eb095508c8394669dcbaf416e9c',1,'nuspell::Phonetic_Table::Phonetic_Table()=default'],['../classnuspell_1_1_phonetic___table.html#adba2557fc4ac148473df12738c8eab71',1,'nuspell::Phonetic_Table::Phonetic_Table(const std::vector&lt; std::pair&lt; StrT, StrT &gt;&gt; &amp;v)'],['../classnuspell_1_1_phonetic___table.html#a8dcfcc3147fa3a3510b115fc2caac893',1,'nuspell::Phonetic_Table::Phonetic_Table(std::vector&lt; std::pair&lt; StrT, StrT &gt;&gt; &amp;&amp;v)'],['../structnuspell_1_1_aff___structures.html#ad9ef6c0335a598635e7fe808378390cf',1,'nuspell::Aff_Structures::phonetic_table()']]],
+  ['phonetic_5ftable_3c_20char_20_3e',['Phonetic_Table&lt; char &gt;',['../classnuspell_1_1_phonetic___table.html',1,'nuspell']]],
+  ['phonetic_5ftable_3c_20wchar_5ft_20_3e',['Phonetic_Table&lt; wchar_t &gt;',['../classnuspell_1_1_phonetic___table.html',1,'nuspell']]],
   ['pointer',['pointer',['../classnuspell_1_1_string___set.html#acca3a533c57a9e93173124751ffb0e40',1,'nuspell::String_Set::pointer()'],['../classnuspell_1_1_hash___multiset.html#a17b2df00a0daa9d7685629a01894a14f',1,'nuspell::Hash_Multiset::pointer()'],['../classnuspell_1_1_list___strings.html#ab87a5102b0cc2b3a341f7e2429567537',1,'nuspell::List_Strings::pointer()']]],
   ['pop_5fback',['pop_back',['../classnuspell_1_1_list___strings.html#ad5b79116bbd35f0d2b789a003e52330e',1,'nuspell::List_Strings']]],
   ['prefix',['Prefix',['../classnuspell_1_1_prefix.html',1,'nuspell::Prefix&lt; CharT &gt;'],['../classnuspell_1_1_prefix.html#a677272ef8d1f9fc594208d62628fce4c',1,'nuspell::Prefix::Prefix()=default'],['../classnuspell_1_1_prefix.html#af652e91a08a9f4a896a2cac969dc6f35',1,'nuspell::Prefix::Prefix(char16_t flag, bool cross_product, const StrT &amp;strip, const StrT &amp;append, const Flag_Set &amp;cont_flags, const StrT &amp;condition)'],['../namespacenuspell.html#a9404cbb74ae904c74db6776eb092e1b1',1,'nuspell::prefix(const basic_string&lt; CharT &gt; &amp;word, size_t len)'],['../namespacenuspell.html#a20350a7d0862e3c85761b83f637537b6',1,'nuspell::prefix(basic_string&lt; CharT &gt; &amp;&amp;word, size_t len)=delete']]],
@@ -27,8 +31,9 @@ var searchData=
   ['prefix_5ftable',['Prefix_Table',['../namespacenuspell.html#a89a6069bed29c39491ff73bde1447e24',1,'nuspell']]],
   ['prefixes',['prefixes',['../structnuspell_1_1_aff___structures.html#adf71fd1c6564b6d6b349859c56155519',1,'nuspell::Aff_Structures']]],
   ['print_5ffalse',['print_false',['../struct_args__t.html#aa3fa139eb4ed3ff420204cb88e271a57',1,'Args_t']]],
-  ['print_5fhelp',['print_help',['../main_8cxx.html#af8c650bca476b3f8959df7215c4c134f',1,'print_help(const string &amp;program_name) -&gt; void:&#160;main.cxx'],['../regress_8cxx.html#af8c650bca476b3f8959df7215c4c134f',1,'print_help(const string &amp;program_name) -&gt; void:&#160;regress.cxx']]],
-  ['print_5fversion',['print_version',['../main_8cxx.html#a6150c93934b2505d7e4521b40fa8d571',1,'print_version() -&gt; void:&#160;main.cxx'],['../regress_8cxx.html#a6150c93934b2505d7e4521b40fa8d571',1,'print_version() -&gt; void:&#160;regress.cxx']]],
+  ['print_5fhelp',['print_help',['../main_8cxx.html#af8c650bca476b3f8959df7215c4c134f',1,'print_help(const string &amp;program_name) -&gt; void:&#160;main.cxx'],['../verify_8cxx.html#af8c650bca476b3f8959df7215c4c134f',1,'print_help(const string &amp;program_name) -&gt; void:&#160;verify.cxx']]],
+  ['print_5fversion',['print_version',['../main_8cxx.html#a6150c93934b2505d7e4521b40fa8d571',1,'print_version() -&gt; void:&#160;main.cxx'],['../verify_8cxx.html#a6150c93934b2505d7e4521b40fa8d571',1,'print_version() -&gt; void:&#160;verify.cxx']]],
+  ['priority',['priority',['../structnuspell_1_1_phonetic___table_1_1_phonet___match___result.html#a34a924a5d6e151feb95a30b0287a69e9',1,'nuspell::Phonetic_Table::Phonet_Match_Result']]],
   ['program_5fname',['program_name',['../struct_args__t.html#a0cf70bb9202cbfcfadeadc1d0e8b6b85',1,'Args_t']]],
   ['push_5fback',['push_back',['../classnuspell_1_1_list___strings.html#a0bb39ad045858b8c2ae775d19ad13dec',1,'nuspell::List_Strings::push_back(const_reference x)'],['../classnuspell_1_1_list___strings.html#a25d28055733dfc83213b69b253a6af2c',1,'nuspell::List_Strings::push_back(value_type &amp;&amp;x)']]]
 ];

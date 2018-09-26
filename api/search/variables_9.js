@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['len',['len',['../classnuspell_1_1_prefix___iter.html#a9cb1bb77727d5e9f1d24812aaa65e36d',1,'nuspell::Prefix_Iter::len()'],['../classnuspell_1_1_suffix___iter.html#a2bdd3783666dbf28cc987e3cae1a75ed',1,'nuspell::Suffix_Iter::len()']]],
-  ['length',['length',['../classnuspell_1_1_condition.html#a165e548d9e4ffb41c505b500eaf89262',1,'nuspell::Condition']]],
-  ['lower_5ftable',['lower_table',['../classnuspell_1_1my__ctype_3_01char_01_4.html#a21e5ec5bbc3cf1bf2714440ffac61fb2',1,'nuspell::my_ctype&lt; char &gt;']]]
+  ['keepcase_5fflag',['keepcase_flag',['../structnuspell_1_1_aff___data.html#a56b40f119aa2467ab69a5e431f12635f',1,'nuspell::Aff_Data']]],
+  ['key_5fextract',['key_extract',['../classnuspell_1_1_hash___multiset.html#aee66a946e61881dea98ac70e72e507d8',1,'nuspell::Hash_Multiset']]],
+  ['keyboard_5fcloseness',['keyboard_closeness',['../structnuspell_1_1_aff___structures.html#a5859e62c857b6dd98b13893973166560',1,'nuspell::Aff_Structures']]]
 ];

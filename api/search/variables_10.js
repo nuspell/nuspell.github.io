@@ -1,6 +1,18 @@
 var searchData=
 [
-  ['table',['table',['../classnuspell_1_1_substr___replacer.html#aa8de928ab0292f50da8274e25c2282c0',1,'nuspell::Substr_Replacer::table()'],['../classnuspell_1_1_break___table.html#a5bce1f882a04878dbe28c8e0920342d0',1,'nuspell::Break_Table::table()'],['../classnuspell_1_1_replacement___table.html#a9cb0924907b3d8583c8e15174e62a5d3',1,'nuspell::Replacement_Table::table()']]],
-  ['tbl',['tbl',['../classnuspell_1_1_prefix___iter.html#ad32aa1d1222ab2b6a2baa3e5ec5bcd2b',1,'nuspell::Prefix_Iter::tbl()'],['../classnuspell_1_1_suffix___iter.html#ab0fccb06a45b1afa915cdfc1f9b2eb96',1,'nuspell::Suffix_Iter::tbl()'],['../classnuspell_1_1my__ctype_3_01char_01_4.html#a8ca10c2895aa102930dfe416b88b4f63',1,'nuspell::my_ctype&lt; char &gt;::tbl()']]],
-  ['try_5fchars',['try_chars',['../structnuspell_1_1_aff___structures.html#a93c7b21c93fdca35a276dcd5d562012e',1,'nuspell::Aff_Structures']]]
+  ['s',['s',['../classnuspell_1_1_string___pair.html#a55a2dfa7b765deba2d3c3496dd6d9eab',1,'nuspell::String_Pair']]],
+  ['second_5fword_5fbegin',['second_word_begin',['../structnuspell_1_1_compound___check___pattern.html#a07c5bae10bd47943a882b9ec104adb65',1,'nuspell::Compound_Check_Pattern']]],
+  ['second_5fword_5fflag',['second_word_flag',['../structnuspell_1_1_compound___check___pattern.html#a1658bfa6253930de580c49efe473c9c0',1,'nuspell::Compound_Check_Pattern::second_word_flag()'],['../structnuspell_1_1_compound___pattern.html#a7ce4d6733e76152d1c2baf4c5f38fb01',1,'nuspell::Compound_Pattern::second_word_flag()']]],
+  ['separators',['SEPARATORS',['../namespacenuspell.html#a2a7c19eeb0dd1620a9bccfb5b60d3ae1',1,'nuspell']]],
+  ['similarities',['similarities',['../structnuspell_1_1_aff___structures.html#a0483a3876832005121dc0ae99632867a',1,'nuspell::Aff_Structures']]],
+  ['spans',['spans',['../classnuspell_1_1_condition.html#a7bfe1f21e29bc07199825ac414093cf0',1,'nuspell::Condition']]],
+  ['start_5fword_5fbreaks_5flast_5fidx',['start_word_breaks_last_idx',['../classnuspell_1_1_break___table.html#a413f2da6fc961ed5a105cb27b1d7daea',1,'nuspell::Break_Table']]],
+  ['start_5fword_5freps_5flast_5fidx',['start_word_reps_last_idx',['../classnuspell_1_1_replacement___table.html#adc832f7e2a22e7feb45b3b5109946102',1,'nuspell::Replacement_Table']]],
+  ['strings',['strings',['../structnuspell_1_1_similarity___group.html#aeaf7b726252354d690d56fac822d240f',1,'nuspell::Similarity_Group']]],
+  ['stripping',['stripping',['../structnuspell_1_1_affix.html#a7e962c3bd47e9abd62d58a3225a59ae8',1,'nuspell::Affix::stripping()'],['../classnuspell_1_1_prefix.html#a10b3537c44654b0479443a6c3f1bfc56',1,'nuspell::Prefix::stripping()'],['../classnuspell_1_1_suffix.html#a5549dc77d1ff74b28c25e9a184abfa65',1,'nuspell::Suffix::stripping()']]],
+  ['structures',['structures',['../structnuspell_1_1_aff___data.html#a9fc68ad65074e5fb44cb7cea4da5242a',1,'nuspell::Aff_Data']]],
+  ['substandard_5fflag',['substandard_flag',['../structnuspell_1_1_aff___data.html#a97ced18b941a5746d2c85085130cb8da',1,'nuspell::Aff_Data']]],
+  ['suffixes',['suffixes',['../structnuspell_1_1_aff___structures.html#ad360fbd3f1db7c9942d601014da9b1af',1,'nuspell::Aff_Structures']]],
+  ['suggest_5fwith_5fdots',['suggest_with_dots',['../structnuspell_1_1_aff___data.html#aad9e91b09c9aa965561533f4a1080eb6',1,'nuspell::Aff_Data']]],
+  ['sz',['sz',['../classnuspell_1_1_hash___multiset.html#af9f82de495c5b080665e3f240a7ef54a',1,'nuspell::Hash_Multiset::sz()'],['../classnuspell_1_1_list___strings.html#ae8be0a97b39d3f227c9f1292335dd8ab',1,'nuspell::List_Strings::sz()']]]
 ];
