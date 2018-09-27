@@ -152,8 +152,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a4a642b8579e49cab4ef7293d66f1f5d5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5">normal_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
 <tr class="memdesc:a4a642b8579e49cab4ef7293d66f1f5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal loop, tokenize and check spelling.  <a href="#a4a642b8579e49cab4ef7293d66f1f5d5">More...</a><br /></td></tr>
 <tr class="separator:a4a642b8579e49cab4ef7293d66f1f5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf2c62d10a43ada729a73c94fa6f254"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#aebf2c62d10a43ada729a73c94fa6f254">normal_nosuggest_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
+<tr class="separator:aebf2c62d10a43ada729a73c94fa6f254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebf1b2aa274390a39317fbbca50d9d5e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#aebf1b2aa274390a39317fbbca50d9d5e">misspelled_word_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="memdesc:aebf1b2aa274390a39317fbbca50d9d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints misspelled words from an input stream to an output stream.  <a href="#aebf1b2aa274390a39317fbbca50d9d5e">More...</a><br /></td></tr>
+<tr class="memdesc:aebf1b2aa274390a39317fbbca50d9d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints misspelled words from <code>in</code> to <code>out</code>.  <a href="#aebf1b2aa274390a39317fbbca50d9d5e">More...</a><br /></td></tr>
 <tr class="separator:aebf1b2aa274390a39317fbbca50d9d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1248d9e693e561e175cf2e5b55499fff"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff">correct_word_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
 <tr class="separator:a1248d9e693e561e175cf2e5b55499fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -450,7 +452,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="764" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="772" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -534,7 +536,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Prints misspelled words from an input stream to an output stream. </p>
+<p>Prints misspelled words from <code>in</code> to <code>out</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">in</td><td>the input stream with a word on each line. </td></tr>
@@ -610,6 +612,52 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a4a642b8579e49cab4ef7293d66f1f5d5_icgraph.svg" width="202" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aebf2c62d10a43ada729a73c94fa6f254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf2c62d10a43ada729a73c94fa6f254">&#9670;&nbsp;</a></span>normal_nosuggest_loop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto normal_nosuggest_loop </td>
+          <td>(</td>
+          <td class="paramtype">istream &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
+          <td class="paramname"><em>dic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aebf2c62d10a43ada729a73c94fa6f254_cgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aebf2c62d10a43ada729a73c94fa6f254_icgraph.svg" width="268" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

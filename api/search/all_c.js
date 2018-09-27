@@ -9,6 +9,7 @@ var searchData=
   ['none_5fof',['NONE_OF',['../classnuspell_1_1_condition.html#ad69d8c3d2681ee84155193052a8eaff8addf715f9155a78ed25d4294c5d434418',1,'nuspell::Condition']]],
   ['normal',['NORMAL',['../classnuspell_1_1_condition.html#ad69d8c3d2681ee84155193052a8eaff8a8222e21ad412a1364dd5dfe860ab3a91',1,'nuspell::Condition']]],
   ['normal_5floop',['normal_loop',['../main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5',1,'normal_loop(istream &amp;in, ostream &amp;out, Dictionary &amp;dic):&#160;main.cxx'],['../verify_8cxx.html#a345ea832decc7c2932cf431ea1dc1cbf',1,'normal_loop(istream &amp;in, ostream &amp;out, Dictionary &amp;dic, Hunspell &amp;hun, locale &amp;hloc, bool print_false=false):&#160;verify.cxx']]],
+  ['normal_5fnosuggest_5floop',['normal_nosuggest_loop',['../main_8cxx.html#aebf2c62d10a43ada729a73c94fa6f254',1,'main.cxx']]],
   ['normalize_5fname',['normalize_name',['../classnuspell_1_1_encoding.html#ac6b5057bd0b28e8e4711f23ce50ffaf4',1,'nuspell::Encoding']]],
   ['nosuggest_5fflag',['nosuggest_flag',['../structnuspell_1_1_aff___data.html#ad8614a54f6f4e9dbd57b555e2e4b2576',1,'nuspell::Aff_Data']]],
   ['nuspell',['nuspell',['../namespacenuspell.html',1,'']]]
