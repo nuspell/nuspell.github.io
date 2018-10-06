@@ -7,11 +7,11 @@ Below are results from the latest verification testing in terms if functional an
 
 | Statistics | Words | True Pos. Rate | True Neg. Rate | False Pos. Rate | False Neg. Rate | Acc. | Prec. | Speedup |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|
-| minimum                   | `18.0` | `0.411` | `0.000` | `0.000` | `0.000` | `0.902` | `1.000` | `0.58` |
-| mean - std. dev. (capped) | `18.0` | `0.863` | `0.000` | `0.000` | `0.000` | `0.982` | `1.000` | `0.89` |
+| minimum                   | `18.0` | `0.411` | `0.000` | `0.000` | `0.000` | `0.902` | `0.996` | `0.43` |
+| mean - std. dev. (capped) | `18.0` | `0.863` | `0.000` | `0.000` | `0.000` | `0.982` | `0.999` | `0.89` |
 | mean                      | `275,377.2` | `0.961` | `0.036` | `0.000` | `0.003` | `0.997` | `1.000` | `1.27` |
-| mean + std. dev. (capped) | `749,665.7` | `1.000` | `0.134` | `0.001` | `0.018` | `1.000` | `1.000` | `1.17` |
-| maximum                   | `3,802,878.0` | `1.000` | `0.589` | `0.004` | `0.098` | `1.000` | `1.000` | `1.17` |
+| mean + std. dev. (capped) | `749,665.7` | `1.000` | `0.134` | `0.001` | `0.018` | `1.000` | `1.000` | `1.66` |
+| maximum                   | `3,802,878.0` | `1.000` | `0.589` | `0.004` | `0.098` | `1.000` | `1.000` | `2.20` |
 
 			
 Broken down per language, the functional and performance measurements are in the table below.
