@@ -3,7 +3,8 @@ title: Roadmap
 layout: page
 ---
 
-The current roadmap for Nuspell is as follows:
+The latest roadmap can be found [here](https://github.com/nuspell/nuspell/projects/1).
+Bellow is a summary.
 
 * [ ] Version 2.0
     * [x] 2017Q4 Milestone 1 - basic infrastructure and dictionary parsing
@@ -11,26 +12,10 @@ The current roadmap for Nuspell is as follows:
     * [x] 2018Q3 Milestone 3 - unit, regression and performance testing
     * [x] 2018Q3 Milestone 4 - suggestions with character and phonetic closeness
     * [ ] 2018Q4 Milestone 5 - personal dictionary and publication of [API](https://en.wikipedia.org/wiki/Application_programming_interface) and [ABI](https://en.wikipedia.org/wiki/Application_binary_interface)
-* [ ] Version 2.1
-    * [ ] 2018Q? Milestone e - orchestrate porting and packaging
-    * [ ] 2018Q? Milestone f - language bindings for Java, JavaScript, Python, PHP, etc.
-    * [ ] 2021Q? Milestone g - support (medical) extension dictionaries
-    * [ ] 2019Q? Milestone h - speed optimization with cacheing
-    * [ ] 2019Q? Milestone i - data optimization with triegraphs
-* [ ] Version 2.2
-    * [ ] 2019Q? Milestone j - speed optimization with multi-threading
-    * [ ] 2019Q? Milestone k - add spelling warnings on words
-    * [ ] 2020Q? Milestone l - support URLs for more spelling information
-    * [ ] 2020Q? Milestone m - support [stemming](https://en.wikipedia.org/wiki/Stemming) and [generation](https://en.wikipedia.org/wiki/Generative_grammar) of words for [morphological analysis](https://en.wikipedia.org/wiki/Morphology_%28linguistics%29)
-* [ ] Version 2.3
-    * [ ] 2021Q? Milestone n - web service
-    * [ ] 2021Q? Milestone o - support [part-of-speech](https://en.wikipedia.org/wiki/Part_of_speech) tags
-    * [ ] 2021Q? Milestone p - ...
-* [ ] Version 3.0
-    * [ ] 2022Q? Milestone q - strickter dictionary file format, e.g. YAML
-    * [ ] 2022Q? Milestone r - ...
-
-Note that milestones from yet to be funded versions can be reordered.
+* Version 3
+    * ...
+* Version 4
+    * ...
 
 For funding from current and previous sponsors, see also:
 
