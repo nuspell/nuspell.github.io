@@ -1,4 +1,0 @@
----
-title: Nuspell
-layout: page
----
