@@ -117,14 +117,14 @@ Macros</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:a46c8a310cf4c094f8c80e1cb8dc1f911"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="verify_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911">Mode</a> { <br />
 &#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687">DEFAULT_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a5e9dd1de266a6ab7e307fa22dfb8431b">NO_SUGGEST_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911af32c0e57b860e19a8cc4766782ecb4d1">NOSUGGEST_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ad4b9632958ab067e81284519786deff0">MISSPELLED_WORDS_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a01dd93f0bd0fca7a35997b17392cf4f7">MISSPELLED_LINES_MODE</a>, 
 <br />
 &#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a88d1fb6d8e1af4b5defefb76a1aa9651">CORRECT_WORDS_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed">CORRECT_LINES_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ac6b2e092b4a367d247664efe2f7b0bc8">CRUDE_PARSE_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911aeb06b917348b859f5bc757973af661a3">CRUDE_PARSE_NO_SUGGEST_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a76b6db181c4e0b370ee7b3aa3dffb872">SEGMENT_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ad1a30ea8b6c24ae343cc3cf4d63393fb">SEGMENT_NOSUGGEST_MODE</a>, 
 <br />
 &#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d">LINES_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ac4c2d2ba8e7aa0ec3077a38eb2a95b39">LIST_DICTIONARIES_MODE</a>, 
@@ -202,21 +202,20 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687"></a>DEFAULT_MODE&#160;</td><td class="fielddoc"><p>printing correct and misspelled words with suggestions </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a5e9dd1de266a6ab7e307fa22dfb8431b"></a>NO_SUGGEST_MODE&#160;</td><td class="fielddoc"><p>printing correct and misspelled words without suggestions </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911af32c0e57b860e19a8cc4766782ecb4d1"></a>NOSUGGEST_MODE&#160;</td><td class="fielddoc"><p>printing correct and misspelled words without suggestions </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ad4b9632958ab067e81284519786deff0"></a>MISSPELLED_WORDS_MODE&#160;</td><td class="fielddoc"><p>printing only misspelled words </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a01dd93f0bd0fca7a35997b17392cf4f7"></a>MISSPELLED_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only misspelled lines </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a01dd93f0bd0fca7a35997b17392cf4f7"></a>MISSPELLED_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only lines with misspelled word(s) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a88d1fb6d8e1af4b5defefb76a1aa9651"></a>CORRECT_WORDS_MODE&#160;</td><td class="fielddoc"><p>printing only correct words </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed"></a>CORRECT_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only correct lines </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed"></a>CORRECT_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only fully correct lines </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ac6b2e092b4a367d247664efe2f7b0bc8"></a>CRUDE_PARSE_MODE&#160;</td><td class="fielddoc"><p>use crude pasring for running text </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a76b6db181c4e0b370ee7b3aa3dffb872"></a>SEGMENT_MODE&#160;</td><td class="fielddoc"><p>Same as normal except text is parsed using Unicode text segmentation. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911aeb06b917348b859f5bc757973af661a3"></a>CRUDE_PARSE_NO_SUGGEST_MODE&#160;</td><td class="fielddoc"><p>use crude pasring for running text without suggestions </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d"></a>LINES_MODE&#160;</td><td class="fielddoc"><p>where correctness is based on entire line </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ad1a30ea8b6c24ae343cc3cf4d63393fb"></a>SEGMENT_NOSUGGEST_MODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d"></a>LINES_MODE&#160;</td><td class="fielddoc"><p>intermediate mode used while parsing command line arguments, otherwise unused </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ac4c2d2ba8e7aa0ec3077a38eb2a95b39"></a>LIST_DICTIONARIES_MODE&#160;</td><td class="fielddoc"><p>printing available dictionaries </p>
 </td></tr>
@@ -224,8 +223,7 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a715591779e86d61f12d48339469383c9"></a>VERSION_MODE&#160;</td><td class="fielddoc"><p>printing version information </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3"></a>ERROR_MODE&#160;</td><td class="fielddoc"><p>where the arguments used caused an error </p>
-</td></tr>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3"></a>ERROR_MODE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687"></a>DEFAULT_MODE&#160;</td><td class="fielddoc"><p>verification test </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1"></a>HELP_MODE&#160;</td><td class="fielddoc"><p>printing help information </p>

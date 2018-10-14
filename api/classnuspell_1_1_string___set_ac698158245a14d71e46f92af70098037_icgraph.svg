@@ -83,10 +83,10 @@
 <!-- Node121 -->
 <g id="node6" class="node">
 <title>Node121</title>
-<g id="a_node6"><a xlink:href="classnuspell_1_1_hash___multiset.html#add985b0c608c3468b03ad1eaaba93d80" target="_top" xlink:title="nuspell::Hash_Multiset\l::emplace">
+<g id="a_node6"><a xlink:href="classnuspell_1_1_hash___multiset.html#add985b0c608c3468b03ad1eaaba93d80" target="_top" xlink:title="nuspell::Hash_Multiset\l\&lt; string \&gt;::emplace">
 <polygon fill="#ffffff" stroke="#000000" points="145,-147.5 145,-177.5 261,-177.5 261,-147.5 145,-147.5"/>
 <text text-anchor="start" x="153" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Hash_Multiset</text>
-<text text-anchor="middle" x="203" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::emplace</text>
+<text text-anchor="middle" x="203" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; string &gt;::emplace</text>
 </a>
 </g>
 </g>

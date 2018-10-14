@@ -1,0 +1,11 @@
+<map id="My_Dictionary::spell" name="My_Dictionary::spell">
+<area shape="rect" id="node2" href="$main_8cxx.html#a1b26793ef57883beab96fb3f93153e59" title="Normal loop, tokenize and check spelling. " alt="" coords="234,5,326,32"/>
+<area shape="rect" id="node4" href="$main_8cxx.html#a79f57b910d5a04abbc65e13b699add8a" title="Normal loop, tokenize and check spelling. " alt="" coords="201,56,359,83"/>
+<area shape="rect" id="node5" href="$main_8cxx.html#a28035349fd4dce4052b75f480fb2e470" title="Prints misspelled words from in to out. " alt="" coords="205,107,355,133"/>
+<area shape="rect" id="node6" href="$main_8cxx.html#a2c5b3bbd78b6902b7996b7a453be4523" title="Prints correct words from in to out. " alt="" coords="216,157,344,184"/>
+<area shape="rect" id="node7" href="$main_8cxx.html#a4e73c17f0cea2b14e0f5a32e2e174f11" title="Normal loop, tokenize and check spelling. " alt="" coords="229,208,331,235"/>
+<area shape="rect" id="node8" href="$main_8cxx.html#a42fbab96f4709cbe51a87aa1c800149d" title="Normal loop, tokenize and check spelling. " alt="" coords="195,259,365,285"/>
+<area shape="rect" id="node9" href="$main_8cxx.html#a9fc952c4c72f78efc086ff2e4475735e" title="misspelled_line_loop" alt="" coords="209,309,351,336"/>
+<area shape="rect" id="node10" href="$main_8cxx.html#aadf259cfd24fcfdebb1ce40e3266aef7" title="correct_line_loop" alt="" coords="220,360,340,387"/>
+<area shape="rect" id="node3" href="$main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="413,183,464,209"/>
+</map>

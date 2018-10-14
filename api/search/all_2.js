@@ -58,17 +58,14 @@ var searchData=
   ['cont_5fflags',['cont_flags',['../classnuspell_1_1_prefix.html#a4f3c63692cb909142d83ad191c60c3c2',1,'nuspell::Prefix::cont_flags()'],['../classnuspell_1_1_suffix.html#ab02cf12bad27b36eabf578fc5bdd0ee9',1,'nuspell::Suffix::cont_flags()']]],
   ['contains',['contains',['../classnuspell_1_1_string___set.html#ad1eeb2a3564c02c49f31b98299e493df',1,'nuspell::String_Set']]],
   ['copy_5fglob_5fpaths',['copy_glob_paths',['../structnuspell_1_1_globber.html#a895d65e899b6619740bee3ed56f7b3bd',1,'nuspell::Globber']]],
-  ['correct_5fline_5floop',['correct_line_loop',['../main_8cxx.html#a16580c4100b461806a9c49575bdd5428',1,'main.cxx']]],
+  ['correct_5fline_5floop',['correct_line_loop',['../main_8cxx.html#aadf259cfd24fcfdebb1ce40e3266aef7',1,'main.cxx']]],
   ['correct_5flines_5fmode',['CORRECT_LINES_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed',1,'main.cxx']]],
-  ['correct_5fword_5floop',['correct_word_loop',['../main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff',1,'main.cxx']]],
+  ['correct_5fword_5floop',['correct_word_loop',['../main_8cxx.html#a2c5b3bbd78b6902b7996b7a453be4523',1,'main.cxx']]],
   ['correct_5fwords_5fmode',['CORRECT_WORDS_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a88d1fb6d8e1af4b5defefb76a1aa9651',1,'main.cxx']]],
   ['count',['count',['../classnuspell_1_1_string___set.html#a7f7386fbd4823adfbfb5a3dbb82c2e06',1,'nuspell::String_Set']]],
   ['count_5fmatched',['count_matched',['../structnuspell_1_1_phonetic___table_1_1_phonet___match___result.html#a4dab421a217229a83c299d558186f69d',1,'nuspell::Phonetic_Table::Phonet_Match_Result']]],
   ['crbegin',['crbegin',['../classnuspell_1_1_string___set.html#a1c36814774ac07edbbd3996750a3a1f0',1,'nuspell::String_Set::crbegin()'],['../classnuspell_1_1_list___strings.html#ae83d81a1c4bec6fa9a41b65a5cfa8fa9',1,'nuspell::List_Strings::crbegin()']]],
   ['crend',['crend',['../classnuspell_1_1_string___set.html#a722b87d584f1c9c41b48c7d06ebafa2a',1,'nuspell::String_Set::crend()'],['../classnuspell_1_1_list___strings.html#a3ca02d85a9204d11e6b1ab5dfc43616f',1,'nuspell::List_Strings::crend()']]],
   ['cross_5fproduct',['cross_product',['../structnuspell_1_1_affix.html#aaf8653205256c744c0bf26fa8a722346',1,'nuspell::Affix::cross_product()'],['../classnuspell_1_1_prefix.html#aa33fbdc8555b47d80c8a4c16d036109e',1,'nuspell::Prefix::cross_product()'],['../classnuspell_1_1_suffix.html#a4909b2e20a71cd7a48cc5411fb6c9d06',1,'nuspell::Suffix::cross_product()']]],
-  ['cross_5fvalid_5finner_5fouter',['cross_valid_inner_outer',['../namespacenuspell.html#a8529ccc887c031a3c1340c607eaac017',1,'nuspell::cross_valid_inner_outer(const AffixInner &amp;inner, const AffixOuter &amp;outer)'],['../namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1',1,'nuspell::cross_valid_inner_outer(const Flag_Set &amp;word_flags, const Affix &amp;afx)']]],
-  ['crude_5fparse_5floop',['crude_parse_loop',['../main_8cxx.html#a3d8ece05cdc365860364604ebebab70d',1,'main.cxx']]],
-  ['crude_5fparse_5fmode',['CRUDE_PARSE_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ac6b2e092b4a367d247664efe2f7b0bc8',1,'main.cxx']]],
-  ['crude_5fparse_5fno_5fsuggest_5fmode',['CRUDE_PARSE_NO_SUGGEST_MODE',['../main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911aeb06b917348b859f5bc757973af661a3',1,'main.cxx']]]
+  ['cross_5fvalid_5finner_5fouter',['cross_valid_inner_outer',['../namespacenuspell.html#a8529ccc887c031a3c1340c607eaac017',1,'nuspell::cross_valid_inner_outer(const AffixInner &amp;inner, const AffixOuter &amp;outer)'],['../namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1',1,'nuspell::cross_valid_inner_outer(const Flag_Set &amp;word_flags, const Affix &amp;afx)']]]
 ];

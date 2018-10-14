@@ -18,11 +18,10 @@ var searchData=
   ['construct',['construct',['../classnuspell_1_1_condition.html#a998b312d5d638cfcda9c96bc699d68e2',1,'nuspell::Condition']]],
   ['contains',['contains',['../classnuspell_1_1_string___set.html#ad1eeb2a3564c02c49f31b98299e493df',1,'nuspell::String_Set']]],
   ['copy_5fglob_5fpaths',['copy_glob_paths',['../structnuspell_1_1_globber.html#a895d65e899b6619740bee3ed56f7b3bd',1,'nuspell::Globber']]],
-  ['correct_5fline_5floop',['correct_line_loop',['../main_8cxx.html#a16580c4100b461806a9c49575bdd5428',1,'main.cxx']]],
-  ['correct_5fword_5floop',['correct_word_loop',['../main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff',1,'main.cxx']]],
+  ['correct_5fline_5floop',['correct_line_loop',['../main_8cxx.html#aadf259cfd24fcfdebb1ce40e3266aef7',1,'main.cxx']]],
+  ['correct_5fword_5floop',['correct_word_loop',['../main_8cxx.html#a2c5b3bbd78b6902b7996b7a453be4523',1,'main.cxx']]],
   ['count',['count',['../classnuspell_1_1_string___set.html#a7f7386fbd4823adfbfb5a3dbb82c2e06',1,'nuspell::String_Set']]],
   ['crbegin',['crbegin',['../classnuspell_1_1_string___set.html#a1c36814774ac07edbbd3996750a3a1f0',1,'nuspell::String_Set::crbegin()'],['../classnuspell_1_1_list___strings.html#ae83d81a1c4bec6fa9a41b65a5cfa8fa9',1,'nuspell::List_Strings::crbegin()']]],
   ['crend',['crend',['../classnuspell_1_1_string___set.html#a722b87d584f1c9c41b48c7d06ebafa2a',1,'nuspell::String_Set::crend()'],['../classnuspell_1_1_list___strings.html#a3ca02d85a9204d11e6b1ab5dfc43616f',1,'nuspell::List_Strings::crend()']]],
-  ['cross_5fvalid_5finner_5fouter',['cross_valid_inner_outer',['../namespacenuspell.html#a8529ccc887c031a3c1340c607eaac017',1,'nuspell::cross_valid_inner_outer(const AffixInner &amp;inner, const AffixOuter &amp;outer)'],['../namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1',1,'nuspell::cross_valid_inner_outer(const Flag_Set &amp;word_flags, const Affix &amp;afx)']]],
-  ['crude_5fparse_5floop',['crude_parse_loop',['../main_8cxx.html#a3d8ece05cdc365860364604ebebab70d',1,'main.cxx']]]
+  ['cross_5fvalid_5finner_5fouter',['cross_valid_inner_outer',['../namespacenuspell.html#a8529ccc887c031a3c1340c607eaac017',1,'nuspell::cross_valid_inner_outer(const AffixInner &amp;inner, const AffixOuter &amp;outer)'],['../namespacenuspell.html#ada376e4da65f832f1ae63e53b0da3fc1',1,'nuspell::cross_valid_inner_outer(const Flag_Set &amp;word_flags, const Affix &amp;afx)']]]
 ];

@@ -19,7 +19,7 @@
 <!-- Node9 -->
 <g id="node2" class="node">
 <title>Node9</title>
-<g id="a_node2"><a xlink:href="namespacenuspell.html#adf3b41b78ea359884e579dd686895da2" target="_top" xlink:title="Searches path for dictionaries. ">
+<g id="a_node2"><a xlink:href="namespacenuspell.html#adf3b41b78ea359884e579dd686895da2" target="_top" xlink:title="Searches directory for dictionaries. ">
 <polygon fill="#ffffff" stroke="#000000" points="129,-.5 129,-30.5 236,-30.5 236,-.5 129,-.5"/>
 <text text-anchor="start" x="137" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::search_path</text>
 <text text-anchor="middle" x="182.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_dicts</text>
@@ -35,10 +35,10 @@
 <!-- Node10 -->
 <g id="node3" class="node">
 <title>Node10</title>
-<g id="a_node3"><a xlink:href="classnuspell_1_1_finder.html#a69d8f8800da524155bf03d1bb3d5b2fd" target="_top" xlink:title="Searches for dictionaries in paths which have been found and added. ">
+<g id="a_node3"><a xlink:href="classnuspell_1_1_finder.html#aa5764b6b9159ca5523821051b0ee2262" target="_top" xlink:title="Searches the added directories for dictionaries. ">
 <polygon fill="#ffffff" stroke="#000000" points="272,-.5 272,-30.5 388,-30.5 388,-.5 272,-.5"/>
 <text text-anchor="start" x="280" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Finder::search</text>
-<text text-anchor="middle" x="330" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_dictionaries</text>
+<text text-anchor="middle" x="330" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_dictionaries</text>
 </a>
 </g>
 </g>

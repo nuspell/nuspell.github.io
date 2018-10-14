@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>nuspell::List_Strings::emplace</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-84 244,-84 244,4 -4,4"/>
-<!-- Node62 -->
+<!-- Node64 -->
 <g id="node1" class="node">
-<title>Node62</title>
+<title>Node64</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-24.5 0,-54.5 105,-54.5 105,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::List_Strings</text>
 <text text-anchor="middle" x="52.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::emplace</text>
 </g>
-<!-- Node63 -->
+<!-- Node65 -->
 <g id="node2" class="node">
-<title>Node63</title>
+<title>Node65</title>
 <g id="a_node2"><a xlink:href="classnuspell_1_1_string___set.html#a38f2e5910e7afb5940028d750e98796a" target="_top" xlink:title="nuspell::String_Set\l::cbegin">
 <polygon fill="#ffffff" stroke="#000000" points="141,-49.5 141,-79.5 240,-79.5 240,-49.5 141,-49.5"/>
 <text text-anchor="start" x="149" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::String_Set</text>
@@ -26,15 +26,15 @@
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node63 -->
+<!-- Node64&#45;&gt;Node65 -->
 <g id="edge1" class="edge">
-<title>Node62&#45;&gt;Node63</title>
+<title>Node64&#45;&gt;Node65</title>
 <path fill="none" stroke="#191970" d="M105.0656,-49.0227C113.4966,-50.5501 122.2751,-52.1404 130.857,-53.6951"/>
 <polygon fill="#191970" stroke="#191970" points="130.3445,-57.1592 140.8083,-55.4979 131.5924,-50.2713 130.3445,-57.1592"/>
 </g>
-<!-- Node64 -->
+<!-- Node66 -->
 <g id="node3" class="node">
-<title>Node64</title>
+<title>Node66</title>
 <g id="a_node3"><a xlink:href="classnuspell_1_1_string___set.html#a18bc20de4ed5671de253d5ffa25bde27" target="_top" xlink:title="nuspell::String_Set\l::begin">
 <polygon fill="#ffffff" stroke="#000000" points="141,-.5 141,-30.5 240,-30.5 240,-.5 141,-.5"/>
 <text text-anchor="start" x="149" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::String_Set</text>
@@ -42,9 +42,9 @@
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node64 -->
+<!-- Node64&#45;&gt;Node66 -->
 <g id="edge2" class="edge">
-<title>Node62&#45;&gt;Node64</title>
+<title>Node64&#45;&gt;Node66</title>
 <path fill="none" stroke="#191970" d="M105.0656,-30.3582C113.4966,-28.8919 122.2751,-27.3652 130.857,-25.8727"/>
 <polygon fill="#191970" stroke="#191970" points="131.5559,-29.3038 140.8083,-24.142 130.3565,-22.4073 131.5559,-29.3038"/>
 </g>

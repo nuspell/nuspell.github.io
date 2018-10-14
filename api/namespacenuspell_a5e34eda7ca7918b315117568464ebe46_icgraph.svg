@@ -9,15 +9,15 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 111.5)">
 <title>nuspell::split_on_any_of</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-111.5 530,-111.5 530,4 -4,4"/>
-<!-- Node308 -->
+<!-- Node304 -->
 <g id="node1" class="node">
-<title>Node308</title>
+<title>Node304</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-60.5 0,-79.5 122,-79.5 122,-60.5 0,-60.5"/>
 <text text-anchor="middle" x="61" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split_on_any_of</text>
 </g>
-<!-- Node309 -->
+<!-- Node305 -->
 <g id="node2" class="node">
-<title>Node309</title>
+<title>Node305</title>
 <g id="a_node2"><a xlink:href="structnuspell_1_1_directory.html#ad2692b51f2b74bbb73d5e8661042e627" target="_top" xlink:title="nuspell::Directory\l::close">
 <polygon fill="#ffffff" stroke="#000000" points="158,-77 158,-107 251,-107 251,-77 158,-77"/>
 <text text-anchor="start" x="166" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Directory</text>
@@ -25,30 +25,30 @@
 </a>
 </g>
 </g>
-<!-- Node308&#45;&gt;Node309 -->
+<!-- Node304&#45;&gt;Node305 -->
 <g id="edge1" class="edge">
-<title>Node308&#45;&gt;Node309</title>
+<title>Node304&#45;&gt;Node305</title>
 <path fill="none" stroke="#191970" d="M132.3632,-80.9407C140.9867,-82.2628 149.6177,-83.586 157.7578,-84.8339"/>
 <polygon fill="#191970" stroke="#191970" points="132.6881,-77.4497 122.2732,-79.3938 131.6273,-84.3689 132.6881,-77.4497"/>
 </g>
-<!-- Node310 -->
+<!-- Node306 -->
 <g id="node3" class="node">
-<title>Node310</title>
+<title>Node306</title>
 <g id="a_node3"><a xlink:href="namespacenuspell.html#a3fb4e305b46d4cd3a0ddb3400fb795c9" target="_top" xlink:title="Splits string on single char seperator. ">
 <polygon fill="#ffffff" stroke="#000000" points="169,-38.5 169,-57.5 240,-57.5 240,-38.5 169,-38.5"/>
 <text text-anchor="middle" x="204.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split</text>
 </a>
 </g>
 </g>
-<!-- Node308&#45;&gt;Node310 -->
+<!-- Node304&#45;&gt;Node306 -->
 <g id="edge2" class="edge">
-<title>Node308&#45;&gt;Node310</title>
+<title>Node304&#45;&gt;Node306</title>
 <path fill="none" stroke="#191970" d="M132.3632,-59.0593C144.986,-57.1241 157.6248,-55.1864 168.7168,-53.4859"/>
 <polygon fill="#191970" stroke="#191970" points="131.6273,-55.6311 122.2732,-60.6062 132.6881,-62.5503 131.6273,-55.6311"/>
 </g>
-<!-- Node311 -->
+<!-- Node307 -->
 <g id="node4" class="node">
-<title>Node311</title>
+<title>Node307</title>
 <g id="a_node4"><a xlink:href="namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5" target="_top" xlink:title="Gets the default search paths. ">
 <polygon fill="#ffffff" stroke="#000000" points="287,-77 287,-107 388,-107 388,-77 287,-77"/>
 <text text-anchor="start" x="295" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::get_default</text>
@@ -56,55 +56,55 @@
 </a>
 </g>
 </g>
-<!-- Node310&#45;&gt;Node311 -->
+<!-- Node306&#45;&gt;Node307 -->
 <g id="edge3" class="edge">
-<title>Node310&#45;&gt;Node311</title>
+<title>Node306&#45;&gt;Node307</title>
 <path fill="none" stroke="#191970" d="M243.0204,-60.7436C258.319,-65.8048 276.0338,-71.6653 291.9615,-76.9346"/>
 <polygon fill="#191970" stroke="#191970" points="243.9523,-57.3654 233.359,-57.5473 241.7536,-64.0112 243.9523,-57.3654"/>
 </g>
-<!-- Node313 -->
+<!-- Node309 -->
 <g id="node6" class="node">
-<title>Node313</title>
+<title>Node309</title>
 <g id="a_node6"><a xlink:href="namespacenuspell.html#a738ba7cf9a8824420a2460e022f75838" target="_top" xlink:title="Splits string on string separator. ">
 <polygon fill="#ffffff" stroke="#000000" points="302,-38.5 302,-57.5 373,-57.5 373,-38.5 302,-38.5"/>
 <text text-anchor="middle" x="337.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split</text>
 </a>
 </g>
 </g>
-<!-- Node310&#45;&gt;Node313 -->
+<!-- Node306&#45;&gt;Node309 -->
 <g id="edge5" class="edge">
-<title>Node310&#45;&gt;Node313</title>
+<title>Node306&#45;&gt;Node309</title>
 <path fill="none" stroke="#191970" d="M250.3229,-48C267.1528,-48 285.945,-48 301.7601,-48"/>
 <polygon fill="#191970" stroke="#191970" points="250.1416,-44.5001 240.1416,-48 250.1415,-51.5001 250.1416,-44.5001"/>
 </g>
-<!-- Node314 -->
+<!-- Node310 -->
 <g id="node7" class="node">
-<title>Node314</title>
+<title>Node310</title>
 <g id="a_node7"><a xlink:href="namespacenuspell.html#af5bff37b1dfafd7cf3ca38358121b32a" target="_top" xlink:title="Splits string on seperator, output to vector of strings. ">
 <polygon fill="#ffffff" stroke="#000000" points="296.5,-.5 296.5,-19.5 378.5,-19.5 378.5,-.5 296.5,-.5"/>
 <text text-anchor="middle" x="337.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split_v</text>
 </a>
 </g>
 </g>
-<!-- Node310&#45;&gt;Node314 -->
+<!-- Node306&#45;&gt;Node310 -->
 <g id="edge6" class="edge">
-<title>Node310&#45;&gt;Node314</title>
+<title>Node306&#45;&gt;Node310</title>
 <path fill="none" stroke="#191970" d="M247.8669,-35.6094C266.0807,-30.4055 286.9393,-24.4459 303.9492,-19.5859"/>
 <polygon fill="#191970" stroke="#191970" points="246.7152,-32.2984 238.0615,-38.411 248.6383,-39.029 246.7152,-32.2984"/>
 </g>
-<!-- Node312 -->
+<!-- Node308 -->
 <g id="node5" class="node">
-<title>Node312</title>
-<g id="a_node5"><a xlink:href="classnuspell_1_1_finder.html#aa74d4af869f64d4aa3e39be572265fcb" target="_top" xlink:title="Adds the default search paths which have been found to the paths. ">
+<title>Node308</title>
+<g id="a_node5"><a xlink:href="classnuspell_1_1_finder.html#ac7904bd59ca957abc023b7c09e9728bc" target="_top" xlink:title="Adds the default directory paths which may containt dictionaries. ">
 <polygon fill="#ffffff" stroke="#000000" points="424,-77 424,-107 526,-107 526,-77 424,-77"/>
 <text text-anchor="start" x="432" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Finder::add</text>
-<text text-anchor="middle" x="475" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_default_paths</text>
+<text text-anchor="middle" x="475" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_default_dir_paths</text>
 </a>
 </g>
 </g>
-<!-- Node311&#45;&gt;Node312 -->
+<!-- Node307&#45;&gt;Node308 -->
 <g id="edge4" class="edge">
-<title>Node311&#45;&gt;Node312</title>
+<title>Node307&#45;&gt;Node308</title>
 <path fill="none" stroke="#191970" d="M398.5423,-92C407.025,-92 415.6662,-92 423.9405,-92"/>
 <polygon fill="#191970" stroke="#191970" points="398.3093,-88.5001 388.3093,-92 398.3092,-95.5001 398.3093,-88.5001"/>
 </g>

@@ -14,6 +14,6 @@ var searchData=
   ['traits_5ftype',['traits_type',['../classnuspell_1_1_string___set.html#a9fa9b5239746e2d5224e6b77e33811cd',1,'nuspell::String_Set']]],
   ['treat_5fnext_5fas_5fbegin',['treat_next_as_begin',['../structnuspell_1_1_phonetic___table_1_1_phonet___match___result.html#a292268269040916cd65d2831114f15f2',1,'nuspell::Phonetic_Table::Phonet_Match_Result']]],
   ['try_5fchars',['try_chars',['../structnuspell_1_1_aff___structures.html#a93c7b21c93fdca35a276dcd5d562012e',1,'nuspell::Aff_Structures']]],
-  ['try_5frep_5fsuggestion',['try_rep_suggestion',['../structnuspell_1_1_dict___base.html#ad07fb42bd82d91b9ac13856e0b34bd5f',1,'nuspell::Dict_Base']]],
+  ['try_5frep_5fsuggestion',['try_rep_suggestion',['../structnuspell_1_1_dict___base.html#a5ef1a081143513938244d7487e5cde1b',1,'nuspell::Dict_Base']]],
   ['tuple',['tuple',['../classnuspell_1_1_condition.html#a9cec499b5de75f67ac68395612c6e66d',1,'nuspell::Condition']]]
 ];

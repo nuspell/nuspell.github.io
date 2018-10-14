@@ -1,3 +1,3 @@
 <map id="nuspell::search_path_for_dicts" name="nuspell::search_path_for_dicts">
-<area shape="rect" id="node2" href="$classnuspell_1_1_finder.html#a69d8f8800da524155bf03d1bb3d5b2fd" title="Searches for dictionaries in paths which have been found and added. " alt="" coords="196,5,351,47"/>
+<area shape="rect" id="node2" href="$classnuspell_1_1_finder.html#aa5764b6b9159ca5523821051b0ee2262" title="Searches the added directories for dictionaries. " alt="" coords="196,5,351,47"/>
 </map>

@@ -7,5 +7,5 @@ var searchData=
   ['to_5froot_5fcopy',['to_root_copy',['../classnuspell_1_1_prefix.html#a025017d12daa2c020c2b2a52a219166b',1,'nuspell::Prefix::to_root_copy()'],['../classnuspell_1_1_suffix.html#ab82288e8620670f44a472b289d95b1ac',1,'nuspell::Suffix::to_root_copy()']]],
   ['to_5froot_5funroot_5fraii',['To_Root_Unroot_RAII',['../classnuspell_1_1_to___root___unroot___r_a_i_i.html#a1730b66df38de71f99e9959624a042b8',1,'nuspell::To_Root_Unroot_RAII']]],
   ['to_5fwide',['to_wide',['../namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c',1,'nuspell::to_wide(const std::string &amp;in, const std::locale &amp;loc, std::wstring &amp;out) -&gt; bool'],['../namespacenuspell.html#a7f99b7ec5f56db773581d659bb42a240',1,'nuspell::to_wide(const std::string &amp;in, const std::locale &amp;loc) -&gt; std::wstring']]],
-  ['try_5frep_5fsuggestion',['try_rep_suggestion',['../structnuspell_1_1_dict___base.html#ad07fb42bd82d91b9ac13856e0b34bd5f',1,'nuspell::Dict_Base']]]
+  ['try_5frep_5fsuggestion',['try_rep_suggestion',['../structnuspell_1_1_dict___base.html#a5ef1a081143513938244d7487e5cde1b',1,'nuspell::Dict_Base']]]
 ];

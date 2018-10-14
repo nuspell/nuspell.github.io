@@ -4,5 +4,5 @@
 <area shape="rect" id="node4" href="$namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5" title="Gets the default search paths. " alt="" coords="388,5,523,47"/>
 <area shape="rect" id="node6" href="$namespacenuspell.html#a738ba7cf9a8824420a2460e022f75838" title="Splits string on string separator. " alt="" coords="408,71,503,98"/>
 <area shape="rect" id="node7" href="$namespacenuspell.html#af5bff37b1dfafd7cf3ca38358121b32a" title="Splits string on seperator, output to vector of strings. " alt="" coords="401,122,510,149"/>
-<area shape="rect" id="node5" href="$classnuspell_1_1_finder.html#aa74d4af869f64d4aa3e39be572265fcb" title="Adds the default search paths which have been found to the paths. " alt="" coords="571,5,707,47"/>
+<area shape="rect" id="node5" href="$classnuspell_1_1_finder.html#ac7904bd59ca957abc023b7c09e9728bc" title="Adds the default directory paths which may containt dictionaries. " alt="" coords="571,5,707,47"/>
 </map>

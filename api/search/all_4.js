@@ -27,5 +27,5 @@ var searchData=
   ['external_5fto_5finternal_5fencoding',['external_to_internal_encoding',['../classnuspell_1_1_basic___dictionary.html#aca69f6d72c3f7f7a7e88a08fc8dd9712',1,'nuspell::Basic_Dictionary']]],
   ['external_5fu8_5finternal_5fother',['EXTERNAL_U8_INTERNAL_OTHER',['../namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea2d50bf9640a48c0099713dbb1b859172',1,'nuspell']]],
   ['external_5fu8_5finternal_5fu8',['EXTERNAL_U8_INTERNAL_U8',['../namespacenuspell.html#a8eb14fb06f1eb312a9e8ed9cbee13f9ea4cd663fb0867104d13db183eb1eaf3b5',1,'nuspell']]],
-  ['extra_5fchar_5fsuggest',['extra_char_suggest',['../structnuspell_1_1_dict___base.html#a34ef8a406da7c1c905c0ce39d9330f7b',1,'nuspell::Dict_Base']]]
+  ['extra_5fchar_5fsuggest',['extra_char_suggest',['../structnuspell_1_1_dict___base.html#aaea8dd3b6bed6c57f296f5b4af30e5f3',1,'nuspell::Dict_Base']]]
 ];

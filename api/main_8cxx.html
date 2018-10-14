@@ -97,6 +97,8 @@ Include dependency graph for main.cxx:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_args__t.html">Args_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_my___dictionary.html">My_Dictionary</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -114,14 +116,14 @@ Macros</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:a46c8a310cf4c094f8c80e1cb8dc1f911"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911">Mode</a> { <br />
 &#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687">DEFAULT_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a5e9dd1de266a6ab7e307fa22dfb8431b">NO_SUGGEST_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911af32c0e57b860e19a8cc4766782ecb4d1">NOSUGGEST_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ad4b9632958ab067e81284519786deff0">MISSPELLED_WORDS_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a01dd93f0bd0fca7a35997b17392cf4f7">MISSPELLED_LINES_MODE</a>, 
 <br />
 &#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a88d1fb6d8e1af4b5defefb76a1aa9651">CORRECT_WORDS_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed">CORRECT_LINES_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ac6b2e092b4a367d247664efe2f7b0bc8">CRUDE_PARSE_MODE</a>, 
-<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911aeb06b917348b859f5bc757973af661a3">CRUDE_PARSE_NO_SUGGEST_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911a76b6db181c4e0b370ee7b3aa3dffb872">SEGMENT_MODE</a>, 
+<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ad1a30ea8b6c24ae343cc3cf4d63393fb">SEGMENT_NOSUGGEST_MODE</a>, 
 <br />
 &#160;&#160;<a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d">LINES_MODE</a>, 
 <a class="el" href="main_8cxx.html#a46c8a310cf4c094f8c80e1cb8dc1f911ac4c2d2ba8e7aa0ec3077a38eb2a95b39">LIST_DICTIONARIES_MODE</a>, 
@@ -149,22 +151,28 @@ Functions</h2></td></tr>
 <tr class="memitem:a52c3a3f99e1d55b225a92fa017bada0d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a52c3a3f99e1d55b225a92fa017bada0d">list_dictionaries</a> (const <a class="el" href="classnuspell_1_1_finder.html">Finder</a> &amp;f) -&gt; void</td></tr>
 <tr class="memdesc:a52c3a3f99e1d55b225a92fa017bada0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists dictionary paths and available dictionaries on the system to standard output.  <a href="#a52c3a3f99e1d55b225a92fa017bada0d">More...</a><br /></td></tr>
 <tr class="separator:a52c3a3f99e1d55b225a92fa017bada0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a642b8579e49cab4ef7293d66f1f5d5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a4a642b8579e49cab4ef7293d66f1f5d5">normal_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="memdesc:a4a642b8579e49cab4ef7293d66f1f5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal loop, tokenize and check spelling.  <a href="#a4a642b8579e49cab4ef7293d66f1f5d5">More...</a><br /></td></tr>
-<tr class="separator:a4a642b8579e49cab4ef7293d66f1f5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf2c62d10a43ada729a73c94fa6f254"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#aebf2c62d10a43ada729a73c94fa6f254">normal_nosuggest_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="separator:aebf2c62d10a43ada729a73c94fa6f254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf1b2aa274390a39317fbbca50d9d5e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#aebf1b2aa274390a39317fbbca50d9d5e">misspelled_word_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="memdesc:aebf1b2aa274390a39317fbbca50d9d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints misspelled words from <code>in</code> to <code>out</code>.  <a href="#aebf1b2aa274390a39317fbbca50d9d5e">More...</a><br /></td></tr>
-<tr class="separator:aebf1b2aa274390a39317fbbca50d9d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1248d9e693e561e175cf2e5b55499fff"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a1248d9e693e561e175cf2e5b55499fff">correct_word_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="separator:a1248d9e693e561e175cf2e5b55499fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8ece05cdc365860364604ebebab70d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a3d8ece05cdc365860364604ebebab70d">crude_parse_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="separator:a3d8ece05cdc365860364604ebebab70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f92dedeeb68a1a7bc2b720097d3b7a4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a1f92dedeeb68a1a7bc2b720097d3b7a4">misspelled_line_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="separator:a1f92dedeeb68a1a7bc2b720097d3b7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16580c4100b461806a9c49575bdd5428"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a16580c4100b461806a9c49575bdd5428">correct_line_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;dic)</td></tr>
-<tr class="separator:a16580c4100b461806a9c49575bdd5428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b26793ef57883beab96fb3f93153e59"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a1b26793ef57883beab96fb3f93153e59">normal_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="memdesc:a1b26793ef57883beab96fb3f93153e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal loop, tokenize and check spelling.  <a href="#a1b26793ef57883beab96fb3f93153e59">More...</a><br /></td></tr>
+<tr class="separator:a1b26793ef57883beab96fb3f93153e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f57b910d5a04abbc65e13b699add8a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a79f57b910d5a04abbc65e13b699add8a">normal_nosuggest_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="memdesc:a79f57b910d5a04abbc65e13b699add8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal loop, tokenize and check spelling.  <a href="#a79f57b910d5a04abbc65e13b699add8a">More...</a><br /></td></tr>
+<tr class="separator:a79f57b910d5a04abbc65e13b699add8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28035349fd4dce4052b75f480fb2e470"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a28035349fd4dce4052b75f480fb2e470">misspelled_word_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="memdesc:a28035349fd4dce4052b75f480fb2e470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints misspelled words from <code>in</code> to <code>out</code>.  <a href="#a28035349fd4dce4052b75f480fb2e470">More...</a><br /></td></tr>
+<tr class="separator:a28035349fd4dce4052b75f480fb2e470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5b3bbd78b6902b7996b7a453be4523"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a2c5b3bbd78b6902b7996b7a453be4523">correct_word_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="memdesc:a2c5b3bbd78b6902b7996b7a453be4523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints correct words from <code>in</code> to <code>out</code>.  <a href="#a2c5b3bbd78b6902b7996b7a453be4523">More...</a><br /></td></tr>
+<tr class="separator:a2c5b3bbd78b6902b7996b7a453be4523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e73c17f0cea2b14e0f5a32e2e174f11"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a4e73c17f0cea2b14e0f5a32e2e174f11">segment_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="memdesc:a4e73c17f0cea2b14e0f5a32e2e174f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal loop, tokenize and check spelling.  <a href="#a4e73c17f0cea2b14e0f5a32e2e174f11">More...</a><br /></td></tr>
+<tr class="separator:a4e73c17f0cea2b14e0f5a32e2e174f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42fbab96f4709cbe51a87aa1c800149d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a42fbab96f4709cbe51a87aa1c800149d">segment_nosuggest_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="memdesc:a42fbab96f4709cbe51a87aa1c800149d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal loop, tokenize and check spelling.  <a href="#a42fbab96f4709cbe51a87aa1c800149d">More...</a><br /></td></tr>
+<tr class="separator:a42fbab96f4709cbe51a87aa1c800149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc952c4c72f78efc086ff2e4475735e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a9fc952c4c72f78efc086ff2e4475735e">misspelled_line_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="separator:a9fc952c4c72f78efc086ff2e4475735e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf259cfd24fcfdebb1ce40e3266aef7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#aadf259cfd24fcfdebb1ce40e3266aef7">correct_line_loop</a> (istream &amp;in, ostream &amp;out, <a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;dic)</td></tr>
+<tr class="separator:aadf259cfd24fcfdebb1ce40e3266aef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb75a3efd092cccd0bcbfdf1c503d145"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#abb75a3efd092cccd0bcbfdf1c503d145">std::operator&lt;&lt;</a> (ostream &amp;out, const locale &amp;loc)</td></tr>
 <tr class="separator:abb75a3efd092cccd0bcbfdf1c503d145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
@@ -216,21 +224,20 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687"></a>DEFAULT_MODE&#160;</td><td class="fielddoc"><p>printing correct and misspelled words with suggestions </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a5e9dd1de266a6ab7e307fa22dfb8431b"></a>NO_SUGGEST_MODE&#160;</td><td class="fielddoc"><p>printing correct and misspelled words without suggestions </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911af32c0e57b860e19a8cc4766782ecb4d1"></a>NOSUGGEST_MODE&#160;</td><td class="fielddoc"><p>printing correct and misspelled words without suggestions </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ad4b9632958ab067e81284519786deff0"></a>MISSPELLED_WORDS_MODE&#160;</td><td class="fielddoc"><p>printing only misspelled words </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a01dd93f0bd0fca7a35997b17392cf4f7"></a>MISSPELLED_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only misspelled lines </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a01dd93f0bd0fca7a35997b17392cf4f7"></a>MISSPELLED_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only lines with misspelled word(s) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a88d1fb6d8e1af4b5defefb76a1aa9651"></a>CORRECT_WORDS_MODE&#160;</td><td class="fielddoc"><p>printing only correct words </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed"></a>CORRECT_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only correct lines </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a22e257dd72f06df76c4efacb43c8c3ed"></a>CORRECT_LINES_MODE&#160;</td><td class="fielddoc"><p>printing only fully correct lines </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ac6b2e092b4a367d247664efe2f7b0bc8"></a>CRUDE_PARSE_MODE&#160;</td><td class="fielddoc"><p>use crude pasring for running text </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a76b6db181c4e0b370ee7b3aa3dffb872"></a>SEGMENT_MODE&#160;</td><td class="fielddoc"><p>Same as normal except text is parsed using Unicode text segmentation. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911aeb06b917348b859f5bc757973af661a3"></a>CRUDE_PARSE_NO_SUGGEST_MODE&#160;</td><td class="fielddoc"><p>use crude pasring for running text without suggestions </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d"></a>LINES_MODE&#160;</td><td class="fielddoc"><p>where correctness is based on entire line </p>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ad1a30ea8b6c24ae343cc3cf4d63393fb"></a>SEGMENT_NOSUGGEST_MODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ade3021a7192cd054525198a1e73cb10d"></a>LINES_MODE&#160;</td><td class="fielddoc"><p>intermediate mode used while parsing command line arguments, otherwise unused </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911ac4c2d2ba8e7aa0ec3077a38eb2a95b39"></a>LIST_DICTIONARIES_MODE&#160;</td><td class="fielddoc"><p>printing available dictionaries </p>
 </td></tr>
@@ -238,8 +245,7 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a715591779e86d61f12d48339469383c9"></a>VERSION_MODE&#160;</td><td class="fielddoc"><p>printing version information </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3"></a>ERROR_MODE&#160;</td><td class="fielddoc"><p>where the arguments used caused an error </p>
-</td></tr>
+<tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a5f4da01c8e9da641c284313b6de71ae3"></a>ERROR_MODE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a922bb852c903d318ee70b2d4045c7687"></a>DEFAULT_MODE&#160;</td><td class="fielddoc"><p>verification test </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46c8a310cf4c094f8c80e1cb8dc1f911a0982e013298a64d6074023e0c39f70e1"></a>HELP_MODE&#160;</td><td class="fielddoc"><p>printing help information </p>
@@ -253,8 +259,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a16580c4100b461806a9c49575bdd5428"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16580c4100b461806a9c49575bdd5428">&#9670;&nbsp;</a></span>correct_line_loop()</h2>
+<a id="aadf259cfd24fcfdebb1ce40e3266aef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf259cfd24fcfdebb1ce40e3266aef7">&#9670;&nbsp;</a></span>correct_line_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +280,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>dic</em>&#160;</td>
         </tr>
         <tr>
@@ -287,20 +293,20 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a16580c4100b461806a9c49575bdd5428_cgraph.svg" width="619" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aadf259cfd24fcfdebb1ce40e3266aef7_cgraph.svg" width="619" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a16580c4100b461806a9c49575bdd5428_icgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aadf259cfd24fcfdebb1ce40e3266aef7_icgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a1248d9e693e561e175cf2e5b55499fff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1248d9e693e561e175cf2e5b55499fff">&#9670;&nbsp;</a></span>correct_word_loop()</h2>
+<a id="a2c5b3bbd78b6902b7996b7a453be4523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5b3bbd78b6902b7996b7a453be4523">&#9670;&nbsp;</a></span>correct_word_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +326,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>dic</em>&#160;</td>
         </tr>
         <tr>
@@ -330,62 +336,27 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Prints correct words from <code>in</code> to <code>out</code>. </p>
+<p>Tokenizes words from <code>in</code> by whitespace</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in</td><td>the input stream with plain text. </td></tr>
+    <tr><td class="paramname">out</td><td>the output stream with on each line only correct words. </td></tr>
+    <tr><td class="paramname">dic</td><td>the dictionary to use. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a1248d9e693e561e175cf2e5b55499fff_cgraph.svg" width="358" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a2c5b3bbd78b6902b7996b7a453be4523_cgraph.svg" width="531" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a1248d9e693e561e175cf2e5b55499fff_icgraph.svg" width="238" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a3d8ece05cdc365860364604ebebab70d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d8ece05cdc365860364604ebebab70d">&#9670;&nbsp;</a></span>crude_parse_loop()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto crude_parse_loop </td>
-          <td>(</td>
-          <td class="paramtype">istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ostream &amp;&#160;</td>
-          <td class="paramname"><em>out</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
-          <td class="paramname"><em>dic</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a3d8ece05cdc365860364604ebebab70d_cgraph.svg" width="639" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a3d8ece05cdc365860364604ebebab70d_icgraph.svg" width="234" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a2c5b3bbd78b6902b7996b7a453be4523_icgraph.svg" width="238" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -452,14 +423,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="772" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="768" height="611"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a1f92dedeeb68a1a7bc2b720097d3b7a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f92dedeeb68a1a7bc2b720097d3b7a4">&#9670;&nbsp;</a></span>misspelled_line_loop()</h2>
+<a id="a9fc952c4c72f78efc086ff2e4475735e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc952c4c72f78efc086ff2e4475735e">&#9670;&nbsp;</a></span>misspelled_line_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -479,7 +450,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>dic</em>&#160;</td>
         </tr>
         <tr>
@@ -492,20 +463,20 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a1f92dedeeb68a1a7bc2b720097d3b7a4_cgraph.svg" width="642" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a9fc952c4c72f78efc086ff2e4475735e_cgraph.svg" width="642" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a1f92dedeeb68a1a7bc2b720097d3b7a4_icgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a9fc952c4c72f78efc086ff2e4475735e_icgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="aebf1b2aa274390a39317fbbca50d9d5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebf1b2aa274390a39317fbbca50d9d5e">&#9670;&nbsp;</a></span>misspelled_word_loop()</h2>
+<a id="a28035349fd4dce4052b75f480fb2e470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28035349fd4dce4052b75f480fb2e470">&#9670;&nbsp;</a></span>misspelled_word_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -525,7 +496,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>dic</em>&#160;</td>
         </tr>
         <tr>
@@ -537,9 +508,10 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Prints misspelled words from <code>in</code> to <code>out</code>. </p>
+<p>Tokenizes words from <code>in</code> by whitespace</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>the input stream with a word on each line. </td></tr>
+    <tr><td class="paramname">in</td><td>the input stream with plain text. </td></tr>
     <tr><td class="paramname">out</td><td>the output stream with on each line only misspelled words. </td></tr>
     <tr><td class="paramname">dic</td><td>the dictionary to use. </td></tr>
   </table>
@@ -548,20 +520,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aebf1b2aa274390a39317fbbca50d9d5e_cgraph.svg" width="380" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a28035349fd4dce4052b75f480fb2e470_cgraph.svg" width="554" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aebf1b2aa274390a39317fbbca50d9d5e_icgraph.svg" width="260" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a28035349fd4dce4052b75f480fb2e470_icgraph.svg" width="260" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a4a642b8579e49cab4ef7293d66f1f5d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a642b8579e49cab4ef7293d66f1f5d5">&#9670;&nbsp;</a></span>normal_loop()</h2>
+<a id="a1b26793ef57883beab96fb3f93153e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b26793ef57883beab96fb3f93153e59">&#9670;&nbsp;</a></span>normal_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -581,7 +553,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>dic</em>&#160;</td>
         </tr>
         <tr>
@@ -593,11 +565,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Normal loop, tokenize and check spelling. </p>
-<p>Tokenizes words from <code>in</code> by whitespace, checks spelling and outputs result to <code>out</code>.</p>
+<p>Tokenizes words from <code>in</code> by whitespace, checks spelling and outputs result and suggestions to <code>out</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>the input stream to check spelling for with a word on each line. </td></tr>
-    <tr><td class="paramname">out</td><td>the output stream to report spelling correctness on the respective lines. </td></tr>
+    <tr><td class="paramname">in</td><td>the input stream with plain text. </td></tr>
+    <tr><td class="paramname">out</td><td>the output stream to report spelling correctness </td></tr>
     <tr><td class="paramname">dic</td><td>the dictionary to use. </td></tr>
   </table>
   </dd>
@@ -605,20 +577,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a4a642b8579e49cab4ef7293d66f1f5d5_cgraph.svg" width="510" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a1b26793ef57883beab96fb3f93153e59_cgraph.svg" width="524" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a4a642b8579e49cab4ef7293d66f1f5d5_icgraph.svg" width="202" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a1b26793ef57883beab96fb3f93153e59_icgraph.svg" width="202" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="aebf2c62d10a43ada729a73c94fa6f254"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebf2c62d10a43ada729a73c94fa6f254">&#9670;&nbsp;</a></span>normal_nosuggest_loop()</h2>
+<a id="a79f57b910d5a04abbc65e13b699add8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79f57b910d5a04abbc65e13b699add8a">&#9670;&nbsp;</a></span>normal_nosuggest_loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -638,7 +610,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
           <td class="paramname"><em>dic</em>&#160;</td>
         </tr>
         <tr>
@@ -648,16 +620,27 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Normal loop, tokenize and check spelling. </p>
+<p>Tokenizes words from <code>in</code> by whitespace, checks spelling and outputs result but no suggestions to <code>out</code>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in</td><td>the input stream with plain text. </td></tr>
+    <tr><td class="paramname">out</td><td>the output stream to report spelling correctness </td></tr>
+    <tr><td class="paramname">dic</td><td>the dictionary to use. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aebf2c62d10a43ada729a73c94fa6f254_cgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a79f57b910d5a04abbc65e13b699add8a_cgraph.svg" width="562" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_aebf2c62d10a43ada729a73c94fa6f254_icgraph.svg" width="268" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a79f57b910d5a04abbc65e13b699add8a_icgraph.svg" width="268" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -717,6 +700,120 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a6150c93934b2505d7e4521b40fa8d571_icgraph.svg" width="206" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4e73c17f0cea2b14e0f5a32e2e174f11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e73c17f0cea2b14e0f5a32e2e174f11">&#9670;&nbsp;</a></span>segment_loop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto segment_loop </td>
+          <td>(</td>
+          <td class="paramtype">istream &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
+          <td class="paramname"><em>dic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Normal loop, tokenize and check spelling. </p>
+<p>Tokenizes words from <code>in</code> by segmentation from Boost boundary analysis, checks spelling and outputs result and suggestions to <code>out</code>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in</td><td>the input stream with plain text. </td></tr>
+    <tr><td class="paramname">out</td><td>the output stream to report spelling correctness </td></tr>
+    <tr><td class="paramname">dic</td><td>the dictionary to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a4e73c17f0cea2b14e0f5a32e2e174f11_cgraph.svg" width="535" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a4e73c17f0cea2b14e0f5a32e2e174f11_icgraph.svg" width="212" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a42fbab96f4709cbe51a87aa1c800149d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42fbab96f4709cbe51a87aa1c800149d">&#9670;&nbsp;</a></span>segment_nosuggest_loop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto segment_nosuggest_loop </td>
+          <td>(</td>
+          <td class="paramtype">istream &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_my___dictionary.html">My_Dictionary</a> &amp;&#160;</td>
+          <td class="paramname"><em>dic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Normal loop, tokenize and check spelling. </p>
+<p>Tokenizes words from <code>in</code> by segmentation from Boost boundary analysis, checks spelling and outputs result but no suggestions to <code>out</code>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in</td><td>the input stream with plain text. </td></tr>
+    <tr><td class="paramname">out</td><td>the output stream to report spelling correctness </td></tr>
+    <tr><td class="paramname">dic</td><td>the dictionary to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a42fbab96f4709cbe51a87aa1c800149d_cgraph.svg" width="603" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="main_8cxx_a42fbab96f4709cbe51a87aa1c800149d_icgraph.svg" width="280" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

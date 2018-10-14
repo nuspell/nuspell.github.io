@@ -4,7 +4,7 @@ var searchData=
   ['read_5fto_5fslash_5for_5fspace',['read_to_slash_or_space',['../namespacenuspell.html#aee2d3cdfa70d7cf8304c9a9f487b9a52',1,'nuspell']]],
   ['rehash',['rehash',['../classnuspell_1_1_hash___multiset.html#ab3ead61cc282734748b90c838c624a2f',1,'nuspell::Hash_Multiset']]],
   ['rend',['rend',['../classnuspell_1_1_string___set.html#a09c06cd7c4693e87e444f9755e584c12',1,'nuspell::String_Set::rend() noexcept'],['../classnuspell_1_1_string___set.html#a8451bb05c5b7a4db86b381e87a7f83bf',1,'nuspell::String_Set::rend() const noexcept'],['../classnuspell_1_1_list___strings.html#a7cdcfa59d31d91a67d71923dbc9e1107',1,'nuspell::List_Strings::rend() noexcept'],['../classnuspell_1_1_list___strings.html#a8f0ccbdf348fb1126f71091ca9dbca12',1,'nuspell::List_Strings::rend() const noexcept']]],
-  ['rep_5fsuggest',['rep_suggest',['../structnuspell_1_1_dict___base.html#a5b1a4dbe4a1dc25e85bf9206bc575171',1,'nuspell::Dict_Base']]],
+  ['rep_5fsuggest',['rep_suggest',['../structnuspell_1_1_dict___base.html#a739633ea4877e80b7758bcb9b7edcc64',1,'nuspell::Dict_Base']]],
   ['replace',['replace',['../classnuspell_1_1_substr___replacer.html#a28b300677a6b8b318a5d9e77f8df9f48',1,'nuspell::Substr_Replacer::replace()'],['../classnuspell_1_1_phonetic___table.html#a080a6e735b87bc775e7fde604ce05edf',1,'nuspell::Phonetic_Table::replace()']]],
   ['replace_5fchar',['replace_char',['../namespacenuspell.html#a3e3bbd2509bfa4d9cafc8888baee3fd5',1,'nuspell']]],
   ['replace_5fcopy',['replace_copy',['../classnuspell_1_1_substr___replacer.html#abaabe58ff112d931fbfc7870a29201fc',1,'nuspell::Substr_Replacer']]],

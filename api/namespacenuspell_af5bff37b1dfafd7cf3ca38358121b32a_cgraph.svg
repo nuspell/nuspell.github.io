@@ -9,39 +9,39 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>nuspell::split_v</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-24 351,-24 351,4 -4,4"/>
-<!-- Node327 -->
+<!-- Node323 -->
 <g id="node1" class="node">
-<title>Node327</title>
+<title>Node323</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-19.5 82,-19.5 82,-.5 0,-.5"/>
 <text text-anchor="middle" x="41" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split_v</text>
 </g>
-<!-- Node328 -->
+<!-- Node324 -->
 <g id="node2" class="node">
-<title>Node328</title>
+<title>Node324</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#a3fb4e305b46d4cd3a0ddb3400fb795c9" target="_top" xlink:title="Splits string on single char seperator. ">
 <polygon fill="#ffffff" stroke="#000000" points="118,-.5 118,-19.5 189,-19.5 189,-.5 118,-.5"/>
 <text text-anchor="middle" x="153.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split</text>
 </a>
 </g>
 </g>
-<!-- Node327&#45;&gt;Node328 -->
+<!-- Node323&#45;&gt;Node324 -->
 <g id="edge1" class="edge">
-<title>Node327&#45;&gt;Node328</title>
+<title>Node323&#45;&gt;Node324</title>
 <path fill="none" stroke="#191970" d="M82.252,-10C90.5444,-10 99.306,-10 107.7412,-10"/>
 <polygon fill="#191970" stroke="#191970" points="107.815,-13.5001 117.815,-10 107.8149,-6.5001 107.815,-13.5001"/>
 </g>
-<!-- Node329 -->
+<!-- Node325 -->
 <g id="node3" class="node">
-<title>Node329</title>
+<title>Node325</title>
 <g id="a_node3"><a xlink:href="namespacenuspell.html#a5e34eda7ca7918b315117568464ebe46" target="_top" xlink:title="Splits string on set of single char seperators. ">
 <polygon fill="#ffffff" stroke="#000000" points="225,-.5 225,-19.5 347,-19.5 347,-.5 225,-.5"/>
 <text text-anchor="middle" x="286" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::split_on_any_of</text>
 </a>
 </g>
 </g>
-<!-- Node328&#45;&gt;Node329 -->
+<!-- Node324&#45;&gt;Node325 -->
 <g id="edge2" class="edge">
-<title>Node328&#45;&gt;Node329</title>
+<title>Node324&#45;&gt;Node325</title>
 <path fill="none" stroke="#191970" d="M189.0076,-10C197.0277,-10 205.8203,-10 214.7346,-10"/>
 <polygon fill="#191970" stroke="#191970" points="214.8163,-13.5001 224.8162,-10 214.8162,-6.5001 214.8163,-13.5001"/>
 </g>

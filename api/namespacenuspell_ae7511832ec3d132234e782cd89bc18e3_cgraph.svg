@@ -9,24 +9,24 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>nuspell::parse_on_whitespace_v</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-24 346,-24 346,4 -4,4"/>
-<!-- Node250 -->
+<!-- Node248 -->
 <g id="node1" class="node">
-<title>Node250</title>
+<title>Node248</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-19.5 158,-19.5 158,-.5 0,-.5"/>
 <text text-anchor="middle" x="79" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::parse_on_whitespace_v</text>
 </g>
-<!-- Node251 -->
+<!-- Node249 -->
 <g id="node2" class="node">
-<title>Node251</title>
+<title>Node249</title>
 <g id="a_node2"><a xlink:href="namespacenuspell.html#a18195df0ca9db9b03c0824af311d4f9b" target="_top" xlink:title="Parses on whitespace. ">
 <polygon fill="#ffffff" stroke="#000000" points="194,-.5 194,-19.5 342,-19.5 342,-.5 194,-.5"/>
 <text text-anchor="middle" x="268" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::parse_on_whitespace</text>
 </a>
 </g>
 </g>
-<!-- Node250&#45;&gt;Node251 -->
+<!-- Node248&#45;&gt;Node249 -->
 <g id="edge1" class="edge">
-<title>Node250&#45;&gt;Node251</title>
+<title>Node248&#45;&gt;Node249</title>
 <path fill="none" stroke="#191970" d="M158.0579,-10C166.4719,-10 175.0537,-10 183.5268,-10"/>
 <polygon fill="#191970" stroke="#191970" points="183.7896,-13.5001 193.7896,-10 183.7896,-6.5001 183.7896,-13.5001"/>
 </g>

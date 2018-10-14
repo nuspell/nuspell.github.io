@@ -21,7 +21,7 @@ var searchData=
   ['flag_5futf8',['FLAG_UTF8',['../namespacenuspell.html#a1982446c90592354255a5e7ea4139449a9b8eb01b0783f8906f241eec9e151f68',1,'nuspell']]],
   ['forbid_5fwarn',['forbid_warn',['../structnuspell_1_1_aff___data.html#a98e03c617b7b7de42a8acd1f69a716c9',1,'nuspell::Aff_Data']]],
   ['forbiddenword_5fflag',['forbiddenword_flag',['../structnuspell_1_1_aff___data.html#aca3df9a3441a9f193fe257a12992103d',1,'nuspell::Aff_Data']]],
-  ['forgotten_5fchar_5fsuggest',['forgotten_char_suggest',['../structnuspell_1_1_dict___base.html#ada7dcf66f89c49f4015b67b46a8e5f7e',1,'nuspell::Dict_Base']]],
+  ['forgotten_5fchar_5fsuggest',['forgotten_char_suggest',['../structnuspell_1_1_dict___base.html#af9a6d08627ef7bc5efc2efe097b10c2c',1,'nuspell::Dict_Base']]],
   ['front',['front',['../classnuspell_1_1_list___strings.html#a61484d860b46207a1c50d795b249534d',1,'nuspell::List_Strings::front()'],['../classnuspell_1_1_list___strings.html#ac15c16ce8ebfffa710e407cdf5c2d3c6',1,'nuspell::List_Strings::front() const']]],
   ['full_5fword',['FULL_WORD',['../namespacenuspell.html#ac175e015ddcedc084f63face3f4fe3d0ae6867d44b5cf809d244baea9087356e3',1,'nuspell']]],
   ['fullstrip',['fullstrip',['../structnuspell_1_1_aff___data.html#a03977ea0ee4bf89937ee25d9b639c927',1,'nuspell::Aff_Data']]]

@@ -165,11 +165,11 @@
 <!-- Node21 -->
 <g id="node11" class="node">
 <title>Node21</title>
-<g id="a_node11"><a xlink:href="classnuspell_1_1_hash___multiset.html#ad3a00cea7680614167e392c7c6df5c90" target="_top" xlink:title="nuspell::Hash_Multiset\l::equal_range_nonconst\l_unsafe">
-<polygon fill="#ffffff" stroke="#000000" points="143.5,-813.5 143.5,-854.5 263.5,-854.5 263.5,-813.5 143.5,-813.5"/>
-<text text-anchor="start" x="151.5" y="-842.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Hash_Multiset</text>
-<text text-anchor="start" x="151.5" y="-831.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::equal_range_nonconst</text>
-<text text-anchor="middle" x="203.5" y="-820.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_unsafe</text>
+<g id="a_node11"><a xlink:href="classnuspell_1_1_hash___multiset.html#ad3a00cea7680614167e392c7c6df5c90" target="_top" xlink:title="nuspell::Hash_Multiset\l\&lt; string \&gt;::equal_range\l_nonconst_unsafe">
+<polygon fill="#ffffff" stroke="#000000" points="145,-813.5 145,-854.5 262,-854.5 262,-813.5 145,-813.5"/>
+<text text-anchor="start" x="153" y="-842.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Hash_Multiset</text>
+<text text-anchor="start" x="153" y="-831.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; string &gt;::equal_range</text>
+<text text-anchor="middle" x="203.5" y="-820.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_nonconst_unsafe</text>
 </a>
 </g>
 </g>
@@ -182,10 +182,10 @@
 <!-- Node22 -->
 <g id="node12" class="node">
 <title>Node22</title>
-<g id="a_node12"><a xlink:href="classnuspell_1_1_hash___multiset.html#a615f7b3ae53f0cef400668746d8be501" target="_top" xlink:title="nuspell::Hash_Multiset\l::equal_range">
-<polygon fill="#ffffff" stroke="#000000" points="145.5,-764 145.5,-794 261.5,-794 261.5,-764 145.5,-764"/>
-<text text-anchor="start" x="153.5" y="-782" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Hash_Multiset</text>
-<text text-anchor="middle" x="203.5" y="-771" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::equal_range</text>
+<g id="a_node12"><a xlink:href="classnuspell_1_1_hash___multiset.html#a615f7b3ae53f0cef400668746d8be501" target="_top" xlink:title="nuspell::Hash_Multiset\l\&lt; string \&gt;::equal_range">
+<polygon fill="#ffffff" stroke="#000000" points="145,-764 145,-794 262,-794 262,-764 145,-764"/>
+<text text-anchor="start" x="153" y="-782" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Hash_Multiset</text>
+<text text-anchor="middle" x="203.5" y="-771" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; string &gt;::equal_range</text>
 </a>
 </g>
 </g>
