@@ -3,7 +3,7 @@ title: Nuspell Home Page
 layout: home
 exclude: true
 ---
-<img src="https://img.shields.io/badge/license-LGPL-blue.svg"/> <img src="https://img.shields.io/badge/language-C++14-blue.svg"/> <a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a> <!--<a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a>
+<img src="https://img.shields.io/badge/license-LGPL-blue.svg"/> <img src="https://img.shields.io/badge/language-C++14-blue.svg"/> <img src="https://img.shields.io/badge/nuspell-v2.0.0-blue.svg"/> <a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a> <!--<a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a>
  <img src="https://img.shields.io/badge/compiler-clang%20|%20gcc|%20mingw%20|%20msys2-lightgrey.svg"/> <img src="https://img.shields.io/badge/platform-linux%20|%20macos%20|%20win%20|%20bsd-lightgrey.svg"/>
  <a href="https://github.com/nuspell/nuspell/blob/master/COPYING"><img src="https://img.shields.io/badge/license-LGPL-blue.svg"/></a> [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/nuspell/nuspell.svg)](http://isitmaintained.com/project/nuspell/nuspell "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/nuspell/nuspell.svg)](http://isitmaintained.com/project/nuspell/nuspell "Percentage of issues still open")-->
 
