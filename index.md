@@ -1,14 +1,14 @@
 ---
-title: Nuspell
-layout: page
-exclude: true<!--custom-->
+title: Nuspell Home Page
+layout: home
+exclude: true
 ---
 <img src="https://img.shields.io/badge/license-LGPL-blue.svg"/> <img src="https://img.shields.io/badge/language-C++14-blue.svg"/> <a href="https://travis-ci.org/nuspell/nuspell"><img src="https://travis-ci.org/nuspell/nuspell.svg?branch=master"></a> <!--<a href="https://ci.appveyor.com/project/PanderMusubi/nuspell"><img src="https://ci.appveyor.com/api/projects/status/github/nuspell/nuspell?branch=master&svg=true"></a>
  <img src="https://img.shields.io/badge/compiler-clang%20|%20gcc|%20mingw%20|%20msys2-lightgrey.svg"/> <img src="https://img.shields.io/badge/platform-linux%20|%20macos%20|%20win%20|%20bsd-lightgrey.svg"/>
  <a href="https://github.com/nuspell/nuspell/blob/master/COPYING"><img src="https://img.shields.io/badge/license-LGPL-blue.svg"/></a> [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/nuspell/nuspell.svg)](http://isitmaintained.com/project/nuspell/nuspell "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/nuspell/nuspell.svg)](http://isitmaintained.com/project/nuspell/nuspell "Percentage of issues still open")-->
 
 
-# Introduction
+## Introduction
 
 Using correct spelling improves your communication and can prevent costly mistakes and even lethal mistakes. Several solutions have been developed over the last decades, each building on top of the previous one. The current state of affairs is that there is a need for a fast, transparant and maintainable spell checker.
 
@@ -17,7 +17,7 @@ To meet these demands, the free and open source spell checker Nuspell is being c
 ![Screenshot](/assets/images/cover-edged.png)
 
 
-# Integration
+## Integration
 
 Familiar examples of both proprietary or open source software which can start using Nuspell as a drop-in replacement of their current spell checker are:
 * [LibreOffice](https://www.libreoffice.org/)
@@ -31,7 +31,7 @@ Familiar examples of both proprietary or open source software which can start us
 Also [web services](https://en.wikipedia.org/wiki/Web_service), [lesser-known text editors](https://en.wikipedia.org/wiki/Comparison_of_text_editors#Basic_features) and more technical software such as [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) can use Nuspell. Integration can be done in many ways such as dynamic linking or static linking, but Nuspell can be integrated via language bindings too.<!-- See its [Wikipedia](https://en.wikipedia.org/wiki/Nuspell) article for a longer list.-->
 
 
-# Features
+## Features
 
 Nuspell's main features are:
 * extensive support for language peculiarities with [Unicode](https://en.wikipedia.org/wiki/Unicode), [locale](https://en.wikipedia.org/wiki/Locale_%28computer_software%29), [affixing](https://en.wikipedia.org/wiki/Affix), [compounding](https://en.wikipedia.org/wiki/Compound_%28linguistics%29) and complex morphology
@@ -58,7 +58,7 @@ Character encodings encountered in dictionaries and affix files which Nuspell wo
 * [KOI-8](https://en.wikipedia.org/wiki/KOI-8) part [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R)
 
 
-# Languages and Users
+## Languages and Users
 
 Currently, almost 90 different languages and language variations are supported. This covers the languages used in almost 200 countries and geographic regions in the world. As many users can also use a second language, such as English, the user base is almost all of the approximately 2.5 billion computer users. That is a third of the Earth's population.
 
@@ -72,12 +72,12 @@ Nuspell itself does not support any language. You need language support, also ca
 Note that installing language support is automated and directly available from inside the software listed above.
 
 
-# Contributing
+## Contributing
 
 Even though spell checking can be a very complex subject, we need your help. Nuspell isn't simply using a list of correct words, but a mechanism of very intricate spell checking techniques and tactics. Nevertheless, we can use help on all levels from fixing bugs, implement feature request, improving support for a certain language or packaging language support for operating systems, browsers or office suites. Contact us if you can contribute with your skills.
 
 
-# Sponsoring
+## Sponsoring
 
 Several organizations have enabled the development and maintenance of Nuspell. The sponsors, past and current, are:
 * [Mozilla Open Source Support](https://www.mozilla.org/moss/) in [2017 and 2018](https://blog.mozilla.org/blog/2017/04/10/mozilla-awards-365000-to-open-source-projects-as-part-of-moss/) for the rewrite in pure C++ called [Nuspell](https://github.com/nuspell/nuspell), version 2.0
@@ -85,6 +85,6 @@ Several organizations have enabled the development and maintenance of Nuspell. T
 Contact us if you are considering sponsoring the development and maintenance of free and open source spell checking. Especially with so many users and many different software integrations, this software is in constant need of proficient support. Reducing spelling errors not only improves quality of communication and indirectly teaches people about spelling, but it also reduces the risk for costly errors that could have been prevented.
 
 
-# Contact
+## Contact
 
 The code, wiki and issues are managed at [GitHub](https://github.com/nuspell/nuspell). Use that repository, also the closed issues, for any questions or contributions. Find Nuspell also on social media.

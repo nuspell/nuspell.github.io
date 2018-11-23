@@ -14,13 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Nuspell
-description: Free and open source spell checker
-description_long: > # this means to ignore newlines until next variable
-  Nuspell is a free and open source spell checker that is written in C++. It
-  extensively supports character encodings, locales, compounding, affixing and
+description: > # this means to ignore newlines until next variable
+  Nuspell is a free and open source spell checker that is written in modern C++.
+  It extensively supports character encodings, compounding, affixing and
   complex morphology. Nuspell offers also suggestions and personal dictionaries.
 keywords: spell spelling check checker
-author: Nuspell community
+#author: Nuspell community
 #TODOemail: info@nuspell.org
 #FIXMEurl: https://nuspell.org
 url: "https://nuspell.github.io"
