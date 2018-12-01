@@ -8,3 +8,7 @@ Install:
 
 	sudo gem install bundler jekyll
 	bundle install
+
+To run the site, use this simple command:
+
+	jekyll s
