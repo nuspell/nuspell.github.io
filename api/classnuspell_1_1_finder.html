@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2e83d2cd366f50ce1f38e30642e8ea67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05dd485575738371e3dd0eeb7f5179ea"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_finder.html#a05dd485575738371e3dd0eeb7f5179ea">equal_range</a> (const std::string &amp;dict) const -&gt; std::pair&lt; <a class="el" href="classnuspell_1_1_finder.html#affbad02c4931dead62b7ff137c818855">const_iterator</a>, <a class="el" href="classnuspell_1_1_finder.html#affbad02c4931dead62b7ff137c818855">const_iterator</a> &gt;</td></tr>
 <tr class="separator:a05dd485575738371e3dd0eeb7f5179ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a564300f4f6ea5513d856de978ad34f4e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_finder.html#a564300f4f6ea5513d856de978ad34f4e">get_dictionary</a> (const std::string &amp;dict) const -&gt; std::string</td></tr>
-<tr class="memdesc:a564300f4f6ea5513d856de978ad34f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the dictionary.  <a href="#a564300f4f6ea5513d856de978ad34f4e">More...</a><br /></td></tr>
-<tr class="separator:a564300f4f6ea5513d856de978ad34f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55db8d50f524616f1762893fb50583f1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_finder.html#a55db8d50f524616f1762893fb50583f1">get_dictionary_path</a> (const std::string &amp;dict) const -&gt; std::string</td></tr>
+<tr class="memdesc:a55db8d50f524616f1762893fb50583f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the dictionary path.  <a href="#a55db8d50f524616f1762893fb50583f1">More...</a><br /></td></tr>
+<tr class="separator:a55db8d50f524616f1762893fb50583f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -400,14 +400,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a564300f4f6ea5513d856de978ad34f4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a564300f4f6ea5513d856de978ad34f4e">&#9670;&nbsp;</a></span>get_dictionary()</h2>
+<a id="a55db8d50f524616f1762893fb50583f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55db8d50f524616f1762893fb50583f1">&#9670;&nbsp;</a></span>get_dictionary_path()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto nuspell::Finder::get_dictionary </td>
+          <td class="memname">auto nuspell::Finder::get_dictionary_path </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>dict</em></td><td>)</td>
@@ -416,18 +416,19 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Gets the dictionary. </p>
+<p>Gets the dictionary path. </p>
+<p>If path is given (contains slash) it returns the input argument, otherwise searches the found dictionaries by their name and returns their path.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dict</td><td>name or path of dictionary without the trailing .aff/.dic. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the full path to dictionary or empty if does not exists. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the path to dictionary or empty if does not exists. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_finder_a564300f4f6ea5513d856de978ad34f4e_icgraph.svg" width="328" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_finder_a55db8d50f524616f1762893fb50583f1_icgraph.svg" width="328" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

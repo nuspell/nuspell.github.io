@@ -1,6 +1,6 @@
 <map id="nuspell::valid_utf_to_utf" name="nuspell::valid_utf_to_utf">
 <area shape="rect" id="node2" href="$namespacenuspell.html#ad4e8221da9ce95908ecd5a60ac3ae08c" title="nuspell::wide_to_utf8" alt="" coords="173,78,319,105"/>
-<area shape="rect" id="node3" href="$classnuspell_1_1_word___list.html#a9cb1b8ccbd83e2b8275309b981537d40" title="nuspell::Word_List\l::equal_range" alt="" coords="387,5,517,47"/>
-<area shape="rect" id="node4" href="$structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed" title="Parses an input stream offering dictionary information. " alt="" coords="387,71,517,112"/>
-<area shape="rect" id="node5" href="$classnuspell_1_1_basic___dictionary.html#af376c24827a246f67eaeb81002cf40d2" title="nuspell::Basic_Dictionary\l::internal_to_external\l_encoding" alt="" coords="367,137,537,193"/>
+<area shape="rect" id="node3" href="$classnuspell_1_1_word___list.html#a9cb1b8ccbd83e2b8275309b981537d40" title="nuspell::Word_List\l::equal_range" alt="" coords="373,5,503,47"/>
+<area shape="rect" id="node4" href="$structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed" title="Parses an input stream offering dictionary information. " alt="" coords="373,71,503,112"/>
+<area shape="rect" id="node5" href="$classnuspell_1_1_dictionary.html#a38d6bdb6f223f5ec40d60c3543b0ef1b" title="nuspell::Dictionary\l::internal_to_external\l_encoding" alt="" coords="367,137,509,193"/>
 </map>

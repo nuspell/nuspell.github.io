@@ -12,7 +12,7 @@
 <area shape="rect" id="node18" href="$main_8cxx.html#a2c5b3bbd78b6902b7996b7a453be4523" title="Prints correct words from in to out. " alt="" coords="125,477,253,503"/>
 <area shape="rect" id="node19" href="$main_8cxx.html#aadf259cfd24fcfdebb1ce40e3266aef7" title="correct_line_loop" alt="" coords="129,578,249,605"/>
 <area shape="rect" id="node7" href="$class_my___dictionary.html#aea4b0e17845cec47e417eea4b64a0978" title="My_Dictionary::spell" alt="" coords="353,401,495,427"/>
-<area shape="rect" id="node9" href="$classnuspell_1_1_basic___dictionary.html#ac50138a9f4de879a541838170f957977" title="nuspell::Basic_Dictionary\l::suggest" alt="" coords="339,267,509,308"/>
+<area shape="rect" id="node9" href="$classnuspell_1_1_dictionary.html#a8a66dd365b5491f00e20827299816c3d" title="nuspell::Dictionary\l::suggest" alt="" coords="359,267,489,308"/>
 <area shape="rect" id="node8" href="$classnuspell_1_1_hash___multiset.html#a615f7b3ae53f0cef400668746d8be501" title="nuspell::Hash_Multiset\l::equal_range" alt="" coords="591,393,745,435"/>
 <area shape="rect" id="node10" href="$classnuspell_1_1_list___strings.html#a3baa052822894e35652f895e6324d4fb" title="nuspell::List_Strings\l::clear" alt="" coords="598,267,738,308"/>
 <area shape="rect" id="node16" href="$namespacenuspell.html#aa7e4995c62f0034c3f760c93a3d25dd9" title="Splits on whitespace, outputs to vector of strings. " alt="" coords="323,553,525,579"/>

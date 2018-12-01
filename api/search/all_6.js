@@ -4,7 +4,7 @@ var searchData=
   ['get_5fchar_5fmask',['get_char_mask',['../namespacenuspell.html#a25a8f9abb37fff312a261e20e6cbc29c',1,'nuspell']]],
   ['get_5fdefault_5fsearch_5fpaths',['get_default_search_paths',['../namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5',1,'nuspell']]],
   ['get_5fdictionaries',['get_dictionaries',['../classnuspell_1_1_finder.html#aaa3cbdb33ec64c0b931f032a9646e5a5',1,'nuspell::Finder']]],
-  ['get_5fdictionary',['get_dictionary',['../classnuspell_1_1_finder.html#a564300f4f6ea5513d856de978ad34f4e',1,'nuspell::Finder']]],
+  ['get_5fdictionary_5fpath',['get_dictionary_path',['../classnuspell_1_1_finder.html#a55db8d50f524616f1762893fb50583f1',1,'nuspell::Finder']]],
   ['get_5fdir_5fpaths',['get_dir_paths',['../classnuspell_1_1_finder.html#a62173a35fac9520e320289bb56511cb9',1,'nuspell::Finder']]],
   ['get_5flibreoffice_5fpaths',['get_libreoffice_paths',['../namespacenuspell.html#a18da8631cb0b014f0f918cf444946921',1,'nuspell']]],
   ['get_5fmozilla_5fpaths',['get_mozilla_paths',['../namespacenuspell.html#ae0600d47d2f5dd17332137e3254d9642',1,'nuspell']]],

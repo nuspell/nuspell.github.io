@@ -84,8 +84,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_at___scope___exit.html">At_Scope_Exit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_basic___dictionary.html">Basic_Dictionary</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html">Break_Table</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_compound___check___pattern.html">Compound_Check_Pattern</a></td></tr>
@@ -100,6 +98,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class providing implementation for limited regular expression matching used in affix entries.  <a href="classnuspell_1_1_condition.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html">Dict_Base</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_directory.html">Directory</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,8 +161,6 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a7a881a11402f1cecabb78826c28ed53d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a7a881a11402f1cecabb78826c28ed53d">Word_List_Base</a> = <a class="el" href="classnuspell_1_1_hash___multiset.html">Hash_Multiset</a>&lt; std::pair&lt; std::string, <a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> &gt;, std::string, member&lt; std::pair&lt; std::string, <a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> &gt;, std::string, &amp;std::pair&lt; std::string, <a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> &gt;::first &gt; &gt;</td></tr>
 <tr class="separator:a7a881a11402f1cecabb78826c28ed53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b256088aeea1d8a159fc811aa6beeb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">Dictionary</a> = <a class="el" href="classnuspell_1_1_basic___dictionary.html">Basic_Dictionary</a></td></tr>
-<tr class="separator:a85b256088aeea1d8a159fc811aa6beeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a6941a9bfc319e9196b52c5df0f0911"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a4a6941a9bfc319e9196b52c5df0f0911">Flag_Set</a> = <a class="el" href="classnuspell_1_1_string___set.html">String_Set</a>&lt; char16_t &gt;</td></tr>
 <tr class="separator:a4a6941a9bfc319e9196b52c5df0f0911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23e3f5fcd2ac20b3eab492ffa2fa621f"><td class="memTemplParams" colspan="2">template&lt;class CharT &gt; </td></tr>
@@ -468,20 +466,6 @@ template&lt;class CharT , class AffixT &gt; </div>
 
 </div>
 </div>
-<a id="a85b256088aeea1d8a159fc811aa6beeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b256088aeea1d8a159fc811aa6beeb">&#9670;&nbsp;</a></span>Dictionary</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacenuspell.html#a85b256088aeea1d8a159fc811aa6beeb">nuspell::Dictionary</a> = typedef <a class="el" href="classnuspell_1_1_basic___dictionary.html">Basic_Dictionary</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4a6941a9bfc319e9196b52c5df0f0911"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a6941a9bfc319e9196b52c5df0f0911">&#9670;&nbsp;</a></span>Flag_Set</h2>
 
@@ -734,7 +718,7 @@ template&lt;class CharT &gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ada8c46770a2fbf918ed2b75b3b14517d_icgraph.svg" width="412" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ada8c46770a2fbf918ed2b75b3b14517d_icgraph.svg" width="372" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3396,7 +3380,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a9bf8e1a3f71282ed001fcf4f224ef9dd_icgraph.svg" width="456" height="315"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a9bf8e1a3f71282ed001fcf4f224ef9dd_icgraph.svg" width="432" height="315"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3470,7 +3454,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a7aade2ec1cb243eb5b3714007d59d63c_icgraph.svg" width="444" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a7aade2ec1cb243eb5b3714007d59d63c_icgraph.svg" width="416" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3656,7 +3640,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a79258aeb32a39ce719a014950b33e5d6_icgraph.svg" width="375" height="264"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_a79258aeb32a39ce719a014950b33e5d6_icgraph.svg" width="351" height="264"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3717,7 +3701,7 @@ template&lt;class InChar , class OutChar &gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aae8baee1ca83bf5a5e0d07a4e8fdbf81_icgraph.svg" width="1182" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_aae8baee1ca83bf5a5e0d07a4e8fdbf81_icgraph.svg" width="1158" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3754,7 +3738,7 @@ template&lt;class InChar , class OutChar &gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ade7ffffeb6a7e872e46bb96f4b1e4eea_icgraph.svg" width="543" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ade7ffffeb6a7e872e46bb96f4b1e4eea_icgraph.svg" width="515" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3818,7 +3802,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ad4e8221da9ce95908ecd5a60ac3ae08c_icgraph.svg" width="375" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenuspell_ad4e8221da9ce95908ecd5a60ac3ae08c_icgraph.svg" width="347" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

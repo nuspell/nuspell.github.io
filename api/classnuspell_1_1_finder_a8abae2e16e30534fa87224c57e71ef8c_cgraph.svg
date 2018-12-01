@@ -49,10 +49,10 @@
 <!-- Node27 -->
 <g id="node4" class="node">
 <title>Node27</title>
-<g id="a_node4"><a xlink:href="classnuspell_1_1_finder.html#a564300f4f6ea5513d856de978ad34f4e" target="_top" xlink:title="Gets the dictionary. ">
+<g id="a_node4"><a xlink:href="classnuspell_1_1_finder.html#a55db8d50f524616f1762893fb50583f1" target="_top" xlink:title="Gets the dictionary path. ">
 <polygon fill="#ffffff" stroke="#000000" points="143,-.5 143,-30.5 243,-30.5 243,-.5 143,-.5"/>
 <text text-anchor="start" x="151" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Finder::get</text>
-<text text-anchor="middle" x="193" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_dictionary</text>
+<text text-anchor="middle" x="193" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_dictionary_path</text>
 </a>
 </g>
 </g>

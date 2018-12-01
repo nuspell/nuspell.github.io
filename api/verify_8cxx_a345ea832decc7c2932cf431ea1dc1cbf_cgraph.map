@@ -1,6 +1,6 @@
 <map id="normal_loop" name="normal_loop">
-<area shape="rect" id="node2" href="$classnuspell_1_1_basic___dictionary.html#a05ed25f4b65c93f0389295303e43e509" title="nuspell::Basic_Dictionary\l::spell" alt="" coords="145,5,316,47"/>
-<area shape="rect" id="node3" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="167,71,295,98"/>
-<area shape="rect" id="node4" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="173,122,289,149"/>
-<area shape="rect" id="node5" href="$namespacestd.html#abb75a3efd092cccd0bcbfdf1c503d145" title="std::operator\&lt;\&lt;" alt="" coords="175,173,286,199"/>
+<area shape="rect" id="node2" href="$classnuspell_1_1_dictionary.html#ad6782f36b6a99ea81360cb870cbd30ff" title="nuspell::Dictionary\l::spell" alt="" coords="145,5,276,47"/>
+<area shape="rect" id="node3" href="$namespacenuspell.html#a9bf8e1a3f71282ed001fcf4f224ef9dd" title="nuspell::to_narrow" alt="" coords="147,71,275,98"/>
+<area shape="rect" id="node4" href="$namespacenuspell.html#a7aade2ec1cb243eb5b3714007d59d63c" title="nuspell::to_wide" alt="" coords="153,122,269,149"/>
+<area shape="rect" id="node5" href="$namespacestd.html#abb75a3efd092cccd0bcbfdf1c503d145" title="std::operator\&lt;\&lt;" alt="" coords="155,173,266,199"/>
 </map>

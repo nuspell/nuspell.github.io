@@ -18,17 +18,17 @@
 <!-- Node5 -->
 <g id="node2" class="node">
 <title>Node5</title>
-<g id="a_node2"><a xlink:href="classnuspell_1_1_basic___dictionary.html" target="_top" xlink:title="Dictionary">
-<polygon fill="#ffffff" stroke="#000000" points="1244.5,-284 1244.5,-303 1305.5,-303 1305.5,-284 1244.5,-284"/>
-<text text-anchor="middle" x="1275" y="-291" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Dictionary</text>
+<g id="a_node2"><a xlink:href="classnuspell_1_1_dictionary.html" target="_top" xlink:title="nuspell::Dictionary">
+<polygon fill="#ffffff" stroke="#000000" points="1226,-284 1226,-303 1324,-303 1324,-284 1226,-284"/>
+<text text-anchor="middle" x="1275" y="-291" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Dictionary</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge1" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M1315.9682,-288.3201C1343.9818,-284.7782 1380.9384,-280.1055 1408.7889,-276.5842"/>
-<polygon fill="#191970" stroke="#191970" points="1315.1891,-284.8907 1305.7072,-289.6175 1316.0673,-291.8354 1315.1891,-284.8907"/>
+<path fill="none" stroke="#191970" d="M1334.3392,-285.9973C1358.9051,-282.8913 1386.7549,-279.3701 1408.8556,-276.5757"/>
+<polygon fill="#191970" stroke="#191970" points="1333.8779,-282.5277 1324.396,-287.2545 1334.7561,-289.4724 1333.8779,-282.5277"/>
 </g>
 <!-- Node6 -->
 <g id="node3" class="node">
@@ -42,7 +42,7 @@
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge2" class="edge">
 <title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="#006400" d="M1136.3549,-293.5C1171.9289,-293.5 1215.5633,-293.5 1244.2659,-293.5"/>
+<path fill="none" stroke="#006400" d="M1136.3422,-293.5C1164.9003,-293.5 1198.6556,-293.5 1225.7104,-293.5"/>
 <polygon fill="#006400" stroke="#006400" points="1136.0779,-290.0001 1126.0779,-293.5 1136.0779,-297.0001 1136.0779,-290.0001"/>
 </g>
 <!-- Node7 -->
