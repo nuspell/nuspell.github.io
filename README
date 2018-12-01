@@ -1,7 +1,10 @@
-This file should not be called README.md, otherwise it will be included in the website.
+This file should not be called README.md, otherwise it will be included in the
+website.
 
-The file index.md does not have a `title` in order to exculde it from the menu.
+To test the site locally install Ruby via Apt. Then do not install
+Jekyll via Apt. Install with Gem and Bundler.
 
-The file performance.md is generated from the project misc-nuspell.
+Install:
 
-Install needed jekyll software via `sudo gem install github-pages` and update it via `sudo gem update github-pages` and running `sudo bundle update jekyll`. Note that the `gem update` does not uninstall old packages. This can be done manually in all directories under `/var/lib/gems/2.5.0/` by deleting duplicate old gems.
+	sudo gem install bundler jekyll
+	bundle install
