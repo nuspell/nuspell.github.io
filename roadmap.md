@@ -3,7 +3,7 @@ title: Roadmap
 layout: page
 ---
 
-The latest roadmap can be found [here](https://github.com/nuspell/nuspell/projects/1). Bellow is a summary.
+The latest roadmap can be found [here](https://github.com/nuspell/nuspell/projects/1). Bellow is only a summary.
 
 * [x] Version 2.0
     * [x] 2017Q4 Milestone 1 - basic infrastructure and dictionary parsing
@@ -14,6 +14,7 @@ The latest roadmap can be found [here](https://github.com/nuspell/nuspell/projec
 * Version 3
     * speed up implementation
     * improve suggestions
+    * language bindings
     * ...
 * Version 4
     * ...
