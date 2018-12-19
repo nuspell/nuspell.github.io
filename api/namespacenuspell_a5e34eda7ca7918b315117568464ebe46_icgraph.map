@@ -1,8 +1,0 @@
-<map id="nuspell::split_on_any_of" name="nuspell::split_on_any_of">
-<area shape="rect" id="node2" href="$structnuspell_1_1_directory.html#ad2692b51f2b74bbb73d5e8661042e627" title="nuspell::Directory\l::close" alt="" coords="216,5,340,47"/>
-<area shape="rect" id="node3" href="$namespacenuspell.html#a3fb4e305b46d4cd3a0ddb3400fb795c9" title="Splits string on single char seperator. " alt="" coords="231,71,325,98"/>
-<area shape="rect" id="node4" href="$namespacenuspell.html#a5fcde42a9d5b1fae08e198eb417df1a5" title="Gets the default search paths. " alt="" coords="388,5,523,47"/>
-<area shape="rect" id="node6" href="$namespacenuspell.html#a738ba7cf9a8824420a2460e022f75838" title="Splits string on string separator. " alt="" coords="408,71,503,98"/>
-<area shape="rect" id="node7" href="$namespacenuspell.html#af5bff37b1dfafd7cf3ca38358121b32a" title="Splits string on seperator, output to vector of strings. " alt="" coords="401,122,510,149"/>
-<area shape="rect" id="node5" href="$classnuspell_1_1_finder.html#ac7904bd59ca957abc023b7c09e9728bc" title="Adds the default directory paths which may containt dictionaries. " alt="" coords="571,5,707,47"/>
-</map>

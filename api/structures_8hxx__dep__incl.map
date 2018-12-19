@@ -1,9 +1,4 @@
 <map id="src/nuspell/structures.hxx" name="src/nuspell/structures.hxx">
-<area shape="rect" id="node2" href="$aff__data_8hxx.html" title="Affixing data structures. " alt="" coords="100,80,261,107"/>
-<area shape="rect" id="node8" href="$structures_8cxx.html" title="Data structures. " alt="" coords="285,80,457,107"/>
-<area shape="rect" id="node3" href="$aff__data_8cxx.html" title="Affixing data structures. " alt="" coords="5,155,167,181"/>
-<area shape="rect" id="node4" href="$dictionary_8hxx.html" title="Dictionary spelling. " alt="" coords="191,155,362,181"/>
-<area shape="rect" id="node5" href="$dictionary_8cxx.html" title="Dictionary spelling. " alt="" coords="10,229,181,256"/>
-<area shape="rect" id="node6" href="$main_8cxx.html" title="Command line spell checking. " alt="" coords="205,229,348,256"/>
-<area shape="rect" id="node7" href="$verify_8cxx.html" title="Command line spell check for verification testing. " alt="" coords="373,229,519,256"/>
+<area shape="rect" id="node2" href="$aff__data_8hxx.html" title="Affixing data structures, private header. " alt="" coords="11,80,172,107"/>
+<area shape="rect" id="node3" href="$dictionary_8hxx.html" title="Dictionary spelling, PUBLIC HEADER. " alt="" coords="6,155,177,181"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['casing',['Casing',['../namespacenuspell.html#af5a906dc0779e6824c4a84f6f277d39e',1,'nuspell']]]
+  ['flag_5ftype',['Flag_Type',['../namespacenuspell.html#a1982446c90592354255a5e7ea4139449',1,'nuspell']]]
 ];

@@ -1,8 +1,0 @@
-<map id="src/nuspell/string_utils.hxx" name="src/nuspell/string_utils.hxx">
-<area shape="rect" id="node2" href="$aff__data_8cxx.html" title="Affixing data structures. " alt="" coords="5,95,167,121"/>
-<area shape="rect" id="node3" href="$dictionary_8cxx.html" title="Dictionary spelling. " alt="" coords="191,95,362,121"/>
-<area shape="rect" id="node4" href="$finder_8cxx.html" title="Finding dictionaries. " alt="" coords="386,95,533,121"/>
-<area shape="rect" id="node5" href="$main_8cxx.html" title="Command line spell checking. " alt="" coords="557,95,700,121"/>
-<area shape="rect" id="node6" href="$structures_8cxx.html" title="Data structures. " alt="" coords="724,95,896,121"/>
-<area shape="rect" id="node7" href="$verify_8cxx.html" title="Command line spell check for verification testing. " alt="" coords="921,95,1067,121"/>
-</map>

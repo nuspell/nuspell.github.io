@@ -1,8 +1,0 @@
-<map id="nuspell::Globber::copy_glob_paths" name="nuspell::Globber::copy_glob_paths">
-<area shape="rect" id="node2" href="$namespacenuspell.html#ae0600d47d2f5dd17332137e3254d9642" title="Gets the Mozilla search paths. " alt="" coords="215,5,352,47"/>
-<area shape="rect" id="node4" href="$namespacenuspell.html#a18da8631cb0b014f0f918cf444946921" title="Gets the LibreOffice search paths. " alt="" coords="207,71,359,112"/>
-<area shape="rect" id="node6" href="$namespacenuspell.html#ad59b0ec5004ed1985b64eb6ec6fb4cd1" title="Gets the Apache OpenOffice search paths. " alt="" coords="205,136,361,177"/>
-<area shape="rect" id="node3" href="$classnuspell_1_1_finder.html#a181c5b065f8fa76ed26e079aa24a84d4" title="Adds the Mozilla directory paths which may containt dictionaries. " alt="" coords="416,5,552,47"/>
-<area shape="rect" id="node5" href="$classnuspell_1_1_finder.html#a21224942e6684c8722b9eb0d213e65c3" title="Adds the LibreOffice directory paths which may containt dictionaries. " alt="" coords="411,71,557,112"/>
-<area shape="rect" id="node7" href="$classnuspell_1_1_finder.html#a10db179542bffb40614b74d581e293cf" title="Adds the OpenOffice directory paths which may containt dictionaries. " alt="" coords="409,136,559,177"/>
-</map>

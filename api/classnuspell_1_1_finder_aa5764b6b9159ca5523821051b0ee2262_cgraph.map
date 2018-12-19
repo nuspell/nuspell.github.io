@@ -1,6 +1,0 @@
-<map id="nuspell::Finder::search_for_dictionaries" name="nuspell::Finder::search_for_dictionaries">
-<area shape="rect" id="node2" href="$namespacenuspell.html#adf3b41b78ea359884e579dd686895da2" title="Searches directory for dictionaries. " alt="" coords="208,71,351,112"/>
-<area shape="rect" id="node3" href="$structnuspell_1_1_directory.html#aa9697cf9e705f0acc37567e2f5435856" title="nuspell::Directory\l::open" alt="" coords="399,5,523,47"/>
-<area shape="rect" id="node4" href="$structnuspell_1_1_directory.html#a9520b035588f693156225606c0af173b" title="nuspell::Directory\l::next" alt="" coords="399,71,523,112"/>
-<area shape="rect" id="node5" href="$structnuspell_1_1_directory.html#a776a738fc5045a5feae77b0c227b4465" title="nuspell::Directory\l::entry_name" alt="" coords="399,136,523,177"/>
-</map>

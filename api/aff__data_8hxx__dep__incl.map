@@ -1,7 +1,3 @@
 <map id="src/nuspell/aff_data.hxx" name="src/nuspell/aff_data.hxx">
-<area shape="rect" id="node2" href="$aff__data_8cxx.html" title="Affixing data structures. " alt="" coords="5,80,167,107"/>
-<area shape="rect" id="node3" href="$dictionary_8hxx.html" title="Dictionary spelling. " alt="" coords="191,80,362,107"/>
-<area shape="rect" id="node4" href="$dictionary_8cxx.html" title="Dictionary spelling. " alt="" coords="10,155,181,181"/>
-<area shape="rect" id="node5" href="$main_8cxx.html" title="Command line spell checking. " alt="" coords="205,155,348,181"/>
-<area shape="rect" id="node6" href="$verify_8cxx.html" title="Command line spell check for verification testing. " alt="" coords="373,155,519,181"/>
+<area shape="rect" id="node2" href="$dictionary_8hxx.html" title="Dictionary spelling, PUBLIC HEADER. " alt="" coords="5,80,176,107"/>
 </map>

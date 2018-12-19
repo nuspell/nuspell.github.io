@@ -1,4 +1,0 @@
-<map id="nuspell::classify_casing" name="nuspell::classify_casing">
-<area shape="rect" id="node2" href="$structnuspell_1_1_aff___data.html#ad77b0f3b5fc59f2c1ba29e5cbf8dc7ed" title="Parses an input stream offering dictionary information. " alt="" coords="215,5,346,47"/>
-<area shape="rect" id="node3" href="$structnuspell_1_1_dict___base.html#ac0c107fd8295bb7395ff95e23d37fbe2" title="Checks spelling according to casing of the provided word. " alt="" coords="215,71,347,112"/>
-</map>

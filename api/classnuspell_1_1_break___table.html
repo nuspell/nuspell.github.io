@@ -66,486 +66,58 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classnuspell_1_1_break___table-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">nuspell::Break_Table&lt; CharT &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="structures_8hxx_source.html">structures.hxx</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac54b432d3fa12a291b16a33ab9f62446"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#ac54b432d3fa12a291b16a33ab9f62446">StrT</a> = std::basic_string&lt; CharT &gt;</td></tr>
+<tr class="memitem:ac54b432d3fa12a291b16a33ab9f62446"><td class="memItemLeft" align="right" valign="top"><a id="ac54b432d3fa12a291b16a33ab9f62446"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>StrT</b> = std::basic_string&lt; CharT &gt;</td></tr>
 <tr class="separator:ac54b432d3fa12a291b16a33ab9f62446"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8a37e26f694f0cc37570d1603539496"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> = std::vector&lt; <a class="el" href="classnuspell_1_1_break___table.html#ac54b432d3fa12a291b16a33ab9f62446">StrT</a> &gt;</td></tr>
+<tr class="memitem:aa8a37e26f694f0cc37570d1603539496"><td class="memItemLeft" align="right" valign="top"><a id="aa8a37e26f694f0cc37570d1603539496"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Table_Str</b> = std::vector&lt; StrT &gt;</td></tr>
 <tr class="separator:aa8a37e26f694f0cc37570d1603539496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d79548034cf67775d554ea813e09f7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#ab0d79548034cf67775d554ea813e09f7">iterator</a> = typename Table_Str::iterator</td></tr>
+<tr class="memitem:ab0d79548034cf67775d554ea813e09f7"><td class="memItemLeft" align="right" valign="top"><a id="ab0d79548034cf67775d554ea813e09f7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> = typename Table_Str::iterator</td></tr>
 <tr class="separator:ab0d79548034cf67775d554ea813e09f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28cfbe43bdb81f845d351a35d48c0a1c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a> = typename Table_Str::const_iterator</td></tr>
+<tr class="memitem:a28cfbe43bdb81f845d351a35d48c0a1c"><td class="memItemLeft" align="right" valign="top"><a id="a28cfbe43bdb81f845d351a35d48c0a1c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>const_iterator</b> = typename Table_Str::const_iterator</td></tr>
 <tr class="separator:a28cfbe43bdb81f845d351a35d48c0a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6d3cb439f4fa16f2525bc2cf767d0363"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a6d3cb439f4fa16f2525bc2cf767d0363">Break_Table</a> ()=default</td></tr>
-<tr class="separator:a6d3cb439f4fa16f2525bc2cf767d0363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a096749df8f29cca2b9f68418172a04a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a096749df8f29cca2b9f68418172a04a0">Break_Table</a> (const <a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;v)</td></tr>
+<tr class="memitem:a096749df8f29cca2b9f68418172a04a0"><td class="memItemLeft" align="right" valign="top"><a id="a096749df8f29cca2b9f68418172a04a0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Break_Table</b> (const Table_Str &amp;v)</td></tr>
 <tr class="separator:a096749df8f29cca2b9f68418172a04a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1774d02954e7e23d0fbb2876351bec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a3e1774d02954e7e23d0fbb2876351bec">Break_Table</a> (<a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;&amp;v)</td></tr>
+<tr class="memitem:a3e1774d02954e7e23d0fbb2876351bec"><td class="memItemLeft" align="right" valign="top"><a id="a3e1774d02954e7e23d0fbb2876351bec"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Break_Table</b> (Table_Str &amp;&amp;v)</td></tr>
 <tr class="separator:a3e1774d02954e7e23d0fbb2876351bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a668bedaefab9a94272071d6e3e373d61"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a668bedaefab9a94272071d6e3e373d61">operator=</a> (const <a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;v)</td></tr>
+<tr class="memitem:a668bedaefab9a94272071d6e3e373d61"><td class="memItemLeft" align="right" valign="top"><a id="a668bedaefab9a94272071d6e3e373d61"></a>
+auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const Table_Str &amp;v)</td></tr>
 <tr class="separator:a668bedaefab9a94272071d6e3e373d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73b793583becca697f56c1b6de458f86"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a73b793583becca697f56c1b6de458f86">operator=</a> (<a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;&amp;v)</td></tr>
+<tr class="memitem:a73b793583becca697f56c1b6de458f86"><td class="memItemLeft" align="right" valign="top"><a id="a73b793583becca697f56c1b6de458f86"></a>
+auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (Table_Str &amp;&amp;v)</td></tr>
 <tr class="separator:a73b793583becca697f56c1b6de458f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa424b6c8cfaf502287d5bcb1105bb3f6"><td class="memTemplParams" colspan="2">template&lt;class Range &gt; </td></tr>
-<tr class="memitem:aa424b6c8cfaf502287d5bcb1105bb3f6"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#aa424b6c8cfaf502287d5bcb1105bb3f6">operator=</a> (const Range &amp;range)</td></tr>
+<tr class="memitem:aa424b6c8cfaf502287d5bcb1105bb3f6"><td class="memTemplParams" colspan="2"><a id="aa424b6c8cfaf502287d5bcb1105bb3f6"></a>
+template&lt;class Range &gt; </td></tr>
+<tr class="memitem:aa424b6c8cfaf502287d5bcb1105bb3f6"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator=</b> (const Range &amp;range)</td></tr>
 <tr class="separator:aa424b6c8cfaf502287d5bcb1105bb3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac59fb06ac79f9e7afe714e5692207b75"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#ac59fb06ac79f9e7afe714e5692207b75">start_word_breaks</a> () const -&gt; boost::iterator_range&lt; <a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a> &gt;</td></tr>
+<tr class="memitem:ac59fb06ac79f9e7afe714e5692207b75"><td class="memItemLeft" align="right" valign="top"><a id="ac59fb06ac79f9e7afe714e5692207b75"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>start_word_breaks</b> () const -&gt; boost::iterator_range&lt; const_iterator &gt;</td></tr>
 <tr class="separator:ac59fb06ac79f9e7afe714e5692207b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab68ee072ef4ea33d077472efab864469"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#ab68ee072ef4ea33d077472efab864469">end_word_breaks</a> () const -&gt; boost::iterator_range&lt; <a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a> &gt;</td></tr>
+<tr class="memitem:ab68ee072ef4ea33d077472efab864469"><td class="memItemLeft" align="right" valign="top"><a id="ab68ee072ef4ea33d077472efab864469"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>end_word_breaks</b> () const -&gt; boost::iterator_range&lt; const_iterator &gt;</td></tr>
 <tr class="separator:ab68ee072ef4ea33d077472efab864469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd26400df7f332bfca238da79d542b25"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#abd26400df7f332bfca238da79d542b25">middle_word_breaks</a> () const -&gt; boost::iterator_range&lt; <a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a> &gt;</td></tr>
+<tr class="memitem:abd26400df7f332bfca238da79d542b25"><td class="memItemLeft" align="right" valign="top"><a id="abd26400df7f332bfca238da79d542b25"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>middle_word_breaks</b> () const -&gt; boost::iterator_range&lt; const_iterator &gt;</td></tr>
 <tr class="separator:abd26400df7f332bfca238da79d542b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:aca0dd377f6577785688f1471c10883b0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#aca0dd377f6577785688f1471c10883b0">order_entries</a> () -&gt; void</td></tr>
-<tr class="separator:aca0dd377f6577785688f1471c10883b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a5bce1f882a04878dbe28c8e0920342d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a5bce1f882a04878dbe28c8e0920342d0">table</a></td></tr>
-<tr class="separator:a5bce1f882a04878dbe28c8e0920342d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a413f2da6fc961ed5a105cb27b1d7daea"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#a413f2da6fc961ed5a105cb27b1d7daea">start_word_breaks_last_idx</a> = 0</td></tr>
-<tr class="separator:a413f2da6fc961ed5a105cb27b1d7daea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5344221757d20c9c54d441c50d20473"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html#ae5344221757d20c9c54d441c50d20473">end_word_breaks_last_idx</a> = 0</td></tr>
-<tr class="separator:ae5344221757d20c9c54d441c50d20473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a28cfbe43bdb81f845d351a35d48c0a1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28cfbe43bdb81f845d351a35d48c0a1c">&#9670;&nbsp;</a></span>const_iterator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::<a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a> =  typename Table_Str::const_iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab0d79548034cf67775d554ea813e09f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d79548034cf67775d554ea813e09f7">&#9670;&nbsp;</a></span>iterator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::<a class="el" href="classnuspell_1_1_break___table.html#ab0d79548034cf67775d554ea813e09f7">iterator</a> =  typename Table_Str::iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac54b432d3fa12a291b16a33ab9f62446"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac54b432d3fa12a291b16a33ab9f62446">&#9670;&nbsp;</a></span>StrT</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::<a class="el" href="classnuspell_1_1_break___table.html#ac54b432d3fa12a291b16a33ab9f62446">StrT</a> =  std::basic_string&lt;CharT&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa8a37e26f694f0cc37570d1603539496"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a37e26f694f0cc37570d1603539496">&#9670;&nbsp;</a></span>Table_Str</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::<a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> =  std::vector&lt;<a class="el" href="classnuspell_1_1_break___table.html#ac54b432d3fa12a291b16a33ab9f62446">StrT</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6d3cb439f4fa16f2525bc2cf767d0363"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d3cb439f4fa16f2525bc2cf767d0363">&#9670;&nbsp;</a></span>Break_Table() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::<a class="el" href="classnuspell_1_1_break___table.html">Break_Table</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a096749df8f29cca2b9f68418172a04a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a096749df8f29cca2b9f68418172a04a0">&#9670;&nbsp;</a></span>Break_Table() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::<a class="el" href="classnuspell_1_1_break___table.html">Break_Table</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3e1774d02954e7e23d0fbb2876351bec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e1774d02954e7e23d0fbb2876351bec">&#9670;&nbsp;</a></span>Break_Table() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::<a class="el" href="classnuspell_1_1_break___table.html">Break_Table</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab68ee072ef4ea33d077472efab864469"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab68ee072ef4ea33d077472efab864469">&#9670;&nbsp;</a></span>end_word_breaks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::end_word_breaks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const -&gt; boost::iterator_range&lt;<a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a>&gt;
-	</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abd26400df7f332bfca238da79d542b25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd26400df7f332bfca238da79d542b25">&#9670;&nbsp;</a></span>middle_word_breaks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::middle_word_breaks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const -&gt; boost::iterator_range&lt;<a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a>&gt;
-	</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a668bedaefab9a94272071d6e3e373d61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a668bedaefab9a94272071d6e3e373d61">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto&amp; <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a73b793583becca697f56c1b6de458f86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73b793583becca697f56c1b6de458f86">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto&amp; <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa424b6c8cfaf502287d5bcb1105bb3f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa424b6c8cfaf502287d5bcb1105bb3f6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<div class="memtemplate">
-template&lt;class Range &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto&amp; <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const Range &amp;&#160;</td>
-          <td class="paramname"><em>range</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca0dd377f6577785688f1471c10883b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca0dd377f6577785688f1471c10883b0">&#9670;&nbsp;</a></span>order_entries()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::order_entries </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> -&gt; void</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac59fb06ac79f9e7afe714e5692207b75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac59fb06ac79f9e7afe714e5692207b75">&#9670;&nbsp;</a></span>start_word_breaks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::start_word_breaks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const -&gt; boost::iterator_range&lt;<a class="el" href="classnuspell_1_1_break___table.html#a28cfbe43bdb81f845d351a35d48c0a1c">const_iterator</a>&gt;
-	</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae5344221757d20c9c54d441c50d20473"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5344221757d20c9c54d441c50d20473">&#9670;&nbsp;</a></span>end_word_breaks_last_idx</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::end_word_breaks_last_idx = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a413f2da6fc961ed5a105cb27b1d7daea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a413f2da6fc961ed5a105cb27b1d7daea">&#9670;&nbsp;</a></span>start_word_breaks_last_idx</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::start_word_breaks_last_idx = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5bce1f882a04878dbe28c8e0920342d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bce1f882a04878dbe28c8e0920342d0">&#9670;&nbsp;</a></span>table</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class CharT&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classnuspell_1_1_break___table.html#aa8a37e26f694f0cc37570d1603539496">Table_Str</a> <a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table</a>&lt; CharT &gt;::table</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/nuspell/<a class="el" href="structures_8hxx_source.html">structures.hxx</a></li>
-<li>src/nuspell/<a class="el" href="structures_8cxx.html">structures.cxx</a></li>
+<li>src/nuspell/structures.cxx</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
