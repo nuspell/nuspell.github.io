@@ -9,15 +9,15 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 515)">
 <title>nuspell::Aff_Data</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-515 797,-515 797,4 -4,4"/>
-<!-- Node4 -->
+<!-- Node3 -->
 <g id="node1" class="node">
-<title>Node4</title>
+<title>Node3</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="701,-99 701,-118 793,-118 793,-99 701,-99"/>
 <text text-anchor="middle" x="747" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Aff_Data</text>
 </g>
-<!-- Node5 -->
+<!-- Node4 -->
 <g id="node2" class="node">
-<title>Node5</title>
+<title>Node4</title>
 <g id="a_node2"><a xlink:href="structnuspell_1_1_aff___structures.html" target="_top" xlink:title="nuspell::Aff_Structures\l\&lt; char \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="433,-354.5 433,-384.5 549,-384.5 549,-354.5 433,-354.5"/>
 <text text-anchor="start" x="441" y="-372.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Aff_Structures</text>
@@ -25,16 +25,16 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
+<!-- Node4&#45;&gt;Node3 -->
 <g id="edge1" class="edge">
-<title>Node5&#45;&gt;Node4</title>
+<title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M513.1475,-346.92C566.5936,-292.4299 700.9332,-155.4666 737.618,-118.0652"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="510.3738,-344.7494 505.8702,-354.3394 515.3713,-349.6511 510.3738,-344.7494"/>
 <text text-anchor="middle" x="627.5" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> structures</text>
 </g>
-<!-- Node6 -->
+<!-- Node5 -->
 <g id="node3" class="node">
-<title>Node6</title>
+<title>Node5</title>
 <g id="a_node3"><a xlink:href="classnuspell_1_1_break___table.html" target="_top" xlink:title="nuspell::Break_Table\l\&lt; char \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="175,-480.5 175,-510.5 283,-510.5 283,-480.5 175,-480.5"/>
 <text text-anchor="start" x="183" y="-498.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Break_Table</text>
@@ -42,16 +42,16 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
+<!-- Node5&#45;&gt;Node4 -->
 <g id="edge2" class="edge">
-<title>Node6&#45;&gt;Node5</title>
+<title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M293.2647,-494.1275C329.5593,-490.906 374.5998,-482.642 410,-462.5 443.3115,-443.5465 469.6404,-405.6299 482.4652,-384.5355"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="292.9719,-490.6397 283.275,-494.9081 293.5173,-497.6184 292.9719,-490.6397"/>
 <text text-anchor="middle" x="360" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> break_table</text>
 </g>
-<!-- Node7 -->
+<!-- Node6 -->
 <g id="node4" class="node">
-<title>Node7</title>
+<title>Node6</title>
 <g id="a_node4"><a xlink:href="classnuspell_1_1_substr___replacer.html" target="_top" xlink:title="nuspell::Substr_Replacer\l\&lt; char \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="166,-431.5 166,-461.5 292,-461.5 292,-431.5 166,-431.5"/>
 <text text-anchor="start" x="174" y="-449.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Substr_Replacer</text>
@@ -59,17 +59,17 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node5 -->
+<!-- Node6&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
-<title>Node7&#45;&gt;Node5</title>
+<title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M302.4254,-438.5048C335.8793,-433.5025 375.6022,-425.6282 410,-413.5 430.526,-406.2628 452.1035,-394.2972 467.8223,-384.6696"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="301.6574,-435.0791 292.2572,-439.9666 302.6535,-442.0079 301.6574,-435.0791"/>
 <text text-anchor="middle" x="360" y="-450.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> input_substr_replacer</text>
 <text text-anchor="middle" x="360" y="-439.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">output_substr_replacer</text>
 </g>
-<!-- Node8 -->
+<!-- Node7 -->
 <g id="node5" class="node">
-<title>Node8</title>
+<title>Node7</title>
 <g id="a_node5"><a xlink:href="classnuspell_1_1_affix___table.html" target="_top" xlink:title="nuspell::Affix_Table\l\&lt; char \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="177.5,-382.5 177.5,-412.5 280.5,-412.5 280.5,-382.5 177.5,-382.5"/>
 <text text-anchor="start" x="185.5" y="-400.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Affix_Table</text>
@@ -77,17 +77,17 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node5 -->
+<!-- Node7&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
-<title>Node8&#45;&gt;Node5</title>
+<title>Node7&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M290.8236,-390.8929C333.8358,-386.2962 390.7999,-380.2084 432.9604,-375.7027"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="290.3342,-387.4252 280.7628,-391.9681 291.0781,-394.3855 290.3342,-387.4252"/>
 <text text-anchor="middle" x="360" y="-401.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> suffixes</text>
 <text text-anchor="middle" x="360" y="-390.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">prefixes</text>
 </g>
-<!-- Node9 -->
+<!-- Node8 -->
 <g id="node6" class="node">
-<title>Node9</title>
+<title>Node8</title>
 <g id="a_node6"><a xlink:href="classnuspell_1_1_hash___multiset.html" target="_top" xlink:title="Affix_Table_Base\&lt; char\l , AffixT \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="3.5,-382.5 3.5,-412.5 125.5,-412.5 125.5,-382.5 3.5,-382.5"/>
 <text text-anchor="start" x="11.5" y="-400.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Affix_Table_Base&lt; char</text>
@@ -95,15 +95,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
+<!-- Node8&#45;&gt;Node7 -->
 <g id="edge5" class="edge">
-<title>Node9&#45;&gt;Node8</title>
+<title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="#8b1a1a" d="M135.8321,-397.5C149.8094,-397.5 164.215,-397.5 177.3955,-397.5"/>
 <polygon fill="#8b1a1a" stroke="#8b1a1a" points="135.7538,-394.0001 125.7537,-397.5 135.7537,-401.0001 135.7538,-394.0001"/>
 </g>
-<!-- Node10 -->
+<!-- Node9 -->
 <g id="node7" class="node">
-<title>Node10</title>
+<title>Node9</title>
 <g id="a_node7"><a xlink:href="classnuspell_1_1_phonetic___table.html" target="_top" xlink:title="nuspell::Phonetic_Table\l\&lt; char \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="168.5,-333.5 168.5,-363.5 289.5,-363.5 289.5,-333.5 168.5,-333.5"/>
 <text text-anchor="start" x="176.5" y="-351.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Phonetic_Table</text>
@@ -111,16 +111,16 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node5 -->
+<!-- Node9&#45;&gt;Node4 -->
 <g id="edge6" class="edge">
-<title>Node10&#45;&gt;Node5</title>
+<title>Node9&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M299.9954,-350.4301C333.4286,-351.7484 373.8219,-353.9293 410,-357.5 417.3566,-358.2261 425.0666,-359.1523 432.6829,-360.1674"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="299.9801,-346.9272 289.8554,-350.0481 299.7166,-353.9222 299.9801,-346.9272"/>
 <text text-anchor="middle" x="360" y="-360.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> phonetic_table</text>
 </g>
-<!-- Node11 -->
+<!-- Node10 -->
 <g id="node8" class="node">
-<title>Node11</title>
+<title>Node10</title>
 <g id="a_node8"><a xlink:href="classnuspell_1_1_replacement___table.html" target="_top" xlink:title="nuspell::Replacement\l_Table\&lt; char \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="173.5,-284.5 173.5,-314.5 284.5,-314.5 284.5,-284.5 173.5,-284.5"/>
 <text text-anchor="start" x="181.5" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Replacement</text>
@@ -128,16 +128,16 @@
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node5 -->
+<!-- Node10&#45;&gt;Node4 -->
 <g id="edge7" class="edge">
-<title>Node11&#45;&gt;Node5</title>
+<title>Node10&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M294.7816,-309.3048C329.4705,-315.2941 372.4947,-324.0265 410,-335.5 426.6257,-340.5861 444.5067,-347.8847 459.2281,-354.4167"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="295.2094,-305.8276 284.7659,-307.6114 294.0424,-312.7296 295.2094,-305.8276"/>
 <text text-anchor="middle" x="360" y="-338.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> replacements</text>
 </g>
-<!-- Node12 -->
+<!-- Node11 -->
 <g id="node9" class="node">
-<title>Node12</title>
+<title>Node11</title>
 <g id="a_node9"><a xlink:href="structnuspell_1_1_aff___structures.html" target="_top" xlink:title="nuspell::Aff_Structures\l\&lt; wchar_t \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="433,-137.5 433,-167.5 549,-167.5 549,-137.5 433,-137.5"/>
 <text text-anchor="start" x="441" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Aff_Structures</text>
@@ -145,16 +145,16 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node4 -->
+<!-- Node11&#45;&gt;Node3 -->
 <g id="edge8" class="edge">
-<title>Node12&#45;&gt;Node4</title>
+<title>Node11&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M559.2944,-143.5441C596.0703,-138.3797 642.1498,-131.359 683,-123.5 691.293,-121.9045 700.1392,-119.9781 708.5259,-118.0453"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="558.603,-140.1065 549.1805,-144.9507 559.5673,-147.0398 558.603,-140.1065"/>
 <text text-anchor="middle" x="627.5" y="-143.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> wide_structures</text>
 </g>
-<!-- Node13 -->
+<!-- Node12 -->
 <g id="node10" class="node">
-<title>Node13</title>
+<title>Node12</title>
 <g id="a_node10"><a xlink:href="classnuspell_1_1_replacement___table.html" target="_top" xlink:title="nuspell::Replacement\l_Table\&lt; wchar_t \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="173.5,-235.5 173.5,-265.5 284.5,-265.5 284.5,-235.5 173.5,-235.5"/>
 <text text-anchor="start" x="181.5" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Replacement</text>
@@ -162,16 +162,16 @@
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node12 -->
+<!-- Node12&#45;&gt;Node11 -->
 <g id="edge9" class="edge">
-<title>Node13&#45;&gt;Node12</title>
+<title>Node12&#45;&gt;Node11</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M294.7496,-241.3883C329.963,-235.0042 373.4829,-224.6525 410,-208.5 433.765,-197.9881 457.8647,-180.2169 473.5236,-167.5127"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="293.8279,-237.9962 284.5792,-243.1647 295.0323,-244.8918 293.8279,-237.9962"/>
 <text text-anchor="middle" x="360" y="-240.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> replacements</text>
 </g>
-<!-- Node14 -->
+<!-- Node13 -->
 <g id="node11" class="node">
-<title>Node14</title>
+<title>Node13</title>
 <g id="a_node11"><a xlink:href="classnuspell_1_1_phonetic___table.html" target="_top" xlink:title="nuspell::Phonetic_Table\l\&lt; wchar_t \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="168.5,-186.5 168.5,-216.5 289.5,-216.5 289.5,-186.5 168.5,-186.5"/>
 <text text-anchor="start" x="176.5" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Phonetic_Table</text>
@@ -179,16 +179,16 @@
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node12 -->
+<!-- Node13&#45;&gt;Node11 -->
 <g id="edge10" class="edge">
-<title>Node14&#45;&gt;Node12</title>
+<title>Node13&#45;&gt;Node11</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M300.0053,-195.5337C333.6029,-191.9339 374.1291,-186.4648 410,-178.5 422.8321,-175.6508 436.5319,-171.6401 448.9452,-167.62"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="299.3989,-192.0778 289.8138,-196.5916 300.1217,-199.0404 299.3989,-192.0778"/>
 <text text-anchor="middle" x="360" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> phonetic_table</text>
 </g>
-<!-- Node15 -->
+<!-- Node14 -->
 <g id="node12" class="node">
-<title>Node15</title>
+<title>Node14</title>
 <g id="a_node12"><a xlink:href="classnuspell_1_1_substr___replacer.html" target="_top" xlink:title="nuspell::Substr_Replacer\l\&lt; wchar_t \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="166,-137.5 166,-167.5 292,-167.5 292,-137.5 166,-137.5"/>
 <text text-anchor="start" x="174" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Substr_Replacer</text>
@@ -196,17 +196,17 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node12 -->
+<!-- Node14&#45;&gt;Node11 -->
 <g id="edge11" class="edge">
-<title>Node15&#45;&gt;Node12</title>
+<title>Node14&#45;&gt;Node11</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M302.102,-152.5C343.4253,-152.5 394.3708,-152.5 432.9369,-152.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="302.089,-149.0001 292.0889,-152.5 302.0889,-156.0001 302.089,-149.0001"/>
 <text text-anchor="middle" x="360" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> input_substr_replacer</text>
 <text text-anchor="middle" x="360" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">output_substr_replacer</text>
 </g>
-<!-- Node16 -->
+<!-- Node15 -->
 <g id="node13" class="node">
-<title>Node16</title>
+<title>Node15</title>
 <g id="a_node13"><a xlink:href="classnuspell_1_1_affix___table.html" target="_top" xlink:title="nuspell::Affix_Table\l\&lt; wchar_t \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="177.5,-88.5 177.5,-118.5 280.5,-118.5 280.5,-88.5 177.5,-88.5"/>
 <text text-anchor="start" x="185.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Affix_Table</text>
@@ -214,17 +214,17 @@
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node12 -->
+<!-- Node15&#45;&gt;Node11 -->
 <g id="edge12" class="edge">
-<title>Node16&#45;&gt;Node12</title>
+<title>Node15&#45;&gt;Node11</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M290.6718,-108.4949C325.8985,-112.0543 370.7378,-117.7822 410,-126.5 422.8321,-129.3492 436.5319,-133.3599 448.9452,-137.38"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="290.8288,-104.9936 280.5355,-107.5034 290.1473,-111.9604 290.8288,-104.9936"/>
 <text text-anchor="middle" x="360" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> suffixes</text>
 <text text-anchor="middle" x="360" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">prefixes</text>
 </g>
-<!-- Node17 -->
+<!-- Node16 -->
 <g id="node14" class="node">
-<title>Node17</title>
+<title>Node16</title>
 <g id="a_node14"><a xlink:href="classnuspell_1_1_hash___multiset.html" target="_top" xlink:title="Affix_Table_Base\&lt; wchar\l_t , AffixT \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="0,-88.5 0,-118.5 129,-118.5 129,-88.5 0,-88.5"/>
 <text text-anchor="start" x="8" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Affix_Table_Base&lt; wchar</text>
@@ -232,15 +232,15 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node16 -->
+<!-- Node16&#45;&gt;Node15 -->
 <g id="edge13" class="edge">
-<title>Node17&#45;&gt;Node16</title>
+<title>Node16&#45;&gt;Node15</title>
 <path fill="none" stroke="#8b1a1a" d="M139.2828,-103.5C152.1474,-103.5 165.2577,-103.5 177.3409,-103.5"/>
 <polygon fill="#8b1a1a" stroke="#8b1a1a" points="139.0427,-100.0001 129.0426,-103.5 139.0426,-107.0001 139.0427,-100.0001"/>
 </g>
-<!-- Node18 -->
+<!-- Node17 -->
 <g id="node15" class="node">
-<title>Node18</title>
+<title>Node17</title>
 <g id="a_node15"><a xlink:href="classnuspell_1_1_break___table.html" target="_top" xlink:title="nuspell::Break_Table\l\&lt; wchar_t \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="175,-39.5 175,-69.5 283,-69.5 283,-39.5 175,-39.5"/>
 <text text-anchor="start" x="183" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Break_Table</text>
@@ -248,47 +248,47 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node12 -->
+<!-- Node17&#45;&gt;Node11 -->
 <g id="edge14" class="edge">
-<title>Node18&#45;&gt;Node12</title>
+<title>Node17&#45;&gt;Node11</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M293.5426,-56.3874C330.7363,-60.3886 376.5888,-70.5936 410,-95.5 423.0828,-105.2526 415.7116,-116.7638 428,-127.5 432.3421,-131.2937 437.3301,-134.551 442.5577,-137.3383"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="293.5849,-52.8758 283.2992,-55.4163 292.9242,-59.8445 293.5849,-52.8758"/>
 <text text-anchor="middle" x="360" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> break_table</text>
 </g>
-<!-- Node19 -->
+<!-- Node18 -->
 <g id="node16" class="node">
-<title>Node19</title>
+<title>Node18</title>
 <g id="a_node16"><a xlink:href="classnuspell_1_1_word___list.html" target="_top" xlink:title="Map between words and word_flags. ">
 <polygon fill="#ffffff" stroke="#000000" points="442,-99 442,-118 540,-118 540,-99 442,-99"/>
 <text text-anchor="middle" x="491" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Word_List</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node4 -->
+<!-- Node18&#45;&gt;Node3 -->
 <g id="edge15" class="edge">
-<title>Node19&#45;&gt;Node4</title>
+<title>Node18&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M550.1452,-108.5C595.9476,-108.5 658.4969,-108.5 700.6954,-108.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="550.0565,-105.0001 540.0565,-108.5 550.0564,-112.0001 550.0565,-105.0001"/>
 <text text-anchor="middle" x="627.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> words</text>
 </g>
-<!-- Node20 -->
+<!-- Node19 -->
 <g id="node17" class="node">
-<title>Node20</title>
+<title>Node19</title>
 <g id="a_node17"><a xlink:href="classnuspell_1_1_hash___multiset.html" target="_top" xlink:title="Word_List_Base">
 <polygon fill="#ffffff" stroke="#000000" points="184.5,-1 184.5,-20 273.5,-20 273.5,-1 184.5,-1"/>
 <text text-anchor="middle" x="229" y="-8" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Word_List_Base</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node19 -->
+<!-- Node19&#45;&gt;Node18 -->
 <g id="edge16" class="edge">
-<title>Node20&#45;&gt;Node19</title>
+<title>Node19&#45;&gt;Node18</title>
 <path fill="none" stroke="#191970" d="M283.771,-12.0512C322.6412,-15.7503 374.0851,-26.2138 410,-54.5 423.7419,-65.3229 414.5578,-78.307 428,-89.5 432.6529,-93.3744 438.0795,-96.4589 443.7601,-98.9145"/>
 <polygon fill="#191970" stroke="#191970" points="283.9268,-8.5522 273.6718,-11.2137 283.3483,-15.5283 283.9268,-8.5522"/>
 </g>
-<!-- Node21 -->
+<!-- Node20 -->
 <g id="node18" class="node">
-<title>Node21</title>
+<title>Node20</title>
 <g id="a_node18"><a xlink:href="classnuspell_1_1_string___set.html" target="_top" xlink:title="nuspell::String_Set\l\&lt; char16_t \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="441.5,-49.5 441.5,-79.5 540.5,-79.5 540.5,-49.5 441.5,-49.5"/>
 <text text-anchor="start" x="449.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::String_Set</text>
@@ -296,16 +296,16 @@
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node4 -->
+<!-- Node20&#45;&gt;Node3 -->
 <g id="edge17" class="edge">
-<title>Node21&#45;&gt;Node4</title>
+<title>Node20&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M550.889,-72.285C588.8708,-77.5333 638.9725,-85.0297 683,-93.5 691.293,-95.0955 700.1392,-97.0219 708.5259,-98.9547"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="550.8949,-68.7533 540.5128,-70.8654 549.946,-75.6887 550.8949,-68.7533"/>
 <text text-anchor="middle" x="627.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> compound_syllable_num</text>
 </g>
-<!-- Node22 -->
+<!-- Node21 -->
 <g id="node19" class="node">
-<title>Node22</title>
+<title>Node21</title>
 <g id="a_node19"><a xlink:href="classnuspell_1_1_compound___rule___table.html" target="_top" xlink:title="nuspell::Compound_Rule\l_Table">
 <polygon fill="#ffffff" stroke="#000000" points="428,-.5 428,-30.5 554,-30.5 554,-.5 428,-.5"/>
 <text text-anchor="start" x="436" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Compound_Rule</text>
@@ -313,9 +313,9 @@
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node4 -->
+<!-- Node21&#45;&gt;Node3 -->
 <g id="edge18" class="edge">
-<title>Node22&#45;&gt;Node4</title>
+<title>Node21&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M564.287,-25.3556C601.1126,-32.107 645.7127,-43.0887 683,-60.5 704.142,-70.3723 725.0976,-87.9591 737.0064,-98.8834"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="564.5751,-21.8525 554.119,-23.5617 563.3588,-28.746 564.5751,-21.8525"/>
 <text text-anchor="middle" x="627.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> compound_rules</text>

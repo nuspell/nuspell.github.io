@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Nuspell: nuspell::Dictionary Class Reference</title>
+<title>Nuspell: nuspell::v2::Dictionary Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,61 +59,68 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacenuspell.html">nuspell</a></li><li class="navelem"><a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacenuspell.html">nuspell</a></li><li class="navelem"><a class="el" href="namespacenuspell_1_1v2.html">v2</a></li><li class="navelem"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html">Dictionary</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="classnuspell_1_1_dictionary-members.html">List of all members</a>  </div>
+<a href="classnuspell_1_1v2_1_1_dictionary-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">nuspell::Dictionary Class Reference</div>  </div>
+<div class="title">nuspell::v2::Dictionary Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The only important public class.  
+ <a href="classnuspell_1_1v2_1_1_dictionary.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="dictionary_8hxx_source.html">dictionary.hxx</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for nuspell::Dictionary:</div>
+Inheritance diagram for nuspell::v2::Dictionary:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_dictionary__inherit__graph.svg" width="143" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1v2_1_1_dictionary__inherit__graph.svg" width="163" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for nuspell::Dictionary:</div>
+Collaboration diagram for nuspell::v2::Dictionary:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1_dictionary__coll__graph.svg" width="1430" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1v2_1_1_dictionary__coll__graph.svg" width="1451" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a73d75d6ebe9c7f09d182b748b7bd583a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dictionary.html#a73d75d6ebe9c7f09d182b748b7bd583a">imbue</a> (const std::locale &amp;loc) -&gt; void</td></tr>
-<tr class="memdesc:a73d75d6ebe9c7f09d182b748b7bd583a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imbues external locale object to set external encoding.  <a href="#a73d75d6ebe9c7f09d182b748b7bd583a">More...</a><br /></td></tr>
-<tr class="separator:a73d75d6ebe9c7f09d182b748b7bd583a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6782f36b6a99ea81360cb870cbd30ff"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dictionary.html#ad6782f36b6a99ea81360cb870cbd30ff">spell</a> (const std::string &amp;word) const -&gt; bool</td></tr>
-<tr class="memdesc:ad6782f36b6a99ea81360cb870cbd30ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given word is correct.  <a href="#ad6782f36b6a99ea81360cb870cbd30ff">More...</a><br /></td></tr>
-<tr class="separator:ad6782f36b6a99ea81360cb870cbd30ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a66dd365b5491f00e20827299816c3d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dictionary.html#a8a66dd365b5491f00e20827299816c3d">suggest</a> (const std::string &amp;word, <a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; char &gt; &amp;out) const -&gt; void</td></tr>
-<tr class="memdesc:a8a66dd365b5491f00e20827299816c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suggests correct words for a given incorrect word.  <a href="#a8a66dd365b5491f00e20827299816c3d">More...</a><br /></td></tr>
-<tr class="separator:a8a66dd365b5491f00e20827299816c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed74a43dfda823d13cb9d98a8670577"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#a8ed74a43dfda823d13cb9d98a8670577">imbue</a> (const std::locale &amp;loc) -&gt; void</td></tr>
+<tr class="memdesc:a8ed74a43dfda823d13cb9d98a8670577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imbues external locale object to set external encoding.  <a href="#a8ed74a43dfda823d13cb9d98a8670577">More...</a><br /></td></tr>
+<tr class="separator:a8ed74a43dfda823d13cb9d98a8670577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab977f587e7a78cf84a271e33c8d37732"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#ab977f587e7a78cf84a271e33c8d37732">spell</a> (const std::string &amp;word) const -&gt; bool</td></tr>
+<tr class="memdesc:ab977f587e7a78cf84a271e33c8d37732"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given word is correct.  <a href="#ab977f587e7a78cf84a271e33c8d37732">More...</a><br /></td></tr>
+<tr class="separator:ab977f587e7a78cf84a271e33c8d37732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74e291a62cb3b08a6533867baf7ae4bf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#a74e291a62cb3b08a6533867baf7ae4bf">suggest</a> (const std::string &amp;word, <a class="el" href="classnuspell_1_1_list___basic___strings.html">List_Strings</a> &amp;out) const -&gt; void</td></tr>
+<tr class="memdesc:a74e291a62cb3b08a6533867baf7ae4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suggests correct words for a given incorrect word.  <a href="#a74e291a62cb3b08a6533867baf7ae4bf">More...</a><br /></td></tr>
+<tr class="separator:a74e291a62cb3b08a6533867baf7ae4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4ca78d0ea6e30b78a1e8f9b454787cae"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dictionary.html#a4ca78d0ea6e30b78a1e8f9b454787cae">load_from_aff_dic</a> (std::istream &amp;aff, std::istream &amp;dic) -&gt; <a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a></td></tr>
-<tr class="memdesc:a4ca78d0ea6e30b78a1e8f9b454787cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a dictionary from opened files as iostreams.  <a href="#a4ca78d0ea6e30b78a1e8f9b454787cae">More...</a><br /></td></tr>
-<tr class="separator:a4ca78d0ea6e30b78a1e8f9b454787cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb6c013c721cbfbafff9e224cede31c"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dictionary.html#a1eb6c013c721cbfbafff9e224cede31c">load_from_path</a> (const std::string &amp;file_path_without_extension) -&gt; <a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a></td></tr>
-<tr class="memdesc:a1eb6c013c721cbfbafff9e224cede31c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a dictionary from files.  <a href="#a1eb6c013c721cbfbafff9e224cede31c">More...</a><br /></td></tr>
-<tr class="separator:a1eb6c013c721cbfbafff9e224cede31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a494fa2488eb5ce2b970bececff1f3d"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#a0a494fa2488eb5ce2b970bececff1f3d">load_from_aff_dic</a> (std::istream &amp;aff, std::istream &amp;dic) -&gt; <a class="el" href="classnuspell_1_1v2_1_1_dictionary.html">Dictionary</a></td></tr>
+<tr class="memdesc:a0a494fa2488eb5ce2b970bececff1f3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a dictionary from opened files as iostreams.  <a href="#a0a494fa2488eb5ce2b970bececff1f3d">More...</a><br /></td></tr>
+<tr class="separator:a0a494fa2488eb5ce2b970bececff1f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584a609a35e3cb23e341a9c3f8fe347c"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#a584a609a35e3cb23e341a9c3f8fe347c">load_from_path</a> (const std::string &amp;file_path_without_extension) -&gt; <a class="el" href="classnuspell_1_1v2_1_1_dictionary.html">Dictionary</a></td></tr>
+<tr class="memdesc:a584a609a35e3cb23e341a9c3f8fe347c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a dictionary from files.  <a href="#a584a609a35e3cb23e341a9c3f8fe347c">More...</a><br /></td></tr>
+<tr class="separator:a584a609a35e3cb23e341a9c3f8fe347c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a73d75d6ebe9c7f09d182b748b7bd583a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73d75d6ebe9c7f09d182b748b7bd583a">&#9670;&nbsp;</a></span>imbue()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The only important public class. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8ed74a43dfda823d13cb9d98a8670577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed74a43dfda823d13cb9d98a8670577">&#9670;&nbsp;</a></span>imbue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto nuspell::Dictionary::imbue </td>
+          <td class="memname">auto Dictionary::imbue </td>
           <td>(</td>
           <td class="paramtype">const std::locale &amp;&#160;</td>
           <td class="paramname"><em>loc</em></td><td>)</td>
@@ -134,8 +141,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ca78d0ea6e30b78a1e8f9b454787cae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ca78d0ea6e30b78a1e8f9b454787cae">&#9670;&nbsp;</a></span>load_from_aff_dic()</h2>
+<a id="a0a494fa2488eb5ce2b970bececff1f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a494fa2488eb5ce2b970bececff1f3d">&#9670;&nbsp;</a></span>load_from_aff_dic()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +151,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto nuspell::Dictionary::load_from_aff_dic </td>
+          <td class="memname">auto Dictionary::load_from_aff_dic </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
           <td class="paramname"><em>aff</em>, </td>
@@ -158,7 +165,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a></td>
+          <td></td><td> -&gt; <a class="el" href="classnuspell_1_1v2_1_1_dictionary.html">Dictionary</a></td>
         </tr>
       </table>
   </td>
@@ -169,7 +176,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a dictionary from opened files as iostreams. </p>
-<p>Prefer using <a class="el" href="classnuspell_1_1_dictionary.html#a1eb6c013c721cbfbafff9e224cede31c" title="Create a dictionary from files. ">load_from_path()</a>. Use this if you have a specific use case, like when .aff and .dic are in-memory buffers istringstream.</p>
+<p>Prefer using <a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#a584a609a35e3cb23e341a9c3f8fe347c" title="Create a dictionary from files. ">load_from_path()</a>. Use this if you have a specific use case, like when .aff and .dic are in-memory buffers istringstream.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">aff</td><td>The iostream of the .aff file </td></tr>
@@ -177,12 +184,12 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a> object </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html" title="The only important public class. ">Dictionary</a> object </dd></dl>
 
 </div>
 </div>
-<a id="a1eb6c013c721cbfbafff9e224cede31c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb6c013c721cbfbafff9e224cede31c">&#9670;&nbsp;</a></span>load_from_path()</h2>
+<a id="a584a609a35e3cb23e341a9c3f8fe347c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584a609a35e3cb23e341a9c3f8fe347c">&#9670;&nbsp;</a></span>load_from_path()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,11 +198,11 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto nuspell::Dictionary::load_from_path </td>
+          <td class="memname">auto Dictionary::load_from_path </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>file_path_without_extension</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a></td>
+          <td> -&gt; <a class="el" href="classnuspell_1_1v2_1_1_dictionary.html">Dictionary</a></td>
         </tr>
       </table>
   </td>
@@ -212,18 +219,18 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classnuspell_1_1_dictionary.html">Dictionary</a> object </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html" title="The only important public class. ">Dictionary</a> object </dd></dl>
 
 </div>
 </div>
-<a id="ad6782f36b6a99ea81360cb870cbd30ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6782f36b6a99ea81360cb870cbd30ff">&#9670;&nbsp;</a></span>spell()</h2>
+<a id="ab977f587e7a78cf84a271e33c8d37732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab977f587e7a78cf84a271e33c8d37732">&#9670;&nbsp;</a></span>spell()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto nuspell::Dictionary::spell </td>
+          <td class="memname">auto Dictionary::spell </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>word</em></td><td>)</td>
@@ -243,14 +250,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a66dd365b5491f00e20827299816c3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a66dd365b5491f00e20827299816c3d">&#9670;&nbsp;</a></span>suggest()</h2>
+<a id="a74e291a62cb3b08a6533867baf7ae4bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e291a62cb3b08a6533867baf7ae4bf">&#9670;&nbsp;</a></span>suggest()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto nuspell::Dictionary::suggest </td>
+          <td class="memname">auto Dictionary::suggest </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>word</em>, </td>
@@ -258,7 +265,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classnuspell_1_1_list___strings.html">List_Strings</a>&lt; char &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classnuspell_1_1_list___basic___strings.html">List_Strings</a> &amp;&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>

@@ -1,4 +1,4 @@
-<map id="nuspell::Dictionary" name="nuspell::Dictionary">
+<map id="nuspell::v2::Dictionary" name="nuspell::v2::Dictionary">
 <area shape="rect" id="node2" href="$structnuspell_1_1_dict___base.html" title="nuspell::Dict_Base" alt="" coords="1112,529,1244,555"/>
 <area shape="rect" id="node3" href="$structnuspell_1_1_aff___data.html" title="nuspell::Aff_Data" alt="" coords="940,529,1063,555"/>
 <area shape="rect" id="node4" href="$structnuspell_1_1_aff___structures.html" title="nuspell::Aff_Structures\l\&lt; char \&gt;" alt="" coords="583,173,737,215"/>

@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['search_5fall_5fdirs_5ffor_5fdicts',['search_all_dirs_for_dicts',['../classnuspell_1_1_finder.html#a05faa44f32b6ea82dd56ed2492f3d177',1,'nuspell::Finder']]],
-  ['search_5ffor_5fdictionaries',['search_for_dictionaries',['../classnuspell_1_1_finder.html#aa5764b6b9159ca5523821051b0ee2262',1,'nuspell::Finder']]],
+  ['search_5fall_5fdirs_5ffor_5fdicts',['search_all_dirs_for_dicts',['../classnuspell_1_1v2_1_1_finder.html#a05faa44f32b6ea82dd56ed2492f3d177',1,'nuspell::v2::Finder']]],
+  ['search_5ffor_5fdictionaries',['search_for_dictionaries',['../classnuspell_1_1v2_1_1_finder.html#aa5764b6b9159ca5523821051b0ee2262',1,'nuspell::v2::Finder']]],
   ['search_5fpath_5ffor_5fdicts',['search_path_for_dicts',['../namespacenuspell.html#adf3b41b78ea359884e579dd686895da2',1,'nuspell']]],
   ['set_5fencoding_5fand_5flanguage',['set_encoding_and_language',['../structnuspell_1_1_aff___data.html#a647c640c13b93bb25ad9042d14c430dd',1,'nuspell::Aff_Data']]],
-  ['spell',['spell',['../classnuspell_1_1_dictionary.html#ad6782f36b6a99ea81360cb870cbd30ff',1,'nuspell::Dictionary']]],
+  ['spell',['spell',['../classnuspell_1_1v2_1_1_dictionary.html#ab977f587e7a78cf84a271e33c8d37732',1,'nuspell::v2::Dictionary']]],
   ['spell_5fbreak',['spell_break',['../structnuspell_1_1_dict___base.html#ac184ce03922e9024b0f75222ee338034',1,'nuspell::Dict_Base']]],
   ['spell_5fcasing',['spell_casing',['../structnuspell_1_1_dict___base.html#ac0c107fd8295bb7395ff95e23d37fbe2',1,'nuspell::Dict_Base']]],
   ['spell_5fcasing_5ftitle',['spell_casing_title',['../structnuspell_1_1_dict___base.html#a3bb9fd87f9840e70632e86f551a47f7b',1,'nuspell::Dict_Base']]],
@@ -22,5 +22,5 @@ var searchData=
   ['strip_5fprefix_5fthen_5fsuffix',['strip_prefix_then_suffix',['../structnuspell_1_1_dict___base.html#af906ba58d7029aa1e9bac0671a059cf8',1,'nuspell::Dict_Base']]],
   ['strip_5fsuffix_5fonly',['strip_suffix_only',['../structnuspell_1_1_dict___base.html#a9da198c7e4d93d0ea5c143c73b1bd52e',1,'nuspell::Dict_Base']]],
   ['strip_5fsuffix_5fthen_5fprefix',['strip_suffix_then_prefix',['../structnuspell_1_1_dict___base.html#a67a748b22fe11bb0be71b1ed6bbb6b04',1,'nuspell::Dict_Base']]],
-  ['suggest',['suggest',['../classnuspell_1_1_dictionary.html#a8a66dd365b5491f00e20827299816c3d',1,'nuspell::Dictionary']]]
+  ['suggest',['suggest',['../classnuspell_1_1v2_1_1_dictionary.html#a74e291a62cb3b08a6533867baf7ae4bf',1,'nuspell::v2::Dictionary']]]
 ];

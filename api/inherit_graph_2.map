@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structnuspell_1_1_aff___structures.html" title="nuspell::Aff_Structures\l\&lt; char \&gt;" alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node1" href="$structnuspell_1_1_aff___data.html" title="nuspell::Aff_Data" alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$structnuspell_1_1_dict___base.html" title="nuspell::Dict_Base" alt="" coords="176,5,308,32"/>
+<area shape="rect" id="node3" href="$classnuspell_1_1v2_1_1_dictionary.html" title="The only important public class. " alt="" coords="356,5,508,32"/>
 </map>
