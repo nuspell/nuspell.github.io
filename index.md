@@ -74,7 +74,9 @@ Note that installing language support is automated and directly available from i
 
 ## Contributing
 
-Even though spell checking can be a very complex subject, we need your help. Nuspell isn't simply using a list of correct words, but a mechanism of very intricate spell checking techniques and tactics. Nevertheless, we can use help on all levels from fixing bugs, implement feature request, improving support for a certain language or packaging language support for operating systems, browsers or office suites. Contact us if you can contribute with your skills.
+Even though spell checking can be a very complex subject, we need your help. Nuspell isn't simply using a list of correct words, but a mechanism of very intricate spell checking techniques and tactics. Nevertheless, we can use help on all levels from fixing bugs, implement feature requests, improving support for a certain language, porting to platforms, packaging for operating systems and integrating browsers and office suites.
+
+To help keep a healthy community and promote diversity and inclusion, we work with a [code of conduct](https://github.com/nuspell/nuspell/wiki/Code-of-Conduct). Contact us if you can contribute with your skills and learn more about spell checking.
 
 
 ## Sponsoring
