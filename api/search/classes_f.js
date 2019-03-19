@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['to_5froot_5funroot_5fraii',['To_Root_Unroot_RAII',['../classnuspell_1_1_to___root___unroot___r_a_i_i.html',1,'nuspell']]]
+  ['word_5flist',['Word_List',['../classnuspell_1_1_word___list.html',1,'nuspell']]]
 ];

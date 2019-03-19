@@ -85,7 +85,7 @@ Inheritance diagram for nuspell::v2::Dictionary:</div>
 <div class="dynheader">
 Collaboration diagram for nuspell::v2::Dictionary:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1v2_1_1_dictionary__coll__graph.svg" width="1451" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnuspell_1_1v2_1_1_dictionary__coll__graph.svg" width="1102" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -97,9 +97,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab977f587e7a78cf84a271e33c8d37732"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#ab977f587e7a78cf84a271e33c8d37732">spell</a> (const std::string &amp;word) const -&gt; bool</td></tr>
 <tr class="memdesc:ab977f587e7a78cf84a271e33c8d37732"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given word is correct.  <a href="#ab977f587e7a78cf84a271e33c8d37732">More...</a><br /></td></tr>
 <tr class="separator:ab977f587e7a78cf84a271e33c8d37732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74e291a62cb3b08a6533867baf7ae4bf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#a74e291a62cb3b08a6533867baf7ae4bf">suggest</a> (const std::string &amp;word, <a class="el" href="classnuspell_1_1_list___basic___strings.html">List_Strings</a> &amp;out) const -&gt; void</td></tr>
-<tr class="memdesc:a74e291a62cb3b08a6533867baf7ae4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suggests correct words for a given incorrect word.  <a href="#a74e291a62cb3b08a6533867baf7ae4bf">More...</a><br /></td></tr>
-<tr class="separator:a74e291a62cb3b08a6533867baf7ae4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54110449f08b6387ae3ea846be105c4e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html#a54110449f08b6387ae3ea846be105c4e">suggest</a> (const std::string &amp;word, std::vector&lt; std::string &gt; &amp;out) const -&gt; void</td></tr>
+<tr class="memdesc:a54110449f08b6387ae3ea846be105c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suggests correct words for a given incorrect word.  <a href="#a54110449f08b6387ae3ea846be105c4e">More...</a><br /></td></tr>
+<tr class="separator:a54110449f08b6387ae3ea846be105c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -131,7 +131,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Imbues external locale object to set external encoding. </p>
 <p>The locale must contain codecvt&lt;wchar_t, char, mbstate_t&gt; facet that can convert the strings from the external locale to UTF-32 on non-Windows platforms, and to UTF-16 on Windows. By external encoding it is meant the encoding of strings in the client code that uses this library.</p>
-<p>You may safely use locales geenrated by Boost.Locale.</p>
+<p>You may safely use locales geenrated by Boost.Locale. Or even simpler, use the header-only boost::locale::utf8_codecvt&lt;wchar_t&gt; facet.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">loc</td><td>locale object with valid codecvt&lt;wchar_t, char, mbstate_t&gt; </td></tr>
@@ -185,6 +185,12 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html" title="The only important public class. ">Dictionary</a> object </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classnuspell_1_1v2_1_1_dictionary___loading___error.html">Dictionary_Loading_Error</a></td><td>on error </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -220,6 +226,12 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html" title="The only important public class. ">Dictionary</a> object </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classnuspell_1_1v2_1_1_dictionary___loading___error.html">Dictionary_Loading_Error</a></td><td>on error </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -250,8 +262,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a74e291a62cb3b08a6533867baf7ae4bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74e291a62cb3b08a6533867baf7ae4bf">&#9670;&nbsp;</a></span>suggest()</h2>
+<a id="a54110449f08b6387ae3ea846be105c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54110449f08b6387ae3ea846be105c4e">&#9670;&nbsp;</a></span>suggest()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +277,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classnuspell_1_1_list___basic___strings.html">List_Strings</a> &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>

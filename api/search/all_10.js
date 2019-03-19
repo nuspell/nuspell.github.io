@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['to_5froot_5funroot_5fraii',['To_Root_Unroot_RAII',['../classnuspell_1_1_to___root___unroot___r_a_i_i.html',1,'nuspell']]]
+  ['utf8',['UTF8',['../namespacenuspell.html#a1982446c90592354255a5e7ea4139449aeb7ee0fb585e2ac64fdc086466c474b1',1,'nuspell']]]
 ];

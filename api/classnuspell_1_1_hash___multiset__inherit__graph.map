@@ -1,7 +1,5 @@
 <map id="nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;" name="nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;">
-<area shape="rect" id="node2" href="$classnuspell_1_1_affix___table.html" title="Affix_Table\&lt; char \&gt;" alt="" coords="239,5,376,32"/>
-<area shape="rect" id="node3" href="$classnuspell_1_1_affix___table.html" title="Affix_Table\&lt; CharT \&gt;" alt="" coords="233,56,381,83"/>
-<area shape="rect" id="node4" href="$classnuspell_1_1_affix___table.html" title="Affix_Table\&lt; wchar_t \&gt;" alt="" coords="228,107,387,133"/>
-<area shape="rect" id="node5" href="$classnuspell_1_1_affix___table.html" title="nuspell::Affix_Table\l\&lt; CharT, AffixT \&gt;" alt="" coords="239,158,376,199"/>
-<area shape="rect" id="node6" href="$classnuspell_1_1_word___list.html" title="Map between words and word_flags. " alt="" coords="242,224,373,251"/>
+<area shape="rect" id="node2" href="$classnuspell_1_1_affix___table.html" title="Affix_Table\&lt; wchar_t \&gt;" alt="" coords="5,117,164,143"/>
+<area shape="rect" id="node3" href="$classnuspell_1_1_affix___table.html" title="nuspell::Affix_Table\l\&lt; CharT, AffixT \&gt;" alt="" coords="188,109,325,151"/>
+<area shape="rect" id="node4" href="$classnuspell_1_1_word___list.html" title="Map between words and word_flags. " alt="" coords="350,117,481,143"/>
 </map>

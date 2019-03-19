@@ -81,7 +81,7 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for aff_data.hxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="aff__data_8hxx__incl.svg" width="1458" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="aff__data_8hxx__incl.svg" width="1422" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -95,12 +95,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_aff___structures.html">nuspell::Aff_Structures&lt; CharT &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_affix.html">nuspell::Affix</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_compound___check___pattern.html">nuspell::Compound_Check_Pattern</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_word___list.html">nuspell::Word_List</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map between words and word_flags.  <a href="classnuspell_1_1_word___list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,16 +109,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a7a881a11402f1cecabb78826c28ed53d"><td class="memItemLeft" align="right" valign="top"><a id="a7a881a11402f1cecabb78826c28ed53d"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::Word_List_Base</b> = Hash_Multiset&lt; std::pair&lt; std::string, Flag_Set &gt;, std::string, member&lt; std::pair&lt; std::string, Flag_Set &gt;, std::string, &amp;std::pair&lt; std::string, Flag_Set &gt;::first &gt; &gt;</td></tr>
-<tr class="separator:a7a881a11402f1cecabb78826c28ed53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6c89c46c308eeb58abb25fce951df97"><td class="memItemLeft" align="right" valign="top"><a id="af6c89c46c308eeb58abb25fce951df97"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::Word_List_Base</b> = Hash_Multiset&lt; std::pair&lt; std::string, Flag_Set &gt;, string_view, member&lt; std::pair&lt; std::string, Flag_Set &gt;, std::string, &amp;std::pair&lt; std::string, Flag_Set &gt;::first &gt; &gt;</td></tr>
+<tr class="separator:af6c89c46c308eeb58abb25fce951df97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a1982446c90592354255a5e7ea4139449"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449">nuspell::Flag_Type</a> { <a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449a97028b2eaff647f4db8bb8ece75ce8d9">nuspell::FLAG_SINGLE_CHAR</a>, 
-<a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449a77325b0a51458cbfed4d5b16b9b73556">nuspell::FLAG_DOUBLE_CHAR</a>, 
-<a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449a369fbcd96e66091e3f1ba0c602908379">nuspell::FLAG_NUMBER</a>, 
-<a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449a9b8eb01b0783f8906f241eec9e151f68">nuspell::FLAG_UTF8</a>
+<tr class="memitem:a1982446c90592354255a5e7ea4139449"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449">nuspell::Flag_Type</a> { <a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449ac2fbc9560ef6905751199da57349c6c0">nuspell::Flag_Type::SINGLE_CHAR</a>, 
+<a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449aa5ad0713b71681d987a53d15dda5eb6f">nuspell::Flag_Type::DOUBLE_CHAR</a>, 
+<a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449a34f55eca38e0605a84f169ff61a2a396">nuspell::Flag_Type::NUMBER</a>, 
+<a class="el" href="namespacenuspell.html#a1982446c90592354255a5e7ea4139449aeb7ee0fb585e2ac64fdc086466c474b1">nuspell::Flag_Type::UTF8</a>
  }</td></tr>
 <tr class="separator:a1982446c90592354255a5e7ea4139449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
