@@ -4,7 +4,7 @@ layout: home
 exclude: true
 ---
 
-![Badge for licence LGPL](https://img.shields.io/badge/license-LGPL-blue.svg)
+![Badge for licence](https://img.shields.io/github/license/nuspell/nuspell.svg?color=blue)
 ![Badge for version](https://img.shields.io/github/release/nuspell/nuspell.svg)
 [![Build Status](https://travis-ci.org/nuspell/nuspell.svg?branch=master)](https://travis-ci.org/nuspell/nuspell)
 
