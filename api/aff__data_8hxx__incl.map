@@ -1,5 +1,4 @@
 <map id="src/nuspell/aff_data.hxx" name="src/nuspell/aff_data.hxx">
-<area shape="rect" id="node2" href="$locale__utils_8hxx.html" title="Encoding transformations, private header. " alt="" coords="115,80,227,107"/>
-<area shape="rect" id="node7" href="$structures_8hxx.html" title="Data structures, private header. " alt="" coords="644,80,749,107"/>
-<area shape="rect" id="node8" href="$string__utils_8hxx.html" title="String algorithms, private header. " alt="" coords="532,162,643,189"/>
+<area shape="rect" id="node2" href="$structures_8hxx.html" title="Data structures, private header. " alt="" coords="526,80,631,107"/>
+<area shape="rect" id="node3" href="$string__utils_8hxx.html" title="String algorithms, private header. " alt="" coords="313,162,423,189"/>
 </map>

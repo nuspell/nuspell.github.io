@@ -1,7 +1,6 @@
 var searchData=
 [
   ['aff_5fdata',['Aff_Data',['../structnuspell_1_1_aff___data.html',1,'nuspell']]],
-  ['affix',['Affix',['../structnuspell_1_1_affix.html',1,'nuspell']]],
   ['affix_5ftable',['Affix_Table',['../classnuspell_1_1_affix___table.html',1,'nuspell']]],
   ['affix_5ftable_3c_20wchar_5ft_20_3e',['Affix_Table&lt; wchar_t &gt;',['../classnuspell_1_1_affix___table.html',1,'nuspell']]],
   ['affixing_5fresult',['Affixing_Result',['../structnuspell_1_1_affixing___result.html',1,'nuspell']]],

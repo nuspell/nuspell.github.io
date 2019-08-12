@@ -19,8 +19,8 @@
 <!-- Node3 -->
 <g id="node2" class="node">
 <title>Node3</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="10.5,-67.5 10.5,-86.5 103.5,-86.5 103.5,-67.5 10.5,-67.5"/>
-<text text-anchor="middle" x="57" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::runtime_error</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="20,-67.5 20,-86.5 94,-86.5 94,-67.5 20,-67.5"/>
+<text text-anchor="middle" x="57" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">runtime_error</text>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge1" class="edge">

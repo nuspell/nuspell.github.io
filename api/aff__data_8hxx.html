@@ -75,13 +75,13 @@ $(function() {
 
 <p>Affixing data structures, private header.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="locale__utils_8hxx_source.html">locale_utils.hxx</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="structures_8hxx_source.html">structures.hxx</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="structures_8hxx_source.html">structures.hxx</a>&quot;</code><br />
 <code>#include &lt;iosfwd&gt;</code><br />
+<code>#include &lt;unicode/locid.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for aff_data.hxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="aff__data_8hxx__incl.svg" width="1422" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="aff__data_8hxx__incl.svg" width="1200" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -95,6 +95,10 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_encoding.html">nuspell::Encoding</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_extractor___first__of___word___pair.html">nuspell::Extractor_First_of_Word_Pair</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_word___list.html">nuspell::Word_List</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map between words and word_flags.  <a href="classnuspell_1_1_word___list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,9 +113,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:af6c89c46c308eeb58abb25fce951df97"><td class="memItemLeft" align="right" valign="top"><a id="af6c89c46c308eeb58abb25fce951df97"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::Word_List_Base</b> = Hash_Multiset&lt; std::pair&lt; std::string, Flag_Set &gt;, string_view, member&lt; std::pair&lt; std::string, Flag_Set &gt;, std::string, &amp;std::pair&lt; std::string, Flag_Set &gt;::first &gt; &gt;</td></tr>
-<tr class="separator:af6c89c46c308eeb58abb25fce951df97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa421ecefff81998bb4a917d36bcda0"><td class="memItemLeft" align="right" valign="top"><a id="a2aa421ecefff81998bb4a917d36bcda0"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::Word_List_Base</b> = Hash_Multiset&lt; std::pair&lt; std::string, Flag_Set &gt;, string_view, Extractor_First_of_Word_Pair &gt;</td></tr>
+<tr class="separator:a2aa421ecefff81998bb4a917d36bcda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>

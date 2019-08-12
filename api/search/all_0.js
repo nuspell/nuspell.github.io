@@ -6,7 +6,6 @@ var searchData=
   ['add_5fopenoffice_5fdir_5fpaths',['add_openoffice_dir_paths',['../classnuspell_1_1v2_1_1_finder.html#a10db179542bffb40614b74d581e293cf',1,'nuspell::v2::Finder']]],
   ['aff_5fdata',['Aff_Data',['../structnuspell_1_1_aff___data.html',1,'nuspell']]],
   ['aff_5fdata_2ehxx',['aff_data.hxx',['../aff__data_8hxx.html',1,'']]],
-  ['affix',['Affix',['../structnuspell_1_1_affix.html',1,'nuspell']]],
   ['affix_5ftable',['Affix_Table',['../classnuspell_1_1_affix___table.html',1,'nuspell']]],
   ['affix_5ftable_3c_20wchar_5ft_20_3e',['Affix_Table&lt; wchar_t &gt;',['../classnuspell_1_1_affix___table.html',1,'nuspell']]],
   ['affixed_5fand_5fmodified',['affixed_and_modified',['../structnuspell_1_1_compounding___result.html#a60c16a0fe478ac8a0c768fc3762fabf0',1,'nuspell::Compounding_Result']]],

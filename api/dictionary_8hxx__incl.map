@@ -1,6 +1,5 @@
 <map id="src/nuspell/dictionary.hxx" name="src/nuspell/dictionary.hxx">
-<area shape="rect" id="node2" href="$aff__data_8hxx.html" title="Affixing data structures, private header. " alt="" coords="649,80,744,107"/>
-<area shape="rect" id="node3" href="$locale__utils_8hxx.html" title="Encoding transformations, private header. " alt="" coords="115,155,227,181"/>
-<area shape="rect" id="node8" href="$structures_8hxx.html" title="Data structures, private header. " alt="" coords="644,155,749,181"/>
-<area shape="rect" id="node9" href="$string__utils_8hxx.html" title="String algorithms, private header. " alt="" coords="532,237,643,263"/>
+<area shape="rect" id="node2" href="$aff__data_8hxx.html" title="Affixing data structures, private header. " alt="" coords="638,80,733,107"/>
+<area shape="rect" id="node3" href="$structures_8hxx.html" title="Data structures, private header. " alt="" coords="526,155,631,181"/>
+<area shape="rect" id="node4" href="$string__utils_8hxx.html" title="String algorithms, private header. " alt="" coords="313,237,423,263"/>
 </map>
