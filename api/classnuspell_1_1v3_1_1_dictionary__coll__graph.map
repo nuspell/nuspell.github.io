@@ -1,0 +1,13 @@
+<map id="nuspell::v3::Dictionary" name="nuspell::v3::Dictionary">
+<area shape="rect" id="node2" href="$structnuspell_1_1v3_1_1_dict___base.html" title="nuspell::v3::Dict_Base" alt="" coords="592,274,747,301"/>
+<area shape="rect" id="node3" href="$structnuspell_1_1v3_1_1_aff___data.html" title="nuspell::v3::Aff_Data" alt="" coords="397,274,543,301"/>
+<area shape="rect" id="node4" href="$classnuspell_1_1v3_1_1_compound___rule___table.html" title="nuspell::v3::Compound\l_Rule_Table" alt="" coords="33,5,189,47"/>
+<area shape="rect" id="node5" href="$classnuspell_1_1v3_1_1_replacement___table.html" title="nuspell::v3::Replacement\l_Table\&lt; wchar_t \&gt;" alt="" coords="25,71,196,112"/>
+<area shape="rect" id="node6" href="$classnuspell_1_1v3_1_1_phonetic___table.html" title="nuspell::v3::Phonetic\l_Table\&lt; wchar_t \&gt;" alt="" coords="39,136,183,177"/>
+<area shape="rect" id="node7" href="$classnuspell_1_1v3_1_1_substr___replacer.html" title="nuspell::v3::Substr\l_Replacer\&lt; wchar_t \&gt;" alt="" coords="35,201,186,243"/>
+<area shape="rect" id="node8" href="$classnuspell_1_1v3_1_1_prefix___table.html" title="nuspell::v3::Prefix\l_Table" alt="" coords="47,267,174,308"/>
+<area shape="rect" id="node9" href="$classnuspell_1_1v3_1_1_encoding.html" title="nuspell::v3::Encoding" alt="" coords="37,333,184,359"/>
+<area shape="rect" id="node10" href="$classnuspell_1_1v3_1_1_hash___multiset.html" title="nuspell::v3::Hash_Multiset\l\&lt; std::pair\&lt; std::wstring,\l Flag_Set \&gt;, std::wstring,\l Extractor_First_of_Word_Pair \&gt;" alt="" coords="5,384,216,455"/>
+<area shape="rect" id="node11" href="$classnuspell_1_1v3_1_1_suffix___table.html" title="nuspell::v3::Suffix\l_Table" alt="" coords="47,479,174,520"/>
+<area shape="rect" id="node12" href="$classnuspell_1_1v3_1_1_break___table.html" title="nuspell::v3::Break\l_Table\&lt; wchar_t \&gt;" alt="" coords="45,544,176,585"/>
+</map>

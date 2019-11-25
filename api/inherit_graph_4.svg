@@ -12,9 +12,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="classnuspell_1_1_at___scope___exit.html" target="_top" xlink:title="nuspell::At_Scope_Exit\&lt; L \&gt;">
+<g id="a_node1"><a xlink:href="classnuspell_1_1_encoding___converter.html" target="_top" xlink:title="nuspell::Encoding_Converter">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 142,-19.5 142,-.5 0,-.5"/>
-<text text-anchor="middle" x="71" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::At_Scope_Exit&lt; L &gt;</text>
+<text text-anchor="middle" x="71" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">nuspell::Encoding_Converter</text>
 </a>
 </g>
 </g>

@@ -75,10 +75,11 @@ $(function() {
 <p>Dictionary spelling, PUBLIC HEADER.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="aff__data_8hxx_source.html">aff_data.hxx</a>&quot;</code><br />
+<code>#include &lt;locale&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for dictionary.hxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="dictionary_8hxx__incl.svg" width="1200" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="dictionary_8hxx__incl.svg" width="1222" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -86,16 +87,23 @@ Include dependency graph for dictionary.hxx:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_affixing___result.html">nuspell::Affixing_Result&lt; Affixes &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_affixing___result___base.html">nuspell::v3::Affixing_Result_Base</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_compounding___result.html">nuspell::Compounding_Result</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_affixing___result.html">nuspell::v3::Affixing_Result&lt; T1, T2 &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_dict___base.html">nuspell::Dict_Base</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_affixing___result_3_01_t1_00_01void_01_4.html">nuspell::v3::Affixing_Result&lt; T1, void &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary___loading___error.html">nuspell::v2::Dictionary_Loading_Error</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_affixing___result_3_01void_00_01void_01_4.html">nuspell::v3::Affixing_Result&lt; void, void &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v2_1_1_dictionary.html">nuspell::v2::Dictionary</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The only important public class.  <a href="classnuspell_1_1v2_1_1_dictionary.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_compounding___result.html">nuspell::v3::Compounding_Result</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_dict___base.html">nuspell::v3::Dict_Base</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_dictionary___loading___error.html">nuspell::v3::Dictionary_Loading_Error</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The only important public exception.  <a href="classnuspell_1_1v3_1_1_dictionary___loading___error.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_dictionary.html">nuspell::v3::Dictionary</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The only important public class.  <a href="classnuspell_1_1v3_1_1_dictionary.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -103,18 +111,18 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacenuspell"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html">nuspell</a></td></tr>
 <tr class="memdesc:namespacenuspell"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library main namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacenuspell_1_1v2"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell_1_1v2.html">nuspell::v2</a></td></tr>
-<tr class="memdesc:namespacenuspell_1_1v2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public API is inline namespace. <br /></td></tr>
+<tr class="memitem:namespacenuspell_1_1v3"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell_1_1v3.html">nuspell::v3</a></td></tr>
+<tr class="memdesc:namespacenuspell_1_1v3"><td class="mdescLeft">&#160;</td><td class="mdescRight">inline namespace for API and ABI versioning <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ac175e015ddcedc084f63face3f4fe3d0"><td class="memItemLeft" align="right" valign="top"><a id="ac175e015ddcedc084f63face3f4fe3d0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Affixing_Mode</b> { <b>FULL_WORD</b>, 
+<tr class="memitem:a98d3b593f05a632ac8f412f2d3ba285e"><td class="memItemLeft" align="right" valign="top"><a id="a98d3b593f05a632ac8f412f2d3ba285e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Affixing_Mode</b> { <b>FULL_WORD</b>, 
 <b>AT_COMPOUND_BEGIN</b>, 
 <b>AT_COMPOUND_END</b>, 
 <b>AT_COMPOUND_MIDDLE</b>
  }</td></tr>
-<tr class="separator:ac175e015ddcedc084f63face3f4fe3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a98d3b593f05a632ac8f412f2d3ba285e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Dictionary spelling, PUBLIC HEADER. </p>

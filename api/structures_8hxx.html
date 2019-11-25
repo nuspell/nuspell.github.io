@@ -66,7 +66,9 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">structures.hxx File Reference</div>  </div>
@@ -75,13 +77,14 @@ $(function() {
 
 <p>Data structures, private header.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="string__utils_8hxx_source.html">string_utils.hxx</a>&quot;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
+<div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;stack&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;tuple&gt;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;boost/container/small_vector.hpp&gt;</code><br />
@@ -89,13 +92,13 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for structures.hxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structures_8hxx__incl.svg" width="1200" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structures_8hxx__incl.svg" width="1222" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structures_8hxx__dep__incl.svg" width="183" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structures_8hxx__dep__incl.svg" width="340" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -103,44 +106,58 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_string___set.html">nuspell::String_Set&lt; CharT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Set class backed by a string.  <a href="classnuspell_1_1_string___set.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_string___set.html">nuspell::v3::String_Set&lt; CharT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Set class backed by a string.  <a href="classnuspell_1_1v3_1_1_string___set.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_substr___replacer.html">nuspell::Substr_Replacer&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_substr___replacer.html">nuspell::v3::Substr_Replacer&lt; CharT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_break___table.html">nuspell::Break_Table&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_break___table.html">nuspell::v3::Break_Table&lt; CharT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1identity.html">nuspell::identity</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1identity.html">nuspell::v3::identity</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_hash___multiset.html">nuspell::Hash_Multiset&lt; Value, Key, KeyExtract, Hash, KeyEqual &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_hash___multiset.html">nuspell::v3::Hash_Multiset&lt; Value, Key, KeyExtract &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_condition___exception.html">nuspell::Condition_Exception</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_condition___exception.html">nuspell::v3::Condition_Exception</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_condition.html">nuspell::Condition&lt; CharT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limited regular expression matching used in affix entries.  <a href="classnuspell_1_1_condition.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_condition.html">nuspell::v3::Condition&lt; CharT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limited regular expression matching used in affix entries.  <a href="classnuspell_1_1v3_1_1_condition.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_prefix.html">nuspell::Prefix&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_prefix.html">nuspell::v3::Prefix&lt; CharT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_suffix.html">nuspell::Suffix&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_suffix.html">nuspell::v3::Suffix&lt; CharT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_extractor___of___appending___from___affix.html">nuspell::Extractor_Of_Appending_From_Affix&lt; AffixT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_prefix___multiset.html">nuspell::v3::Prefix_Multiset&lt; T, Key_Extr, Key_Transform &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_affix___table.html">nuspell::Affix_Table&lt; CharT, AffixT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_prefix___multiset_1_1_iter___prefixes___of.html">nuspell::v3::Prefix_Multiset&lt; T, Key_Extr, Key_Transform &gt;::Iter_Prefixes_Of</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_string___pair.html">nuspell::String_Pair&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_reversed___string___view.html">nuspell::v3::Reversed_String_View&lt; CharT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_compound___pattern.html">nuspell::Compound_Pattern&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_string___reverser.html">nuspell::v3::String_Reverser&lt; CharT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_compound___rule___table.html">nuspell::Compound_Rule_Table</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_extractor___of___appending___from___affix.html">nuspell::v3::Extractor_Of_Appending_From_Affix&lt; AffixT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_list___basic___strings.html">nuspell::List_Basic_Strings&lt; CharT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of strings that recycles erased strings.  <a href="classnuspell_1_1_list___basic___strings.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_affix___table.html">nuspell::v3::Affix_Table&lt; T, Key_Extr &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_replacement___table.html">nuspell::Replacement_Table&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_prefix___table.html">nuspell::v3::Prefix_Table</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1_similarity___group.html">nuspell::Similarity_Group&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_suffix___table.html">nuspell::v3::Suffix_Table</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_phonetic___table.html">nuspell::Phonetic_Table&lt; CharT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_string___pair.html">nuspell::v3::String_Pair&lt; CharT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_compound___pattern.html">nuspell::v3::Compound_Pattern&lt; CharT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_compound___rule___table.html">nuspell::v3::Compound_Rule_Table</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_simple___short___string.html">nuspell::v3::Simple_Short_String&lt; CharT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_list___basic___strings.html">nuspell::v3::List_Basic_Strings&lt; CharT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of strings that recycles erased strings.  <a href="classnuspell_1_1v3_1_1_list___basic___strings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_replacement___table.html">nuspell::v3::Replacement_Table&lt; CharT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnuspell_1_1v3_1_1_similarity___group.html">nuspell::v3::Similarity_Group&lt; CharT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v3_1_1_phonetic___table.html">nuspell::v3::Phonetic_Table&lt; CharT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -148,44 +165,82 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacenuspell"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html">nuspell</a></td></tr>
 <tr class="memdesc:namespacenuspell"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library main namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacenuspell_1_1v3"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell_1_1v3.html">nuspell::v3</a></td></tr>
+<tr class="memdesc:namespacenuspell_1_1v3"><td class="mdescLeft">&#160;</td><td class="mdescRight">inline namespace for API and ABI versioning <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a05f1d7f397f344a779aee1a789cd66b0"><td class="memItemLeft" align="right" valign="top"><a id="a05f1d7f397f344a779aee1a789cd66b0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>NUSPELL_LITERAL</b>(T,  x)&#160;&#160;&#160;::nuspell::literal_choose&lt;T&gt;(x, L##x)</td></tr>
+<tr class="separator:a05f1d7f397f344a779aee1a789cd66b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4a6941a9bfc319e9196b52c5df0f0911"><td class="memItemLeft" align="right" valign="top"><a id="a4a6941a9bfc319e9196b52c5df0f0911"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::Flag_Set</b> = String_Set&lt; char16_t &gt;</td></tr>
-<tr class="separator:a4a6941a9bfc319e9196b52c5df0f0911"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c17bb19f9110c543c6eca04debe1587"><td class="memTemplParams" colspan="2"><a id="a1c17bb19f9110c543c6eca04debe1587"></a>
-template&lt;class CharT , class AffixT &gt; </td></tr>
-<tr class="memitem:a1c17bb19f9110c543c6eca04debe1587"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::Affix_Table_Base</b> = Hash_Multiset&lt; AffixT, my_string_view&lt; CharT &gt;, Extractor_Of_Appending_From_Affix&lt; AffixT &gt; &gt;</td></tr>
-<tr class="separator:a1c17bb19f9110c543c6eca04debe1587"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89a6069bed29c39491ff73bde1447e24"><td class="memTemplParams" colspan="2"><a id="a89a6069bed29c39491ff73bde1447e24"></a>
-template&lt;class CharT &gt; </td></tr>
-<tr class="memitem:a89a6069bed29c39491ff73bde1447e24"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::Prefix_Table</b> = Affix_Table&lt; CharT, Prefix&lt; CharT &gt; &gt;</td></tr>
-<tr class="separator:a89a6069bed29c39491ff73bde1447e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a458144e6e4d3c1649fc5165a700f2bf6"><td class="memTemplParams" colspan="2"><a id="a458144e6e4d3c1649fc5165a700f2bf6"></a>
-template&lt;class CharT &gt; </td></tr>
-<tr class="memitem:a458144e6e4d3c1649fc5165a700f2bf6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::Suffix_Table</b> = Affix_Table&lt; CharT, Suffix&lt; CharT &gt; &gt;</td></tr>
-<tr class="separator:a458144e6e4d3c1649fc5165a700f2bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a003413113e788471abe82e54aaa528d7"><td class="memItemLeft" align="right" valign="top"><a id="a003413113e788471abe82e54aaa528d7"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::List_Strings</b> = List_Basic_Strings&lt; char &gt;</td></tr>
-<tr class="separator:a003413113e788471abe82e54aaa528d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62b18c7f290b0624fd00bcc187c733a0"><td class="memItemLeft" align="right" valign="top"><a id="a62b18c7f290b0624fd00bcc187c733a0"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::List_WStrings</b> = List_Basic_Strings&lt; wchar_t &gt;</td></tr>
-<tr class="separator:a62b18c7f290b0624fd00bcc187c733a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cb711f375552c7beae293ce2e7aa4e"><td class="memItemLeft" align="right" valign="top"><a id="a52cb711f375552c7beae293ce2e7aa4e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v3::Flag_Set</b> = String_Set&lt; char16_t &gt;</td></tr>
+<tr class="separator:a52cb711f375552c7beae293ce2e7aa4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336580bd3a7b2375f796e4a379b17f6b"><td class="memTemplParams" colspan="2"><a id="a336580bd3a7b2375f796e4a379b17f6b"></a>
+template&lt;class T , class Key_Extr  = identity&gt; </td></tr>
+<tr class="memitem:a336580bd3a7b2375f796e4a379b17f6b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::Suffix_Multiset</b> = Prefix_Multiset&lt; T, Key_Extr, String_Reverser&lt; typename Prefix_Multiset&lt; T, Key_Extr &gt;::Char_Type &gt; &gt;</td></tr>
+<tr class="separator:a336580bd3a7b2375f796e4a379b17f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf227247bc4e0edb8613c53288aa8b75"><td class="memItemLeft" align="right" valign="top"><a id="adf227247bc4e0edb8613c53288aa8b75"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v3::Short_WString</b> = Simple_Short_String&lt; wchar_t &gt;</td></tr>
+<tr class="separator:adf227247bc4e0edb8613c53288aa8b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7fee517c454775545df409cfdba644"><td class="memItemLeft" align="right" valign="top"><a id="a9d7fee517c454775545df409cfdba644"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v3::List_Strings</b> = List_Basic_Strings&lt; char &gt;</td></tr>
+<tr class="separator:a9d7fee517c454775545df409cfdba644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4200154983ab1cda1de4c25aa11d665c"><td class="memItemLeft" align="right" valign="top"><a id="a4200154983ab1cda1de4c25aa11d665c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v3::List_WStrings</b> = List_Basic_Strings&lt; wchar_t &gt;</td></tr>
+<tr class="separator:a4200154983ab1cda1de4c25aa11d665c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a26a900d20c4950b7c1a248f7f293e9ff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ff">nuspell::v3::Casing</a> { <br />
+&#160;&#160;<a class="el" href="namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ffa9b9c17e13f0e3dc9860a26e08b59b2a7">nuspell::v3::Casing::SMALL</a>, 
+<a class="el" href="namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ffa23256ebd48361509e88aa84e96899ed2">nuspell::v3::Casing::INIT_CAPITAL</a>, 
+<a class="el" href="namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ffa6483b96ff3ba7b3090825f314cd3d3b3">nuspell::v3::Casing::ALL_CAPITAL</a>, 
+<a class="el" href="namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ffa2a52ba6e26e550c59e15affa051e478b">nuspell::v3::Casing::CAMEL</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ffaf80da8a4f16f14db3157cf220fe04402">nuspell::v3::Casing::PASCAL</a>
+<br />
+ }<tr class="memdesc:a26a900d20c4950b7c1a248f7f293e9ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casing type enum, ignoring neutral case characters.  <a href="namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ff">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a26a900d20c4950b7c1a248f7f293e9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memTemplParams" colspan="2"><a id="ac9f0f5a552ce6c791d51097c55a47b2e"></a>
+<tr class="memitem:a03115faa27b939bde8980185f4a04320"><td class="memTemplParams" colspan="2"><a id="a03115faa27b939bde8980185f4a04320"></a>
 template&lt;class CharT &gt; </td></tr>
-<tr class="memitem:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::swap</b> (String_Set&lt; CharT &gt; &amp;a, String_Set&lt; CharT &gt; &amp;b)</td></tr>
-<tr class="separator:ac9f0f5a552ce6c791d51097c55a47b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacc18dbeb6158785d15e8ad2171da141"><td class="memItemLeft" align="right" valign="top"><a id="aacc18dbeb6158785d15e8ad2171da141"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::match_compund_rule</b> (const std::vector&lt; const Flag_Set *&gt; &amp;words_data, const std::u16string &amp;pattern)</td></tr>
-<tr class="separator:aacc18dbeb6158785d15e8ad2171da141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a915f51c544acac8085e0484285143237"><td class="memTemplParams" colspan="2"><a id="a915f51c544acac8085e0484285143237"></a>
+<tr class="memitem:a03115faa27b939bde8980185f4a04320"><td class="memTemplItemLeft" align="right" valign="top">auto constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::literal_choose</b> (const char *narrow, const wchar_t *wide)</td></tr>
+<tr class="separator:a03115faa27b939bde8980185f4a04320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1114a71f532518a6e6eebd7f2706be3d"><td class="memTemplParams" colspan="2"><a id="a1114a71f532518a6e6eebd7f2706be3d"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a1114a71f532518a6e6eebd7f2706be3d"><td class="memTemplItemLeft" align="right" valign="top">auto constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::literal_choose&lt; char &gt;</b> (const char *narrow, const wchar_t *)</td></tr>
+<tr class="separator:a1114a71f532518a6e6eebd7f2706be3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad81a0f0c59668af5de3bf26ce36b68"><td class="memTemplParams" colspan="2"><a id="a0ad81a0f0c59668af5de3bf26ce36b68"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a0ad81a0f0c59668af5de3bf26ce36b68"><td class="memTemplItemLeft" align="right" valign="top">auto constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::literal_choose&lt; wchar_t &gt;</b> (const char *, const wchar_t *wide)</td></tr>
+<tr class="separator:a0ad81a0f0c59668af5de3bf26ce36b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0065adab925454b6de7b599cca7644"><td class="memTemplParams" colspan="2"><a id="a6a0065adab925454b6de7b599cca7644"></a>
 template&lt;class CharT &gt; </td></tr>
-<tr class="memitem:a915f51c544acac8085e0484285143237"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::swap</b> (List_Basic_Strings&lt; CharT &gt; &amp;a, List_Basic_Strings&lt; CharT &gt; &amp;b)</td></tr>
-<tr class="separator:a915f51c544acac8085e0484285143237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0065adab925454b6de7b599cca7644"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::swap</b> (String_Set&lt; CharT &gt; &amp;a, String_Set&lt; CharT &gt; &amp;b)</td></tr>
+<tr class="separator:a6a0065adab925454b6de7b599cca7644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8745b6e306f2ba20f49d6af62f28b553"><td class="memTemplParams" colspan="2"><a id="a8745b6e306f2ba20f49d6af62f28b553"></a>
+template&lt;class DataIter , class PatternIter , class FuncEq  = std::equal_to&lt;&gt;&gt; </td></tr>
+<tr class="memitem:a8745b6e306f2ba20f49d6af62f28b553"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::match_simple_regex</b> (DataIter data_first, DataIter data_last, PatternIter pat_first, PatternIter pat_last, FuncEq eq=FuncEq())</td></tr>
+<tr class="separator:a8745b6e306f2ba20f49d6af62f28b553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdecdbc7bf74d11328915321749dd5d6"><td class="memTemplParams" colspan="2"><a id="afdecdbc7bf74d11328915321749dd5d6"></a>
+template&lt;class DataRange , class PatternRange , class FuncEq  = std::equal_to&lt;&gt;&gt; </td></tr>
+<tr class="memitem:afdecdbc7bf74d11328915321749dd5d6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::match_simple_regex</b> (const DataRange &amp;data, const PatternRange &amp;pattern, FuncEq eq=FuncEq())</td></tr>
+<tr class="separator:afdecdbc7bf74d11328915321749dd5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3845ed498e9de160262c18271d73559"><td class="memItemLeft" align="right" valign="top"><a id="ad3845ed498e9de160262c18271d73559"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v3::match_compund_rule</b> (const std::vector&lt; const Flag_Set *&gt; &amp;words_data, const std::u16string &amp;pattern)</td></tr>
+<tr class="separator:ad3845ed498e9de160262c18271d73559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f41ea5817dd52ba42ea880f0cfefb20"><td class="memTemplParams" colspan="2"><a id="a7f41ea5817dd52ba42ea880f0cfefb20"></a>
+template&lt;class CharT &gt; </td></tr>
+<tr class="memitem:a7f41ea5817dd52ba42ea880f0cfefb20"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>nuspell::v3::swap</b> (List_Basic_Strings&lt; CharT &gt; &amp;a, List_Basic_Strings&lt; CharT &gt; &amp;b)</td></tr>
+<tr class="separator:a7f41ea5817dd52ba42ea880f0cfefb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data structures, private header. </p>
