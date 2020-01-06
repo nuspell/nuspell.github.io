@@ -197,7 +197,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.671875"
-     inkscape:cx="45.902877"
+     inkscape:cx="89.247359"
      inkscape:cy="96"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -262,6 +262,16 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sander van Geloven</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Nuspell</dc:title>
+          </cc:Agent>
+        </dc:publisher>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -283,6 +293,12 @@
          y="264.56436"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#ff9800;fill-opacity:1;stroke-width:0.26458332">spell checker</tspan></text>
     <path
+       style="fill:url(#linearGradient1233);fill-opacity:1;stroke:none;stroke-width:9;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 2.1971002,260.15644 v 22.88708 L 21.971,294.45998 41.7449,283.04352 V 260.15644 L 21.971,248.73998 Z"
+       id="rect1193-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
        style="fill:#e65100;fill-opacity:1;stroke:none;stroke-width:37.79527664;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 0,47.943166 V 144.05684 L 83.04,192 166.08,144.05683 V 47.943168 L 83.04,-7.6347865e-7 Z"
        transform="matrix(0.26458333,0,0,0.26458333,0,246.19998)"
@@ -290,9 +306,9 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="fill:url(#linearGradient1233);fill-opacity:1;stroke:none;stroke-width:9;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#5d4037;fill-opacity:1;stroke:none;stroke-width:9;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 2.1971002,260.15644 v 22.88708 L 21.971,294.45998 41.7449,283.04352 V 260.15644 L 21.971,248.73998 Z"
-       id="rect1193-5"
+       id="rect1193-5-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <text
