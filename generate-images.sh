@@ -5,9 +5,17 @@
 cd assets/images
 for i in *svg; do
 	DST=`basename $i .svg`
-	if [ $DST != sticker-hexagon-trans -a $DST != sticker-hexagon-orange ]; then
+	if [ $DST != sticker-hexagon-trans -a $DST != sticker-hexagon-orange -a $DST != sticker-hexagon-orange-drukbedrijf ]; then
 		inkscape -z -f $i -e $DST-512x512.png 2>&1 >/dev/null
 		optipng -quiet $DST-512x512.png
+	fi
+	if [ $DST = logo-trans ]; then
+		inkscape -z -w 14 -h 14 -f $i -e $DST-14x14.png 2>&1 >/dev/null
+		optipng -quiet $DST-14x14.png
+		inkscape -z -w 64 -h 64 -f $i -e $DST-64x64.png 2>&1 >/dev/null
+		optipng -quiet $DST-64x64.png
+		inkscape -z -w 192 -h 192 -f $i -e $DST-192x192.png 2>&1 >/dev/null
+		optipng -quiet $DST-192x192.png
 	fi
 done
 
