@@ -34,7 +34,7 @@
           </cc:Agent>
         </dc:creator>
         <dc:description>Changes to source are: set page background color to white.</dc:description>
-        <dc:date></dc:date>
+        <dc:date />
         <dc:publisher>
           <cc:Agent>
             <dc:title>Nuspell</dc:title>
@@ -207,13 +207,13 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1024"
      id="namedview80"
      showgrid="false"
-     inkscape:zoom="1.7519531"
+     inkscape:zoom="1.7128906"
      inkscape:cx="256"
      inkscape:cy="256"
      inkscape:window-x="0"

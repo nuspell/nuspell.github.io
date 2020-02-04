@@ -188,7 +188,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.3035145"
-     inkscape:cx="40.386822"
+     inkscape:cx="-13.343834"
      inkscape:cy="94.980397"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -254,7 +254,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Sander van Geloven</dc:title>
@@ -279,7 +279,7 @@
        id="rect882"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#5d4037;fill-opacity:1;stroke:none;stroke-width:9;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#6d4c41;fill-opacity:1;stroke:none;stroke-width:9;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 2.1971002,260.15644 v 22.88708 L 21.971,294.45998 41.7449,283.04352 V 260.15644 L 21.971,248.73998 Z"
        id="rect1193-5-5"
        inkscape:connector-curvature="0"
