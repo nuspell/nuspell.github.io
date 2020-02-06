@@ -39,7 +39,7 @@ Nuspell's main features are:
 * personalization where users can ignore or add words for the duration of a session or for persistent support
 
 Furthermore, Nuspell has:
-* a C++ library licensed under [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) preventing vendor lock-in
+* a C++ library licensed under [LGPL v3 or later](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) preventing vendor lock-in
 * backwards compatibility for [MySpell](https://en.wikipedia.org/wiki/MySpell) and [Hunspell](https://en.wikipedia.org/wiki/Hunspell) dictionaries and affix files, a.k.a. language support
 <!--* an [API](https://en.wikipedia.org/wiki/Application_programming_interface) and [ABI](https://en.wikipedia.org/wiki compatible with Hunspell-->
 * an extensive testing framework to optimize functionality and performance
