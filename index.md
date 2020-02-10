@@ -20,6 +20,7 @@ To meet these demands, the free and open source spell checker Nuspell is being c
 ## Integration
 
 Familiar examples of both proprietary or open source software which can start using Nuspell as a drop-in replacement of their current spell checker are:
+* [Enchant](https://abiword.github.io/enchant/)
 * [LibreOffice](https://www.libreoffice.org/)
 * Apache [OpenOffice.org](https://www.openoffice.org/)
 * Mozilla [Firefox](https://www.mozilla.org/firefox/) and [Thunderbird](https://www.thunderbird.net/)

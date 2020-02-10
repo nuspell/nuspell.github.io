@@ -20,4 +20,4 @@ The Nuspell team consists currently out of the following people. The roles and r
 
 If you want to join our team and become part of our community, please contact us. Besides programming, you can also contribute with reproducing issues, testing or writing documentation. We are also looking for people that can port or package Nuspell for all sorts of operating systems once we have released the first official version.
 
-As our community is relatively new, there is also some work to be found in community building on social media, liaisoning with third parties and sponsors and helping spell checker language support. *Ask not what spell checking can do for you...*
+As our community is relatively new, there is also some work to be found in community building on social media, liaising with third parties and sponsors and helping spell checker language support. *Ask not what spell checking can do for you...*
