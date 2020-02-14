@@ -4,9 +4,9 @@ layout: home
 exclude: true
 ---
 
-![Badge for licence](https://img.shields.io/github/license/nuspell/nuspell.svg?color=blue)
-![Badge for version](https://img.shields.io/github/release/nuspell/nuspell.svg)
-[![Build Status](https://travis-ci.org/nuspell/nuspell.svg?branch=master)](https://travis-ci.org/nuspell/nuspell)
+[![License badge](https://img.shields.io/github/license/nuspell/nuspell.svg?color=blue)](https://github.com/nuspell/nuspell/blob/master/COPYING)
+[![Release badge](https://img.shields.io/github/release/nuspell/nuspell.svg)](https://github.com/nuspell/nuspell/releases)
+[![CI badge](https://travis-ci.org/nuspell/nuspell.svg?branch=master)](https://travis-ci.org/nuspell/nuspell)
 
 ## Introduction
 
@@ -85,7 +85,7 @@ To help keep a healthy community and promote diversity and inclusion, we work wi
 Several organizations have enabled the development and maintenance of Nuspell. The sponsors, past and current, are:
 * [Mozilla Open Source Support](https://www.mozilla.org/moss/) in [2017 and 2018](https://blog.mozilla.org/blog/2017/04/10/mozilla-awards-365000-to-open-source-projects-as-part-of-moss/) for the rewrite in pure C++ called Nuspell, version 2.0
 * [Mozilla Open Source Support](https://www.mozilla.org/moss/) in 2019 and 2020 for completing base functionality and integration of Nuspell, version 3.0
-* [Stichting OpenTaal](https://www.opentaal.org/) in 2020 for [hexagon stickers](/assets/images/sticker-hexagon-trans-443x512.png) to be distributed at [FOSDEM](https://fosdem.org/2020/stands/) and other conferences.
+* [Stichting OpenTaal](https://www.opentaal.org/) in 2020 for [hexagon stickers](/assets/images/sticker-hexagon-trans-443x512.png) to be distributed at [FOSDEM](https://fosdem.org/2020/stands/) and other conferences
 
 Contact us if you are considering sponsoring the development and maintenance of free and open source spell checking. Especially with so many users and many different software integrations, this software is in constant need of proficient support. Reducing spelling errors not only improves quality of communication and indirectly teaches people about spelling, but it also reduces the risk for costly errors that could have been prevented.
 
