@@ -73,6 +73,11 @@ Nuspell itself does not support any language. You need language support, also ca
 Note that installing language support is automated and directly available from inside the software listed above.
 
 
+## Installing
+
+Our wiki has a page with an extensive listing of [binary packages](https://github.com/nuspell/nuspell/wiki/Nuspell-packaged-binaries) to easily install Nuspell.
+
+
 ## Contributing
 
 Even though spell checking can be a very complex subject, we need your help. Nuspell isn't simply using a list of correct words, but a mechanism of very intricate spell checking techniques and tactics. Nevertheless, we can use help on all levels from fixing bugs, implement feature requests, improving support for a certain language, porting to platforms, packaging for operating systems and integrating browsers and office suites.

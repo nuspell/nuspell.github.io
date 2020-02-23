@@ -21,7 +21,7 @@ The latest roadmap can be found [here](https://github.com/nuspell/nuspell/projec
     * [x] supporting also macOS and Windows
     * [x] CI for major operating systems
     * [x] other imprevements and fixes
-* Version [3.0] (https://github.com/nuspell/nuspell/releases/tag/v3.0.0)
+* Version [3.0](https://github.com/nuspell/nuspell/releases/tag/v3.0.0)
     * [x] improving speed and robustness
     * [x] extending compound features
     * [x] improving suggestions
