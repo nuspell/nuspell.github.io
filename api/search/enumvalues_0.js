@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['all_5fcapital',['ALL_CAPITAL',['../namespacenuspell_1_1v3.html#a26a900d20c4950b7c1a248f7f293e9ffa6483b96ff3ba7b3090825f314cd3d3b3',1,'nuspell::v3']]]
+  ['all_5fcapital_214',['ALL_CAPITAL',['../namespacenuspell.html#a229dda106b4a6355d4dbfc7b72e5fd95a6483b96ff3ba7b3090825f314cd3d3b3',1,'nuspell']]]
 ];
