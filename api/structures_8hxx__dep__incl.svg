@@ -22,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="aff__data_8hxx.html" target="_top" xlink:title="Affixing data structures, private header.">
-<polygon fill="white" stroke="black" points="3,-56.5 3,-75.5 137,-75.5 137,-56.5 3,-56.5"/>
+<polygon fill="white" stroke="black" points="3.5,-56.5 3.5,-75.5 136.5,-75.5 136.5,-56.5 3.5,-56.5"/>
 <text text-anchor="middle" x="70" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/nuspell/aff_data.hxx</text>
 </a>
 </g>
