@@ -13,7 +13,7 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Affixing data structures, private header.">
-<polygon fill="#bfbfbf" stroke="black" points="3.5,-56.5 3.5,-75.5 136.5,-75.5 136.5,-56.5 3.5,-56.5"/>
+<polygon fill="#bfbfbf" stroke="black" points="3,-56.5 3,-75.5 137,-75.5 137,-56.5 3,-56.5"/>
 <text text-anchor="middle" x="70" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/nuspell/aff_data.hxx</text>
 </a>
 </g>
