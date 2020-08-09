@@ -10,17 +10,17 @@ exclude: true
 
 ## Introduction
 
-Using correct spelling improves your communication and can prevent costly mistakes and even lethal mistakes. Several solutions have been developed over the last decades, each building on top of the previous one. The current state of affairs is that there is a need for a fast, transparent and maintainable spell checker.
+Using correct spelling improves your communication and can prevent costly mistakes and even lethal mistakes. Several solutions have been developed over the last decades, each building on top of the previous one. The current state of affairs is that there is a need for a fast, transparent and maintainable spelling checker.
 
-To meet these demands, the free and open source spell checker Nuspell is being created. Its aim is to be integrated in mainstream office suites, web browsers, email clients, computer-assisted translation services and other applications working with text. Speed, accuracy, documentation and maintainability are the main advantages that put Nuspell at the front of contemporary spell checking solutions.
+To meet these demands, the free and open source spelling checker Nuspell is being created. Its aim is to be integrated in mainstream office suites, web browsers, email clients, computer-assisted translation services and other applications working with text. Speed, accuracy, documentation and maintainability are the main advantages that put Nuspell at the front of contemporary spell checking solutions.
 
 ![Screenshot](/assets/images/cover-edged.png)
 
 
 ## Integration
 
-Familiar examples of both proprietary or open source software which can start using Nuspell as a drop-in replacement of their current spell checker are:
-* [Enchant](https://abiword.github.io/enchant/)
+Familiar examples of both proprietary or open source software which can start using Nuspell as a drop-in replacement of their current spelling checker are:
+* [Enchant](https://abiword.github.io/enchant/) (integrated early 2020)
 * [LibreOffice](https://www.libreoffice.org/)
 * Apache [OpenOffice.org](https://www.openoffice.org/)
 * Mozilla [Firefox](https://www.mozilla.org/firefox/) and [Thunderbird](https://www.thunderbird.net/)
@@ -34,20 +34,24 @@ Also [web services](https://en.wikipedia.org/wiki/Web_service), [lesser-known te
 
 ## Features
 
-Nuspell's main features are:
-* extensive support for language peculiarities with [Unicode](https://en.wikipedia.org/wiki/Unicode), [locale](https://en.wikipedia.org/wiki/Locale_%28computer_software%29), [affixing](https://en.wikipedia.org/wiki/Affix), [compounding](https://en.wikipedia.org/wiki/Compound_%28linguistics%29) and complex morphology
-* suggestion improvements using [*n*-gram](https://en.wikipedia.org/wiki/N-gram) similarity, rule and dictionary based pronunciation data
-* personalization where users can ignore or add words for the duration of a session or for persistent support
+Main features of Nuspell spelling checker:
+* Provides software library and command-line tool.
+* Suggests high-quality spelling corrections.
+* Backward compatibility with Hunspell dictionary file format.
+* Up to 3 times faster than Hunspell.
+* Full [Unicode](https://en.wikipedia.org/wiki/Unicode) support backed by [ICU](http://site.icu-project.org/).
+* Twofold [affix](https://en.wikipedia.org/wiki/Affix) stripping (for agglutinative languages, like Azeri, Basque, Estonian, Finnish, Hungarian, Turkish, etc.).
+* Supports complex [compounds](https://en.wikipedia.org/wiki/Compound_%28linguistics%29) (for example, Hungarian, German and Dutch).
+* Supports advanced features, for example: special casing rules (Turkish dotted i or German sharp s), conditional affixes, circumfixes, fogemorphemes, forbidden words, pseudoroots and homonyms.
+* Free and open source software. Licensed under GNU LGPL v3 or later.
 
 Furthermore, Nuspell has:
-* a C++ library licensed under [LGPL v3 or later](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) preventing vendor lock-in
-* backwards compatibility for [MySpell](https://en.wikipedia.org/wiki/MySpell) and [Hunspell](https://en.wikipedia.org/wiki/Hunspell) dictionaries and affix files, a.k.a. language support
-<!--* an [API](https://en.wikipedia.org/wiki/Application_programming_interface) and [ABI](https://en.wikipedia.org/wiki compatible with Hunspell-->
-* an extensive testing framework to optimize functionality and performance
+* a C++17 library licensed to prevent vendor lock-in
+* an extensive testing framework and CI to optimize functionality and performance
 * documented code and algorithms promoting transparency, understanding and maintenance
-* ports and packages for at least all major operating systems and distributions, including:
+* [ports and packages](https://github.com/nuspell/nuspell/wiki/Nuspell-packaged-binaries) for at least all major operating systems and distributions, including:
     * Linux
-    * MacOS
+    * macOS
     * Windows
     * BSD
 
@@ -80,9 +84,9 @@ Our wiki has a page with an extensive listing of [binary packages](https://githu
 
 ## Contributing
 
-Even though spell checking can be a very complex subject, we need your help. Nuspell isn't simply using a list of correct words, but a mechanism of very intricate spell checking techniques and tactics. Nevertheless, we can use help on all levels from fixing bugs, implement feature requests, improving support for a certain language, porting to platforms, packaging for operating systems and integrating browsers and office suites.
+Even though spell checking can be a very complex subject, we need your help. Nuspell isn't simply using a list of correct words, but a mechanism of very intricate spelling checker techniques and tactics. Nevertheless, we can use help on all levels from fixing bugs, implement feature requests, improving support for a certain language, porting to platforms, packaging for operating systems and integrating browsers and office suites.
 
-To help keep a healthy community and promote diversity and inclusion, we work with a [code of conduct](https://github.com/nuspell/nuspell/wiki/Code-of-Conduct). Contact us if you can contribute with your skills and learn more about spell checking.
+To help keep a healthy community and promote diversity and inclusion, we work with a [code of conduct](https://github.com/nuspell/nuspell/wiki/Code-of-Conduct). Contact us if you can contribute with your skills and learn more about spelling checkers.
 
 
 ## Sponsoring
@@ -92,7 +96,7 @@ Several organizations have enabled the development and maintenance of Nuspell. T
 * [Mozilla Open Source Support](https://www.mozilla.org/moss/) in 2019 and 2020 for completing base functionality and integration of Nuspell, version 3.0
 * [Stichting OpenTaal](https://www.opentaal.org/) in 2020 for [hexagon stickers](/assets/images/sticker-hexagon-trans-443x512.png) to be distributed at [FOSDEM](https://fosdem.org/2020/stands/) and other conferences
 
-Contact us if you are considering sponsoring the development and maintenance of free and open source spell checking. Especially with so many users and many different software integrations, this software is in constant need of proficient support. Reducing spelling errors not only improves quality of communication and indirectly teaches people about spelling, but it also reduces the risk for costly errors that could have been prevented.
+Contact us if you are considering sponsoring the development and maintenance of this free and open source spelling checker. Especially with so many users and many different software integrations, this software is in constant need of proficient support. Reducing spelling errors not only improves quality of communication and indirectly teaches people about spelling, but it also reduces the risk for costly errors that could have been prevented.
 
 
 ## Contact

@@ -13,11 +13,11 @@ The Nuspell team consists currently out of the following people. The roles and r
 
 # Sander
 
-[Sander](https://www.linkedin.com/in/svgeloven/) is an information analyst and entrepreneur. He has a master's in technical information sciences and electrical engineering. He has experience with many FOSS projects and is one of the authors for the Dutch spell checking support via [OpenTaal](https://www.opentaal.org). In the Nuspell team, he analyses and documents spell checker functionality, coordinates funding and is works on testing. The latter covers unit testing, system testing, regression testing, performance testing and profiling.
+[Sander](https://www.linkedin.com/in/svgeloven/) is an information analyst and entrepreneur. He has a master's in technical information sciences and electrical engineering. He has experience with many FOSS projects and is one of the authors for the Dutch spelling checker support via [OpenTaal](https://www.opentaal.org). In the Nuspell team, he analyses and documents spelling checker functionality, coordinates funding and is works on testing. The latter covers unit testing, system testing, regression testing, performance testing and profiling.
 
 
 # Join us
 
 If you want to join our team and become part of our community, please contact us. Besides programming, you can also contribute with reproducing issues, testing or writing documentation. We are also looking for people that can port or package Nuspell for all sorts of operating systems once we have released the first official version.
 
-As our community is relatively new, there is also some work to be found in community building on social media, liaising with third parties and sponsors and helping spell checker language support. *Ask not what spell checking can do for you...*
+As our community is relatively new, there is also some work to be found in community building on social media, liaising with third parties and sponsors and helping spelling checker language support. *Ask not what spelling checking can do for you...*
