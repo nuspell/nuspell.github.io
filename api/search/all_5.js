@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['finder_38',['Finder',['../classnuspell_1_1v3_1_1_finder.html',1,'nuspell::v3::Finder'],['../classnuspell_1_1v3_1_1_finder.html',1,'nuspell::v3::Finder']]],
-  ['finder_2ehxx_39',['finder.hxx',['../finder_8hxx.html',1,'']]],
-  ['flag_5ftype_40',['Flag_Type',['../namespacenuspell_1_1v3.html#a33fe66a5f5750e5851d2a459a5a3a0e6',1,'nuspell::Flag_Type()'],['../namespacenuspell_1_1v3.html#a33fe66a5f5750e5851d2a459a5a3a0e6',1,'nuspell::v3::Flag_Type()']]]
+  ['finder_28',['Finder',['../classnuspell_1_1v4_1_1_finder.html',1,'nuspell::v4::Finder'],['../classnuspell_1_1v4_1_1_finder.html',1,'nuspell::v4::Finder']]],
+  ['finder_2ehxx_29',['finder.hxx',['../finder_8hxx.html',1,'']]]
 ];

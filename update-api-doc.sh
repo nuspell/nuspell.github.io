@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 set -e
-VERSION=3.1.2
+VERSION=4.0.0
 
 rm -rf tmp
 mkdir tmp

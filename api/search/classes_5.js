@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['finder_130',['Finder',['../classnuspell_1_1v3_1_1_finder.html',1,'nuspell::v3::Finder'],['../classnuspell_1_1v3_1_1_finder.html',1,'nuspell::v3::Finder']]]
+  ['finder_101',['Finder',['../classnuspell_1_1v4_1_1_finder.html',1,'nuspell::v4::Finder'],['../classnuspell_1_1v4_1_1_finder.html',1,'nuspell::v4::Finder']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['get_5fdictionary_5fpath_173',['get_dictionary_path',['../classnuspell_1_1v3_1_1_finder.html#abaea54d7b08a5005391743efc8f7c25f',1,'nuspell::v3::Finder']]]
+  ['load_5ffrom_5faff_5fdic_146',['load_from_aff_dic',['../classnuspell_1_1v4_1_1_dictionary.html#a5ca5c2ec2629b0a1c447d369fae2bbfe',1,'nuspell::v4::Dictionary']]],
+  ['load_5ffrom_5fpath_147',['load_from_path',['../classnuspell_1_1v4_1_1_dictionary.html#a8b5b5c294875dc4a586c7fce3f00fd3f',1,'nuspell::v4::Dictionary']]]
 ];

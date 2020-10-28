@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['number_58',['NUMBER',['../namespacenuspell_1_1v3.html#a33fe66a5f5750e5851d2a459a5a3a0e6a34f55eca38e0605a84f169ff61a2a396',1,'nuspell::v3']]],
-  ['nuspell_59',['nuspell',['../namespacenuspell.html',1,'']]],
-  ['v3_60',['v3',['../namespacenuspell_1_1v3.html',1,'nuspell']]]
+  ['parse_5fargs_43',['parse_args',['../struct_args__t.html#a87bae8b359afb554e75ccf6867be50a6',1,'Args_t']]],
+  ['phonetic_5ftable_44',['Phonetic_Table',['../classnuspell_1_1v4_1_1_phonetic___table.html',1,'nuspell::v4::Phonetic_Table&lt; CharT &gt;'],['../classnuspell_1_1v4_1_1_phonetic___table.html',1,'nuspell::v4::Phonetic_Table&lt; CharT &gt;']]],
+  ['phonetic_5ftable_3c_20wchar_5ft_20_3e_45',['Phonetic_Table&lt; wchar_t &gt;',['../classnuspell_1_1v4_1_1_phonetic___table.html',1,'nuspell::v4']]],
+  ['prefix_46',['Prefix',['../structnuspell_1_1v4_1_1_prefix.html',1,'nuspell::v4::Prefix&lt; CharT &gt;'],['../structnuspell_1_1v4_1_1_prefix.html',1,'nuspell::v4::Prefix&lt; CharT &gt;']]],
+  ['prefix_5fmultiset_47',['Prefix_Multiset',['../classnuspell_1_1v4_1_1_prefix___multiset.html',1,'nuspell::v4::Prefix_Multiset&lt; T, Key_Extr, Key_Transform &gt;'],['../classnuspell_1_1v4_1_1_prefix___multiset.html',1,'nuspell::v4::Prefix_Multiset&lt; T, Key_Extr, Key_Transform &gt;']]],
+  ['prefix_5ftable_48',['Prefix_Table',['../classnuspell_1_1v4_1_1_prefix___table.html',1,'nuspell::v4::Prefix_Table'],['../classnuspell_1_1v4_1_1_prefix___table.html',1,'nuspell::v4::Prefix_Table']]]
 ];

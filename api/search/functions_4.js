@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['has_5fuppercase_5fat_5fcompound_5fword_5fboundary_174',['has_uppercase_at_compound_word_boundary',['../namespacenuspell.html#a95361b172419cb7c6740ffa61ea0bea7',1,'nuspell']]]
+  ['parse_5fargs_148',['parse_args',['../struct_args__t.html#a87bae8b359afb554e75ccf6867be50a6',1,'Args_t']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['dic_5ffind_5fend_5fof_5fword_5fheuristics_172',['dic_find_end_of_word_heuristics',['../namespacenuspell.html#ac29b32632ffb7108ffdaf3c00d8fc486',1,'nuspell']]]
+  ['imbue_144',['imbue',['../classnuspell_1_1v4_1_1_dictionary.html#a4e525e54e3308f010b20ee6ef984171f',1,'nuspell::v4::Dictionary']]],
+  ['imbue_5futf8_145',['imbue_utf8',['../classnuspell_1_1v4_1_1_dictionary.html#a29da23d17f035736cefa9cdeb3187e91',1,'nuspell::v4::Dictionary']]]
 ];
