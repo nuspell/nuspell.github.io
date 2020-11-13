@@ -5,12 +5,12 @@ exclude: true
 ---
 
 [![License badge](https://img.shields.io/github/license/nuspell/nuspell.svg?color=blue)](https://github.com/nuspell/nuspell/blob/master/COPYING)
-[![Release badge](https://img.shields.io/github/release/nuspell/nuspell.svg)](https://github.com/nuspell/nuspell/releases)
-[![CI badge](https://travis-ci.org/nuspell/nuspell.svg?branch=master)](https://travis-ci.org/nuspell/nuspell)
+[![Badge with latest released version](https://img.shields.io/github/release/nuspell/nuspell.svg)](https://github.com/nuspell/nuspell/releases)
+[![Badge with CI status](https://travis-ci.org/nuspell/nuspell.svg?branch=master)](https://travis-ci.org/nuspell/nuspell)
 
 ## Introduction
 
-Using correct spelling improves your communication and can prevent costly mistakes and even lethal mistakes. Several solutions have been developed over the last decades, each building on top of the previous one. The current state of affairs is that there is a need for a fast, transparent and maintainable spelling checker.
+Using correct spelling improves your communication and can prevent costly mistakes. Several solutions have been developed over the last decades, each building on top of the previous one. The current state of affairs is that there is a need for a faster spelling checker, that is also more maintainable and easier to integrate in other applications.
 
 To meet these demands, the free and open source spelling checker Nuspell is being created. Its aim is to be integrated in mainstream office suites, web browsers, email clients, computer-assisted translation services and other applications working with text. Speed, accuracy, documentation and maintainability are the main advantages that put Nuspell at the front of contemporary spell checking solutions.
 
@@ -35,7 +35,7 @@ Also [web services](https://en.wikipedia.org/wiki/Web_service), [lesser-known te
 ## Features
 
 Main features of Nuspell spelling checker:
-* Provides software library and command-line tool.
+* Provides software library for C++ and command-line tool.
 * Suggests high-quality spelling corrections.
 * Backward compatibility with Hunspell dictionary file format.
 * Up to 3 times faster than Hunspell.
@@ -44,24 +44,6 @@ Main features of Nuspell spelling checker:
 * Supports complex [compounds](https://en.wikipedia.org/wiki/Compound_%28linguistics%29) (for example, Hungarian, German and Dutch).
 * Supports advanced features, for example: special casing rules (Turkish dotted i or German sharp s), conditional affixes, circumfixes, fogemorphemes, forbidden words, pseudoroots and homonyms.
 * Free and open source software. Licensed under GNU LGPL v3 or later.
-
-Furthermore, Nuspell has:
-* a C++17 library licensed to prevent vendor lock-in
-* an extensive testing framework and CI to optimize functionality and performance
-* documented code and algorithms promoting transparency, understanding and maintenance
-* [ports and packages](https://github.com/nuspell/nuspell/wiki/Nuspell-packaged-binaries) for at least all major operating systems and distributions, including:
-    * Linux
-    * macOS
-    * Windows
-    * BSD
-
-Character encodings encountered in dictionaries and affix files which Nuspell works are at least:
-* [Unicode](https://en.wikipedia.org/wiki/Unicode) part [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
-* [ISO-8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) parts [1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1), [2](https://en.wikipedia.org/wiki/ISO/IEC_8859-2), [3](https://en.wikipedia.org/wiki/ISO/IEC_8859-3), [7](https://en.wikipedia.org/wiki/ISO/IEC_8859-7), [13](https://en.wikipedia.org/wiki/ISO/IEC_8859-13) and [15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15)
-* [CP1251](https://en.wikipedia.org/wiki/Windows-1251)
-* [TIS-620](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
-* [KOI-8](https://en.wikipedia.org/wiki/KOI-8) part [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R)
-
 
 ## Languages and Users
 
@@ -77,7 +59,7 @@ Nuspell itself does not support any language. You need language support, also ca
 Note that installing language support is automated and directly available from inside the software listed above.
 
 
-## Installing
+## Downloading and Installing
 
 Our wiki has a page with an extensive listing of [binary packages](https://github.com/nuspell/nuspell/wiki/Nuspell-packaged-binaries) to easily install Nuspell.
 
@@ -86,7 +68,7 @@ Our wiki has a page with an extensive listing of [binary packages](https://githu
 
 Even though spell checking can be a very complex subject, we need your help. Nuspell isn't simply using a list of correct words, but a mechanism of very intricate spelling checker techniques and tactics. Nevertheless, we can use help on all levels from fixing bugs, implement feature requests, improving support for a certain language, porting to platforms, packaging for operating systems and integrating browsers and office suites.
 
-To help keep a healthy community and promote diversity and inclusion, we work with a [code of conduct](https://github.com/nuspell/nuspell/wiki/Code-of-Conduct). Contact us if you can contribute with your skills and learn more about spelling checkers.
+Contact us if you can contribute with your skills and learn more about spelling checkers.
 
 
 ## Sponsoring
