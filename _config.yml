@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until next variable
   Nuspell is a fast and safe spelling checker software program. It is designed
   for languages with rich morphology and complex word compounding. Nuspell is
   written in modern C++ and it supports Hunspell dictionaries.
-keywords: spelling checker spellcheck spellchecker spellchecking
+keywords: spelling checker, spellcheck, spellchecker, spellchecking
 #author: Nuspell community
 #TODOemail: info@nuspell.org
 #FIXMEurl: https://nuspell.org
