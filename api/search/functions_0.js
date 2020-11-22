@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['add_5fdefault_5fdir_5fpaths_141',['add_default_dir_paths',['../classnuspell_1_1v4_1_1_finder.html#a9b59172e44c7624338d2692bf7d8dfd0',1,'nuspell::v4::Finder']]],
-  ['add_5flibreoffice_5fdir_5fpaths_142',['add_libreoffice_dir_paths',['../classnuspell_1_1v4_1_1_finder.html#a1ab68258e3b1ca951627e9ccf8730f2c',1,'nuspell::v4::Finder']]]
+  ['append_5fdefault_5fdir_5fpaths_145',['append_default_dir_paths',['../namespacenuspell_1_1v4.html#a76bdc7f857b046af1f0490224d073db9',1,'nuspell::append_default_dir_paths()'],['../namespacenuspell_1_1v4.html#a76bdc7f857b046af1f0490224d073db9',1,'nuspell::v4::append_default_dir_paths()']]],
+  ['append_5flibreoffice_5fdir_5fpaths_146',['append_libreoffice_dir_paths',['../namespacenuspell_1_1v4.html#aa977018d1393e82a500f900ec6b4f517',1,'nuspell::append_libreoffice_dir_paths()'],['../namespacenuspell_1_1v4.html#aa977018d1393e82a500f900ec6b4f517',1,'nuspell::v4::append_libreoffice_dir_paths()']]]
 ];
