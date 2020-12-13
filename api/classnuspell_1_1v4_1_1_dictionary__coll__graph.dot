@@ -1,0 +1,30 @@
+digraph "nuspell::v4::Dictionary"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="nuspell::v4::Dictionary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The only important public class."];
+  Node2 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nuspell::v4::Dict_Base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnuspell_1_1v4_1_1_dict___base.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nuspell::v4::Aff_Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnuspell_1_1v4_1_1_aff___data.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" replacements" ,fontname="Helvetica"];
+  Node4 [label="nuspell::v4::Replacement\l_Table\< wchar_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_replacement___table.html",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" phonetic_table" ,fontname="Helvetica"];
+  Node5 [label="nuspell::v4::Phonetic\l_Table\< wchar_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_phonetic___table.html",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" input_substr_replacer\noutput_substr_replacer" ,fontname="Helvetica"];
+  Node6 [label="nuspell::v4::Substr\l_Replacer\< wchar_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_substr___replacer.html",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" compound_rules" ,fontname="Helvetica"];
+  Node7 [label="nuspell::v4::Compound\l_Rule_Table",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_compound___rule___table.html",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" encoding" ,fontname="Helvetica"];
+  Node8 [label="nuspell::v4::Encoding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_encoding.html",tooltip=" "];
+  Node9 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" prefixes" ,fontname="Helvetica"];
+  Node9 [label="nuspell::v4::Prefix\l_Table",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_prefix___table.html",tooltip=" "];
+  Node10 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" words" ,fontname="Helvetica"];
+  Node10 [label="nuspell::v4::Hash_Multiset\l\< std::pair\< std::wstring,\l Flag_Set \>, std::wstring,\l Extractor_First_of_Word_Pair \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_hash___multiset.html",tooltip=" "];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" break_table" ,fontname="Helvetica"];
+  Node11 [label="nuspell::v4::Break\l_Table\< wchar_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_break___table.html",tooltip=" "];
+  Node12 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" suffixes" ,fontname="Helvetica"];
+  Node12 [label="nuspell::v4::Suffix\l_Table",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnuspell_1_1v4_1_1_suffix___table.html",tooltip=" "];
+}
