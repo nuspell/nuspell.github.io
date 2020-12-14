@@ -66,34 +66,6 @@ can be found for:
     [Hunspell](https://packages.debian.org/stable/virtual/hunspell-dictionary)
     language support.
 
-## Rationale
-
-Using correct spelling improves your communication and can prevent
-costly mistakes. Several solutions have been developed over the last
-decades, each building on top of the previous one. The current state of
-affairs is that there is a need for a faster spelling checker, that is
-also more maintainable and easier to integrate in other applications.
-
-To meet these demands, the free and open source spelling checker Nuspell
-has being created. Its aim is to be integrated in mainstream office
-suites, web browsers, email clients, computer-assisted translation
-services and other applications working with text. Speed, accuracy,
-documentation and maintainability are the main advantages that put
-Nuspell at the front of contemporary spellchecking solutions.
-
-## Contributing
-
-Even though spellchecking can be a very complex subject, we need your
-help. Nuspell isn't simply using a list of correct words, but a
-mechanism of very intricate spelling checker techniques and tactics.
-Nevertheless, we can use help on all levels from fixing bugs, implement
-feature requests, improving support for a certain language, porting to
-platforms, packaging for operating systems and integrating browsers and
-office suites.
-
-Contact us if you can contribute with your skills and learn more about
-spelling checkers.
-
 ## Sponsoring
 
 Several organizations have enabled the development and maintenance of
