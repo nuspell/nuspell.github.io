@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['list_5fbasic_5fstrings_40',['List_Basic_Strings',['../classnuspell_1_1v4_1_1_list___basic___strings.html',1,'nuspell::v4::List_Basic_Strings&lt; CharT &gt;'],['../classnuspell_1_1v4_1_1_list___basic___strings.html',1,'nuspell::v4::List_Basic_Strings&lt; CharT &gt;']]],
-  ['load_5ffrom_5faff_5fdic_41',['load_from_aff_dic',['../classnuspell_1_1v4_1_1_dictionary.html#a5ca5c2ec2629b0a1c447d369fae2bbfe',1,'nuspell::v4::Dictionary']]],
-  ['load_5ffrom_5fpath_42',['load_from_path',['../classnuspell_1_1v4_1_1_dictionary.html#a8b5b5c294875dc4a586c7fce3f00fd3f',1,'nuspell::v4::Dictionary']]]
+  ['load_5ffrom_5faff_5fdic_36',['load_from_aff_dic',['../classnuspell_1_1v5_1_1_dictionary.html#a0acaadd4cc1e1c1f188d87f4b004f728',1,'nuspell::v5::Dictionary']]],
+  ['load_5ffrom_5fpath_37',['load_from_path',['../classnuspell_1_1v5_1_1_dictionary.html#a8d06d00d57232b4c4ef8bfe9bd4c7aa9',1,'nuspell::v5::Dictionary']]]
 ];

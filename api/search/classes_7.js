@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['hash_5fmultiset_108',['Hash_Multiset',['../classnuspell_1_1v4_1_1_hash___multiset.html',1,'nuspell::v4::Hash_Multiset&lt; Value, Key, KeyExtract &gt;'],['../classnuspell_1_1v4_1_1_hash___multiset.html',1,'nuspell::v4::Hash_Multiset&lt; Value, Key, KeyExtract &gt;']]],
-  ['hash_5fmultiset_3c_20std_3a_3apair_3c_20std_3a_3awstring_2c_20flag_5fset_20_3e_2c_20std_3a_3awstring_2c_20extractor_5ffirst_5fof_5fword_5fpair_20_3e_109',['Hash_Multiset&lt; std::pair&lt; std::wstring, Flag_Set &gt;, std::wstring, Extractor_First_of_Word_Pair &gt;',['../classnuspell_1_1v4_1_1_hash___multiset.html',1,'nuspell::v4']]]
+  ['identity_94',['identity',['../structnuspell_1_1v5_1_1identity.html',1,'nuspell::v5::identity'],['../structnuspell_1_1v5_1_1identity.html',1,'nuspell::v5::identity']]],
+  ['idx_5fand_5fnext_5fcp_95',['Idx_And_Next_CP',['../structnuspell_1_1v5_1_1_idx___and___next___c_p.html',1,'nuspell::v5::Idx_And_Next_CP'],['../structnuspell_1_1v5_1_1_idx___and___next___c_p.html',1,'nuspell::v5::Idx_And_Next_CP']]],
+  ['idx_5fand_5fnext_5fcp_5fvalid_96',['Idx_And_Next_CP_Valid',['../structnuspell_1_1v5_1_1_idx___and___next___c_p___valid.html',1,'nuspell::v5::Idx_And_Next_CP_Valid'],['../structnuspell_1_1v5_1_1_idx___and___next___c_p___valid.html',1,'nuspell::v5::Idx_And_Next_CP_Valid']]],
+  ['idx_5fand_5fprev_5fcp_97',['Idx_And_Prev_CP',['../structnuspell_1_1v5_1_1_idx___and___prev___c_p.html',1,'nuspell::v5::Idx_And_Prev_CP'],['../structnuspell_1_1v5_1_1_idx___and___prev___c_p.html',1,'nuspell::v5::Idx_And_Prev_CP']]],
+  ['idx_5fand_5fprev_5fcp_5fvalid_98',['Idx_And_Prev_CP_Valid',['../structnuspell_1_1v5_1_1_idx___and___prev___c_p___valid.html',1,'nuspell::v5::Idx_And_Prev_CP_Valid'],['../structnuspell_1_1v5_1_1_idx___and___prev___c_p___valid.html',1,'nuspell::v5::Idx_And_Prev_CP_Valid']]],
+  ['iter_5fprefixes_5fof_99',['Iter_Prefixes_Of',['../classnuspell_1_1v5_1_1_prefix___multiset_1_1_iter___prefixes___of.html',1,'nuspell::v5::Prefix_Multiset']]]
 ];

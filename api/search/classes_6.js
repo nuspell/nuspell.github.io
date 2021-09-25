@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['globber_107',['Globber',['../structnuspell_1_1v4_1_1_globber.html',1,'nuspell::v4::Globber'],['../structnuspell_1_1v4_1_1_globber.html',1,'nuspell::v4::Globber']]]
+  ['hash_5fmultimap_92',['Hash_Multimap',['../classnuspell_1_1v5_1_1_hash___multimap.html',1,'nuspell::v5::Hash_Multimap&lt; Key, T &gt;'],['../classnuspell_1_1v5_1_1_hash___multimap.html',1,'nuspell::v5::Hash_Multimap&lt; Key, T &gt;']]],
+  ['hash_5fmultimap_3c_20std_3a_3astring_2c_20flag_5fset_20_3e_93',['Hash_Multimap&lt; std::string, Flag_Set &gt;',['../classnuspell_1_1v5_1_1_hash___multimap.html',1,'nuspell::v5']]]
 ];

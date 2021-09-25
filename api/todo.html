@@ -67,7 +67,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Member <a class="el" href="namespacenuspell_1_1v4.html#aba8f2f968b3ddc4071bf10898b779a8a">nuspell::v4::search_dir_for_dicts</a>  (const string &amp;dir_path, vector&lt; pair&lt; string, string &gt;&gt; &amp;dict_list) -&gt; void</dt>
+<dt>Member <a class="el" href="namespacenuspell_1_1v5.html#a8cd813a878c40ea23faa89532b54f88d">nuspell::v5::search_dir_for_dicts</a>  (const string &amp;dir_path, vector&lt; pair&lt; string, string &gt;&gt; &amp;dict_list) -&gt; void</dt>
 <dd><a class="anchor" id="_todo000001"></a>At some point this API should be made to be more strongly typed. Instead of using that pair of strings to represent the dictionary files, a new class should be created with three public functions, getters, that would return the name, the path to the .aff file (with filename extension to avoid confusions) and the path to the .dic file. The C++ 17 std::filesystem::path should probably be used. It is unspecified to the public what this class holds privately, but it should probably hold only one path to the aff file. For the directory paths, it is simple, just use the type std::filesystem::path. When this API is created, the same function names should be used, added as overloads. The old API should be marked as deprecated. This should be done when we start requiring GCC 9 which supports C++ 17 filesystem out of the box. GCC 8 has this too, but it is somewhat experimental and requires manually linking to additional static library.</dd>
 </dl>
 </div></div><!-- contents -->

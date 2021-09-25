@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['to_5froot_5funroot_5fraii_133',['To_Root_Unroot_RAII',['../classnuspell_1_1_to___root___unroot___r_a_i_i.html',1,'nuspell']]]
+  ['write_5fcp_5fidx_5fand_5ferror_122',['Write_CP_Idx_and_Error',['../structnuspell_1_1v5_1_1_write___c_p___idx__and___error.html',1,'nuspell::v5::Write_CP_Idx_and_Error'],['../structnuspell_1_1v5_1_1_write___c_p___idx__and___error.html',1,'nuspell::v5::Write_CP_Idx_and_Error']]]
 ];
