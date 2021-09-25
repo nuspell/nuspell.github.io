@@ -1,6 +1,3 @@
-This file should not be called README.md, otherwise it will be included in the
-website.
-
 To test the site locally install Ruby via Apt. Then do not install
 Jekyll via Apt. Install with Gem and Bundler.
 

@@ -1,12 +1,12 @@
 ---
-title: Nuspell Home Page
+# title: Nuspell Home Page # not giving title hides from top nav
 layout: home
-exclude: true
 ---
 
-[![License badge](https://img.shields.io/github/license/nuspell/nuspell.svg?color=blue)](https://github.com/nuspell/nuspell/blob/master/COPYING)
-[![Badge with latest released version](https://img.shields.io/github/release/nuspell/nuspell.svg)](https://github.com/nuspell/nuspell/releases)
-[![Badge with CI status](https://travis-ci.org/nuspell/nuspell.svg?branch=master)](https://travis-ci.org/nuspell/nuspell)
+
+[![Source Code on Github](https://img.shields.io/badge/Source%20Code-Github-black?logo=github)](https://github.com/nuspell/nuspell)
+[![License badge](https://img.shields.io/github/license/nuspell/nuspell.svg?color=green)](https://github.com/nuspell/nuspell/blob/master/COPYING)
+[![Badge with latest released version](https://img.shields.io/github/release/nuspell/nuspell.svg?label=Latest%20release)](https://github.com/nuspell/nuspell/releases)
 
 Nuspell is a fast and safe spelling checker software program. It is designed
 for languages with rich morphology and complex word compounding.
