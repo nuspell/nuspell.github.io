@@ -3,7 +3,6 @@
 layout: home
 ---
 
-
 [![Source Code on Github](https://img.shields.io/badge/Source%20Code-Github-black?logo=github)](https://github.com/nuspell/nuspell)
 [![License badge](https://img.shields.io/github/license/nuspell/nuspell.svg?color=green)](https://github.com/nuspell/nuspell/blob/master/COPYING)
 [![Badge with latest released version](https://img.shields.io/github/release/nuspell/nuspell.svg?label=Latest%20release)](https://github.com/nuspell/nuspell/releases)
@@ -27,7 +26,7 @@ Main features of Nuspell spelling checker:
   - Provides software library and command-line tool.
   - Suggests high-quality spelling corrections.
   - Backward compatibility with Hunspell dictionary file format.
-  - Up to 3 times faster than Hunspell.
+  - Up to 3.5 times faster than Hunspell.
   - Full [Unicode] support backed by [ICU].
   - Twofold [affix][affix-wikipedia] stripping (for agglutinative
     languages, like Azeri, Basque, Estonian, Finnish, Hungarian,
@@ -68,8 +67,8 @@ can be found for:
 
 ## Sponsoring
 
-Several organizations have enabled the development and maintenance of
-Nuspell. The sponsors, past and current, are:
+Several organizations sponsored the development of Nuspell. Some of our
+sponsors are:
 
   - [Mozilla Open Source Support](https://www.mozilla.org/moss/) in
     [2017 and 2018](https://blog.mozilla.org/blog/2017/04/10/mozilla-awards-365000-to-open-source-projects-as-part-of-moss/)
@@ -82,16 +81,7 @@ Nuspell. The sponsors, past and current, are:
     distributed at [FOSDEM](https://fosdem.org/2020/stands/) and other
     conferences
 
-Contact us if you are considering sponsoring the development and
-maintenance of this free and open source spelling checker. Especially
-with so many users and many different software integrations, this
-software is in constant need of proficient support. Reducing spelling
-errors not only improves quality of communication and indirectly teaches
-people about spelling, but it also reduces the risk for costly errors
-that could have been prevented.
-
 ## Contact
 
 The code, wiki and issues are managed at
 [GitHub](https://github.com/nuspell/nuspell). Create an issue to contact us.
-Find Nuspell also on social media.
