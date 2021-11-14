@@ -9,12 +9,12 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-62 596,-62 596,4 -4,4"/>
-<!-- Node93 -->
+<!-- Node0 -->
 <g id="node1" class="node">
-<title>Node93</title>
+<title>Node0</title>
 <g id="a_node1"><a xlink:href="structnuspell_1_1v5_1_1_aff___data.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 118,-57.5 118,-38.5 0,-38.5"/>
-<text text-anchor="middle" x="59" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">nuspell::v5::Aff_Data</text>
+<polygon fill="white" stroke="black" points="9,-38.5 9,-57.5 109,-57.5 109,-38.5 9,-38.5"/>
+<text text-anchor="middle" x="59" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">nuspell::Aff_Data</text>
 </a>
 </g>
 </g>
@@ -27,11 +27,11 @@
 </a>
 </g>
 </g>
-<!-- Node93&#45;&gt;Node1 -->
+<!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
-<title>Node93&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M128.21,-39.39C136.82,-38.3 145.55,-37.2 153.95,-36.14"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="127.67,-35.93 118.19,-40.65 128.55,-42.87 127.67,-35.93"/>
+<title>Node0&#45;&gt;Node1</title>
+<path fill="none" stroke="midnightblue" d="M119.49,-40.49C130.79,-39.06 142.59,-37.57 153.8,-36.16"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="118.76,-37.05 109.28,-41.78 119.64,-44 118.76,-37.05"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node">
@@ -63,18 +63,18 @@
 <path fill="none" stroke="#8b1a1a" d="M440.19,-29C448.79,-29 457.52,-29 465.97,-29"/>
 <polygon fill="#8b1a1a" stroke="#8b1a1a" points="440.17,-25.5 430.17,-29 440.17,-32.5 440.17,-25.5"/>
 </g>
-<!-- Node0 -->
+<!-- Node5 -->
 <g id="node5" class="node">
-<title>Node0</title>
+<title>Node5</title>
 <g id="a_node5"><a xlink:href="structnuspell_1_1v5_1_1_aff___data.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 118,-19.5 118,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="59" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">nuspell::v5::Aff_Data</text>
 </a>
 </g>
 </g>
-<!-- Node0&#45;&gt;Node1 -->
+<!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
-<title>Node0&#45;&gt;Node1</title>
+<title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M128.21,-18.61C136.82,-19.7 145.55,-20.8 153.95,-21.86"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="128.55,-15.13 118.19,-17.35 127.67,-22.07 128.55,-15.13"/>
 </g>
