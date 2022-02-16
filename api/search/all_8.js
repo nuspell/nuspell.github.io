@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['identity_30',['identity',['../structnuspell_1_1v5_1_1identity.html',1,'nuspell::identity'],['../structnuspell_1_1v5_1_1identity.html',1,'nuspell::v5::identity']]],
-  ['idx_5fand_5fnext_5fcp_31',['Idx_And_Next_CP',['../structnuspell_1_1v5_1_1_idx___and___next___c_p.html',1,'nuspell::Idx_And_Next_CP'],['../structnuspell_1_1v5_1_1_idx___and___next___c_p.html',1,'nuspell::v5::Idx_And_Next_CP']]],
-  ['idx_5fand_5fnext_5fcp_5fvalid_32',['Idx_And_Next_CP_Valid',['../structnuspell_1_1v5_1_1_idx___and___next___c_p___valid.html',1,'nuspell::Idx_And_Next_CP_Valid'],['../structnuspell_1_1v5_1_1_idx___and___next___c_p___valid.html',1,'nuspell::v5::Idx_And_Next_CP_Valid']]],
-  ['idx_5fand_5fprev_5fcp_33',['Idx_And_Prev_CP',['../structnuspell_1_1v5_1_1_idx___and___prev___c_p.html',1,'nuspell::Idx_And_Prev_CP'],['../structnuspell_1_1v5_1_1_idx___and___prev___c_p.html',1,'nuspell::v5::Idx_And_Prev_CP']]],
-  ['idx_5fand_5fprev_5fcp_5fvalid_34',['Idx_And_Prev_CP_Valid',['../structnuspell_1_1v5_1_1_idx___and___prev___c_p___valid.html',1,'nuspell::Idx_And_Prev_CP_Valid'],['../structnuspell_1_1v5_1_1_idx___and___prev___c_p___valid.html',1,'nuspell::v5::Idx_And_Prev_CP_Valid']]],
-  ['iter_5fprefixes_5fof_35',['Iter_Prefixes_Of',['../classnuspell_1_1v5_1_1_prefix___multiset_1_1_iter___prefixes___of.html',1,'nuspell::v5::Prefix_Multiset']]]
+  ['load_5faff_5fdic_34',['load_aff_dic',['../classnuspell_1_1v5_1_1_dictionary.html#aa2c215be57647aad1b6e40015f7f412d',1,'nuspell::v5::Dictionary::load_aff_dic(std::istream &amp;aff, std::istream &amp;dic) -&gt; void'],['../classnuspell_1_1v5_1_1_dictionary.html#a615a02f11f297bedfc9f84d842fdc468',1,'nuspell::v5::Dictionary::load_aff_dic(const std::filesystem::path &amp;aff_path) -&gt; void']]],
+  ['load_5ffrom_5faff_5fdic_35',['load_from_aff_dic',['../classnuspell_1_1v5_1_1_dictionary.html#a0acaadd4cc1e1c1f188d87f4b004f728',1,'nuspell::v5::Dictionary']]],
+  ['load_5ffrom_5fpath_36',['load_from_path',['../classnuspell_1_1v5_1_1_dictionary.html#a8d06d00d57232b4c4ef8bfe9bd4c7aa9',1,'nuspell::v5::Dictionary']]]
 ];

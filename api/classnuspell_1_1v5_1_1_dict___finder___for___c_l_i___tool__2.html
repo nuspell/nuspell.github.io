@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Nuspell: nuspell::v5::Directory Struct Reference</title>
+<title>Nuspell: nuspell::v5::Dict_Finder_For_CLI_Tool_2 Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,40 +62,37 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacenuspell.html">nuspell</a></li><li class="navelem"><a class="el" href="namespacenuspell_1_1v5.html">v5</a></li><li class="navelem"><a class="el" href="structnuspell_1_1v5_1_1_directory.html">Directory</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacenuspell.html">nuspell</a></li><li class="navelem"><a class="el" href="namespacenuspell_1_1v5.html">v5</a></li><li class="navelem"><a class="el" href="classnuspell_1_1v5_1_1_dict___finder___for___c_l_i___tool__2.html">Dict_Finder_For_CLI_Tool_2</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="structnuspell_1_1v5_1_1_directory-members.html">List of all members</a>  </div>
+<a href="classnuspell_1_1v5_1_1_dict___finder___for___c_l_i___tool__2-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">nuspell::v5::Directory Struct Reference</div>  </div>
+<div class="title">nuspell::v5::Dict_Finder_For_CLI_Tool_2 Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Don't use this except from Nuspell CLI tool.  
+ <a href="classnuspell_1_1v5_1_1_dict___finder___for___c_l_i___tool__2.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="finder_8hxx_source.html">finder.hxx</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5b8dc8f269719edbae9ade516399c369"><td class="memItemLeft" align="right" valign="top"><a id="a5b8dc8f269719edbae9ade516399c369"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Directory</b> (const <a class="el" href="structnuspell_1_1v5_1_1_directory.html">Directory</a> &amp;d)=delete</td></tr>
-<tr class="separator:a5b8dc8f269719edbae9ade516399c369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2510e2a10630da251a81f5bc08fa04ac"><td class="memItemLeft" align="right" valign="top"><a id="a2510e2a10630da251a81f5bc08fa04ac"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="structnuspell_1_1v5_1_1_directory.html">Directory</a> &amp;d)=delete</td></tr>
-<tr class="separator:a2510e2a10630da251a81f5bc08fa04ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae773ebcbf922352da4539fea97515173"><td class="memItemLeft" align="right" valign="top"><a id="ae773ebcbf922352da4539fea97515173"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>open</b> (const string &amp;dirname) -&gt; bool</td></tr>
-<tr class="separator:ae773ebcbf922352da4539fea97515173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ce74468fbb92fc6fd1e56dca11a945"><td class="memItemLeft" align="right" valign="top"><a id="a90ce74468fbb92fc6fd1e56dca11a945"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>next</b> () -&gt; bool</td></tr>
-<tr class="separator:a90ce74468fbb92fc6fd1e56dca11a945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50da3c7ee1c61d852ce7c7ac70ce1dc3"><td class="memItemLeft" align="right" valign="top"><a id="a50da3c7ee1c61d852ce7c7ac70ce1dc3"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>entry_name</b> () const -&gt; const char *</td></tr>
-<tr class="separator:a50da3c7ee1c61d852ce7c7ac70ce1dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a58175056a63201560506c1e1ef61cb"><td class="memItemLeft" align="right" valign="top"><a id="a3a58175056a63201560506c1e1ef61cb"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>close</b> () -&gt; void</td></tr>
-<tr class="separator:a3a58175056a63201560506c1e1ef61cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d9eac596e1cfbffd62f08a83f668f7"><td class="memItemLeft" align="right" valign="top"><a id="a39d9eac596e1cfbffd62f08a83f668f7"></a>
+auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get_dir_paths</b> () const</td></tr>
+<tr class="separator:a39d9eac596e1cfbffd62f08a83f668f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae200dbbeba638ca64db601bc22c670a6"><td class="memItemLeft" align="right" valign="top"><a id="ae200dbbeba638ca64db601bc22c670a6"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>get_dictionary_path</b> (const fs_path &amp;dict) const -&gt; fs_path</td></tr>
+<tr class="separator:ae200dbbeba638ca64db601bc22c670a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Don't use this except from Nuspell CLI tool. </p>
+<p>There are no promises of the API. </p>
+</div><hr/>The documentation for this class was generated from the following files:<ul>
+<li>src/nuspell/<a class="el" href="finder_8hxx_source.html">finder.hxx</a></li>
 <li>src/nuspell/finder.cxx</li>
 </ul>
 </div><!-- contents -->

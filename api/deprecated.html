@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Nuspell: Todo List</title>
+<title>Nuspell: Deprecated List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,12 +63,14 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Todo List </div>  </div>
+<div class="title">Deprecated List </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Member <a class="el" href="namespacenuspell_1_1v5.html#a8cd813a878c40ea23faa89532b54f88d">nuspell::v5::search_dir_for_dicts</a>  (const string &amp;dir_path, vector&lt; pair&lt; string, string &gt;&gt; &amp;dict_list) -&gt; void</dt>
-<dd><a class="anchor" id="_todo000001"></a>At some point this API should be made to be more strongly typed. Instead of using that pair of strings to represent the dictionary files, a new class should be created with three public functions, getters, that would return the name, the path to the .aff file (with filename extension to avoid confusions) and the path to the .dic file. The C++ 17 std::filesystem::path should probably be used. It is unspecified to the public what this class holds privately, but it should probably hold only one path to the aff file. For the directory paths, it is simple, just use the type std::filesystem::path. When this API is created, the same function names should be used, added as overloads. The old API should be marked as deprecated. This should be done when we start requiring GCC 9 which supports C++ 17 filesystem out of the box. GCC 8 has this too, but it is somewhat experimental and requires manually linking to additional static library.</dd>
+<dt>Member <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#a0acaadd4cc1e1c1f188d87f4b004f728">nuspell::v5::Dictionary::load_from_aff_dic</a>  (std::istream &amp;aff, std::istream &amp;dic) -&gt; <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html" title="The only important public class.">Dictionary</a></dt>
+<dd><a class="anchor" id="_deprecated000001"></a>Use new non-static member function <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#aa2c215be57647aad1b6e40015f7f412d" title="Load the dictionary from opened files as iostreams.">load_aff_dic(std::istream&amp;,std::istream&amp;)</a>.  </dd>
+<dt>Member <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#a8d06d00d57232b4c4ef8bfe9bd4c7aa9">nuspell::v5::Dictionary::load_from_path</a>  (const std::string &amp;file_path_without_extension) -&gt; <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html" title="The only important public class.">Dictionary</a></dt>
+<dd><a class="anchor" id="_deprecated000002"></a>Use new non-static member function <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#a615a02f11f297bedfc9f84d842fdc468" title="Load the dictionary from file on filesystem.">load_aff_dic(const std::filesystem::path&amp;)</a>. Note that the new function takes path <b>WITH .aff extension</b>. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

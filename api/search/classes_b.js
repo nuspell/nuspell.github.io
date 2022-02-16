@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['to_5froot_5funroot_5fraii_117',['To_Root_Unroot_RAII',['../classnuspell_1_1v5_1_1_to___root___unroot___r_a_i_i.html',1,'nuspell::To_Root_Unroot_RAII&lt; AffixT &gt;'],['../classnuspell_1_1v5_1_1_to___root___unroot___r_a_i_i.html',1,'nuspell::v5::To_Root_Unroot_RAII&lt; AffixT &gt;']]]
+  ['u8_5fcp_5fpos_113',['U8_CP_Pos',['../structnuspell_1_1v5_1_1_u8___c_p___pos.html',1,'nuspell::U8_CP_Pos'],['../structnuspell_1_1v5_1_1_u8___c_p___pos.html',1,'nuspell::v5::U8_CP_Pos']]],
+  ['u8_5fencoded_5fcp_114',['U8_Encoded_CP',['../classnuspell_1_1v5_1_1_u8___encoded___c_p.html',1,'nuspell::U8_Encoded_CP'],['../classnuspell_1_1v5_1_1_u8___encoded___c_p.html',1,'nuspell::v5::U8_Encoded_CP']]]
 ];

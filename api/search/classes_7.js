@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['identity_93',['identity',['../structnuspell_1_1v5_1_1identity.html',1,'nuspell::identity'],['../structnuspell_1_1v5_1_1identity.html',1,'nuspell::v5::identity']]],
-  ['idx_5fand_5fnext_5fcp_94',['Idx_And_Next_CP',['../structnuspell_1_1v5_1_1_idx___and___next___c_p.html',1,'nuspell::Idx_And_Next_CP'],['../structnuspell_1_1v5_1_1_idx___and___next___c_p.html',1,'nuspell::v5::Idx_And_Next_CP']]],
-  ['idx_5fand_5fnext_5fcp_5fvalid_95',['Idx_And_Next_CP_Valid',['../structnuspell_1_1v5_1_1_idx___and___next___c_p___valid.html',1,'nuspell::Idx_And_Next_CP_Valid'],['../structnuspell_1_1v5_1_1_idx___and___next___c_p___valid.html',1,'nuspell::v5::Idx_And_Next_CP_Valid']]],
-  ['idx_5fand_5fprev_5fcp_96',['Idx_And_Prev_CP',['../structnuspell_1_1v5_1_1_idx___and___prev___c_p.html',1,'nuspell::Idx_And_Prev_CP'],['../structnuspell_1_1v5_1_1_idx___and___prev___c_p.html',1,'nuspell::v5::Idx_And_Prev_CP']]],
-  ['idx_5fand_5fprev_5fcp_5fvalid_97',['Idx_And_Prev_CP_Valid',['../structnuspell_1_1v5_1_1_idx___and___prev___c_p___valid.html',1,'nuspell::Idx_And_Prev_CP_Valid'],['../structnuspell_1_1v5_1_1_idx___and___prev___c_p___valid.html',1,'nuspell::v5::Idx_And_Prev_CP_Valid']]],
-  ['iter_5fprefixes_5fof_98',['Iter_Prefixes_Of',['../classnuspell_1_1v5_1_1_prefix___multiset_1_1_iter___prefixes___of.html',1,'nuspell::v5::Prefix_Multiset']]]
+  ['phonetic_5ftable_94',['Phonetic_Table',['../classnuspell_1_1v5_1_1_phonetic___table.html',1,'nuspell::Phonetic_Table'],['../classnuspell_1_1v5_1_1_phonetic___table.html',1,'nuspell::v5::Phonetic_Table']]],
+  ['prefix_95',['Prefix',['../structnuspell_1_1v5_1_1_prefix.html',1,'nuspell::Prefix'],['../structnuspell_1_1v5_1_1_prefix.html',1,'nuspell::v5::Prefix']]],
+  ['prefix_5fmultiset_96',['Prefix_Multiset',['../classnuspell_1_1v5_1_1_prefix___multiset.html',1,'nuspell::Prefix_Multiset&lt; T, Key_Extr, Key_Transform &gt;'],['../classnuspell_1_1v5_1_1_prefix___multiset.html',1,'nuspell::v5::Prefix_Multiset&lt; T, Key_Extr, Key_Transform &gt;']]],
+  ['prefix_5fmultiset_3c_20prefix_2c_20extractor_5fof_5fappending_5ffrom_5faffix_3c_20prefix_20_3e_20_3e_97',['Prefix_Multiset&lt; Prefix, Extractor_Of_Appending_From_Affix&lt; Prefix &gt; &gt;',['../classnuspell_1_1v5_1_1_prefix___multiset.html',1,'nuspell::v5']]],
+  ['prefix_5fmultiset_3c_20suffix_2c_20extractor_5fof_5fappending_5ffrom_5faffix_3c_20suffix_20_3e_20_3e_98',['Prefix_Multiset&lt; Suffix, Extractor_Of_Appending_From_Affix&lt; Suffix &gt; &gt;',['../classnuspell_1_1v5_1_1_prefix___multiset.html',1,'nuspell::v5']]],
+  ['prefix_5ftable_99',['Prefix_Table',['../classnuspell_1_1v5_1_1_prefix___table.html',1,'nuspell::Prefix_Table'],['../classnuspell_1_1v5_1_1_prefix___table.html',1,'nuspell::v5::Prefix_Table']]]
 ];

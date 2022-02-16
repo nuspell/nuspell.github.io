@@ -94,6 +94,12 @@ Collaboration diagram for nuspell::v5::Dictionary:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aa2c215be57647aad1b6e40015f7f412d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#aa2c215be57647aad1b6e40015f7f412d">load_aff_dic</a> (std::istream &amp;aff, std::istream &amp;dic) -&gt; void</td></tr>
+<tr class="memdesc:aa2c215be57647aad1b6e40015f7f412d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the dictionary from opened files as iostreams.  <a href="classnuspell_1_1v5_1_1_dictionary.html#aa2c215be57647aad1b6e40015f7f412d">More...</a><br /></td></tr>
+<tr class="separator:aa2c215be57647aad1b6e40015f7f412d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a615a02f11f297bedfc9f84d842fdc468"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#a615a02f11f297bedfc9f84d842fdc468">load_aff_dic</a> (const std::filesystem::path &amp;aff_path) -&gt; void</td></tr>
+<tr class="memdesc:a615a02f11f297bedfc9f84d842fdc468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the dictionary from file on filesystem.  <a href="classnuspell_1_1v5_1_1_dictionary.html#a615a02f11f297bedfc9f84d842fdc468">More...</a><br /></td></tr>
+<tr class="separator:a615a02f11f297bedfc9f84d842fdc468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac34735dd91197b414d7afa6450c7de4d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#ac34735dd91197b414d7afa6450c7de4d">spell</a> (std::string_view word) const -&gt; bool</td></tr>
 <tr class="memdesc:ac34735dd91197b414d7afa6450c7de4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given word is correct.  <a href="classnuspell_1_1v5_1_1_dictionary.html#ac34735dd91197b414d7afa6450c7de4d">More...</a><br /></td></tr>
 <tr class="separator:ac34735dd91197b414d7afa6450c7de4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,6 +119,83 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The only important public class. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a615a02f11f297bedfc9f84d842fdc468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a615a02f11f297bedfc9f84d842fdc468">&#9670;&nbsp;</a></span>load_aff_dic() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::v5::Dictionary::load_aff_dic </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>aff_path</em></td><td>)</td>
+          <td> -&gt; void</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load the dictionary from file on filesystem. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>Before calling this the dictionary object must be empty e.g default-constructed or assigned with another empty object. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aff_path</td><td>path to .aff file. The path of .dic is inffered from this. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classnuspell_1_1v5_1_1_dictionary___loading___error.html" title="The only important public exception.">Dictionary_Loading_Error</a></td><td>on error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa2c215be57647aad1b6e40015f7f412d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2c215be57647aad1b6e40015f7f412d">&#9670;&nbsp;</a></span>load_aff_dic() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto nuspell::v5::Dictionary::load_aff_dic </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>aff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>dic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load the dictionary from opened files as iostreams. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>Before calling this the dictionary object must be empty e.g default-constructed or assigned with another empty object. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aff</td><td>The iostream of the .aff file </td></tr>
+    <tr><td class="paramname">dic</td><td>The iostream of the .dic file </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classnuspell_1_1v5_1_1_dictionary___loading___error.html" title="The only important public exception.">Dictionary_Loading_Error</a></td><td>on error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a0acaadd4cc1e1c1f188d87f4b004f728"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0acaadd4cc1e1c1f188d87f4b004f728">&#9670;&nbsp;</a></span>load_from_aff_dic()</h2>
 
@@ -149,6 +232,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Create a dictionary from opened files as iostreams. </p>
 <p>Prefer using <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#a8d06d00d57232b4c4ef8bfe9bd4c7aa9" title="Create a dictionary from files.">load_from_path()</a>. Use this if you have a specific use case, like when .aff and .dic are in-memory buffers istringstream.</p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Use new non-static member function <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#aa2c215be57647aad1b6e40015f7f412d" title="Load the dictionary from opened files as iostreams.">load_aff_dic(std::istream&amp;,std::istream&amp;)</a>. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">aff</td><td>The iostream of the .aff file </td></tr>
@@ -191,6 +275,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a dictionary from files. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Use new non-static member function <a class="el" href="classnuspell_1_1v5_1_1_dictionary.html#a615a02f11f297bedfc9f84d842fdc468" title="Load the dictionary from file on filesystem.">load_aff_dic(const std::filesystem::path&amp;)</a>. Note that the new function takes path <b>WITH .aff extension</b>. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">file_path_without_extension</td><td>path <em>without</em> extensions (without .dic or .aff) </td></tr>
