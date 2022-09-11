@@ -221,26 +221,27 @@ $(function() {
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    std::vector&lt;Flag_Set&gt; flag_aliases;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    std::string wordchars; <span class="comment">// deprecated?</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keyword">auto</span> parse_aff(std::istream&amp; in) -&gt; bool;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keyword">auto</span> parse_dic(std::istream&amp; in) -&gt; bool;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keyword">auto</span> parse_aff_dic(std::istream&amp; aff, std::istream&amp; dic)</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    {</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">if</span> (parse_aff(aff))</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">return</span> parse_dic(dic);</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;};</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;} <span class="comment">// namespace v5</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;} <span class="comment">// namespace nuspell</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NUSPELL_AFF_DATA_HXX</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keyword">auto</span> parse_aff(std::istream&amp; in, std::ostream&amp; err_msg) -&gt; bool;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keyword">auto</span> parse_dic(std::istream&amp; in, std::ostream&amp; err_msg) -&gt; bool;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keyword">auto</span> parse_aff_dic(std::istream&amp; aff, std::istream&amp; dic,</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                       std::ostream&amp; err_msg)</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">if</span> (parse_aff(aff, err_msg))</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <span class="keywordflow">return</span> parse_dic(dic, err_msg);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;};</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;} <span class="comment">// namespace v5</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;} <span class="comment">// namespace nuspell</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// NUSPELL_AFF_DATA_HXX</span></div>
 <div class="ttc" id="aclassnuspell_1_1v5_1_1_break___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_break___table.html">nuspell::Break_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:440</div></div>
-<div class="ttc" id="aclassnuspell_1_1v5_1_1_compound___rule___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_compound___rule___table.html">nuspell::Compound_Rule_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1381</div></div>
+<div class="ttc" id="aclassnuspell_1_1v5_1_1_compound___rule___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_compound___rule___table.html">nuspell::Compound_Rule_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1380</div></div>
 <div class="ttc" id="aclassnuspell_1_1v5_1_1_encoding_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_encoding.html">nuspell::Encoding</a></div><div class="ttdef"><b>Definition:</b> aff_data.hxx:31</div></div>
 <div class="ttc" id="aclassnuspell_1_1v5_1_1_hash___multimap_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_hash___multimap.html">nuspell::v5::Hash_Multimap&lt; std::string, Flag_Set &gt;</a></div></div>
-<div class="ttc" id="aclassnuspell_1_1v5_1_1_prefix___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_prefix___table.html">nuspell::Prefix_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1228</div></div>
-<div class="ttc" id="aclassnuspell_1_1v5_1_1_replacement___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_replacement___table.html">nuspell::Replacement_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1519</div></div>
+<div class="ttc" id="aclassnuspell_1_1v5_1_1_prefix___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_prefix___table.html">nuspell::Prefix_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1227</div></div>
+<div class="ttc" id="aclassnuspell_1_1v5_1_1_replacement___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_replacement___table.html">nuspell::Replacement_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1518</div></div>
 <div class="ttc" id="aclassnuspell_1_1v5_1_1_substr___replacer_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_substr___replacer.html">nuspell::Substr_Replacer</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:315</div></div>
-<div class="ttc" id="aclassnuspell_1_1v5_1_1_suffix___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_suffix___table.html">nuspell::Suffix_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1279</div></div>
+<div class="ttc" id="aclassnuspell_1_1v5_1_1_suffix___table_html"><div class="ttname"><a href="classnuspell_1_1v5_1_1_suffix___table.html">nuspell::Suffix_Table</a></div><div class="ttdef"><b>Definition:</b> structures.hxx:1278</div></div>
 <div class="ttc" id="anamespacenuspell_html"><div class="ttname"><a href="namespacenuspell.html">nuspell</a></div><div class="ttdoc">Library main namespace.</div><div class="ttdef"><b>Definition:</b> aff_data.cxx:33</div></div>
 <div class="ttc" id="astructnuspell_1_1v5_1_1_aff___data_html"><div class="ttname"><a href="structnuspell_1_1v5_1_1_aff___data.html">nuspell::Aff_Data</a></div><div class="ttdef"><b>Definition:</b> aff_data.hxx:88</div></div>
 </div><!-- fragment --></div><!-- contents -->
