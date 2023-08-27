@@ -78,7 +78,8 @@ $(function() {
 
 <p>Finding dictionaries.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;nuspell_export.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;defines.hxx&quot;</code><br />
+<code>#include &quot;nuspell_export.h&quot;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
@@ -86,7 +87,7 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for finder.hxx:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="finder_8hxx__incl.svg" width="511" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="finder_8hxx__incl.svg" width="632" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -94,20 +95,17 @@ Include dependency graph for finder.hxx:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v5_1_1_dict___finder___for___c_l_i___tool.html">nuspell::v5::Dict_Finder_For_CLI_Tool</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don't use this except from Nuspell CLI tool.  <a href="classnuspell_1_1v5_1_1_dict___finder___for___c_l_i___tool.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dict___finder___for___c_l_i___tool.html">nuspell::Dict_Finder_For_CLI_Tool</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don't use this except from Nuspell CLI tool.  <a href="classnuspell_1_1_dict___finder___for___c_l_i___tool.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1v5_1_1_dict___finder___for___c_l_i___tool__2.html">nuspell::v5::Dict_Finder_For_CLI_Tool_2</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don't use this except from Nuspell CLI tool.  <a href="classnuspell_1_1v5_1_1_dict___finder___for___c_l_i___tool__2.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnuspell_1_1_dict___finder___for___c_l_i___tool__2.html">nuspell::Dict_Finder_For_CLI_Tool_2</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don't use this except from Nuspell CLI tool.  <a href="classnuspell_1_1_dict___finder___for___c_l_i___tool__2.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacenuspell"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html">nuspell</a></td></tr>
 <tr class="memdesc:namespacenuspell"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library main namespace. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacenuspell_1_1v5"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell_1_1v5.html">nuspell::v5</a></td></tr>
-<tr class="memdesc:namespacenuspell_1_1v5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library main namespace with version number attached. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -118,39 +116,39 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9cc4e2d893fada8f3b8a44476d96cb2d"><td class="memItemLeft" align="right" valign="top"><a id="a9cc4e2d893fada8f3b8a44476d96cb2d"></a>
-NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::append_default_dir_paths</b> (std::vector&lt; std::filesystem::path &gt; &amp;paths) -&gt; void</td></tr>
-<tr class="separator:a9cc4e2d893fada8f3b8a44476d96cb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e40a7d69ce49ef14b77bc099ac063a2"><td class="memItemLeft" align="right" valign="top"><a id="a6e40a7d69ce49ef14b77bc099ac063a2"></a>
-NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::append_libreoffice_dir_paths</b> (std::vector&lt; std::filesystem::path &gt; &amp;paths) -&gt; void</td></tr>
-<tr class="separator:a6e40a7d69ce49ef14b77bc099ac063a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a519474c25b21a2957be6ed283426cc"><td class="memItemLeft" align="right" valign="top"><a id="a7a519474c25b21a2957be6ed283426cc"></a>
-NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::search_dirs_for_one_dict</b> (const std::vector&lt; std::filesystem::path &gt; &amp;dir_paths, const std::filesystem::path &amp;dict_name_stem) -&gt; std::filesystem::path</td></tr>
-<tr class="separator:a7a519474c25b21a2957be6ed283426cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3440aafc32ac740eef6d6faa650e9bb1"><td class="memItemLeft" align="right" valign="top"><a id="a3440aafc32ac740eef6d6faa650e9bb1"></a>
-NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::search_dirs_for_dicts</b> (const std::vector&lt; std::filesystem::path &gt; &amp;dir_paths, std::vector&lt; std::filesystem::path &gt; &amp;dict_list) -&gt; void</td></tr>
-<tr class="separator:a3440aafc32ac740eef6d6faa650e9bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a81ad427714b4c37f7e6bbf76651cb1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell_1_1v5.html#a8a81ad427714b4c37f7e6bbf76651cb1">nuspell::v5::search_default_dirs_for_dicts</a> () -&gt; vector&lt; fs::path &gt;</td></tr>
-<tr class="memdesc:a8a81ad427714b4c37f7e6bbf76651cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the default directories for dictionaries.  <a href="namespacenuspell_1_1v5.html#a8a81ad427714b4c37f7e6bbf76651cb1">More...</a><br /></td></tr>
-<tr class="separator:a8a81ad427714b4c37f7e6bbf76651cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb1ee09e8eee2b7aafc864ab86baaf35"><td class="memItemLeft" align="right" valign="top"><a id="acb1ee09e8eee2b7aafc864ab86baaf35"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::append_default_dir_paths</b> (std::vector&lt; std::string &gt; &amp;paths) -&gt; void</td></tr>
-<tr class="separator:acb1ee09e8eee2b7aafc864ab86baaf35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84b030be57f4490a45f0a7b0375c97de"><td class="memItemLeft" align="right" valign="top"><a id="a84b030be57f4490a45f0a7b0375c97de"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::append_libreoffice_dir_paths</b> (std::vector&lt; std::string &gt; &amp;paths) -&gt; void</td></tr>
-<tr class="separator:a84b030be57f4490a45f0a7b0375c97de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96a37015d328c57919699bc51251d7a4"><td class="memItemLeft" align="right" valign="top"><a id="a96a37015d328c57919699bc51251d7a4"></a>
-NUSPELL_DEPRECATED_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::search_dir_for_dicts</b> (const std::string &amp;dir_path, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list) -&gt; void</td></tr>
-<tr class="separator:a96a37015d328c57919699bc51251d7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af55c3c0c88b23499c73904594fe1fd4b"><td class="memItemLeft" align="right" valign="top"><a id="af55c3c0c88b23499c73904594fe1fd4b"></a>
-NUSPELL_DEPRECATED_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::search_dirs_for_dicts</b> (const std::vector&lt; std::string &gt; &amp;dir_paths, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list) -&gt; void</td></tr>
-<tr class="separator:af55c3c0c88b23499c73904594fe1fd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5251cc46f882eb1c59bf0d0315cc1a51"><td class="memItemLeft" align="right" valign="top"><a id="a5251cc46f882eb1c59bf0d0315cc1a51"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::search_default_dirs_for_dicts</b> (std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list) -&gt; void</td></tr>
-<tr class="separator:a5251cc46f882eb1c59bf0d0315cc1a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef5005c8952d012034de7f905eabed7f"><td class="memItemLeft" align="right" valign="top"><a id="aef5005c8952d012034de7f905eabed7f"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::v5::find_dictionary</b> (const std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list, const std::string &amp;dict_name) -&gt; std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt;::const_iterator</td></tr>
-<tr class="separator:aef5005c8952d012034de7f905eabed7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acedaa4e4cbff52bc109382127d035700"><td class="memItemLeft" align="right" valign="top"><a id="acedaa4e4cbff52bc109382127d035700"></a>
+NUSPELL_BEGIN_INLINE_NAMESPACE NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::append_default_dir_paths</b> (std::vector&lt; std::filesystem::path &gt; &amp;paths) -&gt; void</td></tr>
+<tr class="separator:acedaa4e4cbff52bc109382127d035700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2037fef93636f80326bcd7f3a482f7"><td class="memItemLeft" align="right" valign="top"><a id="abb2037fef93636f80326bcd7f3a482f7"></a>
+NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::append_libreoffice_dir_paths</b> (std::vector&lt; std::filesystem::path &gt; &amp;paths) -&gt; void</td></tr>
+<tr class="separator:abb2037fef93636f80326bcd7f3a482f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dba54f394bbefe51fa6904aab0a6124"><td class="memItemLeft" align="right" valign="top"><a id="a2dba54f394bbefe51fa6904aab0a6124"></a>
+NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::search_dirs_for_one_dict</b> (const std::vector&lt; std::filesystem::path &gt; &amp;dir_paths, const std::filesystem::path &amp;dict_name_stem) -&gt; std::filesystem::path</td></tr>
+<tr class="separator:a2dba54f394bbefe51fa6904aab0a6124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e6aa186b26695cc21cad41a76e3f87b"><td class="memItemLeft" align="right" valign="top"><a id="a4e6aa186b26695cc21cad41a76e3f87b"></a>
+NUSPELL_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::search_dirs_for_dicts</b> (const std::vector&lt; std::filesystem::path &gt; &amp;dir_paths, std::vector&lt; std::filesystem::path &gt; &amp;dict_list) -&gt; void</td></tr>
+<tr class="separator:a4e6aa186b26695cc21cad41a76e3f87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ca7680cced5690c1edc86e75ad6291"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#ad3ca7680cced5690c1edc86e75ad6291">nuspell::search_default_dirs_for_dicts</a> () -&gt; vector&lt; fs::path &gt;</td></tr>
+<tr class="memdesc:ad3ca7680cced5690c1edc86e75ad6291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the default directories for dictionaries.  <a href="namespacenuspell.html#ad3ca7680cced5690c1edc86e75ad6291">More...</a><br /></td></tr>
+<tr class="separator:ad3ca7680cced5690c1edc86e75ad6291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c99bd71abedcbe1edab603136fdf99b"><td class="memItemLeft" align="right" valign="top"><a id="a9c99bd71abedcbe1edab603136fdf99b"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::append_default_dir_paths</b> (std::vector&lt; std::string &gt; &amp;paths) -&gt; void</td></tr>
+<tr class="separator:a9c99bd71abedcbe1edab603136fdf99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa026ca301cfb14e2373cf685d643d9ea"><td class="memItemLeft" align="right" valign="top"><a id="aa026ca301cfb14e2373cf685d643d9ea"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::append_libreoffice_dir_paths</b> (std::vector&lt; std::string &gt; &amp;paths) -&gt; void</td></tr>
+<tr class="separator:aa026ca301cfb14e2373cf685d643d9ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86bad46d18fa30847082332935938f47"><td class="memItemLeft" align="right" valign="top"><a id="a86bad46d18fa30847082332935938f47"></a>
+NUSPELL_DEPRECATED_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::search_dir_for_dicts</b> (const std::string &amp;dir_path, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list) -&gt; void</td></tr>
+<tr class="separator:a86bad46d18fa30847082332935938f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76aa70aa4f42d0aa8ba4201c3b138fee"><td class="memItemLeft" align="right" valign="top"><a id="a76aa70aa4f42d0aa8ba4201c3b138fee"></a>
+NUSPELL_DEPRECATED_EXPORT auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::search_dirs_for_dicts</b> (const std::vector&lt; std::string &gt; &amp;dir_paths, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list) -&gt; void</td></tr>
+<tr class="separator:a76aa70aa4f42d0aa8ba4201c3b138fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44f152c654986861eaa9e7516787cd9"><td class="memItemLeft" align="right" valign="top"><a id="aa44f152c654986861eaa9e7516787cd9"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::search_default_dirs_for_dicts</b> (std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list) -&gt; void</td></tr>
+<tr class="separator:aa44f152c654986861eaa9e7516787cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6efa569700b520d9c4e58256fb7e3f"><td class="memItemLeft" align="right" valign="top"><a id="a6e6efa569700b520d9c4e58256fb7e3f"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>nuspell::find_dictionary</b> (const std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;dict_list, const std::string &amp;dict_name) -&gt; std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt;::const_iterator</td></tr>
+<tr class="separator:a6e6efa569700b520d9c4e58256fb7e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Finding dictionaries. </p>

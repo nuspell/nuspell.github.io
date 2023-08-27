@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['load_5faff_5fdic_34',['load_aff_dic',['../classnuspell_1_1v5_1_1_dictionary.html#aa2c215be57647aad1b6e40015f7f412d',1,'nuspell::v5::Dictionary::load_aff_dic(std::istream &amp;aff, std::istream &amp;dic) -&gt; void'],['../classnuspell_1_1v5_1_1_dictionary.html#a615a02f11f297bedfc9f84d842fdc468',1,'nuspell::v5::Dictionary::load_aff_dic(const std::filesystem::path &amp;aff_path) -&gt; void']]],
-  ['load_5ffrom_5faff_5fdic_35',['load_from_aff_dic',['../classnuspell_1_1v5_1_1_dictionary.html#a0acaadd4cc1e1c1f188d87f4b004f728',1,'nuspell::v5::Dictionary']]],
-  ['load_5ffrom_5fpath_36',['load_from_path',['../classnuspell_1_1v5_1_1_dictionary.html#a8d06d00d57232b4c4ef8bfe9bd4c7aa9',1,'nuspell::v5::Dictionary']]]
+  ['load_5faff_5fdic_34',['load_aff_dic',['../classnuspell_1_1_dictionary.html#a023bb1ec24982a91194fcc0124ff5b38',1,'nuspell::Dictionary::load_aff_dic(std::istream &amp;aff, std::istream &amp;dic) -&gt; void'],['../classnuspell_1_1_dictionary.html#af7390f6c43f1524315ee936ef4b7c9e4',1,'nuspell::Dictionary::load_aff_dic(const std::filesystem::path &amp;aff_path) -&gt; void']]],
+  ['load_5ffrom_5faff_5fdic_35',['load_from_aff_dic',['../classnuspell_1_1_dictionary.html#a4ca78d0ea6e30b78a1e8f9b454787cae',1,'nuspell::Dictionary']]],
+  ['load_5ffrom_5fpath_36',['load_from_path',['../classnuspell_1_1_dictionary.html#a1eb6c013c721cbfbafff9e224cede31c',1,'nuspell::Dictionary']]]
 ];

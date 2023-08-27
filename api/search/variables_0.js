@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['affixed_5fand_5fmodified_130',['affixed_and_modified',['../structnuspell_1_1v5_1_1_compounding___result.html#a9215745afa0c7db611cb5de87ead4a85',1,'nuspell::v5::Compounding_Result']]]
+  ['affixed_5fand_5fmodified_128',['affixed_and_modified',['../structnuspell_1_1_compounding___result.html#a60c16a0fe478ac8a0c768fc3762fabf0',1,'nuspell::Compounding_Result']]]
 ];

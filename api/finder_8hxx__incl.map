@@ -1,8 +1,9 @@
 <map id="src/nuspell/finder.hxx" name="src/nuspell/finder.hxx">
-<area shape="rect" id="node1" title="Finding dictionaries." alt="" coords="223,5,385,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,136,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="160,80,251,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="275,80,333,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="358,80,418,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="442,80,505,107"/>
+<area shape="rect" id="node1" title="Finding dictionaries." alt="" coords="297,5,457,32"/>
+<area shape="rect" id="node2" href="$defines_8hxx_source.html" title=" " alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="127,80,258,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="282,80,373,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="397,80,455,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="480,80,540,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="564,80,627,107"/>
 </map>
