@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nuspell_115',['nuspell',['../namespacenuspell.html',1,'']]]
+  ['nuspell_0',['nuspell',['../namespacenuspell.html',1,'']]]
 ];

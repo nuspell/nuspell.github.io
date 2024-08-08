@@ -1,16 +1,12 @@
-#!/usr/bin/env sh
-
 set -e
-VERSION=5.1.4
-
-rm -rf tmp
-mkdir tmp
-cd tmp
-wget -q https://github.com/nuspell/nuspell/archive/v$VERSION.zip
-unzip v$VERSION.zip
-cd nuspell-$VERSION
-doxygen
+cd "$(dirname "$0")"
+wget https://github.com/nuspell/nuspell/archive/refs/heads/master.zip
+unzip master.zip
+cd nuspell-master
+cmake -S . -B build -DBUILD_TESTING=NO -DBUILD_TOOLS=NO -DBUILD_MAN=NO -DBUILD_API_DOCS=YES
+cd build
+cmake --build . --target api_docs
 rm -rf ../../api
-mv doxygen/html ../../api
+mv docs/html ../../api
 cd ../..
-rm -rf tmp
+rm -rf nuspell-master master.zip

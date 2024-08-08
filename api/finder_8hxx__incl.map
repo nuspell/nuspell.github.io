@@ -1,9 +1,15 @@
-<map id="src/nuspell/finder.hxx" name="src/nuspell/finder.hxx">
-<area shape="rect" id="node1" title="Finding dictionaries." alt="" coords="276,5,421,32"/>
-<area shape="rect" id="node2" href="$defines_8hxx_source.html" title=" " alt="" coords="5,80,95,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="119,80,237,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="261,80,343,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="368,80,423,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="447,80,501,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="525,80,583,107"/>
+<map id="nuspell/finder.hxx" name="nuspell/finder.hxx">
+<area shape="rect" id="Node000001" title="Finding dictionaries." alt="" coords="308,5,445,31"/>
+<area shape="rect" id="Node000002" href="$defines_8hxx_source.html" title=" " alt="" coords="5,79,103,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="325,33,117,79,116,74,324,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,79,258,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="348,33,237,76,235,71,346,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="282,79,373,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="371,33,345,69,341,66,366,29"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="397,79,455,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="387,29,412,66,408,69,383,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="480,79,540,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="399,28,477,70,475,74,397,33"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="564,79,627,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="413,28,552,73,550,78,411,33"/>
 </map>
