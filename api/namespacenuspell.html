@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">nuspell<span id="projectnumber">&#160;5.1.6</span>
+   <div id="projectname">nuspell<span id="projectnumber">&#160;5.1.7</span>
    </div>
    <div id="projectbrief">Nuspell spellchecking library</div>
   </td>
@@ -98,7 +98,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a4326142ef86df66ba042994ca627c41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append the paths of the LibreOffice's directories to be searched for dictionaries.  <br /></td></tr>
 <tr class="separator:a4326142ef86df66ba042994ca627c41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23cc114ac4a1e6484097375c43690dd0" id="r_a23cc114ac4a1e6484097375c43690dd0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a23cc114ac4a1e6484097375c43690dd0">search_dirs_for_one_dict</a> (const vector&lt; fs_path &gt; &amp;dir_paths, const fs_path &amp;dict_name_stem) -&gt; fs_path</td></tr>
-<tr class="memdesc:a23cc114ac4a1e6484097375c43690dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serach the directories for only one dictionary.  <br /></td></tr>
+<tr class="memdesc:a23cc114ac4a1e6484097375c43690dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the directories for only one dictionary.  <br /></td></tr>
 <tr class="separator:a23cc114ac4a1e6484097375c43690dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94c86f692a1fb075d7da76903c626ded" id="r_a94c86f692a1fb075d7da76903c626ded"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenuspell.html#a94c86f692a1fb075d7da76903c626ded">search_dirs_for_dicts</a> (const vector&lt; fs_path &gt; &amp;dir_paths, vector&lt; fs_path &gt; &amp;dict_list) -&gt; void</td></tr>
 <tr class="memdesc:a94c86f692a1fb075d7da76903c626ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the directories for dictionaries.  <br /></td></tr>
@@ -250,8 +250,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Serach the directories for only one dictionary. </p>
-<p>This function is more efficient than <a class="el" href="namespacenuspell.html#a94c86f692a1fb075d7da76903c626ded" title="Search the directories for dictionaries.">search_dirs_for_dicts()</a> because it does not iterate whole directories, it only checks the existance of .dic and .aff files. Useful for some CLI tools. GUI apps generally need a list of all dictionaries.</p>
+<p>Search the directories for only one dictionary. </p>
+<p>This function is more efficient than <a class="el" href="namespacenuspell.html#a94c86f692a1fb075d7da76903c626ded" title="Search the directories for dictionaries.">search_dirs_for_dicts()</a> because it does not iterate whole directories, it only checks the existence of .dic and .aff files. Useful for some CLI tools. GUI apps generally need a list of all dictionaries.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dir_paths</td><td>list of directories </td></tr>
